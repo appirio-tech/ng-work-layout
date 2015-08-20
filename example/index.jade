@@ -1,7 +1,7 @@
 doctype html
 html(ng-app='example')
   head
-    title Timeline
+    title Layout
 
     meta(charset='utf-8')
 
@@ -12,8 +12,6 @@ html(ng-app='example')
     include css-files
 
   body
-    include nav
-
-    main.layout-main.timeline("role"="main", class="{{ pageClass }}", ui-view="")
+    layout-main
 
     include js-files

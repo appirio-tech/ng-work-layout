@@ -1,9 +1,9 @@
 'use strict'
 
 element = null
-html    = '<submissions></submissions>'
+html    = '<layout-main></layout-main>'
 
-describe 'SubmissionsDirective', ->
+describe 'LayoutMain Directive', ->
   beforeEach inject ($compile, $rootScope) ->
     compiled = $compile html
     element  = compiled $rootScope

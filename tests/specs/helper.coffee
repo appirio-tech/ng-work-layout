@@ -11,7 +11,7 @@ window.unstashIt = (obj, key) ->
   delete stash[key]
 
 beforeEach ->
-  module 'appirio-tech-ng-layout'
+  module 'appirio-tech-ng-work-layout'
 
 # Transfer fakeserver responses to $httpBackend
 beforeEach inject ($httpBackend) ->

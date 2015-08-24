@@ -1,4 +1,4 @@
-a.clean.logo("ng-home-link"=true, "ui-sref"="{{ vm.homeState }}") ASP
+a.clean.logo("ng-home-link"=true, "href"="{{ vm.homeHref }}") ASP
 
 .secondary
   ul.nav
@@ -28,7 +28,7 @@ a.clean.logo("ng-home-link"=true, "ui-sref"="{{ vm.homeState }}") ASP
     ng-show="vm.loggedIn"
   ) {{ vm.handle }} 
 
-  a.label(ng-click="vm.logout()" ng-show="vm.loggedIn") Log out
+  button.clean.logout(ng-click="vm.logout()" ng-show="vm.loggedIn") Log out
 
   button.clean.message-notifications(type="button" focus-on-click=true ng-show="vm.loggedIn")
 

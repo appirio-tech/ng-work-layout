@@ -74,9 +74,14 @@ layout-header {
 
     $popup-max-height: 300px;
 
+    button.logout {
+      margin-left: $spacing-smallest;
+    }
+
     button.message-notifications {
-      margin-left     : 20px;
-      position        : relative;
+      margin-left: 20px;
+      position   : relative;
+      line-height: initial;
 
       svg {
         width: 26px;

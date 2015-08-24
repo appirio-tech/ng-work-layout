@@ -8,8 +8,8 @@ LayoutHeaderController = (
   ThreadsAPIService
   AuthService
 ) ->
-  vm           = this
-  vm.homeState = 'home'
+  vm          = this
+  vm.homeHref = $state.href 'home'
 
   getNotificationCount = (id) ->
     queryParams =
@@ -30,7 +30,7 @@ LayoutHeaderController = (
     if user?.id
       vm.loggedIn     = true
       vm.subscriberId = user.id
-      vm.homeState    = 'manage'
+      vm.homeHref     = $state.href 'manage'
       vm.handle       = user.handle
 
       getNotificationCount user.id
@@ -41,7 +41,7 @@ LayoutHeaderController = (
         vm.projects = response
     else
       vm.projects  = []
-      vm.homeState = 'home'
+      vm.homeHref = $state.href 'home'
       vm.loggedIn  = false
 
   activate = ->

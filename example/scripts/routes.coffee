@@ -9,6 +9,11 @@ config = ($stateProvider) ->
     templateUrl: 'views/home.html'
     controller : 'HomeController as vm'
 
+  states['manage'] =
+    url        : '/manage'
+    title      : 'manage'
+    templateUrl: 'views/manage.html'
+
   for key, state of states
     $stateProvider.state key, state
 

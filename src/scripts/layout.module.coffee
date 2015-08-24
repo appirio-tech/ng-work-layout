@@ -8,4 +8,4 @@ dependencies = [
   'duScroll'
 ]
 
-angular.module 'appirio-tech-ng-layout', dependencies
+angular.module 'appirio-tech-ng-work-layout', dependencies

@@ -10,4 +10,4 @@ HomeController = ->
 
   activate()
 
-angular.module('appirio-tech-ng-layout').controller 'HomeController', HomeController
+angular.module('appirio-tech-ng-work-layout').controller 'HomeController', HomeController

@@ -18,4 +18,4 @@ LayoutMainController = ($location, $rootScope) ->
 
 LayoutMainController.$inject = ['$location', '$rootScope']
 
-angular.module('appirio-tech-ng-layout').controller 'LayoutMainController', LayoutMainController
+angular.module('appirio-tech-ng-work-layout').controller 'LayoutMainController', LayoutMainController

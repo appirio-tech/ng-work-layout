@@ -29,4 +29,4 @@ dir = ($state, $rootScope) ->
 
 dir.$inject = ['$state', '$rootScope']
 
-angular.module('appirio-tech-ng-layout').directive 'layoutProjectNav', dir
+angular.module('appirio-tech-ng-work-layout').directive 'layoutProjectNav', dir

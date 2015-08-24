@@ -60,4 +60,4 @@ LayoutHeaderController.$inject = [
   'AuthService'
 ]
 
-angular.module('appirio-tech-ng-layout').controller 'LayoutHeaderController', LayoutHeaderController
+angular.module('appirio-tech-ng-work-layout').controller 'LayoutHeaderController', LayoutHeaderController

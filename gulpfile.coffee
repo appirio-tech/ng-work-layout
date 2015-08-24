@@ -8,7 +8,7 @@ configs.templateCache.push
     '.tmp/views/layout-main.directive.html'
   ]
   root  : 'views/'
-  module: 'appirio-tech-ng-layout'
+  module: 'appirio-tech-ng-work-layout'
 
 configs.templateCache.push
   fileName: 'example-templates.js'

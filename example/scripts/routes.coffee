@@ -14,6 +14,11 @@ config = ($stateProvider) ->
     title      : 'manage'
     templateUrl: 'views/manage.html'
 
+  states['submissions'] =
+    url        : '/submissions'
+    title      : 'submissions'
+    templateUrl: 'views/submissions.html'
+
   for key, state of states
     $stateProvider.state key, state
 

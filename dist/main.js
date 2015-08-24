@@ -114,7 +114,8 @@
     return {
       restrict: 'E',
       templateUrl: 'views/layout-header.directive.html',
-      controller: 'LayoutHeaderController as vm'
+      controller: 'LayoutHeaderController as vm',
+      scope: true
     };
   };
 
@@ -129,7 +130,8 @@
   directive = function() {
     return {
       restrict: 'E',
-      templateUrl: 'views/layout-footer.directive.html'
+      templateUrl: 'views/layout-footer.directive.html',
+      scope: true
     };
   };
 

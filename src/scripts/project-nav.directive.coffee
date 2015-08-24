@@ -24,7 +24,7 @@ dir = ($state, $rootScope) ->
 
 
   restrict: 'E'
-  templateUrl: 'views/layout-project-nav.html'
+  templateUrl: 'views/layout-project-nav.directive.html'
 
 
 dir.$inject = ['$state', '$rootScope']

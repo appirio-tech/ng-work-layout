@@ -158,7 +158,7 @@
         return scope.show = false;
       },
       restrict: 'E',
-      templateUrl: 'views/layout-project-nav.html'
+      templateUrl: 'views/layout-project-nav.directive.html'
     };
   };
 

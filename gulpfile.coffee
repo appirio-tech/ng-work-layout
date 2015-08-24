@@ -6,6 +6,9 @@ configs.templateCache = []
 configs.templateCache.push
   files : [
     '.tmp/views/layout-main.directive.html'
+    '.tmp/views/layout-header.directive.html'
+    '.tmp/views/layout-footer.directive.html'
+    '.tmp/views/layout-project-nav.directive.html'
   ]
   root  : 'views/'
   module: 'appirio-tech-ng-work-layout'

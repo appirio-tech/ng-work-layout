@@ -4,7 +4,7 @@
 
   dependencies = ['appirio-tech-ng-auth', 'appirio-tech-ng-api-services', 'appirio-tech-messaging', 'appirio-tech-ng-ui-components', 'duScroll'];
 
-  angular.module('appirio-tech-ng-layout', dependencies);
+  angular.module('appirio-tech-ng-work-layout', dependencies);
 
 }).call(this);
 
@@ -31,7 +31,7 @@
 
   LayoutMainController.$inject = ['$location', '$rootScope'];
 
-  angular.module('appirio-tech-ng-layout').controller('LayoutMainController', LayoutMainController);
+  angular.module('appirio-tech-ng-work-layout').controller('LayoutMainController', LayoutMainController);
 
 }).call(this);
 
@@ -86,7 +86,7 @@
 
   LayoutHeaderController.$inject = ['$scope', '$state', 'UserV3Service', 'WorkAPIService', 'ThreadsAPIService', 'AuthService'];
 
-  angular.module('appirio-tech-ng-layout').controller('LayoutHeaderController', LayoutHeaderController);
+  angular.module('appirio-tech-ng-work-layout').controller('LayoutHeaderController', LayoutHeaderController);
 
 }).call(this);
 
@@ -102,7 +102,7 @@
     };
   };
 
-  angular.module('appirio-tech-ng-layout').directive('layoutMain', directive);
+  angular.module('appirio-tech-ng-work-layout').directive('layoutMain', directive);
 
 }).call(this);
 
@@ -118,7 +118,7 @@
     };
   };
 
-  angular.module('appirio-tech-ng-layout').directive('layoutHeader', directive);
+  angular.module('appirio-tech-ng-work-layout').directive('layoutHeader', directive);
 
 }).call(this);
 
@@ -133,7 +133,7 @@
     };
   };
 
-  angular.module('appirio-tech-ng-layout').directive('layoutFooter', directive);
+  angular.module('appirio-tech-ng-work-layout').directive('layoutFooter', directive);
 
 }).call(this);
 
@@ -164,8 +164,8 @@
 
   dir.$inject = ['$state', '$rootScope'];
 
-  angular.module('appirio-tech-ng-layout').directive('layoutProjectNav', dir);
+  angular.module('appirio-tech-ng-work-layout').directive('layoutProjectNav', dir);
 
 }).call(this);
 
-angular.module("appirio-tech-ng-layout").run(["$templateCache", function($templateCache) {$templateCache.put("views/layout-main.directive.html","<div class=\"outer-container\"><layout-project-nav></layout-project-nav><main role=\"main\" ui-view=\"\" class=\"layout-main {{ vm.pageClass }}\"></main></div>");}]);
+angular.module("appirio-tech-ng-work-layout").run(["$templateCache", function($templateCache) {$templateCache.put("views/layout-main.directive.html","<div class=\"outer-container\"><layout-project-nav></layout-project-nav><main role=\"main\" ui-view=\"\" class=\"layout-main {{ vm.pageClass }}\"></main></div>");}]);

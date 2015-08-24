@@ -13174,7 +13174,7 @@ angular.module("app.constants", [])
   'use strict';
   var dependencies;
 
-  dependencies = ['ui.router', 'ngResource', 'app.constants', 'appirio-tech-ng-layout'];
+  dependencies = ['ui.router', 'ngResource', 'app.constants', 'appirio-tech-ng-work-layout'];
 
   angular.module('example', dependencies);
 
@@ -13195,7 +13195,7 @@ angular.module("example").run(["$templateCache", function($templateCache) {$temp
     return activate();
   };
 
-  angular.module('appirio-tech-ng-layout').controller('HomeController', HomeController);
+  angular.module('appirio-tech-ng-work-layout').controller('HomeController', HomeController);
 
 }).call(this);
 

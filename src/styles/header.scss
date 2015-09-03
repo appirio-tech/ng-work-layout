@@ -5,10 +5,13 @@ $header-height: 50px;
 layout-header {
   @include flex-center(space-between);
 
-  padding         : 0 20px;
-  background-color: #f1f1f3;
-  border-bottom   : 2px solid #000;
-  line-height     : $header-height;
+  padding      : 0 20px;
+  border-bottom: 2px solid #000;
+  line-height  : $header-height;
+
+  a {
+    color: $white;
+  }
 
   .logo {
     font-size: 35px;
@@ -87,8 +90,6 @@ layout-header {
         width: 26px;
       }
 
-      @include source-sans();
-
       &:focus + .popup {
         max-height: $popup-max-height;
       }
@@ -149,15 +150,12 @@ layout-header {
       .handle {
         margin-left: 10px;
         color: black;
-        @include font(20);
         text-decoration: none;
       }
 
       .label {
         margin-left: 10px;
         color      : #009bcd;
-
-        @include font(20);
       }
     }
   }

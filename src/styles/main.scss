@@ -1,10 +1,5 @@
 @import "work-includes";
 
-.outer-container {
-  @include outer-container;
-  background-color: #fff;
-}
-
 // TODO: remove this
 .layout-main.timeline {
   margin-right: 120px;
@@ -13,11 +8,13 @@
 // TODO: remove this
 .layout-main.messaging, .layout-main.copilot-messaging {
   textarea {
-    background-color: $primary-color-lightest;
+    background-color: $neutral-color-lightest;
   }
 }
 
 .layout-main {
+  background-color: $white;
+
   header {
     h1 {
       background-color: #006c9e;

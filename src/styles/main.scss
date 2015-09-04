@@ -1,49 +1,6 @@
 @import "work-includes";
 
-// TODO: remove this
-.layout-main.timeline {
-  margin-right: 120px;
-}
-
-// TODO: remove this
-.layout-main.messaging, .layout-main.copilot-messaging {
-  textarea {
-    background-color: $neutral-color-lightest;
-  }
-}
-
 .layout-main {
   background-color: $white;
-
-  header {
-    h1 {
-      background-color: #006c9e;
-      color           : #fff;
-      padding         : 10px 0;
-      text-align      : center;
-    }
-  }
-
-  main {
-    padding: 18px 10px;
-  }
-
-  aside {
-    padding: 18px;
-  }
-
-  > main {
-    width       : 320px;
-    margin-left : auto;
-    margin-right: auto;
-    display     : block;
-  }
-
-  footer {
-    margin: 18px;
-  }
 }
 
-button {
-  cursor: pointer;
-}

@@ -13180,7 +13180,7 @@ angular.module("app.constants", [])
 
 }).call(this);
 
-angular.module("example").run(["$templateCache", function($templateCache) {$templateCache.put("views/home.html","<h1>Batman says hi to {{ vm.name }} !!</h1>");}]);
+angular.module("example").run(["$templateCache", function($templateCache) {$templateCache.put("views/home.html","<h1>this is an h1</h1>");}]);
 (function() {
   'use strict';
   var HomeController;

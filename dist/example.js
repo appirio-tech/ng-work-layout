@@ -13180,7 +13180,7 @@ angular.module("app.constants", [])
 
 }).call(this);
 
-angular.module("example").run(["$templateCache", function($templateCache) {$templateCache.put("views/home.html","<h1>this is an h1</h1>");}]);
+angular.module("example").run(["$templateCache", function($templateCache) {$templateCache.put("views/home.html","<layout-header role=\"banner\" app-name=\"{{ vm.appName }}\"></layout-header><main role=\"main\" layout-main=\"layout-main\" class=\"layout-main\"><h1>this is an h1</h1></main><layout-footer></layout-footer>");}]);
 (function() {
   'use strict';
   var HomeController;
@@ -13190,6 +13190,7 @@ angular.module("example").run(["$templateCache", function($templateCache) {$temp
     vm = this;
     activate = function() {
       vm.name = 'Robin';
+      vm.appName = 'Big Boss App';
       return vm;
     };
     return activate();

@@ -2,15 +2,20 @@
 
 $header-height: 50px;
 
-layout-header {
+layout-header ul {
   @include flex-center(space-between);
 
   padding      : 0 20px;
-  border-bottom: 2px solid #000;
   line-height  : $header-height;
+  color        : $white;
 
   a {
     color: $white;
+  }
+
+  h1 {
+    position: absolute;
+    top: 0;
   }
 
   .logo {

@@ -5,6 +5,7 @@ HomeController = ->
 
   activate = ->
     vm.name = 'Robin'
+    vm.appName = 'Big Boss App'
 
     vm
 

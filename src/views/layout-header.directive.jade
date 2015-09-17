@@ -15,7 +15,7 @@ ul
 
         ul
           li
-            a(ui-sref="submit-work.flow") Create New Project
+            a(ui-sref="submit-work") Create New Project
 
           li(ng-repeat="project in vm.projects")
             a(ui-sref="timeline({ workId: project.id })") {{ project.name }}

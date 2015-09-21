@@ -13,7 +13,7 @@
   var LayoutHeaderController;
 
   LayoutHeaderController = function($scope, $state, UserV3Service, WorkAPIService, ThreadsAPIService, AuthService, SubmitWorkAPIService) {
-    var activate, getNotificationCount, onUserChange, vm;
+    var activate, getNotificationCount, onProjectChange, onUserChange, vm;
     vm = this;
     vm.homeHref = $state.href('home');
     vm.workId = $scope.workId;
@@ -51,16 +51,22 @@
         return vm.loggedIn = false;
       }
     };
+    onProjectChange = function(resource) {
+      return resource.$promise.then(function(response) {
+        if (response) {
+          return vm.appName = response.name;
+        } else {
+          return vm.appName = '';
+        }
+      });
+    };
     activate = function() {
-      var params, resource;
-      $scope.$watch(UserV3Service.getCurrentUser, onUserChange);
+      var params;
       params = {
         id: vm.workId
       };
-      resource = SubmitWorkAPIService.get(params);
-      resource.$promise.then(function(response) {
-        return vm.appName = response.name || '';
-      });
+      $scope.$watch(UserV3Service.getCurrentUser, onUserChange);
+      $scope.$watch(SubmitWorkAPIService.get(params, onProjectChange));
       return vm;
     };
     return activate();

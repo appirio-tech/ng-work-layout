@@ -46,13 +46,22 @@ LayoutHeaderController = (
       vm.homeHref = $state.href 'home'
       vm.loggedIn  = false
 
+  onProjectChange = (resource) ->
+    resource.$promise.then (response) ->
+      if response
+        vm.appName = response.name
+      else
+        vm.appName = ''
+
+
   activate = ->
-    $scope.$watch UserV3Service.getCurrentUser, onUserChange
     params =
       id: vm.workId
-    resource = SubmitWorkAPIService.get params
-    resource.$promise.then (response) ->
-      vm.appName = response.name || ''
+
+    $scope.$watch UserV3Service.getCurrentUser, onUserChange
+
+    $scope.$watch SubmitWorkAPIService.get params, onProjectChange
+
 
     vm
 

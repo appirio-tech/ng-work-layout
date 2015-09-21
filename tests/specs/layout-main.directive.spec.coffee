@@ -1,7 +1,7 @@
 'use strict'
 
 element = null
-html    = '<layout-main></layout-main>'
+html    = '<layout-header></layout-header>'
 
 describe 'LayoutMain Directive', ->
   beforeEach inject ($compile, $rootScope) ->

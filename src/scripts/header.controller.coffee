@@ -48,7 +48,7 @@ LayoutHeaderController = (
 
   onProjectChange = (resource) ->
     resource.$promise.then (response) ->
-      if response
+      if response.name
         vm.appName = response.name
       else
         vm.appName = ''

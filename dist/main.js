@@ -53,7 +53,7 @@
     };
     onProjectChange = function(resource) {
       return resource.$promise.then(function(response) {
-        if (response) {
+        if (response.name) {
           return vm.appName = response.name;
         } else {
           return vm.appName = '';

@@ -7,9 +7,11 @@ LayoutHeaderController = (
   WorkAPIService
   ThreadsAPIService
   AuthService
+  SubmitWorkAPIService
 ) ->
   vm          = this
   vm.homeHref = $state.href 'home'
+  vm.workId = $scope.workId
 
   getNotificationCount = (id) ->
     queryParams =
@@ -44,8 +46,22 @@ LayoutHeaderController = (
       vm.homeHref = $state.href 'home'
       vm.loggedIn  = false
 
+  onProjectChange = (resource) ->
+    resource.$promise.then (response) ->
+      if response.name
+        vm.appName = response.name
+      else
+        vm.appName = ''
+
+
   activate = ->
+    params =
+      id: vm.workId
+
     $scope.$watch UserV3Service.getCurrentUser, onUserChange
+
+    $scope.$watch SubmitWorkAPIService.get params, onProjectChange
+
 
     vm
 
@@ -58,6 +74,7 @@ LayoutHeaderController.$inject = [
   'WorkAPIService'
   'ThreadsAPIService'
   'AuthService'
+  'SubmitWorkAPIService'
 ]
 
 angular.module('appirio-tech-ng-work-layout').controller 'LayoutHeaderController', LayoutHeaderController

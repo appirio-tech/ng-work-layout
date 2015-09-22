@@ -1,7 +1,7 @@
 'use strict'
 
 element = null
-html    = '<layout-main></layout-main>'
+html    = '<layout-header></layout-header>'
 
 describe 'LayoutMain Directive', ->
   beforeEach inject ($compile, $rootScope) ->
@@ -10,5 +10,5 @@ describe 'LayoutMain Directive', ->
 
     $rootScope.$digest()
 
-  # it 'element should have some html', ->
-  #   expect(element.html().length).to.be.ok
+  it 'element should have some html', ->
+    expect(element.html().length).to.be.ok

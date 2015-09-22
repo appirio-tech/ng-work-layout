@@ -16,9 +16,10 @@ layout-header ul {
   h1 {
     position: absolute;
     top: 0;
-     &.app-name {
+
+    &.app-name {
       @include ellipsis(25%)
-     }
+    }
   }
 
   .logo {

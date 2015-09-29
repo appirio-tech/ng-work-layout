@@ -1,29 +1,26 @@
+@import "work-includes";
+
 layout-project-nav {
-  display: block;
-  float: right;
-  margin: 30px;
-  position: relative;
-  z-index: 1;
+  display         : block;
+  background-color: $neutral-color-light;
+  text-align      : center;
 
   ul {
-    border-radius: 4px;
-    border: 1px solid #ccc;
+    @include vertical-align-middle();
 
     li {
-      border-top: 1px solid #ccc;
+      padding: $padding $padding-big;
 
-      &:first-child {
-        border-top: none;
+      &.active {
+        border-bottom: 3px solid $primary-color;
       }
 
       a {
-        padding: 10px;
-        display: block;
-        text-decoration: none;
-        color: black;
-        font-size: 15px;
-        cursor: pointer;
-
+        display       : block;
+        text-transform: uppercase;
+        color         : black;
+        font-size     : 15px;
+        cursor        : pointer;
       }
     }
   }

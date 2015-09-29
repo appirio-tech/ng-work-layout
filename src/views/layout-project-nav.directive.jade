@@ -1,6 +1,15 @@
 ul
-  li
+  li.active
     a(ui-sref="timeline({ workId: workId })") Timeline
 
   li
+    a(ui-sref="submissions({ id: workId })") Submissions
+
+  li
     a(ui-sref="messaging({ id: workId })") Messaging
+
+  li
+    a(ui-sref="project-requirements({ id: workId })") Project reqs
+
+  li
+    a(ui-sref="project-settings({ id: workId })") Project settings

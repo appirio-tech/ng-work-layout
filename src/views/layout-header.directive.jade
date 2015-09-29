@@ -7,7 +7,7 @@ ul.links
   li.projects
     button.clean(focus-on-click=true) Projects &dtrif; 
 
-    ul.list
+    ul.sublinks.elevated
       li
         a(ui-sref="submit-work") Create New Project
 
@@ -17,15 +17,22 @@ ul.links
   li(ng-hide="vm.loggedIn")
     a(ui-sref="login") Log in
 
-  li(ng-show="vm.loggedIn")
-    a.handle(ui-sref="view-work-multiple")
+  li.profile(ng-show="vm.loggedIn")
+    button.clean(focus-on-click=true)
       avatar
+
+    ul.sublinks.elevated
+      li
+        a(ng-click="vm.logout()") Logout
+
+      li
+        a(ui-sref="submit-work") Settings
 
   li.notifications(ng-show="vm.loggedIn")
     button.clean(type="button" focus-on-click=true)
       .notification(ng-show="vm.unreadCount > 0") {{ vm.unreadCount }}
 
-    .popup.list
+    .popup.elevated
       threads(subscriber-id="{{ vm.subscriberId }}")
 
 h1.app-name {{ vm.appName }}

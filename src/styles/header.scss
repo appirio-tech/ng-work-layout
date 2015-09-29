@@ -26,7 +26,7 @@ layout-header {
       }
     }
 
-    .projects {
+    .projects, .profile {
       position: relative;
 
       >  button {
@@ -34,33 +34,33 @@ layout-header {
           max-height: 200px;
         }
       }
+    }
 
-      > ul {
-        @include transition (all 0.2s ease-in-out);
+    .sublinks {
+      @include transition (all 0.2s ease-in-out);
 
-        position        : absolute;
-        max-height      : 0;
-        overflow        : hidden;
-        background-color: $white;
-        right           : 0;
-        width           : 200px;
-        margin-top      : $margin-smallest;
-        border-radius   : $border-radius;
+      position        : absolute;
+      max-height      : 0;
+      overflow        : hidden;
+      background-color: $white;
+      right           : 0;
+      width           : 200px;
+      margin-top      : $margin-smallest;
+      border-radius   : $border-radius;
 
+      &:hover {
+        max-height: 200px;
+      }
+
+      li {
         &:hover {
-          max-height: 200px;
+          background: $neutral-color;
         }
 
-        li {
-          &:hover {
-            background: #ddd;
-          }
-
-          a {
-            padding: 10px 15px;
-            display: block;
-            color: $black;
-          }
+        a {
+          padding: 10px 15px;
+          display: block;
+          color: $black;
         }
       }
     }

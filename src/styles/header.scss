@@ -99,7 +99,7 @@ layout-header {
         box-shadow   : 0 2px 2px silver;
         width        : 280px;
         max-height   : 0px;
-        overflow     : hidden;
+        overflow     : scroll;
 
         &:hover {
           max-height: $popup-max-height;

@@ -22,10 +22,10 @@ ProjectNavController = (
   onStepsChange = (resource) ->
     resource.$promise.then (response) ->
       response.forEach (step) ->
-        if Date.now() < new Date step.endsAt
+        if (Date.now() < new Date step.endsAt)
           vm.stepId = step.id
           vm.stepType = formatStepType step.stepType
-          vm.stepHref = $state.href vm.stepType, {workId: vm.workId, stepId: vm.stepId}
+          vm.stepHref = $state.href vm.stepType, {projectId: vm.workId, stepId: vm.stepId}
 
   onStateChange = ->
     stateName = $state.current.name

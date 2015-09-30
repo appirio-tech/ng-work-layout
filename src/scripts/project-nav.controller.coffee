@@ -22,7 +22,7 @@ ProjectNavController = (
   onStepsChange = (resource) ->
     resource.$promise.then (response) ->
       response.forEach (step) ->
-        if (Date.now() < new Date step.endsAt)
+        if (step.stepType == 'designConcepts')
           vm.stepId = step.id
           vm.stepType = formatStepType step.stepType
           vm.stepHref = $state.href vm.stepType, {projectId: vm.workId, stepId: vm.stepId}
@@ -39,9 +39,9 @@ ProjectNavController = (
     params =
       projectId: vm.workId
 
-    $scope.$watch StepsAPIService.query params, onStepsChange
+    StepsAPIService.query params, onStepsChange
 
-    $scope.$watch $state.current, onStateChange
+    $scope.$watch '$state.current', onStateChange
 
 
     vm

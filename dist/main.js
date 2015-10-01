@@ -55,8 +55,8 @@
       return vm.appName = newVal || '';
     };
     activate = function() {
-      $scope.$watch('UserV3Service.getCurrentUser()', onUserChange);
-      return $rootScope.$watch('submitWorkAppName', onProjectChange);
+      $scope.$watch(UserV3Service.getCurrentUser, onUserChange);
+      return $rootScope.$watch('currentAppName', onProjectChange);
     };
     activate();
     return vm;

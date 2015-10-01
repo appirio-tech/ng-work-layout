@@ -8,7 +8,7 @@ ProjectNavController = (
   vm          = this
   vm.workId = $scope.workId
 
-  onStateChange = ->
+  activateLink = ->
     stateName = $state.current.name
     isSubmission = stateName == 'submissions' || stateName == 'final-designs' || stateName == 'final-designs' || stateName == 'final-fixes'
     if isSubmission
@@ -17,7 +17,7 @@ ProjectNavController = (
       vm.activeLink = stateName
 
   activate = ->
-    $scope.$watch '$state.current', onStateChange
+    activateLink()
 
     vm
 

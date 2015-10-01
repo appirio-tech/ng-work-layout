@@ -1,10 +1,16 @@
 @import "work-includes";
 
-$header-height: 70px;
+body {
+  margin-top: 69px;
+}
 
 layout-header {
-  display: block;
-  padding: $padding $padding-small;
+  position        : fixed;
+  top             : 0;
+  width           : 100%;
+  display         : block;
+  padding         : $padding $padding-small;
+  background-color: $neutral-color-darkest;
 
   .logo {
     display: block;

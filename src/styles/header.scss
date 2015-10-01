@@ -1,7 +1,7 @@
 @import "work-includes";
 
 body {
-  margin-top: 69px;
+  padding-top: 69px; // needs to be padding since margin on body is wonkey
 }
 
 layout-header {

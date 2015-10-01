@@ -14,18 +14,8 @@ config = ($stateProvider) ->
     title      : 'manage'
     templateUrl: 'views/manage.html'
 
-  states['design-concepts'] =
-    url        : '/submissions/:projectId/:stepId/design-concepts'
-    title      : 'submissions'
-    templateUrl: 'views/submissions.html'
-
-  states['final-designs'] =
-    url        : '/submissions/:projectId/:stepId/final-designs'
-    title      : 'submissions'
-    templateUrl: 'views/submissions.html'
-
-  states['final-fixes'] =
-    url        : '/submissions/:projectId/:stepId/final-fixes'
+  states['submissions'] =
+    url        : '/submissions'
     title      : 'submissions'
     templateUrl: 'views/submissions.html'
 

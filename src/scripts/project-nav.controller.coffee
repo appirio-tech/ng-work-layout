@@ -10,7 +10,7 @@ ProjectNavController = (
 
   onStateChange = ->
     stateName = $state.current.name
-    isSubmission = stateName == stateName == 'submissions' || 'design-concepts' || stateName == 'final-designs' || stateName == 'final-fixes'
+    isSubmission = stateName == 'submissions' || stateName == 'final-designs' || stateName == 'final-designs' || stateName == 'final-fixes'
     if isSubmission
       vm.activeLink = 'submissions'
     else

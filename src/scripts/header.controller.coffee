@@ -50,8 +50,8 @@ LayoutHeaderController = (
     vm.appName = newVal || ''
 
   activate = ->
-    $scope.$watch 'UserV3Service.getCurrentUser()', onUserChange
-    $rootScope.$watch 'submitWorkAppName', onProjectChange
+    $scope.$watch UserV3Service.getCurrentUser, onUserChange
+    $rootScope.$watch 'currentAppName', onProjectChange
 
   activate()
 

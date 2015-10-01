@@ -12,7 +12,7 @@
   'use strict';
   var LayoutHeaderController;
 
-  LayoutHeaderController = function($scope, $state, UserV3Service, WorkAPIService, ThreadsAPIService, AuthService, SubmitWorkAPIService) {
+  LayoutHeaderController = function($scope, $state, UserV3Service, WorkAPIService, ThreadsAPIService, AuthService, $rootScope) {
     var activate, getNotificationCount, onProjectChange, onUserChange, vm;
     vm = this;
     vm.homeHref = $state.href('home');
@@ -51,28 +51,18 @@
         return vm.loggedIn = false;
       }
     };
-    onProjectChange = function(resource) {
-      return resource.$promise.then(function(response) {
-        if (response.name) {
-          return vm.appName = response.name;
-        } else {
-          return vm.appName = '';
-        }
-      });
+    onProjectChange = function(newVal) {
+      return vm.appName = newVal || '';
     };
     activate = function() {
-      var params;
-      params = {
-        id: vm.workId
-      };
-      $scope.$watch(UserV3Service.getCurrentUser, onUserChange);
-      $scope.$watch(SubmitWorkAPIService.get(params, onProjectChange));
-      return vm;
+      $scope.$watch('UserV3Service.getCurrentUser()', onUserChange);
+      return $rootScope.$watch('submitWorkAppName', onProjectChange);
     };
-    return activate();
+    activate();
+    return vm;
   };
 
-  LayoutHeaderController.$inject = ['$scope', '$state', 'UserV3Service', 'WorkAPIService', 'ThreadsAPIService', 'AuthService', 'SubmitWorkAPIService'];
+  LayoutHeaderController.$inject = ['$scope', '$state', 'UserV3Service', 'WorkAPIService', 'ThreadsAPIService', 'AuthService', '$rootScope'];
 
   angular.module('appirio-tech-ng-work-layout').controller('LayoutHeaderController', LayoutHeaderController);
 

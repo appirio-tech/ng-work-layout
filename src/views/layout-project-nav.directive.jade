@@ -3,7 +3,7 @@ ul
     a(ui-sref="timeline({ workId: vm.workId })") Timeline
 
   li(ng-class="{active: vm.activeLink == 'submissions'}")
-    a(href="{{vm.stepHref}}") Submissions
+    a(ui-sref="submissions({ projectId: vm.workId })") Submissions
 
   li(ng-class="{active: vm.activeLink == 'messaging'}")
     a(ui-sref="messaging({ id: vm.workId })") Messaging

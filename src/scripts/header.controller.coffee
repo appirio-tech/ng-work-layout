@@ -7,6 +7,7 @@ LayoutHeaderController = (
   WorkAPIService
   ThreadsAPIService
   AuthService
+  SubmitWorkAPIService
   $rootScope
 ) ->
   vm          = this
@@ -46,12 +47,16 @@ LayoutHeaderController = (
       vm.homeHref = $state.href 'home'
       vm.loggedIn  = false
 
-  onProjectChange = (newVal) ->
-    vm.appName = newVal || ''
+  onProjectChange = (response) ->
+    vm.appName = response.name || ''
 
   activate = ->
+    params =
+      id: vm.workId
+
     $scope.$watch UserV3Service.getCurrentUser, onUserChange
-    $rootScope.$watch 'currentAppName', onProjectChange
+
+    SubmitWorkAPIService.get params, onProjectChange
 
   activate()
 
@@ -64,6 +69,7 @@ LayoutHeaderController.$inject = [
   'WorkAPIService'
   'ThreadsAPIService'
   'AuthService'
+  'SubmitWorkAPIService'
   '$rootScope'
 ]
 

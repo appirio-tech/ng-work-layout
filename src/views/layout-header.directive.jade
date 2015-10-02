@@ -1,10 +1,10 @@
 a.clean.logo("ng-home-link"=true, "href"="{{ vm.homeHref }}") ASP
 
 ul.links
-  li
+  li(ng-show="vm.loggedIn")
     a(ui-sref="view-work-multiple") Dashboard
 
-  li.projects
+  li.projects(ng-show="vm.loggedIn")
     button.clean(focus-on-click=true) Projects &dtrif;
 
     ul.sublinks.elevated

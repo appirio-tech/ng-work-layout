@@ -14,7 +14,7 @@ ul.links
       li(ng-repeat="project in vm.projects")
         a(ui-sref="timeline({ workId: project.id })") {{ project.name }}
 
-  li(ng-hide="vm.loggedIn")
+  li.login(ng-hide="vm.loggedIn")
     a(ui-sref="login") Log in
 
   li.profile(ng-show="vm.loggedIn")

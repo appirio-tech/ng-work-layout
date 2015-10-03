@@ -31,6 +31,10 @@ layout-header {
         color: $white;
         text-transform: uppercase;
       }
+
+      &.login {
+        line-height: 35px;
+      }
     }
 
     .projects, .profile {

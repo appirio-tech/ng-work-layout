@@ -39674,12 +39674,20 @@ angular.module('ui.router.state')
 
 (function() {
   'use strict';
-  var srv, transformResponse;
+  var srv, transformIdOnlyResponse, transformResponse;
 
   transformResponse = function(response) {
     var parsed, ref;
     parsed = JSON.parse(response);
-    return (parsed != null ? (ref = parsed.result) != null ? ref.content : void 0 : void 0) || [];
+    return parsed != null ? (ref = parsed.result) != null ? ref.content : void 0 : void 0;
+  };
+
+  transformIdOnlyResponse = function(response) {
+    var parsed, ref;
+    parsed = JSON.parse(response);
+    return {
+      id: parsed != null ? (ref = parsed.result) != null ? ref.content : void 0 : void 0
+    };
   };
 
   srv = function($resource, API_URL) {
@@ -39691,17 +39699,16 @@ angular.module('ui.router.state')
     methods = {
       put: {
         method: 'PUT',
-        isArray: false,
-        transformResponse: transformResponse
+        transformResponse: transformIdOnlyResponse
       },
       post: {
         method: 'POST',
-        isArray: false,
-        transformResponse: transformResponse
+        transformResponse: transformIdOnlyResponse
       },
       get: {
-        method: 'GET',
-        isArray: true,
+        transformResponse: transformResponse
+      },
+      query: {
         transformResponse: transformResponse
       }
     };
@@ -40362,7 +40369,7 @@ $templateCache.put("views/selected-button.directive.html","<button ng-class=\"{\
       var heightDiff, top;
       top = getOffsetTop($element[0]);
       heightDiff = viewPortHeight - top;
-      return $element.height(heightDiff);
+      return $element.css('min-height', heightDiff + 'px');
     };
     $($window).bind('resize', function() {
       var element, i, len, results;
@@ -40406,7 +40413,7 @@ $templateCache.put("views/selected-button.directive.html","<button ng-class=\"{\
     };
     setViewPortHeight();
     fullHeight = function($element) {
-      return $element.height(viewPortHeight);
+      return $element.css('min-height', viewPortHeight + 'px');
     };
     $($window).bind('resize', function() {
       var element, i, len, results;

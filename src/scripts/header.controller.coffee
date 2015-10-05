@@ -9,9 +9,10 @@ LayoutHeaderController = (
   AuthService
   $rootScope
 ) ->
-  vm          = this
-  vm.homeHref = $state.href 'home'
-  vm.workId = $scope.workId
+  vm              = this
+  vm.homeHref     = $state.href 'home'
+  vm.workId       = $scope.workId
+  vm.isSubmitWork = false
 
   getNotificationCount = (id) ->
     queryParams =
@@ -49,9 +50,14 @@ LayoutHeaderController = (
   onProjectChange = (newVal) ->
     vm.appName = newVal || ''
 
+  setState = (stateName) ->
+    if stateName == 'submit-work' || stateName == 'submit-work-features' || stateName == 'submit-work-visuals' || stateName == 'submit-work-development'
+      vm.isSubmitWork = true
+
   activate = ->
     $scope.$watch UserV3Service.getCurrentUser, onUserChange
     $rootScope.$watch 'currentAppName', onProjectChange
+    setState $state.current.name
 
   activate()
 

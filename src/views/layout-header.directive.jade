@@ -35,4 +35,4 @@ ul.links
     .popup.elevated
       threads(subscriber-id="{{ vm.subscriberId }}")
 
-h1.app-name {{ vm.appName }}
+h1.app-name(ng-if="vm.isSubmitWork") {{ vm.appName }}

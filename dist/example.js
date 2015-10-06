@@ -14393,6 +14393,7 @@ if (typeof sinon == "undefined") {
   buildProperty = function(property, api) {
     var build, isArray, ref1, ref2;
     build = null;
+    property || (property = {});
     if (property.sample) {
       build = property.sample;
     } else if (property["enum"]) {

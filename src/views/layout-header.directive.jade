@@ -1,38 +1,43 @@
-a.clean.logo("ng-home-link"=true, "href"="{{ vm.homeHref }}") ASP
+ul.flex-center
+  li
+    a.clean.logo("ng-home-link"=true, "href"="{{ vm.homeHref }}") ASP
 
-ul.links
-  li(ng-show="vm.loggedIn")
-    a(ui-sref="view-work-multiple") Dashboard
+  li.app-name
+    h4(ng-if="vm.isSubmitWork") {{ vm.appName }}
 
-  li.projects(ng-show="vm.loggedIn")
-    button.clean(focus-on-click=true) Projects &dtrif;
+  li
+    ul.links
+      li(ng-show="vm.loggedIn")
+        a(ui-sref="view-work-multiple") Dashboard
 
-    ul.sublinks.elevated
-      li
-        a(ui-sref="submit-work") Create New Project
+      li.projects(ng-show="vm.loggedIn")
+        button.clean(focus-on-click=true) Projects &dtrif;
 
-      li(ng-repeat="project in vm.projects")
-        a(ui-sref="timeline({ workId: project.id })") {{ project.name }}
+        ul.sublinks.elevated
+          li
+            a(ui-sref="submit-work") Create New Project
 
-  li.login(ng-hide="vm.loggedIn")
-    a(ui-sref="login") Log in
+          li(ng-repeat="project in vm.projects")
+            a(ui-sref="timeline({ workId: project.id })") {{ project.name }}
 
-  li.profile(ng-show="vm.loggedIn")
-    button.clean(focus-on-click=true)
-      avatar
+      li.login(ng-hide="vm.loggedIn")
+        a(ui-sref="login") Log in
 
-    ul.sublinks.elevated
-      li
-        a(ng-click="vm.logout()") Logout
+      li.profile(ng-show="vm.loggedIn")
+        button.clean(focus-on-click=true)
+          avatar
 
-      li
-        a(ui-sref="submit-work") Settings
+        ul.sublinks.elevated
+          li
+            a(ng-click="vm.logout()") Logout
 
-  li.notifications(ng-show="vm.loggedIn")
-    button.clean(type="button" focus-on-click=true)
-      .notification(ng-show="vm.unreadCount > 0") {{ vm.unreadCount }}
+          li
+            a(ui-sref="submit-work") Settings
 
-    .popup.elevated
-      threads(subscriber-id="{{ vm.subscriberId }}")
+      li.notifications(ng-show="vm.loggedIn")
+        button.clean(type="button" focus-on-click=true)
+          .notification(ng-show="vm.unreadCount > 0") {{ vm.unreadCount }}
 
-h1.app-name(ng-if="vm.isSubmitWork") {{ vm.appName }}
+        .popup.elevated
+          threads(subscriber-id="{{ vm.subscriberId }}")
+

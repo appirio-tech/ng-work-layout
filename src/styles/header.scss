@@ -1,31 +1,55 @@
 @import "work-includes";
 
+$static-height: 70px;
+$line-height  : 37px;
+
 body {
-  padding-top: 69px; // needs to be padding since margin on body is wonkey
+  padding-top: $static-height; // needs to be padding since margin on body is wonkey
 }
 
 layout-header {
+  display         : block;
   position        : fixed;
   top             : 0;
   width           : 100%;
-  display         : block;
   padding         : $padding $padding;
   background-color: $neutral-color-darkest;
   z-index         : 100;
+  min-height      : $static-height;
+  max-height      : $static-height;
+
+  > ul {
+    > li {
+      width: 33.333%;
+      float: left;
+    }
+  }
+
+  .app-name {
+    margin     : 0;
+    text-align : center;
+    color      : $white;
+
+    h4 {
+      @include ellipsis;
+    }
+  }
 
   .logo {
-    display: block;
-    float: left;
     color: $white;
   }
 
   .links {
     @include vertical-align-middle();
 
-    float: right;
+    text-align: right;
 
     > li {
       margin-left: $margin;
+
+      &:first-child {
+        margin-left: 0px;
+      }
 
       > a, > button {
         color: $white;
@@ -33,7 +57,7 @@ layout-header {
       }
 
       &.login {
-        line-height: 35px;
+        line-height: $line-height;
       }
     }
 
@@ -58,6 +82,7 @@ layout-header {
       width           : 200px;
       margin-top      : $margin-smallest;
       border-radius   : $border-radius-small;
+      text-align      : left;
 
       &:hover {
         max-height: 200px;
@@ -123,11 +148,5 @@ layout-header {
         }
       }
     }
-  }
-
-  .app-name {
-    clear     : both;
-    color     : $white;
-    text-align: center;
   }
 }

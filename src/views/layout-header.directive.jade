@@ -18,7 +18,10 @@ ul.flex-center
             a(ui-sref="submit-work") Create New Project
 
           li(ng-repeat="project in vm.projects")
-            a(ui-sref="timeline({ workId: project.id })") {{ project.name }}
+            a(ui-sref="timeline({ workId: project.id })")
+              .name {{ project.name }} a really long name
+
+              .notification 123
 
       li.login(ng-hide="vm.loggedIn")
         a(ui-sref="login") Log in
@@ -28,6 +31,9 @@ ul.flex-center
           avatar
 
         ul.sublinks.elevated
+          li
+            a(href="#") View Profile
+
           li
             a(ng-click="vm.logout()") Logout
 

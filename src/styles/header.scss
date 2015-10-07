@@ -73,16 +73,15 @@ layout-header {
     }
 
     .sublinks {
-      @include transition (all 0.2s ease-in-out);
+      @include transition (all 0.15s ease-in-out);
 
       position        : absolute;
       max-height      : 0;
       overflow        : scroll;
       background-color: $white;
       right           : 0;
-      width           : 200px;
       margin-top      : $margin-smallest;
-      border-radius   : $border-radius-small;
+      border-radius   : $border-radius-smallest;
       text-align      : left;
 
       &:hover {
@@ -90,14 +89,38 @@ layout-header {
       }
 
       li {
-        &:hover {
-          background: $neutral-color;
+        border-top: 1px solid $neutral-color-light;
+
+        .name {
+          @include ellipsis;
+
+          width: 280px;
+          line-height: 18px; /* due to overflow hidden from ellipsis */
         }
 
-        a {
-          padding: 10px 15px;
+        .notification {
+          margin-left: $margin-small;
+        }
+
+        > a {
+          @include vertical-align-middle;
+
           display: block;
-          color: $black;
+          white-space: nowrap;
+          color  : $black;
+          padding: $padding;
+        }
+
+        &:first-child {
+          border-top: none;
+        }
+
+        &:hover {
+          background: $neutral-color-lightest;
+
+          a {
+            color: $primary-color;
+          }
         }
       }
     }

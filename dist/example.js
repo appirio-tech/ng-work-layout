@@ -2813,7 +2813,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "{\n    \"param\": {\n        {\n            \"stepType\": \"designConcepts\",\n            \"startsAt\": \"2015-07-17T09:45:45.901-07:00\",\n            \"endsAt\": \"2015-07-23T09:45:45.901-07:00\",\n            \"closed\": \"true\"\n            \"detail\": {\n                \"numberOfRanks\": 5,\n                \"rankedSubmissions\": [\n                    {\n                        \"rank\": 1,\n                        \"submissionId\": \"12345\"\n                    },\n                    {\n                        \"rank\": 2,\n                        \"submissionId\": \"12346\"\n                    },\n                    {\n                        \"rank\": 3,\n                        \"submissionId\": \"12347\"\n                    },\n                    {\n                        \"rank\": 4,\n                        \"submissionId\": \"12348\"\n                    },\n                    {\n                        \"rank\": 5,\n                        \"submissionId\": \"12349\"\n                    },\n                ],\n                \"customerFinalizedRanks\": true,\n                \"submissions\": [\n                    {\n                        \"submissionSetId\": \"20000\"\n                    }\n                ]\n            }\n        }\n    }\n}\n",
+                                                                                                "body": "{\n    \"param\": {\n        {\n            \"stepType\": \"designConcepts\",\n            \"startsAt\": \"2015-07-17T09:45:45.901-07:00\",\n            \"endsAt\": \"2015-07-23T09:45:45.901-07:00\",\n            \"status\": \"open|closed\"\n            \"details\": {\n                \"numberOfRanks\": 5,\n                \"rankedSubmissions\": [\n                    {\n                        \"rank\": 1,\n                        \"submissionId\": \"12345\"\n                    },\n                    {\n                        \"rank\": 2,\n                        \"submissionId\": \"12346\"\n                    },\n                    {\n                        \"rank\": 3,\n                        \"submissionId\": \"12347\"\n                    },\n                    {\n                        \"rank\": 4,\n                        \"submissionId\": \"12348\"\n                    },\n                    {\n                        \"rank\": 5,\n                        \"submissionId\": \"12349\"\n                    },\n                ],\n                \"customerConfirmedRanks\": true,\n                \"submissions\": [\n                    {\n                        \"submissionSetId\": \"20000\"\n                    }\n                ]\n            }\n        }\n    }\n}\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -2821,7 +2821,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "{\n    \"param\": {\n        {\n            \"stepType\": \"designConcepts\",\n            \"startsAt\": \"2015-07-17T09:45:45.901-07:00\",\n            \"endsAt\": \"2015-07-23T09:45:45.901-07:00\",\n            \"closed\": \"true\"\n            \"detail\": {\n                \"numberOfRanks\": 5,\n                \"rankedSubmissions\": [\n                    {\n                        \"rank\": 1,\n                        \"submissionId\": \"12345\"\n                    },\n                    {\n                        \"rank\": 2,\n                        \"submissionId\": \"12346\"\n                    },\n                    {\n                        \"rank\": 3,\n                        \"submissionId\": \"12347\"\n                    },\n                    {\n                        \"rank\": 4,\n                        \"submissionId\": \"12348\"\n                    },\n                    {\n                        \"rank\": 5,\n                        \"submissionId\": \"12349\"\n                    },\n                ],\n                \"customerFinalizedRanks\": true,\n                \"submissions\": [\n                    {\n                        \"submissionSetId\": \"20000\"\n                    }\n                ]\n            }\n        }\n    }\n}\n"
+                                                                                                                "content": "{\n    \"param\": {\n        {\n            \"stepType\": \"designConcepts\",\n            \"startsAt\": \"2015-07-17T09:45:45.901-07:00\",\n            \"endsAt\": \"2015-07-23T09:45:45.901-07:00\",\n            \"status\": \"open|closed\"\n            \"details\": {\n                \"numberOfRanks\": 5,\n                \"rankedSubmissions\": [\n                    {\n                        \"rank\": 1,\n                        \"submissionId\": \"12345\"\n                    },\n                    {\n                        \"rank\": 2,\n                        \"submissionId\": \"12346\"\n                    },\n                    {\n                        \"rank\": 3,\n                        \"submissionId\": \"12347\"\n                    },\n                    {\n                        \"rank\": 4,\n                        \"submissionId\": \"12348\"\n                    },\n                    {\n                        \"rank\": 5,\n                        \"submissionId\": \"12349\"\n                    },\n                ],\n                \"customerConfirmedRanks\": true,\n                \"submissions\": [\n                    {\n                        \"submissionSetId\": \"20000\"\n                    }\n                ]\n            }\n        }\n    }\n}\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -4779,7 +4779,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "{\n    \"param\": {\n        {\n            \"stepType\": \"designConcepts\",\n            \"startsAt\": \"2015-07-17T09:45:45.901-07:00\",\n            \"endsAt\": \"2015-07-23T09:45:45.901-07:00\",\n            \"closed\": \"true\"\n            \"detail\": {\n                \"numberOfRanks\": 5,\n                \"rankedSubmissions\": [\n                    {\n                        \"rank\": 1,\n                        \"submissionId\": \"12345\"\n                    },\n                    {\n                        \"rank\": 2,\n                        \"submissionId\": \"12346\"\n                    },\n                    {\n                        \"rank\": 3,\n                        \"submissionId\": \"12347\"\n                    },\n                    {\n                        \"rank\": 4,\n                        \"submissionId\": \"12348\"\n                    },\n                    {\n                        \"rank\": 5,\n                        \"submissionId\": \"12349\"\n                    },\n                ],\n                \"customerFinalizedRanks\": true,\n                \"submissions\": [\n                    {\n                        \"submissionSetId\": \"20000\"\n                    }\n                ]\n            }\n        }\n    }\n}\n",
+                                                                                                "body": "{\n    \"param\": {\n        {\n            \"stepType\": \"designConcepts\",\n            \"startsAt\": \"2015-07-17T09:45:45.901-07:00\",\n            \"endsAt\": \"2015-07-23T09:45:45.901-07:00\",\n            \"status\": \"open|closed\"\n            \"details\": {\n                \"numberOfRanks\": 5,\n                \"rankedSubmissions\": [\n                    {\n                        \"rank\": 1,\n                        \"submissionId\": \"12345\"\n                    },\n                    {\n                        \"rank\": 2,\n                        \"submissionId\": \"12346\"\n                    },\n                    {\n                        \"rank\": 3,\n                        \"submissionId\": \"12347\"\n                    },\n                    {\n                        \"rank\": 4,\n                        \"submissionId\": \"12348\"\n                    },\n                    {\n                        \"rank\": 5,\n                        \"submissionId\": \"12349\"\n                    },\n                ],\n                \"customerConfirmedRanks\": true,\n                \"submissions\": [\n                    {\n                        \"submissionSetId\": \"20000\"\n                    }\n                ]\n            }\n        }\n    }\n}\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -4787,7 +4787,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "{\n    \"param\": {\n        {\n            \"stepType\": \"designConcepts\",\n            \"startsAt\": \"2015-07-17T09:45:45.901-07:00\",\n            \"endsAt\": \"2015-07-23T09:45:45.901-07:00\",\n            \"closed\": \"true\"\n            \"detail\": {\n                \"numberOfRanks\": 5,\n                \"rankedSubmissions\": [\n                    {\n                        \"rank\": 1,\n                        \"submissionId\": \"12345\"\n                    },\n                    {\n                        \"rank\": 2,\n                        \"submissionId\": \"12346\"\n                    },\n                    {\n                        \"rank\": 3,\n                        \"submissionId\": \"12347\"\n                    },\n                    {\n                        \"rank\": 4,\n                        \"submissionId\": \"12348\"\n                    },\n                    {\n                        \"rank\": 5,\n                        \"submissionId\": \"12349\"\n                    },\n                ],\n                \"customerFinalizedRanks\": true,\n                \"submissions\": [\n                    {\n                        \"submissionSetId\": \"20000\"\n                    }\n                ]\n            }\n        }\n    }\n}\n"
+                                                                                                                "content": "{\n    \"param\": {\n        {\n            \"stepType\": \"designConcepts\",\n            \"startsAt\": \"2015-07-17T09:45:45.901-07:00\",\n            \"endsAt\": \"2015-07-23T09:45:45.901-07:00\",\n            \"status\": \"open|closed\"\n            \"details\": {\n                \"numberOfRanks\": 5,\n                \"rankedSubmissions\": [\n                    {\n                        \"rank\": 1,\n                        \"submissionId\": \"12345\"\n                    },\n                    {\n                        \"rank\": 2,\n                        \"submissionId\": \"12346\"\n                    },\n                    {\n                        \"rank\": 3,\n                        \"submissionId\": \"12347\"\n                    },\n                    {\n                        \"rank\": 4,\n                        \"submissionId\": \"12348\"\n                    },\n                    {\n                        \"rank\": 5,\n                        \"submissionId\": \"12349\"\n                    },\n                ],\n                \"customerConfirmedRanks\": true,\n                \"submissions\": [\n                    {\n                        \"submissionSetId\": \"20000\"\n                    }\n                ]\n            }\n        }\n    }\n}\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -6348,7 +6348,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "{\n    \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n    \"result\": {\n        \"success\":true,\n        \"status\":200,\n        \"metadata\":null,\n        \"content\": {\n            \"totalUnreadCount\": 1,\n            \"threads\": [\n                {\n                    \"id\": \"guid-or-identifier-for-thread-object\",\n                    \"subject\":\"subject-title\",\n                    \"unreadCount\": 1,\n                    \"messages\": [\n                        {\n                            \"id\":\"guid-or-identifier-for-message-object\",\n                            \"threadId\": \"guid-or-identifier-for-thread-object\",\n                            \"body\":\"Hello World\",\n                            \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                            \"publisherId\":\"sselvadurai\",\n                            \"read\": true,\n                            \"attachments\": [\n                                {\n                                  \"attachmentId\":\"guid-or-identifier-for-attachment\",\n                                  \"name\":\"name-of-attachment\",\n                                  \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment.png\",\n                                  \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment.png\"\n                                },\n                                {\n                                  \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n                                  \"name\":\"name-of-attachment01\",\n                                  \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment01.png\",\n                                  \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment01.png\"\n                                }\n                            ]\n                        }\n                    ]\n                }\n            ]\n        }\n    },\n    \"version\":\"v3\"\n}\n",
+                                                                                                "body": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\": {\n                \"totalUnreadCount\": 1,\n                \"threads\": [\n                    {\n                        \"id\": \"guid-or-identifier-for-thread-object\",\n                        \"subject\":\"subject-title\",\n                        \"publishers\": [\n                            \"jsymons\"\n                        ],\n                        \"subscribers\": [\n                            \"jsymons\"\n                        ],\n                        \"unreadCount\": 1,\n                        \"messages\": [\n                            {\n                                \"id\":\"guid-or-identifier-for-message-object\",\n                                \"threadId\": \"guid-or-identifier-for-thread-object\",\n                                \"body\":\"Hello World\",\n                                \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                                \"publisherId\":\"sselvadurai\",\n                                \"read\": true,\n                                \"attachments\": [\n                                    {\n                                      \"attachmentId\":\"guid-or-identifier-for-attachment\",\n                                      \"name\":\"name-of-attachment\",\n                                      \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment.png\",\n                                      \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment.png\"\n                                    },\n                                    {\n                                      \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n                                      \"name\":\"name-of-attachment01\",\n                                      \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment01.png\",\n                                      \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment01.png\"\n                                    }\n                                ]\n                            }\n                        ]\n                    }\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -6356,7 +6356,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "{\n    \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n    \"result\": {\n        \"success\":true,\n        \"status\":200,\n        \"metadata\":null,\n        \"content\": {\n            \"totalUnreadCount\": 1,\n            \"threads\": [\n                {\n                    \"id\": \"guid-or-identifier-for-thread-object\",\n                    \"subject\":\"subject-title\",\n                    \"unreadCount\": 1,\n                    \"messages\": [\n                        {\n                            \"id\":\"guid-or-identifier-for-message-object\",\n                            \"threadId\": \"guid-or-identifier-for-thread-object\",\n                            \"body\":\"Hello World\",\n                            \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                            \"publisherId\":\"sselvadurai\",\n                            \"read\": true,\n                            \"attachments\": [\n                                {\n                                  \"attachmentId\":\"guid-or-identifier-for-attachment\",\n                                  \"name\":\"name-of-attachment\",\n                                  \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment.png\",\n                                  \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment.png\"\n                                },\n                                {\n                                  \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n                                  \"name\":\"name-of-attachment01\",\n                                  \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment01.png\",\n                                  \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment01.png\"\n                                }\n                            ]\n                        }\n                    ]\n                }\n            ]\n        }\n    },\n    \"version\":\"v3\"\n}\n"
+                                                                                                                "content": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\": {\n                \"totalUnreadCount\": 1,\n                \"threads\": [\n                    {\n                        \"id\": \"guid-or-identifier-for-thread-object\",\n                        \"subject\":\"subject-title\",\n                        \"publishers\": [\n                            \"jsymons\"\n                        ],\n                        \"subscribers\": [\n                            \"jsymons\"\n                        ],\n                        \"unreadCount\": 1,\n                        \"messages\": [\n                            {\n                                \"id\":\"guid-or-identifier-for-message-object\",\n                                \"threadId\": \"guid-or-identifier-for-thread-object\",\n                                \"body\":\"Hello World\",\n                                \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                                \"publisherId\":\"sselvadurai\",\n                                \"read\": true,\n                                \"attachments\": [\n                                    {\n                                      \"attachmentId\":\"guid-or-identifier-for-attachment\",\n                                      \"name\":\"name-of-attachment\",\n                                      \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment.png\",\n                                      \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment.png\"\n                                    },\n                                    {\n                                      \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n                                      \"name\":\"name-of-attachment01\",\n                                      \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment01.png\",\n                                      \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment01.png\"\n                                    }\n                                ]\n                            }\n                        ]\n                    }\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -6371,7 +6371,7 @@ window.FIXTURES = {
                                                 "element": "resource",
                                                 "name": "Thread",
                                                 "description": "",
-                                                "uriTemplate": "/threads/{thread_id}?subscriberId=subscriberId",
+                                                "uriTemplate": "/threads/{thread_id}{?subscriberId}",
                                                 "model": {},
                                                 "parameters": [
                                                         {
@@ -6380,7 +6380,7 @@ window.FIXTURES = {
                                                                 "type": "identifier",
                                                                 "required": true,
                                                                 "default": "",
-                                                                "example": "1",
+                                                                "example": "123",
                                                                 "values": []
                                                         }
                                                 ],
@@ -6410,7 +6410,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "{\n    \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n    \"result\": {\n        \"success\":true,\n        \"status\":200,\n        \"metadata\":null,\n        \"content\":{\n            \"id\": \"guid-or-identifier-for-thread-object\",\n            \"subject\":\"subject-title\",\n            \"unreadCount\": 1,\n            \"messages\": [\n                {\n                    \"id\":\"guid-or-identifier-for-message-object\",\n                    \"threadId\": \"guid-or-identifier-for-thread-object\",\n                    \"body\":\"Hello World\",\n                    \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                    \"publisherId\":\"sselvadurai\",\n                    \"read\": true,\n                    \"attachments\": [\n                        {\n                          \"attachmentId\":\"guid-or-identifier-for-attachment\",\n                          \"name\":\"name-of-attachment\",\n                          \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment.png\",\n                          \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment.png\"\n                        },\n                        {\n                          \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n                          \"name\":\"name-of-attachment01\",\n                          \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment01.png\",\n                          \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment01.png\"\n                        }\n                    ]\n                }\n            ]\n        }\n    },\n    \"version\":\"v3\"\n}\n",
+                                                                                                "body": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{\n                \"id\": \"guid-or-identifier-for-thread-object\",\n                \"subject\":\"subject-title\",\n                \"publishers\": [\n                    \"jsymons\"\n                ],\n                \"subscribers\": [\n                    \"jsymons\"\n                ],\n                \"unreadCount\": 1,\n                \"messages\": [\n                    {\n                        \"id\":\"guid-or-identifier-for-message-object\",\n                        \"threadId\": \"guid-or-identifier-for-thread-object\",\n                        \"body\":\"Hello World\",\n                        \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                        \"publisherId\":\"sselvadurai\",\n                        \"read\": true,\n                        \"attachments\": [\n                            {\n                              \"attachmentId\":\"guid-or-identifier-for-attachment\",\n                              \"name\":\"name-of-attachment\",\n                              \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment.png\",\n                              \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment.png\"\n                            },\n                            {\n                              \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n                              \"name\":\"name-of-attachment01\",\n                              \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment01.png\",\n                              \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment01.png\"\n                            }\n                        ]\n                    }\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -6418,7 +6418,155 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "{\n    \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n    \"result\": {\n        \"success\":true,\n        \"status\":200,\n        \"metadata\":null,\n        \"content\":{\n            \"id\": \"guid-or-identifier-for-thread-object\",\n            \"subject\":\"subject-title\",\n            \"unreadCount\": 1,\n            \"messages\": [\n                {\n                    \"id\":\"guid-or-identifier-for-message-object\",\n                    \"threadId\": \"guid-or-identifier-for-thread-object\",\n                    \"body\":\"Hello World\",\n                    \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                    \"publisherId\":\"sselvadurai\",\n                    \"read\": true,\n                    \"attachments\": [\n                        {\n                          \"attachmentId\":\"guid-or-identifier-for-attachment\",\n                          \"name\":\"name-of-attachment\",\n                          \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment.png\",\n                          \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment.png\"\n                        },\n                        {\n                          \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n                          \"name\":\"name-of-attachment01\",\n                          \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment01.png\",\n                          \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment01.png\"\n                        }\n                    ]\n                }\n            ]\n        }\n    },\n    \"version\":\"v3\"\n}\n"
+                                                                                                                "content": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{\n                \"id\": \"guid-or-identifier-for-thread-object\",\n                \"subject\":\"subject-title\",\n                \"publishers\": [\n                    \"jsymons\"\n                ],\n                \"subscribers\": [\n                    \"jsymons\"\n                ],\n                \"unreadCount\": 1,\n                \"messages\": [\n                    {\n                        \"id\":\"guid-or-identifier-for-message-object\",\n                        \"threadId\": \"guid-or-identifier-for-thread-object\",\n                        \"body\":\"Hello World\",\n                        \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                        \"publisherId\":\"sselvadurai\",\n                        \"read\": true,\n                        \"attachments\": [\n                            {\n                              \"attachmentId\":\"guid-or-identifier-for-attachment\",\n                              \"name\":\"name-of-attachment\",\n                              \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment.png\",\n                              \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment.png\"\n                            },\n                            {\n                              \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n                              \"name\":\"name-of-attachment01\",\n                              \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment01.png\",\n                              \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment01.png\"\n                            }\n                        ]\n                    }\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n"
+                                                                                                        }
+                                                                                                ]
+                                                                                        }
+                                                                                ]
+                                                                        }
+                                                                ]
+                                                        }
+                                                ],
+                                                "content": []
+                                        },
+                                        {
+                                                "element": "resource",
+                                                "name": "Thread Subscribers",
+                                                "description": "",
+                                                "uriTemplate": "/threads/{thread_id}/subscribers",
+                                                "model": {},
+                                                "parameters": [],
+                                                "actions": [
+                                                        {
+                                                                "name": "Add Subscriber to a Thread",
+                                                                "description": "Add a Subscriber to a Thread\n\n",
+                                                                "method": "POST",
+                                                                "parameters": [],
+                                                                "attributes": {
+                                                                        "relation": "",
+                                                                        "uriTemplate": ""
+                                                                },
+                                                                "content": [],
+                                                                "examples": [
+                                                                        {
+                                                                                "name": "",
+                                                                                "description": "",
+                                                                                "requests": [
+                                                                                        {
+                                                                                                "name": "",
+                                                                                                "description": "",
+                                                                                                "headers": [
+                                                                                                        {
+                                                                                                                "name": "Content-Type",
+                                                                                                                "value": "application/json"
+                                                                                                        }
+                                                                                                ],
+                                                                                                "body": "    {\n        \"param\": {\n            \"publishers\": [\n                \"guid-or-idenfitier-for-user-id\"\n            ]\n        }\n    }\n",
+                                                                                                "schema": "",
+                                                                                                "content": [
+                                                                                                        {
+                                                                                                                "element": "asset",
+                                                                                                                "attributes": {
+                                                                                                                        "role": "bodyExample"
+                                                                                                                },
+                                                                                                                "content": "    {\n        \"param\": {\n            \"publishers\": [\n                \"guid-or-idenfitier-for-user-id\"\n            ]\n        }\n    }\n"
+                                                                                                        }
+                                                                                                ]
+                                                                                        }
+                                                                                ],
+                                                                                "responses": [
+                                                                                        {
+                                                                                                "name": "200",
+                                                                                                "description": "",
+                                                                                                "headers": [
+                                                                                                        {
+                                                                                                                "name": "Content-Type",
+                                                                                                                "value": "application/json"
+                                                                                                        }
+                                                                                                ],
+                                                                                                "body": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{\n                \"publishers\": [\n                    \"guid-or-identifier-for-user-id\"\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n",
+                                                                                                "schema": "",
+                                                                                                "content": [
+                                                                                                        {
+                                                                                                                "element": "asset",
+                                                                                                                "attributes": {
+                                                                                                                        "role": "bodyExample"
+                                                                                                                },
+                                                                                                                "content": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{\n                \"publishers\": [\n                    \"guid-or-identifier-for-user-id\"\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n"
+                                                                                                        }
+                                                                                                ]
+                                                                                        }
+                                                                                ]
+                                                                        }
+                                                                ]
+                                                        }
+                                                ],
+                                                "content": []
+                                        },
+                                        {
+                                                "element": "resource",
+                                                "name": "Thread Publishers",
+                                                "description": "",
+                                                "uriTemplate": "/threads/{thread_id}/publishers",
+                                                "model": {},
+                                                "parameters": [],
+                                                "actions": [
+                                                        {
+                                                                "name": "Add Publisher to a Thread",
+                                                                "description": "Add a Publisher to a Thread\n\n",
+                                                                "method": "POST",
+                                                                "parameters": [],
+                                                                "attributes": {
+                                                                        "relation": "",
+                                                                        "uriTemplate": ""
+                                                                },
+                                                                "content": [],
+                                                                "examples": [
+                                                                        {
+                                                                                "name": "",
+                                                                                "description": "",
+                                                                                "requests": [
+                                                                                        {
+                                                                                                "name": "",
+                                                                                                "description": "",
+                                                                                                "headers": [
+                                                                                                        {
+                                                                                                                "name": "Content-Type",
+                                                                                                                "value": "application/json"
+                                                                                                        }
+                                                                                                ],
+                                                                                                "body": "    {\n        \"param\": {\n            \"subscribers\": [\n                \"guid-or-idenfitier-for-user-id\"\n            ]\n        }\n    }\n",
+                                                                                                "schema": "",
+                                                                                                "content": [
+                                                                                                        {
+                                                                                                                "element": "asset",
+                                                                                                                "attributes": {
+                                                                                                                        "role": "bodyExample"
+                                                                                                                },
+                                                                                                                "content": "    {\n        \"param\": {\n            \"subscribers\": [\n                \"guid-or-idenfitier-for-user-id\"\n            ]\n        }\n    }\n"
+                                                                                                        }
+                                                                                                ]
+                                                                                        }
+                                                                                ],
+                                                                                "responses": [
+                                                                                        {
+                                                                                                "name": "200",
+                                                                                                "description": "",
+                                                                                                "headers": [
+                                                                                                        {
+                                                                                                                "name": "Content-Type",
+                                                                                                                "value": "application/json"
+                                                                                                        }
+                                                                                                ],
+                                                                                                "body": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{\n                \"subscribers\": [\n                    \"guid-or-identifier-for-user-id\"\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n",
+                                                                                                "schema": "",
+                                                                                                "content": [
+                                                                                                        {
+                                                                                                                "element": "asset",
+                                                                                                                "attributes": {
+                                                                                                                        "role": "bodyExample"
+                                                                                                                },
+                                                                                                                "content": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{\n                \"subscribers\": [\n                    \"guid-or-identifier-for-user-id\"\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -6739,7 +6887,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "{\n    \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n    \"result\": {\n        \"success\":true,\n        \"status\":200,\n        \"metadata\":null,\n        \"content\": {\n            \"totalUnreadCount\": 1,\n            \"threads\": [\n                {\n                    \"id\": \"guid-or-identifier-for-thread-object\",\n                    \"subject\":\"subject-title\",\n                    \"unreadCount\": 1,\n                    \"messages\": [\n                        {\n                            \"id\":\"guid-or-identifier-for-message-object\",\n                            \"threadId\": \"guid-or-identifier-for-thread-object\",\n                            \"body\":\"Hello World\",\n                            \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                            \"publisherId\":\"sselvadurai\",\n                            \"read\": true,\n                            \"attachments\": [\n                                {\n                                  \"attachmentId\":\"guid-or-identifier-for-attachment\",\n                                  \"name\":\"name-of-attachment\",\n                                  \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment.png\",\n                                  \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment.png\"\n                                },\n                                {\n                                  \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n                                  \"name\":\"name-of-attachment01\",\n                                  \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment01.png\",\n                                  \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment01.png\"\n                                }\n                            ]\n                        }\n                    ]\n                }\n            ]\n        }\n    },\n    \"version\":\"v3\"\n}\n",
+                                                                                                "body": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\": {\n                \"totalUnreadCount\": 1,\n                \"threads\": [\n                    {\n                        \"id\": \"guid-or-identifier-for-thread-object\",\n                        \"subject\":\"subject-title\",\n                        \"publishers\": [\n                            \"jsymons\"\n                        ],\n                        \"subscribers\": [\n                            \"jsymons\"\n                        ],\n                        \"unreadCount\": 1,\n                        \"messages\": [\n                            {\n                                \"id\":\"guid-or-identifier-for-message-object\",\n                                \"threadId\": \"guid-or-identifier-for-thread-object\",\n                                \"body\":\"Hello World\",\n                                \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                                \"publisherId\":\"sselvadurai\",\n                                \"read\": true,\n                                \"attachments\": [\n                                    {\n                                      \"attachmentId\":\"guid-or-identifier-for-attachment\",\n                                      \"name\":\"name-of-attachment\",\n                                      \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment.png\",\n                                      \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment.png\"\n                                    },\n                                    {\n                                      \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n                                      \"name\":\"name-of-attachment01\",\n                                      \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment01.png\",\n                                      \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment01.png\"\n                                    }\n                                ]\n                            }\n                        ]\n                    }\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -6747,7 +6895,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "{\n    \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n    \"result\": {\n        \"success\":true,\n        \"status\":200,\n        \"metadata\":null,\n        \"content\": {\n            \"totalUnreadCount\": 1,\n            \"threads\": [\n                {\n                    \"id\": \"guid-or-identifier-for-thread-object\",\n                    \"subject\":\"subject-title\",\n                    \"unreadCount\": 1,\n                    \"messages\": [\n                        {\n                            \"id\":\"guid-or-identifier-for-message-object\",\n                            \"threadId\": \"guid-or-identifier-for-thread-object\",\n                            \"body\":\"Hello World\",\n                            \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                            \"publisherId\":\"sselvadurai\",\n                            \"read\": true,\n                            \"attachments\": [\n                                {\n                                  \"attachmentId\":\"guid-or-identifier-for-attachment\",\n                                  \"name\":\"name-of-attachment\",\n                                  \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment.png\",\n                                  \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment.png\"\n                                },\n                                {\n                                  \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n                                  \"name\":\"name-of-attachment01\",\n                                  \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment01.png\",\n                                  \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment01.png\"\n                                }\n                            ]\n                        }\n                    ]\n                }\n            ]\n        }\n    },\n    \"version\":\"v3\"\n}\n"
+                                                                                                                "content": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\": {\n                \"totalUnreadCount\": 1,\n                \"threads\": [\n                    {\n                        \"id\": \"guid-or-identifier-for-thread-object\",\n                        \"subject\":\"subject-title\",\n                        \"publishers\": [\n                            \"jsymons\"\n                        ],\n                        \"subscribers\": [\n                            \"jsymons\"\n                        ],\n                        \"unreadCount\": 1,\n                        \"messages\": [\n                            {\n                                \"id\":\"guid-or-identifier-for-message-object\",\n                                \"threadId\": \"guid-or-identifier-for-thread-object\",\n                                \"body\":\"Hello World\",\n                                \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                                \"publisherId\":\"sselvadurai\",\n                                \"read\": true,\n                                \"attachments\": [\n                                    {\n                                      \"attachmentId\":\"guid-or-identifier-for-attachment\",\n                                      \"name\":\"name-of-attachment\",\n                                      \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment.png\",\n                                      \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment.png\"\n                                    },\n                                    {\n                                      \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n                                      \"name\":\"name-of-attachment01\",\n                                      \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment01.png\",\n                                      \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment01.png\"\n                                    }\n                                ]\n                            }\n                        ]\n                    }\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -6762,7 +6910,7 @@ window.FIXTURES = {
                                                 "element": "resource",
                                                 "name": "Thread",
                                                 "description": "",
-                                                "uriTemplate": "/threads/{thread_id}?subscriberId=subscriberId",
+                                                "uriTemplate": "/threads/{thread_id}{?subscriberId}",
                                                 "model": {},
                                                 "parameters": [
                                                         {
@@ -6771,7 +6919,7 @@ window.FIXTURES = {
                                                                 "type": "identifier",
                                                                 "required": true,
                                                                 "default": "",
-                                                                "example": "1",
+                                                                "example": "123",
                                                                 "values": []
                                                         }
                                                 ],
@@ -6801,7 +6949,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "{\n    \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n    \"result\": {\n        \"success\":true,\n        \"status\":200,\n        \"metadata\":null,\n        \"content\":{\n            \"id\": \"guid-or-identifier-for-thread-object\",\n            \"subject\":\"subject-title\",\n            \"unreadCount\": 1,\n            \"messages\": [\n                {\n                    \"id\":\"guid-or-identifier-for-message-object\",\n                    \"threadId\": \"guid-or-identifier-for-thread-object\",\n                    \"body\":\"Hello World\",\n                    \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                    \"publisherId\":\"sselvadurai\",\n                    \"read\": true,\n                    \"attachments\": [\n                        {\n                          \"attachmentId\":\"guid-or-identifier-for-attachment\",\n                          \"name\":\"name-of-attachment\",\n                          \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment.png\",\n                          \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment.png\"\n                        },\n                        {\n                          \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n                          \"name\":\"name-of-attachment01\",\n                          \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment01.png\",\n                          \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment01.png\"\n                        }\n                    ]\n                }\n            ]\n        }\n    },\n    \"version\":\"v3\"\n}\n",
+                                                                                                "body": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{\n                \"id\": \"guid-or-identifier-for-thread-object\",\n                \"subject\":\"subject-title\",\n                \"publishers\": [\n                    \"jsymons\"\n                ],\n                \"subscribers\": [\n                    \"jsymons\"\n                ],\n                \"unreadCount\": 1,\n                \"messages\": [\n                    {\n                        \"id\":\"guid-or-identifier-for-message-object\",\n                        \"threadId\": \"guid-or-identifier-for-thread-object\",\n                        \"body\":\"Hello World\",\n                        \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                        \"publisherId\":\"sselvadurai\",\n                        \"read\": true,\n                        \"attachments\": [\n                            {\n                              \"attachmentId\":\"guid-or-identifier-for-attachment\",\n                              \"name\":\"name-of-attachment\",\n                              \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment.png\",\n                              \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment.png\"\n                            },\n                            {\n                              \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n                              \"name\":\"name-of-attachment01\",\n                              \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment01.png\",\n                              \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment01.png\"\n                            }\n                        ]\n                    }\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -6809,7 +6957,155 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "{\n    \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n    \"result\": {\n        \"success\":true,\n        \"status\":200,\n        \"metadata\":null,\n        \"content\":{\n            \"id\": \"guid-or-identifier-for-thread-object\",\n            \"subject\":\"subject-title\",\n            \"unreadCount\": 1,\n            \"messages\": [\n                {\n                    \"id\":\"guid-or-identifier-for-message-object\",\n                    \"threadId\": \"guid-or-identifier-for-thread-object\",\n                    \"body\":\"Hello World\",\n                    \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                    \"publisherId\":\"sselvadurai\",\n                    \"read\": true,\n                    \"attachments\": [\n                        {\n                          \"attachmentId\":\"guid-or-identifier-for-attachment\",\n                          \"name\":\"name-of-attachment\",\n                          \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment.png\",\n                          \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment.png\"\n                        },\n                        {\n                          \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n                          \"name\":\"name-of-attachment01\",\n                          \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment01.png\",\n                          \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment01.png\"\n                        }\n                    ]\n                }\n            ]\n        }\n    },\n    \"version\":\"v3\"\n}\n"
+                                                                                                                "content": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{\n                \"id\": \"guid-or-identifier-for-thread-object\",\n                \"subject\":\"subject-title\",\n                \"publishers\": [\n                    \"jsymons\"\n                ],\n                \"subscribers\": [\n                    \"jsymons\"\n                ],\n                \"unreadCount\": 1,\n                \"messages\": [\n                    {\n                        \"id\":\"guid-or-identifier-for-message-object\",\n                        \"threadId\": \"guid-or-identifier-for-thread-object\",\n                        \"body\":\"Hello World\",\n                        \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                        \"publisherId\":\"sselvadurai\",\n                        \"read\": true,\n                        \"attachments\": [\n                            {\n                              \"attachmentId\":\"guid-or-identifier-for-attachment\",\n                              \"name\":\"name-of-attachment\",\n                              \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment.png\",\n                              \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment.png\"\n                            },\n                            {\n                              \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n                              \"name\":\"name-of-attachment01\",\n                              \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment01.png\",\n                              \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment01.png\"\n                            }\n                        ]\n                    }\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n"
+                                                                                                        }
+                                                                                                ]
+                                                                                        }
+                                                                                ]
+                                                                        }
+                                                                ]
+                                                        }
+                                                ],
+                                                "content": []
+                                        },
+                                        {
+                                                "element": "resource",
+                                                "name": "Thread Subscribers",
+                                                "description": "",
+                                                "uriTemplate": "/threads/{thread_id}/subscribers",
+                                                "model": {},
+                                                "parameters": [],
+                                                "actions": [
+                                                        {
+                                                                "name": "Add Subscriber to a Thread",
+                                                                "description": "Add a Subscriber to a Thread\n\n",
+                                                                "method": "POST",
+                                                                "parameters": [],
+                                                                "attributes": {
+                                                                        "relation": "",
+                                                                        "uriTemplate": ""
+                                                                },
+                                                                "content": [],
+                                                                "examples": [
+                                                                        {
+                                                                                "name": "",
+                                                                                "description": "",
+                                                                                "requests": [
+                                                                                        {
+                                                                                                "name": "",
+                                                                                                "description": "",
+                                                                                                "headers": [
+                                                                                                        {
+                                                                                                                "name": "Content-Type",
+                                                                                                                "value": "application/json"
+                                                                                                        }
+                                                                                                ],
+                                                                                                "body": "    {\n        \"param\": {\n            \"publishers\": [\n                \"guid-or-idenfitier-for-user-id\"\n            ]\n        }\n    }\n",
+                                                                                                "schema": "",
+                                                                                                "content": [
+                                                                                                        {
+                                                                                                                "element": "asset",
+                                                                                                                "attributes": {
+                                                                                                                        "role": "bodyExample"
+                                                                                                                },
+                                                                                                                "content": "    {\n        \"param\": {\n            \"publishers\": [\n                \"guid-or-idenfitier-for-user-id\"\n            ]\n        }\n    }\n"
+                                                                                                        }
+                                                                                                ]
+                                                                                        }
+                                                                                ],
+                                                                                "responses": [
+                                                                                        {
+                                                                                                "name": "200",
+                                                                                                "description": "",
+                                                                                                "headers": [
+                                                                                                        {
+                                                                                                                "name": "Content-Type",
+                                                                                                                "value": "application/json"
+                                                                                                        }
+                                                                                                ],
+                                                                                                "body": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{\n                \"publishers\": [\n                    \"guid-or-identifier-for-user-id\"\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n",
+                                                                                                "schema": "",
+                                                                                                "content": [
+                                                                                                        {
+                                                                                                                "element": "asset",
+                                                                                                                "attributes": {
+                                                                                                                        "role": "bodyExample"
+                                                                                                                },
+                                                                                                                "content": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{\n                \"publishers\": [\n                    \"guid-or-identifier-for-user-id\"\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n"
+                                                                                                        }
+                                                                                                ]
+                                                                                        }
+                                                                                ]
+                                                                        }
+                                                                ]
+                                                        }
+                                                ],
+                                                "content": []
+                                        },
+                                        {
+                                                "element": "resource",
+                                                "name": "Thread Publishers",
+                                                "description": "",
+                                                "uriTemplate": "/threads/{thread_id}/publishers",
+                                                "model": {},
+                                                "parameters": [],
+                                                "actions": [
+                                                        {
+                                                                "name": "Add Publisher to a Thread",
+                                                                "description": "Add a Publisher to a Thread\n\n",
+                                                                "method": "POST",
+                                                                "parameters": [],
+                                                                "attributes": {
+                                                                        "relation": "",
+                                                                        "uriTemplate": ""
+                                                                },
+                                                                "content": [],
+                                                                "examples": [
+                                                                        {
+                                                                                "name": "",
+                                                                                "description": "",
+                                                                                "requests": [
+                                                                                        {
+                                                                                                "name": "",
+                                                                                                "description": "",
+                                                                                                "headers": [
+                                                                                                        {
+                                                                                                                "name": "Content-Type",
+                                                                                                                "value": "application/json"
+                                                                                                        }
+                                                                                                ],
+                                                                                                "body": "    {\n        \"param\": {\n            \"subscribers\": [\n                \"guid-or-idenfitier-for-user-id\"\n            ]\n        }\n    }\n",
+                                                                                                "schema": "",
+                                                                                                "content": [
+                                                                                                        {
+                                                                                                                "element": "asset",
+                                                                                                                "attributes": {
+                                                                                                                        "role": "bodyExample"
+                                                                                                                },
+                                                                                                                "content": "    {\n        \"param\": {\n            \"subscribers\": [\n                \"guid-or-idenfitier-for-user-id\"\n            ]\n        }\n    }\n"
+                                                                                                        }
+                                                                                                ]
+                                                                                        }
+                                                                                ],
+                                                                                "responses": [
+                                                                                        {
+                                                                                                "name": "200",
+                                                                                                "description": "",
+                                                                                                "headers": [
+                                                                                                        {
+                                                                                                                "name": "Content-Type",
+                                                                                                                "value": "application/json"
+                                                                                                        }
+                                                                                                ],
+                                                                                                "body": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{\n                \"subscribers\": [\n                    \"guid-or-identifier-for-user-id\"\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n",
+                                                                                                "schema": "",
+                                                                                                "content": [
+                                                                                                        {
+                                                                                                                "element": "asset",
+                                                                                                                "attributes": {
+                                                                                                                        "role": "bodyExample"
+                                                                                                                },
+                                                                                                                "content": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{\n                \"subscribers\": [\n                    \"guid-or-identifier-for-user-id\"\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -7425,7 +7721,7 @@ window.FIXTURES = {
                                         {
                                                 "element": "resource",
                                                 "name": "Timeline Events",
-                                                "description": "Authroization header has to be provided along with this request to identify the user. A timeline object has the following fields:\n\n",
+                                                "description": "Authroization header has to be provided along with this request to identify the user.\n\n",
                                                 "uriTemplate": "/projects/{work_id}/timeline",
                                                 "model": {},
                                                 "parameters": [
@@ -7784,6 +8080,231 @@ window.FIXTURES = {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
                                                                                                                 "content": "    {\n        \"id\": \"6ae5aba:14fcdf9063d:-7fe4\",\n        \"result\": {\n            \"success\": true,\n            \"status\": 200,\n            \"metadata\": null,\n            \"content\": {\n                \"id\": \"1441513717335-59057fa5-da9a-4a93-a606-6136f37a48c4\",\n                \"assetType\": \"specs\",\n                \"fileName\": \"abc1.jpg\",\n                \"fileType\": \"image/jpeg\",\n                \"category\": \"work\",\n                \"fileSize\": null,\n                \"filePath\": \"app-project/localdev/1441513717335-59057fa5-da9a-4a93-a606-6136f37a48c4/specs/abc1.jpg\",\n                \"fileHash\": null,\n                \"preSignedURL\": \"https://topcoder-dev-media.s3.amazonaws.com/app-project/localdev/1441513717335-59057fa5-da9a-4a93-a606-6136f37a48c4/specs/abc1.jpg?x-amz-security-token=AQoDYXdzEB8a4APDruHVUTQrlQBv1LRvnDHzi6zJDNlgfTp5ef8Z0GzCCz8sdI43yI3REuN60%2BLV%2FDGt0lrq6h7KuTwV2lg03BZ1OBfhvXMI194eS6v3u%2BdSJGUfELC%2FzqXXHIp%2BLCSAFLQ2qVWPsl7L52sv6IL%2F0zsB9nKP%2FOSRDnLO0HiYgbPc5Icrn4HXhSUNbjnKko9aEtnsQ3E1JnSBcHSzlX4Kq6FW79ETqnAHw6QQWewCNor1TZsBU1XzluLPBFYzvaWNplB61Wjm3TsUvYwBPSxCRos7o%2BKoQE9vnX4nA2Aok2FlL8sSbh3mfBUnso%2BPMw7I2umMuY%2FJUrF1t06ehM7CbCrxdFvhKHmq1h9gc5pojxVlPPYP9LfnQxOo3EQ4y36%2BCIAcr27knjmDGtrVJCRzufl25PGrneSjI4Snw3bsA%2B71fwM5hhcjdUF4gEzFBmtVUo2sKkZiphT%2FtbjEwO9XvMmFX%2FvMyBF9b1aEq%2BGJsCN8hzWuCzw2qUKecKWEJmJ%2BxCgVB8jYA1iDEtpauScR3teWFD4nDjunCIaxSTrMqkGIYopuFU3IIYcHKPGH6AsreFONCWYUxMR6weKyNgQZisRtzy1AEtchRpSD%2FpbVxDXgXd8CAUGCBICIpyPMjw5NkK0g7fbcrwU%3D&AWSAccessKeyId=ASIAJ4RHOT5XO6TQFOWQ&Expires=1442271083&Signature=cHaQO%2FFkDNTBRBAlLM5lJWzThk8%3D\"\n            }\n        },\n        \"version\": \"v3\"\n    }\n"
+                                                                                                        }
+                                                                                                ]
+                                                                                        }
+                                                                                ]
+                                                                        }
+                                                                ]
+                                                        }
+                                                ],
+                                                "content": []
+                                        }
+                                ]
+                        },
+                        {
+                                "name": "Work",
+                                "description": "",
+                                "resources": [
+                                        {
+                                                "element": "resource",
+                                                "name": "Work item",
+                                                "description": "Authroization header has to be provided along with this request to identify the user.\n\n",
+                                                "uriTemplate": "/projects",
+                                                "model": {},
+                                                "parameters": [],
+                                                "actions": [
+                                                        {
+                                                                "name": "Create a new work item",
+                                                                "description": "Create a new work item with an empty thread attached. The type of work object is specified with the `modelType` field.\n\n",
+                                                                "method": "POST",
+                                                                "parameters": [],
+                                                                "attributes": {
+                                                                        "relation": "",
+                                                                        "uriTemplate": ""
+                                                                },
+                                                                "content": [],
+                                                                "examples": [
+                                                                        {
+                                                                                "name": "",
+                                                                                "description": "",
+                                                                                "requests": [
+                                                                                        {
+                                                                                                "name": "",
+                                                                                                "description": "",
+                                                                                                "headers": [
+                                                                                                        {
+                                                                                                                "name": "Content-Type",
+                                                                                                                "value": "application/json"
+                                                                                                        }
+                                                                                                ],
+                                                                                                "body": "{\n    \"modelType\": \"app-project\",\n    \"name\" : \"new project001\",\n    \"status\": \"Assigned\",\n    \"statusNotes\": \"noted\",\n    \"projectType\" : \"design\",\n    \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n    \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n    \"brief\" : \"test summary\",\n    \"features\" : [ {\n      \"id\" : null,\n      \"title\" : \"feature1\",\n      \"description\" : \"desc1\",\n      \"notes\" : \"explanation1\",\n      \"custom\" : true,\n      \"fileIds\" : [ ]\n    }, {\n      \"id\" : \"121\",\n      \"title\" : \"feature2\",\n      \"description\" : \"desc2\",\n      \"notes\" : \"\",\n      \"custom\" : false,\n      \"fileIds\" : [ \"123456\" ]\n    } ],\n    \"fontIds\" : [ \"fontIds\" ],\n    \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n    \"iconsetIds\" : [ \"iconsetid\" ],\n    \"designUrls\" : [ \"designUrls\" ],\n    \"offlineAccess\" : true,\n    \"offlineAccessComment\" : \"it's true\",\n    \"usesPersonalInformation\" : false,\n    \"securityLevel\" : \"none\",\n    \"numberOfApiIntegrations\" : 2\n}\n",
+                                                                                                "schema": "",
+                                                                                                "content": [
+                                                                                                        {
+                                                                                                                "element": "asset",
+                                                                                                                "attributes": {
+                                                                                                                        "role": "bodyExample"
+                                                                                                                },
+                                                                                                                "content": "{\n    \"modelType\": \"app-project\",\n    \"name\" : \"new project001\",\n    \"status\": \"Assigned\",\n    \"statusNotes\": \"noted\",\n    \"projectType\" : \"design\",\n    \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n    \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n    \"brief\" : \"test summary\",\n    \"features\" : [ {\n      \"id\" : null,\n      \"title\" : \"feature1\",\n      \"description\" : \"desc1\",\n      \"notes\" : \"explanation1\",\n      \"custom\" : true,\n      \"fileIds\" : [ ]\n    }, {\n      \"id\" : \"121\",\n      \"title\" : \"feature2\",\n      \"description\" : \"desc2\",\n      \"notes\" : \"\",\n      \"custom\" : false,\n      \"fileIds\" : [ \"123456\" ]\n    } ],\n    \"fontIds\" : [ \"fontIds\" ],\n    \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n    \"iconsetIds\" : [ \"iconsetid\" ],\n    \"designUrls\" : [ \"designUrls\" ],\n    \"offlineAccess\" : true,\n    \"offlineAccessComment\" : \"it's true\",\n    \"usesPersonalInformation\" : false,\n    \"securityLevel\" : \"none\",\n    \"numberOfApiIntegrations\" : 2\n}\n"
+                                                                                                        }
+                                                                                                ]
+                                                                                        }
+                                                                                ],
+                                                                                "responses": [
+                                                                                        {
+                                                                                                "name": "201",
+                                                                                                "description": "",
+                                                                                                "headers": [
+                                                                                                        {
+                                                                                                                "name": "Content-Type",
+                                                                                                                "value": "application/json"
+                                                                                                        }
+                                                                                                ],
+                                                                                                "body": "{\n    \"id\": \"335b1bb4:14e3056cbf7:-45de\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\"\n    },\n    \"version\": \"v3\"\n}\n",
+                                                                                                "schema": "",
+                                                                                                "content": [
+                                                                                                        {
+                                                                                                                "element": "asset",
+                                                                                                                "attributes": {
+                                                                                                                        "role": "bodyExample"
+                                                                                                                },
+                                                                                                                "content": "{\n    \"id\": \"335b1bb4:14e3056cbf7:-45de\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\"\n    },\n    \"version\": \"v3\"\n}\n"
+                                                                                                        }
+                                                                                                ]
+                                                                                        }
+                                                                                ]
+                                                                        }
+                                                                ]
+                                                        },
+                                                        {
+                                                                "name": "Find a project",
+                                                                "description": "Query for a project or projects using a filter\n\n",
+                                                                "method": "GET",
+                                                                "parameters": [
+                                                                        {
+                                                                                "name": "filter",
+                                                                                "description": "query filter",
+                                                                                "type": "string",
+                                                                                "required": true,
+                                                                                "default": "",
+                                                                                "example": "tcdirectProjectId%3D21932",
+                                                                                "values": []
+                                                                        }
+                                                                ],
+                                                                "attributes": {
+                                                                        "relation": "",
+                                                                        "uriTemplate": "/projects?filter={filter}"
+                                                                },
+                                                                "content": [],
+                                                                "examples": [
+                                                                        {
+                                                                                "name": "",
+                                                                                "description": "",
+                                                                                "requests": [
+                                                                                        {
+                                                                                                "name": "",
+                                                                                                "description": "",
+                                                                                                "headers": [
+                                                                                                        {
+                                                                                                                "name": "Content-Type",
+                                                                                                                "value": "application/x-www-form-urlencoded"
+                                                                                                        }
+                                                                                                ],
+                                                                                                "body": "",
+                                                                                                "schema": "",
+                                                                                                "content": []
+                                                                                        }
+                                                                                ],
+                                                                                "responses": [
+                                                                                        {
+                                                                                                "name": "200",
+                                                                                                "description": "",
+                                                                                                "headers": [
+                                                                                                        {
+                                                                                                                "name": "Content-Type",
+                                                                                                                "value": "application/json"
+                                                                                                        }
+                                                                                                ],
+                                                                                                "body": "{\n    \"id\": \"335b1bb4:14e3056cbf7:-45de\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": [\n            {\n                \"id\": \"1442355928624-260c0972-8c28-4ccf-a40a-be3df2e16eca\",\n                \"modifiedBy\": \"40097202\",\n                \"modifiedAt\": \"2015-09-15T22:25:28.624Z\",\n                \"createdBy\": \"40097202\",\n                \"createdAt\": \"2015-09-15T22:25:28.624Z\",\n                \"ownerId\": \"40097202\",\n                \"version\": 1,\n                \"name\": \"james project with auto threads\",\n                \"parentId\": \"none\",\n                \"modelType\": \"app-project\",\n                \"status\": null,\n                \"statusNotes\": null,\n                \"copilotId\": \"unassigned\",\n                \"quotedAmount\": null,\n                \"tcDirectId\": \"21932\",\n                \"price\": 0,\n                \"priceCurrency\": null,\n                \"costEstimate\": null,\n                \"threadId\": null,\n                \"projectType\": null,\n                \"deviceIds\": null,\n                \"orientationIds\": null,\n                \"brief\": null,\n                \"features\": null,\n                \"fontIds\": null,\n                \"colorSwatchIds\": null,\n                \"iconsetIds\": null,\n                \"designUrls\": null,\n                \"offlineAccess\": null,\n                \"offlineAccessComment\": null,\n                \"usesPersonalInformation\": null,\n                \"securityLevel\": null,\n                \"numberOfApiIntegrations\": null\n            }\n        ]\n    },\n    \"version\": \"v3\"\n}\n",
+                                                                                                "schema": "",
+                                                                                                "content": [
+                                                                                                        {
+                                                                                                                "element": "asset",
+                                                                                                                "attributes": {
+                                                                                                                        "role": "bodyExample"
+                                                                                                                },
+                                                                                                                "content": "{\n    \"id\": \"335b1bb4:14e3056cbf7:-45de\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": [\n            {\n                \"id\": \"1442355928624-260c0972-8c28-4ccf-a40a-be3df2e16eca\",\n                \"modifiedBy\": \"40097202\",\n                \"modifiedAt\": \"2015-09-15T22:25:28.624Z\",\n                \"createdBy\": \"40097202\",\n                \"createdAt\": \"2015-09-15T22:25:28.624Z\",\n                \"ownerId\": \"40097202\",\n                \"version\": 1,\n                \"name\": \"james project with auto threads\",\n                \"parentId\": \"none\",\n                \"modelType\": \"app-project\",\n                \"status\": null,\n                \"statusNotes\": null,\n                \"copilotId\": \"unassigned\",\n                \"quotedAmount\": null,\n                \"tcDirectId\": \"21932\",\n                \"price\": 0,\n                \"priceCurrency\": null,\n                \"costEstimate\": null,\n                \"threadId\": null,\n                \"projectType\": null,\n                \"deviceIds\": null,\n                \"orientationIds\": null,\n                \"brief\": null,\n                \"features\": null,\n                \"fontIds\": null,\n                \"colorSwatchIds\": null,\n                \"iconsetIds\": null,\n                \"designUrls\": null,\n                \"offlineAccess\": null,\n                \"offlineAccessComment\": null,\n                \"usesPersonalInformation\": null,\n                \"securityLevel\": null,\n                \"numberOfApiIntegrations\": null\n            }\n        ]\n    },\n    \"version\": \"v3\"\n}\n"
+                                                                                                        }
+                                                                                                ]
+                                                                                        }
+                                                                                ]
+                                                                        }
+                                                                ]
+                                                        }
+                                                ],
+                                                "content": []
+                                        }
+                                ]
+                        },
+                        {
+                                "name": "Submissions",
+                                "description": "",
+                                "resources": [
+                                        {
+                                                "element": "resource",
+                                                "name": "Submission Management",
+                                                "description": "",
+                                                "uriTemplate": "/app-submissions",
+                                                "model": {},
+                                                "parameters": [],
+                                                "actions": [
+                                                        {
+                                                                "name": "Create Submission",
+                                                                "description": "",
+                                                                "method": "POST",
+                                                                "parameters": [],
+                                                                "attributes": {
+                                                                        "relation": "",
+                                                                        "uriTemplate": ""
+                                                                },
+                                                                "content": [],
+                                                                "examples": [
+                                                                        {
+                                                                                "name": "",
+                                                                                "description": "",
+                                                                                "requests": [
+                                                                                        {
+                                                                                                "name": "",
+                                                                                                "description": "",
+                                                                                                "headers": [
+                                                                                                        {
+                                                                                                                "name": "Content-Type",
+                                                                                                                "value": "application/json"
+                                                                                                        }
+                                                                                                ],
+                                                                                                "body": "{\n    \"param\": {\n        \"submitterId\": \"40097202\",\n        \"submitterRank\": \"1\",\n        \"sourceId\": \"32002\",\n        \"sourceSystem\": \"topcoder\"\n    }\n}\n",
+                                                                                                "schema": "",
+                                                                                                "content": [
+                                                                                                        {
+                                                                                                                "element": "asset",
+                                                                                                                "attributes": {
+                                                                                                                        "role": "bodyExample"
+                                                                                                                },
+                                                                                                                "content": "{\n    \"param\": {\n        \"submitterId\": \"40097202\",\n        \"submitterRank\": \"1\",\n        \"sourceId\": \"32002\",\n        \"sourceSystem\": \"topcoder\"\n    }\n}\n"
+                                                                                                        }
+                                                                                                ]
+                                                                                        }
+                                                                                ],
+                                                                                "responses": [
+                                                                                        {
+                                                                                                "name": "200",
+                                                                                                "description": "",
+                                                                                                "headers": [
+                                                                                                        {
+                                                                                                                "name": "Content-Type",
+                                                                                                                "value": "application/json"
+                                                                                                        }
+                                                                                                ],
+                                                                                                "body": "{\n    \"id\": \"335b1bb4:14e3056cbf7:-45de\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": {\n            \"id\": \"1443469247437-bdde6fbb-3a3f-4e3c-84b6-7065e0a7ab18\",\n            \"submitterId\": \"422075\",\n            \"submitterRank\": \"1\",\n            \"createdAt\": \"2015-09-28T19:40:47.437Z\",\n            \"files\": null,\n            \"sourceId\": \"32002\",\n            \"sourceSystem\": \"topcoder\"\n        }\n    },\n    \"version\": \"v3\"\n}\n",
+                                                                                                "schema": "",
+                                                                                                "content": [
+                                                                                                        {
+                                                                                                                "element": "asset",
+                                                                                                                "attributes": {
+                                                                                                                        "role": "bodyExample"
+                                                                                                                },
+                                                                                                                "content": "{\n    \"id\": \"335b1bb4:14e3056cbf7:-45de\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": {\n            \"id\": \"1443469247437-bdde6fbb-3a3f-4e3c-84b6-7065e0a7ab18\",\n            \"submitterId\": \"422075\",\n            \"submitterRank\": \"1\",\n            \"createdAt\": \"2015-09-28T19:40:47.437Z\",\n            \"files\": null,\n            \"sourceId\": \"32002\",\n            \"sourceSystem\": \"topcoder\"\n        }\n    },\n    \"version\": \"v3\"\n}\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -8191,7 +8712,7 @@ window.FIXTURES = {
                                         {
                                                 "element": "resource",
                                                 "name": "Timeline Events",
-                                                "description": "Authroization header has to be provided along with this request to identify the user. A timeline object has the following fields:\n\n",
+                                                "description": "Authroization header has to be provided along with this request to identify the user.\n\n",
                                                 "uriTemplate": "/projects/{work_id}/timeline",
                                                 "model": {},
                                                 "parameters": [
@@ -8552,6 +9073,235 @@ window.FIXTURES = {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
                                                                                                                 "content": "    {\n        \"id\": \"6ae5aba:14fcdf9063d:-7fe4\",\n        \"result\": {\n            \"success\": true,\n            \"status\": 200,\n            \"metadata\": null,\n            \"content\": {\n                \"id\": \"1441513717335-59057fa5-da9a-4a93-a606-6136f37a48c4\",\n                \"assetType\": \"specs\",\n                \"fileName\": \"abc1.jpg\",\n                \"fileType\": \"image/jpeg\",\n                \"category\": \"work\",\n                \"fileSize\": null,\n                \"filePath\": \"app-project/localdev/1441513717335-59057fa5-da9a-4a93-a606-6136f37a48c4/specs/abc1.jpg\",\n                \"fileHash\": null,\n                \"preSignedURL\": \"https://topcoder-dev-media.s3.amazonaws.com/app-project/localdev/1441513717335-59057fa5-da9a-4a93-a606-6136f37a48c4/specs/abc1.jpg?x-amz-security-token=AQoDYXdzEB8a4APDruHVUTQrlQBv1LRvnDHzi6zJDNlgfTp5ef8Z0GzCCz8sdI43yI3REuN60%2BLV%2FDGt0lrq6h7KuTwV2lg03BZ1OBfhvXMI194eS6v3u%2BdSJGUfELC%2FzqXXHIp%2BLCSAFLQ2qVWPsl7L52sv6IL%2F0zsB9nKP%2FOSRDnLO0HiYgbPc5Icrn4HXhSUNbjnKko9aEtnsQ3E1JnSBcHSzlX4Kq6FW79ETqnAHw6QQWewCNor1TZsBU1XzluLPBFYzvaWNplB61Wjm3TsUvYwBPSxCRos7o%2BKoQE9vnX4nA2Aok2FlL8sSbh3mfBUnso%2BPMw7I2umMuY%2FJUrF1t06ehM7CbCrxdFvhKHmq1h9gc5pojxVlPPYP9LfnQxOo3EQ4y36%2BCIAcr27knjmDGtrVJCRzufl25PGrneSjI4Snw3bsA%2B71fwM5hhcjdUF4gEzFBmtVUo2sKkZiphT%2FtbjEwO9XvMmFX%2FvMyBF9b1aEq%2BGJsCN8hzWuCzw2qUKecKWEJmJ%2BxCgVB8jYA1iDEtpauScR3teWFD4nDjunCIaxSTrMqkGIYopuFU3IIYcHKPGH6AsreFONCWYUxMR6weKyNgQZisRtzy1AEtchRpSD%2FpbVxDXgXd8CAUGCBICIpyPMjw5NkK0g7fbcrwU%3D&AWSAccessKeyId=ASIAJ4RHOT5XO6TQFOWQ&Expires=1442271083&Signature=cHaQO%2FFkDNTBRBAlLM5lJWzThk8%3D\"\n            }\n        },\n        \"version\": \"v3\"\n    }\n"
+                                                                                                        }
+                                                                                                ]
+                                                                                        }
+                                                                                ]
+                                                                        }
+                                                                ]
+                                                        }
+                                                ],
+                                                "content": []
+                                        }
+                                ]
+                        },
+                        {
+                                "element": "category",
+                                "attributes": {
+                                        "name": "Work"
+                                },
+                                "content": [
+                                        {
+                                                "element": "resource",
+                                                "name": "Work item",
+                                                "description": "Authroization header has to be provided along with this request to identify the user.\n\n",
+                                                "uriTemplate": "/projects",
+                                                "model": {},
+                                                "parameters": [],
+                                                "actions": [
+                                                        {
+                                                                "name": "Create a new work item",
+                                                                "description": "Create a new work item with an empty thread attached. The type of work object is specified with the `modelType` field.\n\n",
+                                                                "method": "POST",
+                                                                "parameters": [],
+                                                                "attributes": {
+                                                                        "relation": "",
+                                                                        "uriTemplate": ""
+                                                                },
+                                                                "content": [],
+                                                                "examples": [
+                                                                        {
+                                                                                "name": "",
+                                                                                "description": "",
+                                                                                "requests": [
+                                                                                        {
+                                                                                                "name": "",
+                                                                                                "description": "",
+                                                                                                "headers": [
+                                                                                                        {
+                                                                                                                "name": "Content-Type",
+                                                                                                                "value": "application/json"
+                                                                                                        }
+                                                                                                ],
+                                                                                                "body": "{\n    \"modelType\": \"app-project\",\n    \"name\" : \"new project001\",\n    \"status\": \"Assigned\",\n    \"statusNotes\": \"noted\",\n    \"projectType\" : \"design\",\n    \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n    \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n    \"brief\" : \"test summary\",\n    \"features\" : [ {\n      \"id\" : null,\n      \"title\" : \"feature1\",\n      \"description\" : \"desc1\",\n      \"notes\" : \"explanation1\",\n      \"custom\" : true,\n      \"fileIds\" : [ ]\n    }, {\n      \"id\" : \"121\",\n      \"title\" : \"feature2\",\n      \"description\" : \"desc2\",\n      \"notes\" : \"\",\n      \"custom\" : false,\n      \"fileIds\" : [ \"123456\" ]\n    } ],\n    \"fontIds\" : [ \"fontIds\" ],\n    \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n    \"iconsetIds\" : [ \"iconsetid\" ],\n    \"designUrls\" : [ \"designUrls\" ],\n    \"offlineAccess\" : true,\n    \"offlineAccessComment\" : \"it's true\",\n    \"usesPersonalInformation\" : false,\n    \"securityLevel\" : \"none\",\n    \"numberOfApiIntegrations\" : 2\n}\n",
+                                                                                                "schema": "",
+                                                                                                "content": [
+                                                                                                        {
+                                                                                                                "element": "asset",
+                                                                                                                "attributes": {
+                                                                                                                        "role": "bodyExample"
+                                                                                                                },
+                                                                                                                "content": "{\n    \"modelType\": \"app-project\",\n    \"name\" : \"new project001\",\n    \"status\": \"Assigned\",\n    \"statusNotes\": \"noted\",\n    \"projectType\" : \"design\",\n    \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n    \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n    \"brief\" : \"test summary\",\n    \"features\" : [ {\n      \"id\" : null,\n      \"title\" : \"feature1\",\n      \"description\" : \"desc1\",\n      \"notes\" : \"explanation1\",\n      \"custom\" : true,\n      \"fileIds\" : [ ]\n    }, {\n      \"id\" : \"121\",\n      \"title\" : \"feature2\",\n      \"description\" : \"desc2\",\n      \"notes\" : \"\",\n      \"custom\" : false,\n      \"fileIds\" : [ \"123456\" ]\n    } ],\n    \"fontIds\" : [ \"fontIds\" ],\n    \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n    \"iconsetIds\" : [ \"iconsetid\" ],\n    \"designUrls\" : [ \"designUrls\" ],\n    \"offlineAccess\" : true,\n    \"offlineAccessComment\" : \"it's true\",\n    \"usesPersonalInformation\" : false,\n    \"securityLevel\" : \"none\",\n    \"numberOfApiIntegrations\" : 2\n}\n"
+                                                                                                        }
+                                                                                                ]
+                                                                                        }
+                                                                                ],
+                                                                                "responses": [
+                                                                                        {
+                                                                                                "name": "201",
+                                                                                                "description": "",
+                                                                                                "headers": [
+                                                                                                        {
+                                                                                                                "name": "Content-Type",
+                                                                                                                "value": "application/json"
+                                                                                                        }
+                                                                                                ],
+                                                                                                "body": "{\n    \"id\": \"335b1bb4:14e3056cbf7:-45de\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\"\n    },\n    \"version\": \"v3\"\n}\n",
+                                                                                                "schema": "",
+                                                                                                "content": [
+                                                                                                        {
+                                                                                                                "element": "asset",
+                                                                                                                "attributes": {
+                                                                                                                        "role": "bodyExample"
+                                                                                                                },
+                                                                                                                "content": "{\n    \"id\": \"335b1bb4:14e3056cbf7:-45de\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\"\n    },\n    \"version\": \"v3\"\n}\n"
+                                                                                                        }
+                                                                                                ]
+                                                                                        }
+                                                                                ]
+                                                                        }
+                                                                ]
+                                                        },
+                                                        {
+                                                                "name": "Find a project",
+                                                                "description": "Query for a project or projects using a filter\n\n",
+                                                                "method": "GET",
+                                                                "parameters": [
+                                                                        {
+                                                                                "name": "filter",
+                                                                                "description": "query filter",
+                                                                                "type": "string",
+                                                                                "required": true,
+                                                                                "default": "",
+                                                                                "example": "tcdirectProjectId%3D21932",
+                                                                                "values": []
+                                                                        }
+                                                                ],
+                                                                "attributes": {
+                                                                        "relation": "",
+                                                                        "uriTemplate": "/projects?filter={filter}"
+                                                                },
+                                                                "content": [],
+                                                                "examples": [
+                                                                        {
+                                                                                "name": "",
+                                                                                "description": "",
+                                                                                "requests": [
+                                                                                        {
+                                                                                                "name": "",
+                                                                                                "description": "",
+                                                                                                "headers": [
+                                                                                                        {
+                                                                                                                "name": "Content-Type",
+                                                                                                                "value": "application/x-www-form-urlencoded"
+                                                                                                        }
+                                                                                                ],
+                                                                                                "body": "",
+                                                                                                "schema": "",
+                                                                                                "content": []
+                                                                                        }
+                                                                                ],
+                                                                                "responses": [
+                                                                                        {
+                                                                                                "name": "200",
+                                                                                                "description": "",
+                                                                                                "headers": [
+                                                                                                        {
+                                                                                                                "name": "Content-Type",
+                                                                                                                "value": "application/json"
+                                                                                                        }
+                                                                                                ],
+                                                                                                "body": "{\n    \"id\": \"335b1bb4:14e3056cbf7:-45de\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": [\n            {\n                \"id\": \"1442355928624-260c0972-8c28-4ccf-a40a-be3df2e16eca\",\n                \"modifiedBy\": \"40097202\",\n                \"modifiedAt\": \"2015-09-15T22:25:28.624Z\",\n                \"createdBy\": \"40097202\",\n                \"createdAt\": \"2015-09-15T22:25:28.624Z\",\n                \"ownerId\": \"40097202\",\n                \"version\": 1,\n                \"name\": \"james project with auto threads\",\n                \"parentId\": \"none\",\n                \"modelType\": \"app-project\",\n                \"status\": null,\n                \"statusNotes\": null,\n                \"copilotId\": \"unassigned\",\n                \"quotedAmount\": null,\n                \"tcDirectId\": \"21932\",\n                \"price\": 0,\n                \"priceCurrency\": null,\n                \"costEstimate\": null,\n                \"threadId\": null,\n                \"projectType\": null,\n                \"deviceIds\": null,\n                \"orientationIds\": null,\n                \"brief\": null,\n                \"features\": null,\n                \"fontIds\": null,\n                \"colorSwatchIds\": null,\n                \"iconsetIds\": null,\n                \"designUrls\": null,\n                \"offlineAccess\": null,\n                \"offlineAccessComment\": null,\n                \"usesPersonalInformation\": null,\n                \"securityLevel\": null,\n                \"numberOfApiIntegrations\": null\n            }\n        ]\n    },\n    \"version\": \"v3\"\n}\n",
+                                                                                                "schema": "",
+                                                                                                "content": [
+                                                                                                        {
+                                                                                                                "element": "asset",
+                                                                                                                "attributes": {
+                                                                                                                        "role": "bodyExample"
+                                                                                                                },
+                                                                                                                "content": "{\n    \"id\": \"335b1bb4:14e3056cbf7:-45de\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": [\n            {\n                \"id\": \"1442355928624-260c0972-8c28-4ccf-a40a-be3df2e16eca\",\n                \"modifiedBy\": \"40097202\",\n                \"modifiedAt\": \"2015-09-15T22:25:28.624Z\",\n                \"createdBy\": \"40097202\",\n                \"createdAt\": \"2015-09-15T22:25:28.624Z\",\n                \"ownerId\": \"40097202\",\n                \"version\": 1,\n                \"name\": \"james project with auto threads\",\n                \"parentId\": \"none\",\n                \"modelType\": \"app-project\",\n                \"status\": null,\n                \"statusNotes\": null,\n                \"copilotId\": \"unassigned\",\n                \"quotedAmount\": null,\n                \"tcDirectId\": \"21932\",\n                \"price\": 0,\n                \"priceCurrency\": null,\n                \"costEstimate\": null,\n                \"threadId\": null,\n                \"projectType\": null,\n                \"deviceIds\": null,\n                \"orientationIds\": null,\n                \"brief\": null,\n                \"features\": null,\n                \"fontIds\": null,\n                \"colorSwatchIds\": null,\n                \"iconsetIds\": null,\n                \"designUrls\": null,\n                \"offlineAccess\": null,\n                \"offlineAccessComment\": null,\n                \"usesPersonalInformation\": null,\n                \"securityLevel\": null,\n                \"numberOfApiIntegrations\": null\n            }\n        ]\n    },\n    \"version\": \"v3\"\n}\n"
+                                                                                                        }
+                                                                                                ]
+                                                                                        }
+                                                                                ]
+                                                                        }
+                                                                ]
+                                                        }
+                                                ],
+                                                "content": []
+                                        }
+                                ]
+                        },
+                        {
+                                "element": "category",
+                                "attributes": {
+                                        "name": "Submissions"
+                                },
+                                "content": [
+                                        {
+                                                "element": "resource",
+                                                "name": "Submission Management",
+                                                "description": "",
+                                                "uriTemplate": "/app-submissions",
+                                                "model": {},
+                                                "parameters": [],
+                                                "actions": [
+                                                        {
+                                                                "name": "Create Submission",
+                                                                "description": "",
+                                                                "method": "POST",
+                                                                "parameters": [],
+                                                                "attributes": {
+                                                                        "relation": "",
+                                                                        "uriTemplate": ""
+                                                                },
+                                                                "content": [],
+                                                                "examples": [
+                                                                        {
+                                                                                "name": "",
+                                                                                "description": "",
+                                                                                "requests": [
+                                                                                        {
+                                                                                                "name": "",
+                                                                                                "description": "",
+                                                                                                "headers": [
+                                                                                                        {
+                                                                                                                "name": "Content-Type",
+                                                                                                                "value": "application/json"
+                                                                                                        }
+                                                                                                ],
+                                                                                                "body": "{\n    \"param\": {\n        \"submitterId\": \"40097202\",\n        \"submitterRank\": \"1\",\n        \"sourceId\": \"32002\",\n        \"sourceSystem\": \"topcoder\"\n    }\n}\n",
+                                                                                                "schema": "",
+                                                                                                "content": [
+                                                                                                        {
+                                                                                                                "element": "asset",
+                                                                                                                "attributes": {
+                                                                                                                        "role": "bodyExample"
+                                                                                                                },
+                                                                                                                "content": "{\n    \"param\": {\n        \"submitterId\": \"40097202\",\n        \"submitterRank\": \"1\",\n        \"sourceId\": \"32002\",\n        \"sourceSystem\": \"topcoder\"\n    }\n}\n"
+                                                                                                        }
+                                                                                                ]
+                                                                                        }
+                                                                                ],
+                                                                                "responses": [
+                                                                                        {
+                                                                                                "name": "200",
+                                                                                                "description": "",
+                                                                                                "headers": [
+                                                                                                        {
+                                                                                                                "name": "Content-Type",
+                                                                                                                "value": "application/json"
+                                                                                                        }
+                                                                                                ],
+                                                                                                "body": "{\n    \"id\": \"335b1bb4:14e3056cbf7:-45de\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": {\n            \"id\": \"1443469247437-bdde6fbb-3a3f-4e3c-84b6-7065e0a7ab18\",\n            \"submitterId\": \"422075\",\n            \"submitterRank\": \"1\",\n            \"createdAt\": \"2015-09-28T19:40:47.437Z\",\n            \"files\": null,\n            \"sourceId\": \"32002\",\n            \"sourceSystem\": \"topcoder\"\n        }\n    },\n    \"version\": \"v3\"\n}\n",
+                                                                                                "schema": "",
+                                                                                                "content": [
+                                                                                                        {
+                                                                                                                "element": "asset",
+                                                                                                                "attributes": {
+                                                                                                                        "role": "bodyExample"
+                                                                                                                },
+                                                                                                                "content": "{\n    \"id\": \"335b1bb4:14e3056cbf7:-45de\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": {\n            \"id\": \"1443469247437-bdde6fbb-3a3f-4e3c-84b6-7065e0a7ab18\",\n            \"submitterId\": \"422075\",\n            \"submitterRank\": \"1\",\n            \"createdAt\": \"2015-09-28T19:40:47.437Z\",\n            \"files\": null,\n            \"sourceId\": \"32002\",\n            \"sourceSystem\": \"topcoder\"\n        }\n    },\n    \"version\": \"v3\"\n}\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }

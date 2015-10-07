@@ -39410,6 +39410,12 @@ angular.module('ui.router.state')
       id: '@id'
     };
     methods = {
+      post: {
+        method: 'POST'
+      },
+      patch: {
+        method: 'PATCH'
+      },
       put: {
         method: 'PUT'
       }
@@ -39819,7 +39825,7 @@ angular.module('ui.router.state')
 
   dependencies = ['ui.router', 'ngResource', 'app.constants', 'duScroll', 'appirio-tech-ng-ui-components', 'appirio-tech-ng-api-services'];
 
-  angular.module('appirio-tech-messaging', dependencies);
+  angular.module('appirio-tech-ng-messaging', dependencies);
 
 }).call(this);
 
@@ -39828,50 +39834,66 @@ angular.module('ui.router.state')
   var MessagingController;
 
   MessagingController = function($scope, MessagingService) {
-    var activate, getUserMessages, onChange, sendMessage, vm;
+    var activate, getUserThreads, onMessageChange, onThreadsChange, sendMessage, vm;
     vm = this;
     vm.currentUser = null;
-    onChange = function(messages) {
-      return vm.messaging = messages;
+    vm.activeThread = null;
+    vm.activateThread = function(thread) {
+      var i, len, message, params, ref, results;
+      vm.activeThread = thread;
+      if (thread.unreadCount > 0) {
+        params = {
+          id: thread.id,
+          subscriberId: $scope.subscriberId
+        };
+        ref = thread.messages;
+        results = [];
+        for (i = 0, len = ref.length; i < len; i++) {
+          message = ref[i];
+          results.push(MessagingService.markMessageRead(message, params));
+        }
+        return results;
+      }
+    };
+    onThreadsChange = function(threads) {
+      return vm.threads = threads.threads;
+    };
+    onMessageChange = function(message) {
+      vm.activeThread.messages.push(message);
+      vm.newMessage = '';
+      return $scope.showLast = 'scroll';
     };
     activate = function() {
-      vm.messaging = {
-        messages: []
-      };
       vm.newMessage = '';
-      $scope.$watch('threadId', function() {
-        return getUserMessages();
-      });
       $scope.$watch('subscriberId', function() {
-        return getUserMessages();
+        return getUserThreads();
       });
       vm.sendMessage = sendMessage;
       return vm;
     };
-    getUserMessages = function() {
+    getUserThreads = function() {
       var params;
       if ($scope.threadId && $scope.subscriberId) {
         params = {
-          id: $scope.threadId,
           subscriberId: $scope.subscriberId
         };
-        return MessagingService.getMessages(params, onChange);
+        return MessagingService.getThreads(params, onThreadsChange);
       }
     };
     sendMessage = function() {
-      var message;
-      if (vm.newMessage.length) {
+      var message, params;
+      if (vm.newMessage.length && vm.activeThread) {
         message = {
-          threadId: $scope.threadId,
+          threadId: vm.activeThread.id,
           body: vm.newMessage,
           publisherId: $scope.subscriberId,
           createdAt: moment(),
           attachments: []
         };
-        vm.messaging.messages.push(message);
-        MessagingService.postMessage(message, onChange);
-        vm.newMessage = '';
-        return $scope.showLast = 'scroll';
+        params = {
+          threadId: vm.activeThread.id
+        };
+        return MessagingService.postMessage(params, message, onMessageChange);
       }
     };
     return activate();
@@ -39879,7 +39901,7 @@ angular.module('ui.router.state')
 
   MessagingController.$inject = ['$scope', 'MessagingService'];
 
-  angular.module('appirio-tech-messaging').controller('MessagingController', MessagingController);
+  angular.module('appirio-tech-ng-messaging').controller('MessagingController', MessagingController);
 
 }).call(this);
 
@@ -39888,23 +39910,12 @@ angular.module('ui.router.state')
   var srv;
 
   srv = function(MessagesAPIService, ThreadsAPIService) {
-    var getMessages, markMessageRead, postMessage;
-    getMessages = function(params, onChange) {
-      var messaging, resource;
-      messaging = {
-        messages: [],
-        avatars: {}
-      };
+    var getThreads, markMessageRead, postMessage;
+    getThreads = function(params, onChange) {
+      var resource;
       resource = ThreadsAPIService.get(params);
       resource.$promise.then(function(response) {
-        var i, len, message, ref;
-        messaging.messages = response != null ? response.messages : void 0;
-        ref = messaging.messages;
-        for (i = 0, len = ref.length; i < len; i++) {
-          message = ref[i];
-          markMessageRead(message, params);
-        }
-        return typeof onChange === "function" ? onChange(messaging) : void 0;
+        return typeof onChange === "function" ? onChange(response) : void 0;
       });
       resource.$promise["catch"](function() {});
       return resource.$promise["finally"](function() {});
@@ -39916,27 +39927,29 @@ angular.module('ui.router.state')
       };
       putParams = {
         read: true,
-        subscriberId: params.subscriberId,
-        threadId: params.id
+        subscriberId: params.subscriberId
       };
       return MessagesAPIService.put(queryParams, putParams);
     };
-    postMessage = function(message, onChange) {
+    postMessage = function(params, message, onChange) {
       var resource;
-      resource = MessagesAPIService.save(message);
-      resource.$promise.then(function(response) {});
+      resource = MessagesAPIService.post(message);
+      resource.$promise.then(function(response) {
+        return typeof onChange === "function" ? onChange(message) : void 0;
+      });
       resource.$promise["catch"](function(response) {});
       return resource.$promise["finally"](function() {});
     };
     return {
-      getMessages: getMessages,
-      postMessage: postMessage
+      getThreads: getThreads,
+      postMessage: postMessage,
+      markMessageRead: markMessageRead
     };
   };
 
   srv.$inject = ['MessagesAPIService', 'ThreadsAPIService'];
 
-  angular.module('appirio-tech-messaging').factory('MessagingService', srv);
+  angular.module('appirio-tech-ng-messaging').factory('MessagingService', srv);
 
 }).call(this);
 
@@ -39981,7 +39994,7 @@ angular.module('ui.router.state')
 
   directive.$inject = ['MessagingService'];
 
-  angular.module('appirio-tech-messaging').directive('messaging', directive);
+  angular.module('appirio-tech-ng-messaging').directive('messaging', directive);
 
 }).call(this);
 
@@ -40003,7 +40016,7 @@ angular.module('ui.router.state')
 
   directive.$inject = ['MessagingService'];
 
-  angular.module('appirio-tech-messaging').directive('threads', directive);
+  angular.module('appirio-tech-ng-messaging').directive('threads', directive);
 
 }).call(this);
 
@@ -40038,7 +40051,7 @@ angular.module('ui.router.state')
 
   srv.$inject = ['ThreadsAPIService'];
 
-  angular.module('appirio-tech-messaging').factory('ThreadsService', srv);
+  angular.module('appirio-tech-ng-messaging').factory('ThreadsService', srv);
 
 }).call(this);
 
@@ -40078,7 +40091,7 @@ angular.module('ui.router.state')
 
   ThreadsController.$inject = ['$scope', 'ThreadsService'];
 
-  angular.module('appirio-tech-messaging').controller('ThreadsController', ThreadsController);
+  angular.module('appirio-tech-ng-messaging').controller('ThreadsController', ThreadsController);
 
 }).call(this);
 
@@ -40092,11 +40105,11 @@ angular.module('ui.router.state')
     };
   };
 
-  angular.module('appirio-tech-messaging').filter('timeLapse', filter);
+  angular.module('appirio-tech-ng-messaging').filter('timeLapse', filter);
 
 }).call(this);
 
-angular.module("appirio-tech-messaging").run(["$templateCache", function($templateCache) {$templateCache.put("views/messaging.directive.html","<ul class=\"messages\"><li ng-repeat=\"message in vm.messaging.messages track by $index\"><avatar avatar-url=\"{{ vm.messaging.avatars[message.publisherId] }}\"></avatar><div class=\"message\"><p>{{ message.body }}</p><ul class=\"attachments\"><li ng-repeat=\"attachment in message.attachments track by $index\"><a href=\"#\">{{ message.attachments.originalUrl }}</a></li></ul><time>{{ message.createdAt | timeLapse }}</time></div></li><a id=\"messaging-bottom-{{ vm.threadId }}\"></a></ul><form ng-submit=\"vm.sendMessage()\"><textarea placeholder=\"Send a message&hellip;\" ng-model=\"vm.newMessage\"></textarea><button type=\"submit\" class=\"enter\">Enter</button><button type=\"button\" class=\"attach\"><div class=\"icon\"></div><span>Add Attachment</span></button></form>");
+angular.module("appirio-tech-ng-messaging").run(["$templateCache", function($templateCache) {$templateCache.put("views/messaging.directive.html","<aside><h6>Project contributors</h6><ul><li ng-repeat=\"thread in vm.threads\"><a href=\"#\" ng-click=\"vm.activateThread(thread)\" ng-class=\"{active: vm.activeThread.id == thread.id}\"><avatar></avatar><div class=\"name-title\"><div class=\"name\">{{thread.publishers[0]}}</div><div class=\"title\">Development Co-Pilot</div></div><div class=\"notification\">{{thread.unreadCount}}</div></a></li></ul></aside><main class=\"flex-center-column flex-grow\"><h1>Messaging</h1><p>You have {{vm.activeThread.messages.length}} messages with {{vm.activeThread.publishers[0]}}</p><ul class=\"messages flex-grow\"><li ng-repeat=\"message in vm.activeThread.messages track by $index\"><avatar avatar-url=\"{{ vm.activeThread[publisherId] }}\"></avatar><div class=\"message elevated-bottom\"><a href=\"#\" class=\"name\">{{vm.activeThread.publishers[0]}}</a><time>{{ message.createdAt | timeLapse }}</time><p class=\"title\">Co-Pilot</p><p>{{ message.body }}</p><ul class=\"attachments\"><li ng-repeat=\"attachment in message.attachments track by $index\"><a href=\"#\">{{ message.attachments.originalUrl }}</a></li></ul><a class=\"download\"><div class=\"icon download smallest\"></div><p>Download all images</p></a></div></li><a id=\"messaging-bottom-{{ vm.threadId }}\"></a></ul><div class=\"respond\"><div class=\"icon warning\"></div><form ng-submit=\"vm.sendMessage()\"><textarea placeholder=\"Send a message&hellip;\" ng-model=\"vm.newMessage\"></textarea><button type=\"submit\" class=\"wider action\">reply</button></form></div></main>");
 $templateCache.put("views/threads.directive.html","<ul><li ng-repeat=\"thread in vm.threads track by $index\"><a ui-sref=\"messaging({ id: thread.id })\"><header><h4>{{ thread.subject }}</h4><time>{{ thread.messages[0].createdAt | timeLapse }}</time></header><main><avatar avatar-url=\"{{ vm.avatars[thread.messages[0].publisherId]  }}\"></avatar><div ng-show=\"thread.unreadCount &gt; 0\" class=\"notification\">{{ thread.unreadCount }}</div><div class=\"message\"><div class=\"co-pilot\">{{ thread.messages[0].publisherId }}:</div><p>{{ thread.messages[0].body }}</p></div></main></a></li></ul><div ng-show=\"vm.threads.length == 0\" class=\"none\">None</div>");}]);
 (function() {
   'use strict';

@@ -18,7 +18,7 @@
   "dependencies": {
     "angular": "^1.4.x",
     "appirio-tech-ng-api-services": "0.x.x",
-    "appirio-tech-ng-messaging": "master",
+    "appirio-tech-ng-messaging": "6.x.x",
     "appirio-tech-ng-auth": "3.x.x"
   },
   "ignore": [

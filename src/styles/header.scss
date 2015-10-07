@@ -29,6 +29,7 @@ layout-header {
     margin     : 0;
     text-align : center;
     color      : $white;
+    min-height : 1px; /* fix to take up space */
 
     h4 {
       @include ellipsis;

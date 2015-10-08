@@ -45,6 +45,10 @@ layout-header {
 
     text-align: right;
 
+    > * {
+      text-align: left;
+    }
+
     > li {
       margin-left: $margin;
 
@@ -82,7 +86,6 @@ layout-header {
       right           : 0;
       margin-top      : $margin-smallest;
       border-radius   : $border-radius-smallest;
-      text-align      : left;
 
       &:hover {
         max-height: 200px;

@@ -17,6 +17,14 @@ html(ng-app='example')
       try{Typekit.load({ async: true });}catch(e){}
 
   body
+    ul#example-nav
+      li
+        a(ui-sref="submissions") submissions
+
+      li
+        a(ui-sref="manage") manage
+
+
     ui-view
 
     include js-files

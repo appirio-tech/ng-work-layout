@@ -81,7 +81,7 @@ layout-header {
 
       position        : absolute;
       max-height      : 0;
-      overflow        : scroll;
+      overflow        : auto;
       background-color: $white;
       right           : 0;
       margin-top      : $margin-smallest;
@@ -145,8 +145,8 @@ layout-header {
         .notification {
           background-color: $primary-color;
           color           : white;
-          padding         : 4px 12px;
-          border-radius   : 50%;
+          padding         : $padding-smallest $padding-small;
+          border-radius   : $border-radius-biggest;
         }
       }
 
@@ -170,7 +170,7 @@ layout-header {
 
         threads {
           max-height: $popup-max-height;
-          overflow  : scroll;
+          overflow  : auto;
           position  : relative;
         }
       }

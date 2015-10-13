@@ -77,7 +77,9 @@
       };
       $scope.$watch(UserV3Service.getCurrentUser, onUserChange);
       setAppName($state.current.name);
-      return SubmitWorkAPIService.get(params, onProjectChange);
+      if (vm.workId) {
+        return SubmitWorkAPIService.get(params, onProjectChange);
+      }
     };
     activate();
     return vm;

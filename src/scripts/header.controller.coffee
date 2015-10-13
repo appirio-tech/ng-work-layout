@@ -70,7 +70,8 @@ LayoutHeaderController = (
 
     setAppName $state.current.name
 
-    SubmitWorkAPIService.get params, onProjectChange
+    if vm.workId
+      SubmitWorkAPIService.get params, onProjectChange
 
   activate()
 

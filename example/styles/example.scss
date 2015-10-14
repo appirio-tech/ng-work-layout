@@ -1,9 +1,10 @@
-@import "work-includes";
+@import "work-styles";
 
 body #example-nav {
-  position: absolute;
+  position: fixed;
   background-color: $white;
   opacity: 0.6;
+  bottom: 0;
 
   a {
     margin: 10px;

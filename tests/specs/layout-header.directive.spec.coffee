@@ -1,7 +1,7 @@
 'use strict'
 
 element = null
-html    = '<layout-header></layout-header>'
+html    = '<layout-header work-id="123"></layout-header>'
 
 describe 'LayoutHeader Directive', ->
   beforeEach inject ($compile, $rootScope, $httpBackend) ->

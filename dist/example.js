@@ -15644,6 +15644,16 @@ angular.module("example").run(["$templateCache", function($templateCache) {$temp
       title: 'submissions',
       templateUrl: 'views/submissions.html'
     };
+    states['timeline'] = {
+      url: '/timeline/:workId',
+      title: 'submissions',
+      templateUrl: 'views/submissions.html'
+    };
+    states['messaging'] = {
+      url: '/messaging/:id',
+      title: 'submissions',
+      templateUrl: 'views/submissions.html'
+    };
     results = [];
     for (key in states) {
       state = states[key];

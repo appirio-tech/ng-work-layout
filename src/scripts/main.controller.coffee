@@ -5,7 +5,7 @@ LayoutMainController = ($location, $rootScope) ->
 
   setPageClass = (e, data) ->
     if $location.$$url == '/'
-      vm.pageClass = 'getting-started';
+      vm.pageClass = 'home';
     else
       vm.pageClass = $location.$$path.replace /\//g, ' '
 

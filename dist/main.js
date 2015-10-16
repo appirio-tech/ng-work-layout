@@ -102,7 +102,7 @@
       setPageClass = function(e, data) {
         var classes;
         if ($location.$$url === '/') {
-          return $(element[0]).addClass('getting-started');
+          return $(element[0]).addClass('home');
         } else {
           classes = $location.$$path.replace(/\//g, ' ');
           return $(element[0]).addClass(classes);

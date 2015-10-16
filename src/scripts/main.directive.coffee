@@ -4,7 +4,7 @@ directive =  ($location, $rootScope) ->
   link = ($scope, element, attrs) ->
     setPageClass = (e, data) ->
       if $location.$$url == '/'
-        $(element[0]).addClass 'getting-started'
+        $(element[0]).addClass 'home'
       else
         classes = $location.$$path.replace /\//g, ' '
 

@@ -183,7 +183,7 @@
   'use strict';
   var ProjectNavController;
 
-  ProjectNavController = function($scope, $state, StepsAPIService, WorkAPIService) {
+  ProjectNavController = function($scope, $state, StepsAPIService, SubmitWorkAPIService) {
     var activate, activateLink, getWorkItem, vm;
     vm = this;
     vm.workId = $scope.workId;
@@ -203,7 +203,7 @@
         params = {
           id: vm.workId
         };
-        resource = WorkAPIService.get(params);
+        resource = SubmitWorkAPIService.get(params);
         return resource.$promise.then(function(response) {
           return vm.work = response;
         });
@@ -217,7 +217,7 @@
     return activate();
   };
 
-  ProjectNavController.$inject = ['$scope', '$state', 'StepsAPIService', 'WorkAPIService'];
+  ProjectNavController.$inject = ['$scope', '$state', 'StepsAPIService', 'SubmitWorkAPIService'];
 
   angular.module('appirio-tech-ng-work-layout').controller('ProjectNavController', ProjectNavController);
 

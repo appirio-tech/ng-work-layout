@@ -4,6 +4,7 @@ ProjectNavController = (
   $scope
   $state
   StepsAPIService
+  SubmitWorkAPIService
 ) ->
   vm          = this
   vm.workId = $scope.workId
@@ -16,9 +17,19 @@ ProjectNavController = (
     else
       vm.activeLink = stateName
 
+  getWorkItem = ->
+    if vm.workId
+      params =
+        id: vm.workId
+
+      resource = SubmitWorkAPIService.get params
+
+      resource.$promise.then (response) ->
+        vm.work = response
+
   activate = ->
     activateLink()
-
+    getWorkItem()
     vm
 
   activate()
@@ -27,6 +38,7 @@ ProjectNavController.$inject = [
   '$scope'
   '$state'
   'StepsAPIService'
+  'SubmitWorkAPIService'
 ]
 
 angular.module('appirio-tech-ng-work-layout').controller 'ProjectNavController', ProjectNavController

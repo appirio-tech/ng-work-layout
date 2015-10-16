@@ -39821,6 +39821,51 @@ angular.module('ui.router.state')
 
 (function() {
   'use strict';
+  var srv, transformResponse;
+
+  transformResponse = function(response) {
+    var parsed, ref;
+    parsed = JSON.parse(response);
+    return (parsed != null ? (ref = parsed.result) != null ? ref.content : void 0 : void 0) || [];
+  };
+
+  srv = function($resource, API_URL) {
+    var methods, params, url;
+    url = API_URL + '/v3/projects/:projectId/submissions/:submissionId/threads/:threadId/messages';
+    params = {
+      projectId: '@projectId',
+      submissionId: '@submissionId',
+      threadId: '@threadId'
+    };
+    methods = {
+      get: {
+        method: 'GET'
+      },
+      query: {
+        method: 'GET',
+        isArray: true
+      },
+      post: {
+        method: 'POST'
+      },
+      patch: {
+        method: 'PATCH'
+      },
+      put: {
+        method: 'PUT'
+      }
+    };
+    return $resource(url, {}, methods);
+  };
+
+  srv.$inject = ['$resource', 'API_URL'];
+
+  angular.module('appirio-tech-ng-api-services').factory('SubmissionsMessagesAPIService', srv);
+
+}).call(this);
+
+(function() {
+  'use strict';
   var dependencies;
 
   dependencies = ['ui.router', 'ngResource', 'app.constants', 'duScroll', 'appirio-tech-ng-ui-components', 'appirio-tech-ng-api-services'];

@@ -8,6 +8,7 @@ ProjectNavController = (
 ) ->
   vm          = this
   vm.workId = $scope.workId
+  vm.threadId = "threadfor-#{vm.workId}"
 
   activateLink = ->
     stateName = $state.current.name

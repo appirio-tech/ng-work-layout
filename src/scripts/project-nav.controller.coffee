@@ -18,19 +18,8 @@ ProjectNavController = (
     else
       vm.activeLink = stateName
 
-  getWorkItem = ->
-    if vm.workId
-      params =
-        id: vm.workId
-
-      resource = SubmitWorkAPIService.get params
-
-      resource.$promise.then (response) ->
-        vm.work = response
-
   activate = ->
     activateLink()
-    getWorkItem()
     vm
 
   activate()

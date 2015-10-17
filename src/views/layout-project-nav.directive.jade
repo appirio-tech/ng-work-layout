@@ -6,7 +6,7 @@ ul
     a(ui-sref="submissions({ projectId: vm.workId })") Submissions
 
   li(ng-class="{active: vm.activeLink == 'messaging'}")
-    a(ui-sref="messaging({ id: vm.workId })") Messaging
+    a(ui-sref="messaging({ id: vm.workId, threadId: vm.threadId })") Messaging
 
   li(ng-class="{active: vm.activeLink == 'project-requirements'}")
     a(ui-sref="project-requirements({ id: vm.workId })") Project reqs

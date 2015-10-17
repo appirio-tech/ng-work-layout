@@ -184,7 +184,7 @@
   var ProjectNavController;
 
   ProjectNavController = function($scope, $state, StepsAPIService, SubmitWorkAPIService) {
-    var activate, activateLink, getWorkItem, vm;
+    var activate, activateLink, vm;
     vm = this;
     vm.workId = $scope.workId;
     vm.threadId = "threadfor-" + vm.workId;
@@ -198,21 +198,8 @@
         return vm.activeLink = stateName;
       }
     };
-    getWorkItem = function() {
-      var params, resource;
-      if (vm.workId) {
-        params = {
-          id: vm.workId
-        };
-        resource = SubmitWorkAPIService.get(params);
-        return resource.$promise.then(function(response) {
-          return vm.work = response;
-        });
-      }
-    };
     activate = function() {
       activateLink();
-      getWorkItem();
       return vm;
     };
     return activate();

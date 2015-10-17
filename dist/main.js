@@ -183,7 +183,7 @@
   'use strict';
   var ProjectNavController;
 
-  ProjectNavController = function($scope, $state, StepsAPIService, SubmitWorkAPIService) {
+  ProjectNavController = function($scope, $state) {
     var activate, activateLink, vm;
     vm = this;
     vm.workId = $scope.workId;
@@ -205,7 +205,7 @@
     return activate();
   };
 
-  ProjectNavController.$inject = ['$scope', '$state', 'StepsAPIService', 'SubmitWorkAPIService'];
+  ProjectNavController.$inject = ['$scope', '$state'];
 
   angular.module('appirio-tech-ng-work-layout').controller('ProjectNavController', ProjectNavController);
 

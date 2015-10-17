@@ -3,8 +3,6 @@
 ProjectNavController = (
   $scope
   $state
-  StepsAPIService
-  SubmitWorkAPIService
 ) ->
   vm          = this
   vm.workId = $scope.workId
@@ -27,8 +25,6 @@ ProjectNavController = (
 ProjectNavController.$inject = [
   '$scope'
   '$state'
-  'StepsAPIService'
-  'SubmitWorkAPIService'
 ]
 
 angular.module('appirio-tech-ng-work-layout').controller 'ProjectNavController', ProjectNavController

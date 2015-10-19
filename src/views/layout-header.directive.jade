@@ -19,9 +19,7 @@ ul.flex.center.middle
 
           li(ng-repeat="project in vm.projects")
             a(ui-sref="timeline({ workId: project.id })")
-              .name {{ project.name }} a really long name
-
-              .notification 123
+              .name {{ project.name }}
 
       li.login(ng-hide="vm.loggedIn")
         a(ui-sref="login") Log in

@@ -25,7 +25,7 @@ layout-header {
     }
   }
 
-  .app-name {
+  li.app-name {
     margin     : 0;
     text-align : center;
     color      : $white;
@@ -163,10 +163,10 @@ layout-header {
         right        : 0;
         margin-top   : $margin-smallest;
         position     : absolute;
-        box-shadow   : 0 2px 2px silver;
         width        : 280px;
         max-height   : 0px;
         overflow     : hidden;
+        background-color: $white;
 
         &:hover {
           max-height: $popup-max-height;

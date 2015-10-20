@@ -2514,7 +2514,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "{\n    \"id\": \"335b1bb4:14e3056cbf7:-45d5\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": [\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project001\",\n                \"parentId\" : null,\n                \"status\": \"Assigned\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project001\",\n                \"parentId\" : null,\n                \"status\": \"Assigned\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            }\n        ]\n    },\n    \"version\": \"v3\"\n}\n",
+                                                                                                "body": "{\n    \"id\": \"335b1bb4:14e3056cbf7:-45d5\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": [\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project001\",\n                \"parentId\" : null,\n                \"status\": \"Assigned\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project002\",\n                \"parentId\" : null,\n                \"status\": \"Estimate\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project003\",\n                \"parentId\" : null,\n                \"status\": \"Launched\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project004\",\n                \"parentId\" : null,\n                \"status\": \"Approved\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project005\",\n                \"parentId\" : null,\n                \"status\": \"Submitted\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project006\",\n                \"parentId\" : null,\n                \"status\": \"Incomplete\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            }\n        ]\n    },\n    \"version\": \"v3\"\n}\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -2522,7 +2522,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "{\n    \"id\": \"335b1bb4:14e3056cbf7:-45d5\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": [\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project001\",\n                \"parentId\" : null,\n                \"status\": \"Assigned\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project001\",\n                \"parentId\" : null,\n                \"status\": \"Assigned\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            }\n        ]\n    },\n    \"version\": \"v3\"\n}\n"
+                                                                                                                "content": "{\n    \"id\": \"335b1bb4:14e3056cbf7:-45d5\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": [\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project001\",\n                \"parentId\" : null,\n                \"status\": \"Assigned\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project002\",\n                \"parentId\" : null,\n                \"status\": \"Estimate\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project003\",\n                \"parentId\" : null,\n                \"status\": \"Launched\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project004\",\n                \"parentId\" : null,\n                \"status\": \"Approved\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project005\",\n                \"parentId\" : null,\n                \"status\": \"Submitted\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project006\",\n                \"parentId\" : null,\n                \"status\": \"Incomplete\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            }\n        ]\n    },\n    \"version\": \"v3\"\n}\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -2579,7 +2579,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "{\n    \"id\": \"335b1bb4:14e3056cbf7:-45d5\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": [\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project001\",\n                \"parentId\" : null,\n                \"status\": \"Assigned\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project001\",\n                \"parentId\" : null,\n                \"status\": \"Assigned\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            }\n        ]\n    },\n    \"version\": \"v3\"\n}\n",
+                                                                                                "body": "{\n    \"id\": \"335b1bb4:14e3056cbf7:-45d5\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": [\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project001\",\n                \"parentId\" : null,\n                \"status\": \"Assigned\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project002\",\n                \"parentId\" : null,\n                \"status\": \"Estimate\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project003\",\n                \"parentId\" : null,\n                \"status\": \"Launched\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project004\",\n                \"parentId\" : null,\n                \"status\": \"Approved\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project005\",\n                \"parentId\" : null,\n                \"status\": \"Submitted\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project006\",\n                \"parentId\" : null,\n                \"status\": \"Incomplete\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            }\n        ]\n    },\n    \"version\": \"v3\"\n}\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -2587,7 +2587,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "{\n    \"id\": \"335b1bb4:14e3056cbf7:-45d5\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": [\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project001\",\n                \"parentId\" : null,\n                \"status\": \"Assigned\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project001\",\n                \"parentId\" : null,\n                \"status\": \"Assigned\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            }\n        ]\n    },\n    \"version\": \"v3\"\n}\n"
+                                                                                                                "content": "{\n    \"id\": \"335b1bb4:14e3056cbf7:-45d5\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": [\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project001\",\n                \"parentId\" : null,\n                \"status\": \"Assigned\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project002\",\n                \"parentId\" : null,\n                \"status\": \"Estimate\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project003\",\n                \"parentId\" : null,\n                \"status\": \"Launched\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project004\",\n                \"parentId\" : null,\n                \"status\": \"Approved\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project005\",\n                \"parentId\" : null,\n                \"status\": \"Submitted\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project006\",\n                \"parentId\" : null,\n                \"status\": \"Incomplete\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            }\n        ]\n    },\n    \"version\": \"v3\"\n}\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -4472,7 +4472,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "{\n    \"id\": \"335b1bb4:14e3056cbf7:-45d5\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": [\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project001\",\n                \"parentId\" : null,\n                \"status\": \"Assigned\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project001\",\n                \"parentId\" : null,\n                \"status\": \"Assigned\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            }\n        ]\n    },\n    \"version\": \"v3\"\n}\n",
+                                                                                                "body": "{\n    \"id\": \"335b1bb4:14e3056cbf7:-45d5\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": [\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project001\",\n                \"parentId\" : null,\n                \"status\": \"Assigned\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project002\",\n                \"parentId\" : null,\n                \"status\": \"Estimate\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project003\",\n                \"parentId\" : null,\n                \"status\": \"Launched\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project004\",\n                \"parentId\" : null,\n                \"status\": \"Approved\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project005\",\n                \"parentId\" : null,\n                \"status\": \"Submitted\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project006\",\n                \"parentId\" : null,\n                \"status\": \"Incomplete\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            }\n        ]\n    },\n    \"version\": \"v3\"\n}\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -4480,7 +4480,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "{\n    \"id\": \"335b1bb4:14e3056cbf7:-45d5\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": [\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project001\",\n                \"parentId\" : null,\n                \"status\": \"Assigned\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project001\",\n                \"parentId\" : null,\n                \"status\": \"Assigned\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            }\n        ]\n    },\n    \"version\": \"v3\"\n}\n"
+                                                                                                                "content": "{\n    \"id\": \"335b1bb4:14e3056cbf7:-45d5\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": [\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project001\",\n                \"parentId\" : null,\n                \"status\": \"Assigned\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project002\",\n                \"parentId\" : null,\n                \"status\": \"Estimate\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project003\",\n                \"parentId\" : null,\n                \"status\": \"Launched\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project004\",\n                \"parentId\" : null,\n                \"status\": \"Approved\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project005\",\n                \"parentId\" : null,\n                \"status\": \"Submitted\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project006\",\n                \"parentId\" : null,\n                \"status\": \"Incomplete\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            }\n        ]\n    },\n    \"version\": \"v3\"\n}\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -4537,7 +4537,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "{\n    \"id\": \"335b1bb4:14e3056cbf7:-45d5\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": [\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project001\",\n                \"parentId\" : null,\n                \"status\": \"Assigned\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project001\",\n                \"parentId\" : null,\n                \"status\": \"Assigned\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            }\n        ]\n    },\n    \"version\": \"v3\"\n}\n",
+                                                                                                "body": "{\n    \"id\": \"335b1bb4:14e3056cbf7:-45d5\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": [\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project001\",\n                \"parentId\" : null,\n                \"status\": \"Assigned\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project002\",\n                \"parentId\" : null,\n                \"status\": \"Estimate\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project003\",\n                \"parentId\" : null,\n                \"status\": \"Launched\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project004\",\n                \"parentId\" : null,\n                \"status\": \"Approved\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project005\",\n                \"parentId\" : null,\n                \"status\": \"Submitted\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project006\",\n                \"parentId\" : null,\n                \"status\": \"Incomplete\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            }\n        ]\n    },\n    \"version\": \"v3\"\n}\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -4545,7 +4545,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "{\n    \"id\": \"335b1bb4:14e3056cbf7:-45d5\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": [\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project001\",\n                \"parentId\" : null,\n                \"status\": \"Assigned\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project001\",\n                \"parentId\" : null,\n                \"status\": \"Assigned\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            }\n        ]\n    },\n    \"version\": \"v3\"\n}\n"
+                                                                                                                "content": "{\n    \"id\": \"335b1bb4:14e3056cbf7:-45d5\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": [\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project001\",\n                \"parentId\" : null,\n                \"status\": \"Assigned\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project002\",\n                \"parentId\" : null,\n                \"status\": \"Estimate\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project003\",\n                \"parentId\" : null,\n                \"status\": \"Launched\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project004\",\n                \"parentId\" : null,\n                \"status\": \"Approved\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project005\",\n                \"parentId\" : null,\n                \"status\": \"Submitted\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            },\n            {\n                \"id\" : \"1435677908878-f5e91b34-9ea1-407d-b882-0022ea2de0da\",\n                \"modifiedBy\" : \"40097202\",\n                \"modifiedAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"createdBy\" : \"40097202\",\n                \"createdAt\" : \"2015-03-26T17:53:17.388Z\",\n                \"ownerId\" : \"40097202\",\n                \"version\" : 0,\n                \"name\" : \"new project006\",\n                \"parentId\" : null,\n                \"status\": \"Incomplete\",\n                \"statusNotes\": \"noted\",\n                \"copilotId\": \"copilot ID\",\n                \"quotedAmount\" : \"Quoted Amount\",\n                \"tcDirectId\": \"tc-direct\",\n                \"price\" : 100.99,\n                \"priceCurrency\" : \"USD\",\n                \"costEstimate\" : {\n                  \"low\" : \"1000\",\n                  \"high\" : \"2000\"\n                },\n                \"threadId\" : \"threadId\",\n                \"projectType\" : \"designAndCode\",\n                \"deviceIds\" : [ \"deviceId1\", \"deviceId2\" ],\n                \"orientationIds\" : [ \"portrait\", \"landscape\" ],\n                \"brief\" : \"test summary\",\n                \"features\" : [ {\n                  \"id\" : null,\n                  \"title\" : \"feature1\",\n                  \"description\" : \"desc1\",\n                  \"notes\" : \"explanation1\",\n                  \"custom\" : true,\n                  \"fileIds\" : [ ]\n                }, {\n                  \"id\" : \"121\",\n                  \"title\" : \"feature2\",\n                  \"description\" : \"desc2\",\n                  \"notes\" : \"\",\n                  \"custom\" : false,\n                  \"fileIds\" : [ \"123456\" ]\n                } ],\n                \"fontIds\" : [ \"fontIds\" ],\n                \"colorSwatchIds\" : [ \"colorSwatch1\", \"colorSwatch2\" ],\n                \"iconsetIds\" : [ \"iconsetid\" ],\n                \"designUrls\" : [ \"designUrls\" ],\n                \"offlineAccess\" : true,\n                \"offlineAccessComment\" : \"it's true\",\n                \"usesPersonalInformation\" : false,\n                \"securityLevel\" : \"none\",\n                \"numberOfApiIntegrations\" : 2,\n                \"modelType\" : \"app-project\"\n            }\n        ]\n    },\n    \"version\": \"v3\"\n}\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -6270,7 +6270,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "{\n    \"clientIdentifier\":\"guid-or-identifier-for-work-object\",\n    \"context\":\"work\",\n    \"subject\",:\"subject-title\",\n    \"publishers\": [\n        \"jsymons\"\n    ],\n    \"subscribers\": [\n        \"jsymons\"\n    ]\n}\n",
+                                                                                                "body": "{\n    \"clientIdentifier\":\"guid-or-identifier-for-work-object\",\n    \"context\":\"work\",\n    \"subject\",:\"subject-title\",\n    \"publishers\": [\n        \"40097202\"\n    ],\n    \"subscribers\": [\n        \"40097202\"\n    ]\n}\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -6278,7 +6278,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "{\n    \"clientIdentifier\":\"guid-or-identifier-for-work-object\",\n    \"context\":\"work\",\n    \"subject\",:\"subject-title\",\n    \"publishers\": [\n        \"jsymons\"\n    ],\n    \"subscribers\": [\n        \"jsymons\"\n    ]\n}\n"
+                                                                                                                "content": "{\n    \"clientIdentifier\":\"guid-or-identifier-for-work-object\",\n    \"context\":\"work\",\n    \"subject\",:\"subject-title\",\n    \"publishers\": [\n        \"40097202\"\n    ],\n    \"subscribers\": [\n        \"40097202\"\n    ]\n}\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -6348,7 +6348,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\": {\n                \"totalUnreadCount\": 1,\n                \"threads\": [\n                    {\n                        \"id\": \"guid-or-identifier-for-thread-object\",\n                        \"subject\":\"subject-title\",\n                        \"publishers\": [\n                            \"jsymons\"\n                        ],\n                        \"subscribers\": [\n                            \"jsymons\"\n                        ],\n                        \"unreadCount\": 1,\n                        \"messages\": [\n                            {\n                                \"id\":\"guid-or-identifier-for-message-object\",\n                                \"threadId\": \"guid-or-identifier-for-thread-object\",\n                                \"body\":\"Hello World\",\n                                \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                                \"publisherId\":\"sselvadurai\",\n                                \"read\": true,\n                                \"attachments\": [\n                                    {\n                                      \"attachmentId\":\"guid-or-identifier-for-attachment\",\n                                      \"name\":\"name-of-attachment\",\n                                      \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment.png\",\n                                      \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment.png\"\n                                    },\n                                    {\n                                      \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n                                      \"name\":\"name-of-attachment01\",\n                                      \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment01.png\",\n                                      \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment01.png\"\n                                    }\n                                ]\n                            }\n                        ]\n                    }\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n",
+                                                                                                "body": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\": {\n                \"totalUnreadCount\": 1,\n                \"threads\": [\n                    {\n                        \"id\": \"guid-or-identifier-for-thread-object\",\n                        \"subject\":\"subject-title\",\n                        \"publishers\": [\n                            \"40097202\"\n                        ],\n                        \"subscribers\": [\n                            \"40097202\"\n                        ],\n                        \"unreadCount\": 1,\n                        \"messages\": [\n                            {\n                                \"id\":\"guid-or-identifier-for-message-object\",\n                                \"threadId\": \"guid-or-identifier-for-thread-object\",\n                                \"body\":\"Hello World\",\n                                \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                                \"publisherId\":\"40097202\",\n                                \"read\": true,\n                                \"attachments\": [\n                                    {\n                                        \"id\": \"guid-or-identifier-for-attachment\",\n                                        \"ownerId\": \"publisher-id\",\n                                        \"fileName\": \"canvas.jpg\",\n                                        \"filePath\": \"path-of-file\",\n                                        \"fileType\": \"image/jpeg\",\n                                        \"fileSize\": \"0153434934\",\n                                        \"fileHash\": \"hash\"\n                                    },\n                                    {\n                                        \"id\": \"guid-or-identifier-for-attachment\",\n                                        \"ownerId\": \"publisher-id\",\n                                        \"fileName\": \"canvas.jpg\",\n                                        \"filePath\": \"path-of-file\",\n                                        \"fileType\": \"image/jpeg\",\n                                        \"fileSize\": \"0153434934\",\n                                        \"fileHash\": \"hash\"\n                                    }\n                                ]\n                            }\n                        ]\n                    }\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -6356,7 +6356,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\": {\n                \"totalUnreadCount\": 1,\n                \"threads\": [\n                    {\n                        \"id\": \"guid-or-identifier-for-thread-object\",\n                        \"subject\":\"subject-title\",\n                        \"publishers\": [\n                            \"jsymons\"\n                        ],\n                        \"subscribers\": [\n                            \"jsymons\"\n                        ],\n                        \"unreadCount\": 1,\n                        \"messages\": [\n                            {\n                                \"id\":\"guid-or-identifier-for-message-object\",\n                                \"threadId\": \"guid-or-identifier-for-thread-object\",\n                                \"body\":\"Hello World\",\n                                \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                                \"publisherId\":\"sselvadurai\",\n                                \"read\": true,\n                                \"attachments\": [\n                                    {\n                                      \"attachmentId\":\"guid-or-identifier-for-attachment\",\n                                      \"name\":\"name-of-attachment\",\n                                      \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment.png\",\n                                      \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment.png\"\n                                    },\n                                    {\n                                      \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n                                      \"name\":\"name-of-attachment01\",\n                                      \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment01.png\",\n                                      \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment01.png\"\n                                    }\n                                ]\n                            }\n                        ]\n                    }\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n"
+                                                                                                                "content": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\": {\n                \"totalUnreadCount\": 1,\n                \"threads\": [\n                    {\n                        \"id\": \"guid-or-identifier-for-thread-object\",\n                        \"subject\":\"subject-title\",\n                        \"publishers\": [\n                            \"40097202\"\n                        ],\n                        \"subscribers\": [\n                            \"40097202\"\n                        ],\n                        \"unreadCount\": 1,\n                        \"messages\": [\n                            {\n                                \"id\":\"guid-or-identifier-for-message-object\",\n                                \"threadId\": \"guid-or-identifier-for-thread-object\",\n                                \"body\":\"Hello World\",\n                                \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                                \"publisherId\":\"40097202\",\n                                \"read\": true,\n                                \"attachments\": [\n                                    {\n                                        \"id\": \"guid-or-identifier-for-attachment\",\n                                        \"ownerId\": \"publisher-id\",\n                                        \"fileName\": \"canvas.jpg\",\n                                        \"filePath\": \"path-of-file\",\n                                        \"fileType\": \"image/jpeg\",\n                                        \"fileSize\": \"0153434934\",\n                                        \"fileHash\": \"hash\"\n                                    },\n                                    {\n                                        \"id\": \"guid-or-identifier-for-attachment\",\n                                        \"ownerId\": \"publisher-id\",\n                                        \"fileName\": \"canvas.jpg\",\n                                        \"filePath\": \"path-of-file\",\n                                        \"fileType\": \"image/jpeg\",\n                                        \"fileSize\": \"0153434934\",\n                                        \"fileHash\": \"hash\"\n                                    }\n                                ]\n                            }\n                        ]\n                    }\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -6410,7 +6410,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{\n                \"id\": \"guid-or-identifier-for-thread-object\",\n                \"subject\":\"subject-title\",\n                \"publishers\": [\n                    \"jsymons\"\n                ],\n                \"subscribers\": [\n                    \"jsymons\"\n                ],\n                \"unreadCount\": 1,\n                \"messages\": [\n                    {\n                        \"id\":\"guid-or-identifier-for-message-object\",\n                        \"threadId\": \"guid-or-identifier-for-thread-object\",\n                        \"body\":\"Hello World\",\n                        \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                        \"publisherId\":\"sselvadurai\",\n                        \"read\": true,\n                        \"attachments\": [\n                            {\n                              \"attachmentId\":\"guid-or-identifier-for-attachment\",\n                              \"name\":\"name-of-attachment\",\n                              \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment.png\",\n                              \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment.png\"\n                            },\n                            {\n                              \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n                              \"name\":\"name-of-attachment01\",\n                              \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment01.png\",\n                              \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment01.png\"\n                            }\n                        ]\n                    }\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n",
+                                                                                                "body": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{\n                \"id\": \"guid-or-identifier-for-thread-object\",\n                \"subject\":\"subject-title\",\n                \"publishers\": [\n                    \"40097202\"\n                ],\n                \"subscribers\": [\n                    \"40097202\"\n                ],\n                \"unreadCount\": 1,\n                \"messages\": [\n                    {\n                        \"id\":\"guid-or-identifier-for-message-object\",\n                        \"threadId\": \"guid-or-identifier-for-thread-object\",\n                        \"body\":\"Hello World\",\n                        \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                        \"publisherId\":\"40097202\",\n                        \"read\": true,\n                        \"attachments\": [\n                            {\n                                \"id\": \"guid-or-identifier-for-attachment\",\n                                \"ownerId\": \"publisher-id\",\n                                \"fileName\": \"canvas.jpg\",\n                                \"filePath\": \"path-of-file\",\n                                \"fileType\": \"image/jpeg\",\n                                \"fileSize\": \"0153434934\",\n                                \"fileHash\": \"hash\"\n                            },\n                            {\n                                \"id\": \"guid-or-identifier-for-attachment\",\n                                \"ownerId\": \"publisher-id\",\n                                \"fileName\": \"canvas.jpg\",\n                                \"filePath\": \"path-of-file\",\n                                \"fileType\": \"image/jpeg\",\n                                \"fileSize\": \"0153434934\",\n                                \"fileHash\": \"hash\"\n                            }\n                        ]\n                    }\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -6418,7 +6418,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{\n                \"id\": \"guid-or-identifier-for-thread-object\",\n                \"subject\":\"subject-title\",\n                \"publishers\": [\n                    \"jsymons\"\n                ],\n                \"subscribers\": [\n                    \"jsymons\"\n                ],\n                \"unreadCount\": 1,\n                \"messages\": [\n                    {\n                        \"id\":\"guid-or-identifier-for-message-object\",\n                        \"threadId\": \"guid-or-identifier-for-thread-object\",\n                        \"body\":\"Hello World\",\n                        \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                        \"publisherId\":\"sselvadurai\",\n                        \"read\": true,\n                        \"attachments\": [\n                            {\n                              \"attachmentId\":\"guid-or-identifier-for-attachment\",\n                              \"name\":\"name-of-attachment\",\n                              \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment.png\",\n                              \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment.png\"\n                            },\n                            {\n                              \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n                              \"name\":\"name-of-attachment01\",\n                              \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment01.png\",\n                              \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment01.png\"\n                            }\n                        ]\n                    }\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n"
+                                                                                                                "content": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{\n                \"id\": \"guid-or-identifier-for-thread-object\",\n                \"subject\":\"subject-title\",\n                \"publishers\": [\n                    \"40097202\"\n                ],\n                \"subscribers\": [\n                    \"40097202\"\n                ],\n                \"unreadCount\": 1,\n                \"messages\": [\n                    {\n                        \"id\":\"guid-or-identifier-for-message-object\",\n                        \"threadId\": \"guid-or-identifier-for-thread-object\",\n                        \"body\":\"Hello World\",\n                        \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                        \"publisherId\":\"40097202\",\n                        \"read\": true,\n                        \"attachments\": [\n                            {\n                                \"id\": \"guid-or-identifier-for-attachment\",\n                                \"ownerId\": \"publisher-id\",\n                                \"fileName\": \"canvas.jpg\",\n                                \"filePath\": \"path-of-file\",\n                                \"fileType\": \"image/jpeg\",\n                                \"fileSize\": \"0153434934\",\n                                \"fileHash\": \"hash\"\n                            },\n                            {\n                                \"id\": \"guid-or-identifier-for-attachment\",\n                                \"ownerId\": \"publisher-id\",\n                                \"fileName\": \"canvas.jpg\",\n                                \"filePath\": \"path-of-file\",\n                                \"fileType\": \"image/jpeg\",\n                                \"fileSize\": \"0153434934\",\n                                \"fileHash\": \"hash\"\n                            }\n                        ]\n                    }\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -6440,80 +6440,6 @@ window.FIXTURES = {
                                                         {
                                                                 "name": "Add Subscriber to a Thread",
                                                                 "description": "Add a Subscriber to a Thread\n\n",
-                                                                "method": "POST",
-                                                                "parameters": [],
-                                                                "attributes": {
-                                                                        "relation": "",
-                                                                        "uriTemplate": ""
-                                                                },
-                                                                "content": [],
-                                                                "examples": [
-                                                                        {
-                                                                                "name": "",
-                                                                                "description": "",
-                                                                                "requests": [
-                                                                                        {
-                                                                                                "name": "",
-                                                                                                "description": "",
-                                                                                                "headers": [
-                                                                                                        {
-                                                                                                                "name": "Content-Type",
-                                                                                                                "value": "application/json"
-                                                                                                        }
-                                                                                                ],
-                                                                                                "body": "    {\n        \"param\": {\n            \"publishers\": [\n                \"guid-or-idenfitier-for-user-id\"\n            ]\n        }\n    }\n",
-                                                                                                "schema": "",
-                                                                                                "content": [
-                                                                                                        {
-                                                                                                                "element": "asset",
-                                                                                                                "attributes": {
-                                                                                                                        "role": "bodyExample"
-                                                                                                                },
-                                                                                                                "content": "    {\n        \"param\": {\n            \"publishers\": [\n                \"guid-or-idenfitier-for-user-id\"\n            ]\n        }\n    }\n"
-                                                                                                        }
-                                                                                                ]
-                                                                                        }
-                                                                                ],
-                                                                                "responses": [
-                                                                                        {
-                                                                                                "name": "200",
-                                                                                                "description": "",
-                                                                                                "headers": [
-                                                                                                        {
-                                                                                                                "name": "Content-Type",
-                                                                                                                "value": "application/json"
-                                                                                                        }
-                                                                                                ],
-                                                                                                "body": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{\n                \"publishers\": [\n                    \"guid-or-identifier-for-user-id\"\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n",
-                                                                                                "schema": "",
-                                                                                                "content": [
-                                                                                                        {
-                                                                                                                "element": "asset",
-                                                                                                                "attributes": {
-                                                                                                                        "role": "bodyExample"
-                                                                                                                },
-                                                                                                                "content": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{\n                \"publishers\": [\n                    \"guid-or-identifier-for-user-id\"\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n"
-                                                                                                        }
-                                                                                                ]
-                                                                                        }
-                                                                                ]
-                                                                        }
-                                                                ]
-                                                        }
-                                                ],
-                                                "content": []
-                                        },
-                                        {
-                                                "element": "resource",
-                                                "name": "Thread Publishers",
-                                                "description": "",
-                                                "uriTemplate": "/threads/{thread_id}/publishers",
-                                                "model": {},
-                                                "parameters": [],
-                                                "actions": [
-                                                        {
-                                                                "name": "Add Publisher to a Thread",
-                                                                "description": "Add a Publisher to a Thread\n\n",
                                                                 "method": "POST",
                                                                 "parameters": [],
                                                                 "attributes": {
@@ -6576,6 +6502,80 @@ window.FIXTURES = {
                                                         }
                                                 ],
                                                 "content": []
+                                        },
+                                        {
+                                                "element": "resource",
+                                                "name": "Thread Publishers",
+                                                "description": "",
+                                                "uriTemplate": "/threads/{thread_id}/publishers",
+                                                "model": {},
+                                                "parameters": [],
+                                                "actions": [
+                                                        {
+                                                                "name": "Add Publisher to a Thread",
+                                                                "description": "Add a Publisher to a Thread\n\n",
+                                                                "method": "POST",
+                                                                "parameters": [],
+                                                                "attributes": {
+                                                                        "relation": "",
+                                                                        "uriTemplate": ""
+                                                                },
+                                                                "content": [],
+                                                                "examples": [
+                                                                        {
+                                                                                "name": "",
+                                                                                "description": "",
+                                                                                "requests": [
+                                                                                        {
+                                                                                                "name": "",
+                                                                                                "description": "",
+                                                                                                "headers": [
+                                                                                                        {
+                                                                                                                "name": "Content-Type",
+                                                                                                                "value": "application/json"
+                                                                                                        }
+                                                                                                ],
+                                                                                                "body": "    {\n        \"param\": {\n            \"publishers\": [\n                \"guid-or-idenfitier-for-user-id\"\n            ]\n        }\n    }\n",
+                                                                                                "schema": "",
+                                                                                                "content": [
+                                                                                                        {
+                                                                                                                "element": "asset",
+                                                                                                                "attributes": {
+                                                                                                                        "role": "bodyExample"
+                                                                                                                },
+                                                                                                                "content": "    {\n        \"param\": {\n            \"publishers\": [\n                \"guid-or-idenfitier-for-user-id\"\n            ]\n        }\n    }\n"
+                                                                                                        }
+                                                                                                ]
+                                                                                        }
+                                                                                ],
+                                                                                "responses": [
+                                                                                        {
+                                                                                                "name": "200",
+                                                                                                "description": "",
+                                                                                                "headers": [
+                                                                                                        {
+                                                                                                                "name": "Content-Type",
+                                                                                                                "value": "application/json"
+                                                                                                        }
+                                                                                                ],
+                                                                                                "body": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{\n                \"publishers\": [\n                    \"guid-or-identifier-for-user-id\"\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n",
+                                                                                                "schema": "",
+                                                                                                "content": [
+                                                                                                        {
+                                                                                                                "element": "asset",
+                                                                                                                "attributes": {
+                                                                                                                        "role": "bodyExample"
+                                                                                                                },
+                                                                                                                "content": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{\n                \"publishers\": [\n                    \"guid-or-identifier-for-user-id\"\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n"
+                                                                                                        }
+                                                                                                ]
+                                                                                        }
+                                                                                ]
+                                                                        }
+                                                                ]
+                                                        }
+                                                ],
+                                                "content": []
                                         }
                                 ]
                         },
@@ -6587,7 +6587,7 @@ window.FIXTURES = {
                                                 "element": "resource",
                                                 "name": "Messages Collections",
                                                 "description": "",
-                                                "uriTemplate": "/threads/{threadId}/messages",
+                                                "uriTemplate": "/messages",
                                                 "model": {},
                                                 "parameters": [],
                                                 "actions": [
@@ -6615,7 +6615,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "{\n    \"publisherId\": \"guid-or-idenfitier-for-user-id\",\n    \"body\":\"Hello World\",\n    \"attachments\": [\n        {\n          \"attachmentId\":\"guid-or-identifier-for-attachment\",\n          \"name\":\"name-of-attachment\"\n        },\n        {\n          \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n          \"name\":\"name-of-attachment01\"\n        }\n    ]\n}\n",
+                                                                                                "body": "{\n    \"publisherId\": \"guid-or-idenfitier-for-user-id\",\n    \"threadId\": \"guid-or-idenfitier-for-user-id\",\n    \"body\":\"Hello World\",\n    \"attachments\": [\n        {\n            \"id\": \"guid-or-identifier-for-attachment\",\n            \"ownerId\": \"publisher-id\",\n            \"fileName\": \"canvas.jpg\",\n            \"filePath\": \"path-of-file\",\n            \"fileType\": \"image/jpeg\",\n            \"fileSize\": \"0153434934\",\n            \"fileHash\": \"hash\"\n        },\n        {\n            \"id\": \"guid-or-identifier-for-attachment\",\n            \"ownerId\": \"publisher-id\",\n            \"fileName\": \"canvas.jpg\",\n            \"filePath\": \"path-of-file\",\n            \"fileType\": \"image/jpeg\",\n            \"fileSize\": \"0153434934\",\n            \"fileHash\": \"hash\"\n        }\n    ]\n}\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -6623,7 +6623,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "{\n    \"publisherId\": \"guid-or-idenfitier-for-user-id\",\n    \"body\":\"Hello World\",\n    \"attachments\": [\n        {\n          \"attachmentId\":\"guid-or-identifier-for-attachment\",\n          \"name\":\"name-of-attachment\"\n        },\n        {\n          \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n          \"name\":\"name-of-attachment01\"\n        }\n    ]\n}\n"
+                                                                                                                "content": "{\n    \"publisherId\": \"guid-or-idenfitier-for-user-id\",\n    \"threadId\": \"guid-or-idenfitier-for-user-id\",\n    \"body\":\"Hello World\",\n    \"attachments\": [\n        {\n            \"id\": \"guid-or-identifier-for-attachment\",\n            \"ownerId\": \"publisher-id\",\n            \"fileName\": \"canvas.jpg\",\n            \"filePath\": \"path-of-file\",\n            \"fileType\": \"image/jpeg\",\n            \"fileSize\": \"0153434934\",\n            \"fileHash\": \"hash\"\n        },\n        {\n            \"id\": \"guid-or-identifier-for-attachment\",\n            \"ownerId\": \"publisher-id\",\n            \"fileName\": \"canvas.jpg\",\n            \"filePath\": \"path-of-file\",\n            \"fileType\": \"image/jpeg\",\n            \"fileSize\": \"0153434934\",\n            \"fileHash\": \"hash\"\n        }\n    ]\n}\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -6665,7 +6665,7 @@ window.FIXTURES = {
                                                 "element": "resource",
                                                 "name": "Message",
                                                 "description": "",
-                                                "uriTemplate": "/threads/{thread_id}/messages/{id}",
+                                                "uriTemplate": "/messages/{id}",
                                                 "model": {},
                                                 "parameters": [],
                                                 "actions": [
@@ -6694,7 +6694,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "{\n    \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n    \"result\": {\n        \"success\":true,\n        \"status\":200,\n        \"metadata\":null,\n        \"content\":[\n            {\n                \"id\":\"guid-or-identifier-for-message-object\",\n                \"threadId\": \"guid-or-identifier-for-thread-object\",\n                \"body\":\"Hello World\",\n                \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                \"publisherId\":\"sselvadurai\",\n                \"read\": true,\n                \"attachments\": [\n                    {\n                      \"attachmentId\":\"guid-or-identifier-for-attachment\",\n                      \"name\":\"name-of-attachment\",\n                      \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment.png\",\n                      \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment.png\"\n                    },\n                    {\n                      \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n                      \"name\":\"name-of-attachment01\",\n                      \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment01.png\",\n                      \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment01.png\"\n                    }\n                ]\n            }\n        ],\n    },\n    \"version\":\"v3\"\n}\n",
+                                                                                                "body": "{\n    \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n    \"result\": {\n        \"success\":true,\n        \"status\":200,\n        \"metadata\":null,\n        \"content\":[\n            {\n                \"id\":\"guid-or-identifier-for-message-object\",\n                \"threadId\": \"guid-or-identifier-for-thread-object\",\n                \"body\":\"Hello World\",\n                \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                \"publisherId\":\"40097202\",\n                \"read\": true,\n                \"attachments\": [\n                    {\n                        \"id\": \"guid-or-identifier-for-attachment\",\n                        \"ownerId\": \"publisher-id\",\n                        \"fileName\": \"canvas.jpg\",\n                        \"filePath\": \"path-of-file\",\n                        \"fileType\": \"image/jpeg\",\n                        \"fileSize\": \"0153434934\",\n                        \"fileHash\": \"hash\"\n                    },\n                    {\n                        \"id\": \"guid-or-identifier-for-attachment\",\n                        \"ownerId\": \"publisher-id\",\n                        \"fileName\": \"canvas.jpg\",\n                        \"filePath\": \"path-of-file\",\n                        \"fileType\": \"image/jpeg\",\n                        \"fileSize\": \"0153434934\",\n                        \"fileHash\": \"hash\"\n                    }\n                ]\n            }\n        ],\n    },\n    \"version\":\"v3\"\n}\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -6702,7 +6702,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "{\n    \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n    \"result\": {\n        \"success\":true,\n        \"status\":200,\n        \"metadata\":null,\n        \"content\":[\n            {\n                \"id\":\"guid-or-identifier-for-message-object\",\n                \"threadId\": \"guid-or-identifier-for-thread-object\",\n                \"body\":\"Hello World\",\n                \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                \"publisherId\":\"sselvadurai\",\n                \"read\": true,\n                \"attachments\": [\n                    {\n                      \"attachmentId\":\"guid-or-identifier-for-attachment\",\n                      \"name\":\"name-of-attachment\",\n                      \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment.png\",\n                      \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment.png\"\n                    },\n                    {\n                      \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n                      \"name\":\"name-of-attachment01\",\n                      \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment01.png\",\n                      \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment01.png\"\n                    }\n                ]\n            }\n        ],\n    },\n    \"version\":\"v3\"\n}\n"
+                                                                                                                "content": "{\n    \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n    \"result\": {\n        \"success\":true,\n        \"status\":200,\n        \"metadata\":null,\n        \"content\":[\n            {\n                \"id\":\"guid-or-identifier-for-message-object\",\n                \"threadId\": \"guid-or-identifier-for-thread-object\",\n                \"body\":\"Hello World\",\n                \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                \"publisherId\":\"40097202\",\n                \"read\": true,\n                \"attachments\": [\n                    {\n                        \"id\": \"guid-or-identifier-for-attachment\",\n                        \"ownerId\": \"publisher-id\",\n                        \"fileName\": \"canvas.jpg\",\n                        \"filePath\": \"path-of-file\",\n                        \"fileType\": \"image/jpeg\",\n                        \"fileSize\": \"0153434934\",\n                        \"fileHash\": \"hash\"\n                    },\n                    {\n                        \"id\": \"guid-or-identifier-for-attachment\",\n                        \"ownerId\": \"publisher-id\",\n                        \"fileName\": \"canvas.jpg\",\n                        \"filePath\": \"path-of-file\",\n                        \"fileType\": \"image/jpeg\",\n                        \"fileSize\": \"0153434934\",\n                        \"fileHash\": \"hash\"\n                    }\n                ]\n            }\n        ],\n    },\n    \"version\":\"v3\"\n}\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -6734,7 +6734,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "{\n    \"subscriberId\":\"santthosh\",\n    \"read\":true\n}\n",
+                                                                                                "body": "    {\n        \"subscriberId\":\"40097202\",\n        \"read\":true\n    }\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -6742,7 +6742,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "{\n    \"subscriberId\":\"santthosh\",\n    \"read\":true\n}\n"
+                                                                                                                "content": "    {\n        \"subscriberId\":\"40097202\",\n        \"read\":true\n    }\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -6809,7 +6809,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "{\n    \"clientIdentifier\":\"guid-or-identifier-for-work-object\",\n    \"context\":\"work\",\n    \"subject\",:\"subject-title\",\n    \"publishers\": [\n        \"jsymons\"\n    ],\n    \"subscribers\": [\n        \"jsymons\"\n    ]\n}\n",
+                                                                                                "body": "{\n    \"clientIdentifier\":\"guid-or-identifier-for-work-object\",\n    \"context\":\"work\",\n    \"subject\",:\"subject-title\",\n    \"publishers\": [\n        \"40097202\"\n    ],\n    \"subscribers\": [\n        \"40097202\"\n    ]\n}\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -6817,7 +6817,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "{\n    \"clientIdentifier\":\"guid-or-identifier-for-work-object\",\n    \"context\":\"work\",\n    \"subject\",:\"subject-title\",\n    \"publishers\": [\n        \"jsymons\"\n    ],\n    \"subscribers\": [\n        \"jsymons\"\n    ]\n}\n"
+                                                                                                                "content": "{\n    \"clientIdentifier\":\"guid-or-identifier-for-work-object\",\n    \"context\":\"work\",\n    \"subject\",:\"subject-title\",\n    \"publishers\": [\n        \"40097202\"\n    ],\n    \"subscribers\": [\n        \"40097202\"\n    ]\n}\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -6887,7 +6887,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\": {\n                \"totalUnreadCount\": 1,\n                \"threads\": [\n                    {\n                        \"id\": \"guid-or-identifier-for-thread-object\",\n                        \"subject\":\"subject-title\",\n                        \"publishers\": [\n                            \"jsymons\"\n                        ],\n                        \"subscribers\": [\n                            \"jsymons\"\n                        ],\n                        \"unreadCount\": 1,\n                        \"messages\": [\n                            {\n                                \"id\":\"guid-or-identifier-for-message-object\",\n                                \"threadId\": \"guid-or-identifier-for-thread-object\",\n                                \"body\":\"Hello World\",\n                                \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                                \"publisherId\":\"sselvadurai\",\n                                \"read\": true,\n                                \"attachments\": [\n                                    {\n                                      \"attachmentId\":\"guid-or-identifier-for-attachment\",\n                                      \"name\":\"name-of-attachment\",\n                                      \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment.png\",\n                                      \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment.png\"\n                                    },\n                                    {\n                                      \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n                                      \"name\":\"name-of-attachment01\",\n                                      \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment01.png\",\n                                      \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment01.png\"\n                                    }\n                                ]\n                            }\n                        ]\n                    }\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n",
+                                                                                                "body": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\": {\n                \"totalUnreadCount\": 1,\n                \"threads\": [\n                    {\n                        \"id\": \"guid-or-identifier-for-thread-object\",\n                        \"subject\":\"subject-title\",\n                        \"publishers\": [\n                            \"40097202\"\n                        ],\n                        \"subscribers\": [\n                            \"40097202\"\n                        ],\n                        \"unreadCount\": 1,\n                        \"messages\": [\n                            {\n                                \"id\":\"guid-or-identifier-for-message-object\",\n                                \"threadId\": \"guid-or-identifier-for-thread-object\",\n                                \"body\":\"Hello World\",\n                                \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                                \"publisherId\":\"40097202\",\n                                \"read\": true,\n                                \"attachments\": [\n                                    {\n                                        \"id\": \"guid-or-identifier-for-attachment\",\n                                        \"ownerId\": \"publisher-id\",\n                                        \"fileName\": \"canvas.jpg\",\n                                        \"filePath\": \"path-of-file\",\n                                        \"fileType\": \"image/jpeg\",\n                                        \"fileSize\": \"0153434934\",\n                                        \"fileHash\": \"hash\"\n                                    },\n                                    {\n                                        \"id\": \"guid-or-identifier-for-attachment\",\n                                        \"ownerId\": \"publisher-id\",\n                                        \"fileName\": \"canvas.jpg\",\n                                        \"filePath\": \"path-of-file\",\n                                        \"fileType\": \"image/jpeg\",\n                                        \"fileSize\": \"0153434934\",\n                                        \"fileHash\": \"hash\"\n                                    }\n                                ]\n                            }\n                        ]\n                    }\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -6895,7 +6895,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\": {\n                \"totalUnreadCount\": 1,\n                \"threads\": [\n                    {\n                        \"id\": \"guid-or-identifier-for-thread-object\",\n                        \"subject\":\"subject-title\",\n                        \"publishers\": [\n                            \"jsymons\"\n                        ],\n                        \"subscribers\": [\n                            \"jsymons\"\n                        ],\n                        \"unreadCount\": 1,\n                        \"messages\": [\n                            {\n                                \"id\":\"guid-or-identifier-for-message-object\",\n                                \"threadId\": \"guid-or-identifier-for-thread-object\",\n                                \"body\":\"Hello World\",\n                                \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                                \"publisherId\":\"sselvadurai\",\n                                \"read\": true,\n                                \"attachments\": [\n                                    {\n                                      \"attachmentId\":\"guid-or-identifier-for-attachment\",\n                                      \"name\":\"name-of-attachment\",\n                                      \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment.png\",\n                                      \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment.png\"\n                                    },\n                                    {\n                                      \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n                                      \"name\":\"name-of-attachment01\",\n                                      \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment01.png\",\n                                      \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment01.png\"\n                                    }\n                                ]\n                            }\n                        ]\n                    }\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n"
+                                                                                                                "content": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\": {\n                \"totalUnreadCount\": 1,\n                \"threads\": [\n                    {\n                        \"id\": \"guid-or-identifier-for-thread-object\",\n                        \"subject\":\"subject-title\",\n                        \"publishers\": [\n                            \"40097202\"\n                        ],\n                        \"subscribers\": [\n                            \"40097202\"\n                        ],\n                        \"unreadCount\": 1,\n                        \"messages\": [\n                            {\n                                \"id\":\"guid-or-identifier-for-message-object\",\n                                \"threadId\": \"guid-or-identifier-for-thread-object\",\n                                \"body\":\"Hello World\",\n                                \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                                \"publisherId\":\"40097202\",\n                                \"read\": true,\n                                \"attachments\": [\n                                    {\n                                        \"id\": \"guid-or-identifier-for-attachment\",\n                                        \"ownerId\": \"publisher-id\",\n                                        \"fileName\": \"canvas.jpg\",\n                                        \"filePath\": \"path-of-file\",\n                                        \"fileType\": \"image/jpeg\",\n                                        \"fileSize\": \"0153434934\",\n                                        \"fileHash\": \"hash\"\n                                    },\n                                    {\n                                        \"id\": \"guid-or-identifier-for-attachment\",\n                                        \"ownerId\": \"publisher-id\",\n                                        \"fileName\": \"canvas.jpg\",\n                                        \"filePath\": \"path-of-file\",\n                                        \"fileType\": \"image/jpeg\",\n                                        \"fileSize\": \"0153434934\",\n                                        \"fileHash\": \"hash\"\n                                    }\n                                ]\n                            }\n                        ]\n                    }\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -6949,7 +6949,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{\n                \"id\": \"guid-or-identifier-for-thread-object\",\n                \"subject\":\"subject-title\",\n                \"publishers\": [\n                    \"jsymons\"\n                ],\n                \"subscribers\": [\n                    \"jsymons\"\n                ],\n                \"unreadCount\": 1,\n                \"messages\": [\n                    {\n                        \"id\":\"guid-or-identifier-for-message-object\",\n                        \"threadId\": \"guid-or-identifier-for-thread-object\",\n                        \"body\":\"Hello World\",\n                        \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                        \"publisherId\":\"sselvadurai\",\n                        \"read\": true,\n                        \"attachments\": [\n                            {\n                              \"attachmentId\":\"guid-or-identifier-for-attachment\",\n                              \"name\":\"name-of-attachment\",\n                              \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment.png\",\n                              \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment.png\"\n                            },\n                            {\n                              \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n                              \"name\":\"name-of-attachment01\",\n                              \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment01.png\",\n                              \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment01.png\"\n                            }\n                        ]\n                    }\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n",
+                                                                                                "body": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{\n                \"id\": \"guid-or-identifier-for-thread-object\",\n                \"subject\":\"subject-title\",\n                \"publishers\": [\n                    \"40097202\"\n                ],\n                \"subscribers\": [\n                    \"40097202\"\n                ],\n                \"unreadCount\": 1,\n                \"messages\": [\n                    {\n                        \"id\":\"guid-or-identifier-for-message-object\",\n                        \"threadId\": \"guid-or-identifier-for-thread-object\",\n                        \"body\":\"Hello World\",\n                        \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                        \"publisherId\":\"40097202\",\n                        \"read\": true,\n                        \"attachments\": [\n                            {\n                                \"id\": \"guid-or-identifier-for-attachment\",\n                                \"ownerId\": \"publisher-id\",\n                                \"fileName\": \"canvas.jpg\",\n                                \"filePath\": \"path-of-file\",\n                                \"fileType\": \"image/jpeg\",\n                                \"fileSize\": \"0153434934\",\n                                \"fileHash\": \"hash\"\n                            },\n                            {\n                                \"id\": \"guid-or-identifier-for-attachment\",\n                                \"ownerId\": \"publisher-id\",\n                                \"fileName\": \"canvas.jpg\",\n                                \"filePath\": \"path-of-file\",\n                                \"fileType\": \"image/jpeg\",\n                                \"fileSize\": \"0153434934\",\n                                \"fileHash\": \"hash\"\n                            }\n                        ]\n                    }\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -6957,7 +6957,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{\n                \"id\": \"guid-or-identifier-for-thread-object\",\n                \"subject\":\"subject-title\",\n                \"publishers\": [\n                    \"jsymons\"\n                ],\n                \"subscribers\": [\n                    \"jsymons\"\n                ],\n                \"unreadCount\": 1,\n                \"messages\": [\n                    {\n                        \"id\":\"guid-or-identifier-for-message-object\",\n                        \"threadId\": \"guid-or-identifier-for-thread-object\",\n                        \"body\":\"Hello World\",\n                        \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                        \"publisherId\":\"sselvadurai\",\n                        \"read\": true,\n                        \"attachments\": [\n                            {\n                              \"attachmentId\":\"guid-or-identifier-for-attachment\",\n                              \"name\":\"name-of-attachment\",\n                              \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment.png\",\n                              \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment.png\"\n                            },\n                            {\n                              \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n                              \"name\":\"name-of-attachment01\",\n                              \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment01.png\",\n                              \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment01.png\"\n                            }\n                        ]\n                    }\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n"
+                                                                                                                "content": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{\n                \"id\": \"guid-or-identifier-for-thread-object\",\n                \"subject\":\"subject-title\",\n                \"publishers\": [\n                    \"40097202\"\n                ],\n                \"subscribers\": [\n                    \"40097202\"\n                ],\n                \"unreadCount\": 1,\n                \"messages\": [\n                    {\n                        \"id\":\"guid-or-identifier-for-message-object\",\n                        \"threadId\": \"guid-or-identifier-for-thread-object\",\n                        \"body\":\"Hello World\",\n                        \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                        \"publisherId\":\"40097202\",\n                        \"read\": true,\n                        \"attachments\": [\n                            {\n                                \"id\": \"guid-or-identifier-for-attachment\",\n                                \"ownerId\": \"publisher-id\",\n                                \"fileName\": \"canvas.jpg\",\n                                \"filePath\": \"path-of-file\",\n                                \"fileType\": \"image/jpeg\",\n                                \"fileSize\": \"0153434934\",\n                                \"fileHash\": \"hash\"\n                            },\n                            {\n                                \"id\": \"guid-or-identifier-for-attachment\",\n                                \"ownerId\": \"publisher-id\",\n                                \"fileName\": \"canvas.jpg\",\n                                \"filePath\": \"path-of-file\",\n                                \"fileType\": \"image/jpeg\",\n                                \"fileSize\": \"0153434934\",\n                                \"fileHash\": \"hash\"\n                            }\n                        ]\n                    }\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -6979,80 +6979,6 @@ window.FIXTURES = {
                                                         {
                                                                 "name": "Add Subscriber to a Thread",
                                                                 "description": "Add a Subscriber to a Thread\n\n",
-                                                                "method": "POST",
-                                                                "parameters": [],
-                                                                "attributes": {
-                                                                        "relation": "",
-                                                                        "uriTemplate": ""
-                                                                },
-                                                                "content": [],
-                                                                "examples": [
-                                                                        {
-                                                                                "name": "",
-                                                                                "description": "",
-                                                                                "requests": [
-                                                                                        {
-                                                                                                "name": "",
-                                                                                                "description": "",
-                                                                                                "headers": [
-                                                                                                        {
-                                                                                                                "name": "Content-Type",
-                                                                                                                "value": "application/json"
-                                                                                                        }
-                                                                                                ],
-                                                                                                "body": "    {\n        \"param\": {\n            \"publishers\": [\n                \"guid-or-idenfitier-for-user-id\"\n            ]\n        }\n    }\n",
-                                                                                                "schema": "",
-                                                                                                "content": [
-                                                                                                        {
-                                                                                                                "element": "asset",
-                                                                                                                "attributes": {
-                                                                                                                        "role": "bodyExample"
-                                                                                                                },
-                                                                                                                "content": "    {\n        \"param\": {\n            \"publishers\": [\n                \"guid-or-idenfitier-for-user-id\"\n            ]\n        }\n    }\n"
-                                                                                                        }
-                                                                                                ]
-                                                                                        }
-                                                                                ],
-                                                                                "responses": [
-                                                                                        {
-                                                                                                "name": "200",
-                                                                                                "description": "",
-                                                                                                "headers": [
-                                                                                                        {
-                                                                                                                "name": "Content-Type",
-                                                                                                                "value": "application/json"
-                                                                                                        }
-                                                                                                ],
-                                                                                                "body": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{\n                \"publishers\": [\n                    \"guid-or-identifier-for-user-id\"\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n",
-                                                                                                "schema": "",
-                                                                                                "content": [
-                                                                                                        {
-                                                                                                                "element": "asset",
-                                                                                                                "attributes": {
-                                                                                                                        "role": "bodyExample"
-                                                                                                                },
-                                                                                                                "content": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{\n                \"publishers\": [\n                    \"guid-or-identifier-for-user-id\"\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n"
-                                                                                                        }
-                                                                                                ]
-                                                                                        }
-                                                                                ]
-                                                                        }
-                                                                ]
-                                                        }
-                                                ],
-                                                "content": []
-                                        },
-                                        {
-                                                "element": "resource",
-                                                "name": "Thread Publishers",
-                                                "description": "",
-                                                "uriTemplate": "/threads/{thread_id}/publishers",
-                                                "model": {},
-                                                "parameters": [],
-                                                "actions": [
-                                                        {
-                                                                "name": "Add Publisher to a Thread",
-                                                                "description": "Add a Publisher to a Thread\n\n",
                                                                 "method": "POST",
                                                                 "parameters": [],
                                                                 "attributes": {
@@ -7115,6 +7041,80 @@ window.FIXTURES = {
                                                         }
                                                 ],
                                                 "content": []
+                                        },
+                                        {
+                                                "element": "resource",
+                                                "name": "Thread Publishers",
+                                                "description": "",
+                                                "uriTemplate": "/threads/{thread_id}/publishers",
+                                                "model": {},
+                                                "parameters": [],
+                                                "actions": [
+                                                        {
+                                                                "name": "Add Publisher to a Thread",
+                                                                "description": "Add a Publisher to a Thread\n\n",
+                                                                "method": "POST",
+                                                                "parameters": [],
+                                                                "attributes": {
+                                                                        "relation": "",
+                                                                        "uriTemplate": ""
+                                                                },
+                                                                "content": [],
+                                                                "examples": [
+                                                                        {
+                                                                                "name": "",
+                                                                                "description": "",
+                                                                                "requests": [
+                                                                                        {
+                                                                                                "name": "",
+                                                                                                "description": "",
+                                                                                                "headers": [
+                                                                                                        {
+                                                                                                                "name": "Content-Type",
+                                                                                                                "value": "application/json"
+                                                                                                        }
+                                                                                                ],
+                                                                                                "body": "    {\n        \"param\": {\n            \"publishers\": [\n                \"guid-or-idenfitier-for-user-id\"\n            ]\n        }\n    }\n",
+                                                                                                "schema": "",
+                                                                                                "content": [
+                                                                                                        {
+                                                                                                                "element": "asset",
+                                                                                                                "attributes": {
+                                                                                                                        "role": "bodyExample"
+                                                                                                                },
+                                                                                                                "content": "    {\n        \"param\": {\n            \"publishers\": [\n                \"guid-or-idenfitier-for-user-id\"\n            ]\n        }\n    }\n"
+                                                                                                        }
+                                                                                                ]
+                                                                                        }
+                                                                                ],
+                                                                                "responses": [
+                                                                                        {
+                                                                                                "name": "200",
+                                                                                                "description": "",
+                                                                                                "headers": [
+                                                                                                        {
+                                                                                                                "name": "Content-Type",
+                                                                                                                "value": "application/json"
+                                                                                                        }
+                                                                                                ],
+                                                                                                "body": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{\n                \"publishers\": [\n                    \"guid-or-identifier-for-user-id\"\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n",
+                                                                                                "schema": "",
+                                                                                                "content": [
+                                                                                                        {
+                                                                                                                "element": "asset",
+                                                                                                                "attributes": {
+                                                                                                                        "role": "bodyExample"
+                                                                                                                },
+                                                                                                                "content": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{\n                \"publishers\": [\n                    \"guid-or-identifier-for-user-id\"\n                ]\n            }\n        },\n        \"version\":\"v3\"\n    }\n"
+                                                                                                        }
+                                                                                                ]
+                                                                                        }
+                                                                                ]
+                                                                        }
+                                                                ]
+                                                        }
+                                                ],
+                                                "content": []
                                         }
                                 ]
                         },
@@ -7132,7 +7132,7 @@ window.FIXTURES = {
                                                 "element": "resource",
                                                 "name": "Messages Collections",
                                                 "description": "",
-                                                "uriTemplate": "/threads/{threadId}/messages",
+                                                "uriTemplate": "/messages",
                                                 "model": {},
                                                 "parameters": [],
                                                 "actions": [
@@ -7160,7 +7160,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "{\n    \"publisherId\": \"guid-or-idenfitier-for-user-id\",\n    \"body\":\"Hello World\",\n    \"attachments\": [\n        {\n          \"attachmentId\":\"guid-or-identifier-for-attachment\",\n          \"name\":\"name-of-attachment\"\n        },\n        {\n          \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n          \"name\":\"name-of-attachment01\"\n        }\n    ]\n}\n",
+                                                                                                "body": "{\n    \"publisherId\": \"guid-or-idenfitier-for-user-id\",\n    \"threadId\": \"guid-or-idenfitier-for-user-id\",\n    \"body\":\"Hello World\",\n    \"attachments\": [\n        {\n            \"id\": \"guid-or-identifier-for-attachment\",\n            \"ownerId\": \"publisher-id\",\n            \"fileName\": \"canvas.jpg\",\n            \"filePath\": \"path-of-file\",\n            \"fileType\": \"image/jpeg\",\n            \"fileSize\": \"0153434934\",\n            \"fileHash\": \"hash\"\n        },\n        {\n            \"id\": \"guid-or-identifier-for-attachment\",\n            \"ownerId\": \"publisher-id\",\n            \"fileName\": \"canvas.jpg\",\n            \"filePath\": \"path-of-file\",\n            \"fileType\": \"image/jpeg\",\n            \"fileSize\": \"0153434934\",\n            \"fileHash\": \"hash\"\n        }\n    ]\n}\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -7168,7 +7168,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "{\n    \"publisherId\": \"guid-or-idenfitier-for-user-id\",\n    \"body\":\"Hello World\",\n    \"attachments\": [\n        {\n          \"attachmentId\":\"guid-or-identifier-for-attachment\",\n          \"name\":\"name-of-attachment\"\n        },\n        {\n          \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n          \"name\":\"name-of-attachment01\"\n        }\n    ]\n}\n"
+                                                                                                                "content": "{\n    \"publisherId\": \"guid-or-idenfitier-for-user-id\",\n    \"threadId\": \"guid-or-idenfitier-for-user-id\",\n    \"body\":\"Hello World\",\n    \"attachments\": [\n        {\n            \"id\": \"guid-or-identifier-for-attachment\",\n            \"ownerId\": \"publisher-id\",\n            \"fileName\": \"canvas.jpg\",\n            \"filePath\": \"path-of-file\",\n            \"fileType\": \"image/jpeg\",\n            \"fileSize\": \"0153434934\",\n            \"fileHash\": \"hash\"\n        },\n        {\n            \"id\": \"guid-or-identifier-for-attachment\",\n            \"ownerId\": \"publisher-id\",\n            \"fileName\": \"canvas.jpg\",\n            \"filePath\": \"path-of-file\",\n            \"fileType\": \"image/jpeg\",\n            \"fileSize\": \"0153434934\",\n            \"fileHash\": \"hash\"\n        }\n    ]\n}\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -7210,7 +7210,7 @@ window.FIXTURES = {
                                                 "element": "resource",
                                                 "name": "Message",
                                                 "description": "",
-                                                "uriTemplate": "/threads/{thread_id}/messages/{id}",
+                                                "uriTemplate": "/messages/{id}",
                                                 "model": {},
                                                 "parameters": [],
                                                 "actions": [
@@ -7239,7 +7239,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "{\n    \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n    \"result\": {\n        \"success\":true,\n        \"status\":200,\n        \"metadata\":null,\n        \"content\":[\n            {\n                \"id\":\"guid-or-identifier-for-message-object\",\n                \"threadId\": \"guid-or-identifier-for-thread-object\",\n                \"body\":\"Hello World\",\n                \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                \"publisherId\":\"sselvadurai\",\n                \"read\": true,\n                \"attachments\": [\n                    {\n                      \"attachmentId\":\"guid-or-identifier-for-attachment\",\n                      \"name\":\"name-of-attachment\",\n                      \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment.png\",\n                      \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment.png\"\n                    },\n                    {\n                      \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n                      \"name\":\"name-of-attachment01\",\n                      \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment01.png\",\n                      \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment01.png\"\n                    }\n                ]\n            }\n        ],\n    },\n    \"version\":\"v3\"\n}\n",
+                                                                                                "body": "{\n    \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n    \"result\": {\n        \"success\":true,\n        \"status\":200,\n        \"metadata\":null,\n        \"content\":[\n            {\n                \"id\":\"guid-or-identifier-for-message-object\",\n                \"threadId\": \"guid-or-identifier-for-thread-object\",\n                \"body\":\"Hello World\",\n                \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                \"publisherId\":\"40097202\",\n                \"read\": true,\n                \"attachments\": [\n                    {\n                        \"id\": \"guid-or-identifier-for-attachment\",\n                        \"ownerId\": \"publisher-id\",\n                        \"fileName\": \"canvas.jpg\",\n                        \"filePath\": \"path-of-file\",\n                        \"fileType\": \"image/jpeg\",\n                        \"fileSize\": \"0153434934\",\n                        \"fileHash\": \"hash\"\n                    },\n                    {\n                        \"id\": \"guid-or-identifier-for-attachment\",\n                        \"ownerId\": \"publisher-id\",\n                        \"fileName\": \"canvas.jpg\",\n                        \"filePath\": \"path-of-file\",\n                        \"fileType\": \"image/jpeg\",\n                        \"fileSize\": \"0153434934\",\n                        \"fileHash\": \"hash\"\n                    }\n                ]\n            }\n        ],\n    },\n    \"version\":\"v3\"\n}\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -7247,7 +7247,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "{\n    \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n    \"result\": {\n        \"success\":true,\n        \"status\":200,\n        \"metadata\":null,\n        \"content\":[\n            {\n                \"id\":\"guid-or-identifier-for-message-object\",\n                \"threadId\": \"guid-or-identifier-for-thread-object\",\n                \"body\":\"Hello World\",\n                \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                \"publisherId\":\"sselvadurai\",\n                \"read\": true,\n                \"attachments\": [\n                    {\n                      \"attachmentId\":\"guid-or-identifier-for-attachment\",\n                      \"name\":\"name-of-attachment\",\n                      \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment.png\",\n                      \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment.png\"\n                    },\n                    {\n                      \"attachmentId\":\"guid-or-identifier-for-attachment01\",\n                      \"name\":\"name-of-attachment01\",\n                      \"thumbUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/thumbnail-guid-or-identifier-for-attachment01.png\",\n                      \"originalUrl\":\"http://assets.topcoder.com/guid-or-identifier-for-work-object/original-guid-or-identifier-for-attachment01.png\"\n                    }\n                ]\n            }\n        ],\n    },\n    \"version\":\"v3\"\n}\n"
+                                                                                                                "content": "{\n    \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n    \"result\": {\n        \"success\":true,\n        \"status\":200,\n        \"metadata\":null,\n        \"content\":[\n            {\n                \"id\":\"guid-or-identifier-for-message-object\",\n                \"threadId\": \"guid-or-identifier-for-thread-object\",\n                \"body\":\"Hello World\",\n                \"createdAt\":\"2015-11-05T08:15:30-05:00\",\n                \"publisherId\":\"40097202\",\n                \"read\": true,\n                \"attachments\": [\n                    {\n                        \"id\": \"guid-or-identifier-for-attachment\",\n                        \"ownerId\": \"publisher-id\",\n                        \"fileName\": \"canvas.jpg\",\n                        \"filePath\": \"path-of-file\",\n                        \"fileType\": \"image/jpeg\",\n                        \"fileSize\": \"0153434934\",\n                        \"fileHash\": \"hash\"\n                    },\n                    {\n                        \"id\": \"guid-or-identifier-for-attachment\",\n                        \"ownerId\": \"publisher-id\",\n                        \"fileName\": \"canvas.jpg\",\n                        \"filePath\": \"path-of-file\",\n                        \"fileType\": \"image/jpeg\",\n                        \"fileSize\": \"0153434934\",\n                        \"fileHash\": \"hash\"\n                    }\n                ]\n            }\n        ],\n    },\n    \"version\":\"v3\"\n}\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -7279,7 +7279,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "{\n    \"subscriberId\":\"santthosh\",\n    \"read\":true\n}\n",
+                                                                                                "body": "    {\n        \"subscriberId\":\"40097202\",\n        \"read\":true\n    }\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -7287,7 +7287,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "{\n    \"subscriberId\":\"santthosh\",\n    \"read\":true\n}\n"
+                                                                                                                "content": "    {\n        \"subscriberId\":\"40097202\",\n        \"read\":true\n    }\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -7388,7 +7388,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": [\n      {\n        \"id\": \"abc\",\n        \"stepType\": \"designConcepts\",\n        \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"completed\": null,\n        \"numberOfRanks\": 3,\n        \"rankedSubmissions\": [\n          {\n            \"rank\": 1,\n            \"submissionId\": \"abc\"\n          }\n        ],\n        \"customerConfirmedRanks\": null\n      },\n      {\n        \"id\": \"def\",\n        \"stepType\": \"completeDesigns\",\n        \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"completed\": null,\n        \"numberOfRanks\": 3,\n        \"rankedSubmissions\": [],\n        \"customerConfirmedRanks\": null\n      },\n      {\n        \"id\": \"ghi\",\n        \"stepType\": \"finalFixes\",\n        \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"completed\": null,\n        \"customerAcceptedFixes\": null\n      }\n    ]\n  },\n  \"version\": \"v3\"\n}\n",
+                                                                                                "body": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": [\n      {\n        \"id\": \"abc\",\n        \"stepType\": \"designConcepts\",\n        \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"details\": {\n          \"numberOfRanks\": 3,\n          \"rankedSubmissions\": [\n            {\n              \"rank\": 1,\n              \"submissionId\": \"abc\"\n            }\n          ],\n          \"customerConfirmedRanks\": null\n        }\n      },\n      {\n        \"id\": \"def\",\n        \"stepType\": \"completeDesigns\",\n        \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"details\": {\n          \"numberOfRanks\": 3,\n          \"rankedSubmissions\": [],\n          \"customerConfirmedRanks\": null\n        }\n      },\n      {\n        \"id\": \"ghi\",\n        \"stepType\": \"finalFixes\",\n        \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"details\": {\n          \"customerAcceptedFixes\": null\n        }\n      }\n    ]\n  },\n  \"version\": \"v3\"\n}\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -7396,7 +7396,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": [\n      {\n        \"id\": \"abc\",\n        \"stepType\": \"designConcepts\",\n        \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"completed\": null,\n        \"numberOfRanks\": 3,\n        \"rankedSubmissions\": [\n          {\n            \"rank\": 1,\n            \"submissionId\": \"abc\"\n          }\n        ],\n        \"customerConfirmedRanks\": null\n      },\n      {\n        \"id\": \"def\",\n        \"stepType\": \"completeDesigns\",\n        \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"completed\": null,\n        \"numberOfRanks\": 3,\n        \"rankedSubmissions\": [],\n        \"customerConfirmedRanks\": null\n      },\n      {\n        \"id\": \"ghi\",\n        \"stepType\": \"finalFixes\",\n        \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"completed\": null,\n        \"customerAcceptedFixes\": null\n      }\n    ]\n  },\n  \"version\": \"v3\"\n}\n"
+                                                                                                                "content": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": [\n      {\n        \"id\": \"abc\",\n        \"stepType\": \"designConcepts\",\n        \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"details\": {\n          \"numberOfRanks\": 3,\n          \"rankedSubmissions\": [\n            {\n              \"rank\": 1,\n              \"submissionId\": \"abc\"\n            }\n          ],\n          \"customerConfirmedRanks\": null\n        }\n      },\n      {\n        \"id\": \"def\",\n        \"stepType\": \"completeDesigns\",\n        \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"details\": {\n          \"numberOfRanks\": 3,\n          \"rankedSubmissions\": [],\n          \"customerConfirmedRanks\": null\n        }\n      },\n      {\n        \"id\": \"ghi\",\n        \"stepType\": \"finalFixes\",\n        \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"details\": {\n          \"customerAcceptedFixes\": null\n        }\n      }\n    ]\n  },\n  \"version\": \"v3\"\n}\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -7459,7 +7459,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"designConcepts\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"completed\": null,\n      \"numberOfRanks\": 3,\n      \"rankedSubmissions\": [\n        {\n          \"rank\": 1,\n          \"submissionId\": \"abc\"\n        }\n      ],\n      \"customerConfirmedRanks\": null\n    }\n  },\n  \"version\": \"v3\"\n}\n",
+                                                                                                "body": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"designConcepts\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"completed\": null,\n      \"details\": {\n        \"numberOfRanks\": 3,\n        \"rankedSubmissions\": [\n          {\n            \"rank\": 1,\n            \"submissionId\": \"abc\"\n          }\n        ],\n        \"customerConfirmedRanks\": null\n      }\n    }\n  },\n  \"version\": \"v3\"\n}\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -7467,7 +7467,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"designConcepts\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"completed\": null,\n      \"numberOfRanks\": 3,\n      \"rankedSubmissions\": [\n        {\n          \"rank\": 1,\n          \"submissionId\": \"abc\"\n        }\n      ],\n      \"customerConfirmedRanks\": null\n    }\n  },\n  \"version\": \"v3\"\n}\n"
+                                                                                                                "content": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"designConcepts\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"completed\": null,\n      \"details\": {\n        \"numberOfRanks\": 3,\n        \"rankedSubmissions\": [\n          {\n            \"rank\": 1,\n            \"submissionId\": \"abc\"\n          }\n        ],\n        \"customerConfirmedRanks\": null\n      }\n    }\n  },\n  \"version\": \"v3\"\n}\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -7522,7 +7522,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"designConcepts\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"completed\": null,\n      \"numberOfRanks\": 3,\n      \"rankedSubmissions\": [\n        {\n          \"rank\": 1,\n          \"submissionId\": \"abc\"\n        },\n        {\n          \"rank\": 2,\n          \"submissionId\": \"def\"\n        },\n        {\n          \"rank\": 3,\n          \"submissionId\": \"ghi\"\n        }\n      ],\n      \"customerConfirmedRanks\": true\n    }\n  },\n  \"version\": \"v3\"\n}\n",
+                                                                                                "body": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"designConcepts\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"details\": {\n        \"numberOfRanks\": 3,\n        \"rankedSubmissions\": [\n          {\n            \"rank\": 1,\n            \"submissionId\": \"abc\"\n          },\n          {\n            \"rank\": 2,\n            \"submissionId\": \"def\"\n          },\n          {\n            \"rank\": 3,\n            \"submissionId\": \"ghi\"\n          }\n        ],\n        \"customerConfirmedRanks\": true\n      }\n    }\n  },\n  \"version\": \"v3\"\n}\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -7530,7 +7530,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"designConcepts\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"completed\": null,\n      \"numberOfRanks\": 3,\n      \"rankedSubmissions\": [\n        {\n          \"rank\": 1,\n          \"submissionId\": \"abc\"\n        },\n        {\n          \"rank\": 2,\n          \"submissionId\": \"def\"\n        },\n        {\n          \"rank\": 3,\n          \"submissionId\": \"ghi\"\n        }\n      ],\n      \"customerConfirmedRanks\": true\n    }\n  },\n  \"version\": \"v3\"\n}\n"
+                                                                                                                "content": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"designConcepts\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"details\": {\n        \"numberOfRanks\": 3,\n        \"rankedSubmissions\": [\n          {\n            \"rank\": 1,\n            \"submissionId\": \"abc\"\n          },\n          {\n            \"rank\": 2,\n            \"submissionId\": \"def\"\n          },\n          {\n            \"rank\": 3,\n            \"submissionId\": \"ghi\"\n          }\n        ],\n        \"customerConfirmedRanks\": true\n      }\n    }\n  },\n  \"version\": \"v3\"\n}\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -7572,7 +7572,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"designConcepts\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"completed\": null,\n      \"numberOfRanks\": 3,\n      \"rankedSubmissions\": [\n        {\n          \"rank\": 1,\n          \"submissionId\": \"abc\"\n        },\n        {\n          \"rank\": 2,\n          \"submissionId\": \"def\"\n        },\n        {\n          \"rank\": 3,\n          \"submissionId\": \"ghi\"\n        }\n      ],\n      \"customerConfirmedRanks\": true\n    }\n  },\n  \"version\": \"v3\"\n}\n",
+                                                                                                "body": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"designConcepts\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"details\": {\n        \"numberOfRanks\": 3,\n        \"rankedSubmissions\": [\n          {\n            \"rank\": 1,\n            \"submissionId\": \"abc\"\n          },\n          {\n            \"rank\": 2,\n            \"submissionId\": \"def\"\n          },\n          {\n            \"rank\": 3,\n            \"submissionId\": \"ghi\"\n          }\n        ],\n        \"customerConfirmedRanks\": true\n      }\n    }\n  },\n  \"version\": \"v3\"\n}\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -7580,7 +7580,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"designConcepts\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"completed\": null,\n      \"numberOfRanks\": 3,\n      \"rankedSubmissions\": [\n        {\n          \"rank\": 1,\n          \"submissionId\": \"abc\"\n        },\n        {\n          \"rank\": 2,\n          \"submissionId\": \"def\"\n        },\n        {\n          \"rank\": 3,\n          \"submissionId\": \"ghi\"\n        }\n      ],\n      \"customerConfirmedRanks\": true\n    }\n  },\n  \"version\": \"v3\"\n}\n"
+                                                                                                                "content": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"designConcepts\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"details\": {\n        \"numberOfRanks\": 3,\n        \"rankedSubmissions\": [\n          {\n            \"rank\": 1,\n            \"submissionId\": \"abc\"\n          },\n          {\n            \"rank\": 2,\n            \"submissionId\": \"def\"\n          },\n          {\n            \"rank\": 3,\n            \"submissionId\": \"ghi\"\n          }\n        ],\n        \"customerConfirmedRanks\": true\n      }\n    }\n  },\n  \"version\": \"v3\"\n}\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -7622,7 +7622,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"finalFixes\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"completed\": null,\n      \"customerAcceptedFixes\": true\n    }\n  },\n  \"version\": \"v3\"\n}\n",
+                                                                                                "body": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"finalFixes\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"details\": {\n        \"customerAcceptedFixes\": true\n      }\n    }\n  },\n  \"version\": \"v3\"\n}\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -7630,7 +7630,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"finalFixes\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"completed\": null,\n      \"customerAcceptedFixes\": true\n    }\n  },\n  \"version\": \"v3\"\n}\n"
+                                                                                                                "content": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"finalFixes\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"details\": {\n        \"customerAcceptedFixes\": true\n      }\n    }\n  },\n  \"version\": \"v3\"\n}\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -7761,7 +7761,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "{\n    \"id\": \"-455f1770:14d6dd97f63:-7f9c\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": [\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Project Submitted\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    {\n                        \"type\": \"EMAIL_CONFIRMED\",\n                        \"text\": \"Thanks!  Your email is verified\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\"\n                    },\n                    {\n                        \"type\": \"COPILOT_ASSIGNED\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"copilot\": {\n                            \"userId\": \"1234\",\n                            \"handle\": \"batman\",\n                            \"avatar\": \"http://pict.ly\",\n                            \"role\": \"CoPilot\"\n                        }\n                    },\n                    {\n                        \"type\": \"QUOTE_INFO\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"price\": 19.99,\n                        \"duration\": 2,\n                        \"status\": \"Accepted\"\n                    },\n                    {\n                        \"type\": \"PAYMENT_ACCEPTED\",\n                        \"text\": \"Payment Method Accepted\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Project Launched\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    { \n                        \"type\": \"MEMBER_REGISTRATION\",\n                        \"members\":  [\n                            {\n                                \"userId\": 1234,\n                                \"handle\": \"batman\",\n                                \"avatar\": \"http://pict.ly\",\n                                \"role\": \"Member\"\n                            }\n                        ]\n                    },\n                    {\n                        \"type\": \"THREAD_INFO\",\n                        \"threadId\": \"abc123\",\n                        \"unreadMessageCount\": 5,\n                        \"lastMessageInfo\": {\n                            \"content\": \"Maybe its best if we stick with something something something something.\",\n                            \"publisherInfo\": {\n                                \"userId\": \"id\",\n                                \"handle\": \"Batman\",\n                                \"avatar\": \"http://pict.ly\",\n                                \"role\": \"Project Creator\"\n                            }\n                        }\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Design Concepts\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    { \n                        \"type\": \"WORKSTEP_SUBMITTERS\",\n                        \"avatars\": [\n                            \"http://pict.ly\"\n                        ]\n                    },\n                    {\n                        \"type\": \"SUBMISSION_THREAD_INFO\",\n                        \"threadInfo\": {\n                            \"type\": \"THREAD_INFO\",\n                            \"threadId\": \"abc123\",\n                            \"unreadMessageCount\": 5,\n                            \"lastMessageInfo\": {\n                                \"content\": \"Maybe its best if we stick with something something something something.\",\n                                \"publisherInfo\": {\n                                    \"userId\": \"id\",\n                                    \"handle\": \"Batman\",\n                                    \"avatar\": \"http://pict.ly\",\n                                    \"role\": \"Project Creator\"\n                                }\n                            }\n                        },\n                        \"submissionThreads\": [\n                            {\n                                \"submissionId\": \"123\",\n                                \"threadId\": \"abc123\",\n                                \"unreadMessageCount\": 2,\n                                \"thumbnailUrl\": \"http://thumbnail.url/\"\n                            }\n                        ]\n                    },\n                    { \n                        \"type\": \"WORKSTEP_WINNERS\",\n                        \"avatars\": [\n                            \"http://pict.ly\"\n                        ]\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Final Designs\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    { \n                        \"type\": \"STATUS_REPORT\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"title\": \"April 5th Status Report\",\n                        \"text\": \"We have completed this phase of the project\",\n                        \"images\": [\n                            \"http://pict.ly\"\n                        ]\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Final Fixes\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Project Complete\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                ]\n            }\n        ]\n    },\n    \"version\": \"v3\"\n}\n",
+                                                                                                "body": "{\n    \"id\": \"-455f1770:14d6dd97f63:-7f9c\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": [\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Project Submitted\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    {\n                        \"type\": \"EMAIL_CONFIRMED\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"text\": \"Thanks!  Your email is verified\"\n                    },\n                    {\n                        \"type\": \"COPILOT_ASSIGNED\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"copilot\": {\n                            \"userId\": \"1234\",\n                            \"handle\": \"batman\",\n                            \"avatar\": \"http://pict.ly\",\n                            \"role\": \"CoPilot\"\n                        }\n                    },\n                    {\n                        \"type\": \"QUOTE_INFO\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"price\": 19.99,\n                        \"duration\": 2,\n                        \"status\": \"Accepted\"\n                    },\n                    {\n                        \"type\": \"PAYMENT_ACCEPTED\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"text\": \"Payment Method Accepted\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Project Launched\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    { \n                        \"type\": \"MEMBER_REGISTRATION\",\n                        \"eventTime\":null,\n                        \"members\":  [\n                            {\n                                \"userId\": 1234,\n                                \"handle\": \"batman\",\n                                \"avatar\": \"http://pict.ly\",\n                                \"role\": \"Member\"\n                            }\n                        ]\n                    },\n                    {\n                        \"type\": \"THREAD_INFO\",\n                        \"eventTime\":null,\n                        \"unreadMessageCount\": 5,\n                        \"lastMessageInfo\": {\n                            \"threadId\": \"abc123\",\n                            \"content\": \"Maybe its best if we stick with something something something something.\",\n                            \"publisherInfo\": {\n                                \"userId\": \"id\",\n                                \"handle\": \"Batman\",\n                                \"avatar\": \"http://pict.ly\",\n                                \"role\": \"Project Creator\"\n                            }\n                        }\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Design Concepts\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    { \n                        \"type\": \"WORKSTEP_SUBMITTERS\",\n                        \"eventTime\": 1442604513843,\n                        \"avatars\": [\n                            \"http://pict.ly\"\n                        ]\n                    },\n                    { \n                        \"type\": \"WORKSTEP_WINNERS\",\n                        \"eventTime\": 1442604513843,\n                        \"avatars\": [\n                            \"http://pict.ly\"\n                        ]\n                    },\n                    {\n                        \"type\": \"SUBMISSION_THREAD_INFO\",\n                        \"eventTime\": null,\n                        \"threadInfo\": {\n                            \"type\": \"THREAD_INFO\",\n                            \"eventTime\": null,\n                            \"unreadMessageCount\": 5,\n                            \"lastMessageInfo\": {\n                                \"threadId\": \"abc123\",\n                                \"content\": \"Maybe its best if we stick with something something something something.\",\n                                \"publisherInfo\": {\n                                    \"userId\": \"id\",\n                                    \"handle\": \"Batman\",\n                                    \"avatar\": \"http://pict.ly\",\n                                    \"role\": \"Project Creator\"\n                                }\n                            }\n                        },\n                        \"submissionThreads\": [\n                            {\n                                \"submissionId\": \"123\",\n                                \"threadId\": \"abc123\",\n                                \"unreadMessageCount\": 2,\n                                \"thumbnailUrl\": \"http://thumbnail.url/\"\n                            }\n                        ]\n                    },\n                    {\n                        \"type\":\"WORKSTEP_ENDS\",\n                        \"eventTime\":1442604513843,\n                        \"stepId\":\"1234\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Final Designs\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    {\n                        \"type\":\"WORKSTEP_SUBMITTERS\",\n                        \"eventTime\":1442604513843,\n                        \"avatars\":[\"http://pict.ly\"]\n                    },\n                    {\n                        \"type\":\"WORKSTEP_WINNERS\",\n                        \"eventTime\":1442604513843,\n                        \"avatars\":[\"http://pict.ly\"]\n                    },\n                    {\n                        \"type\":\"WORKSTEP_ENDS\",\n                        \"eventTime\":1442604513843,\n                        \"stepId\":\"1234\"\n                    },\n                    { \n                        \"type\": \"STATUS_REPORT\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"title\": \"April 5th Status Report\",\n                        \"text\": \"We have completed this phase of the project\",\n                        \"images\": [\n                            \"http://pict.ly\"\n                        ]\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Final Fixes\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    {\n                        \"type\":\"FINALFIXES_SUBMITTER\",\n                        \"eventTime\":1442604513843,\n                        \"avatar\":\"http://pict.ly\"\n                    },\n                    {\n                        \"type\":\"SUBMISSION_THREAD_INFO\",\n                        \"eventTime\":null,\n                        \"threadInfo\": null,\n                        \"submissionThreads\":[\n                        ]\n                    },\n                    {\n                        \"type\":\"WORKSTEP_ENDS\",\n                        \"eventTime\":1442604513843,\n                        \"stepId\":\"1234\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Project Complete\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                ]\n            }\n        ]\n    },\n    \"version\": \"v3\"\n}\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -7769,7 +7769,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "{\n    \"id\": \"-455f1770:14d6dd97f63:-7f9c\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": [\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Project Submitted\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    {\n                        \"type\": \"EMAIL_CONFIRMED\",\n                        \"text\": \"Thanks!  Your email is verified\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\"\n                    },\n                    {\n                        \"type\": \"COPILOT_ASSIGNED\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"copilot\": {\n                            \"userId\": \"1234\",\n                            \"handle\": \"batman\",\n                            \"avatar\": \"http://pict.ly\",\n                            \"role\": \"CoPilot\"\n                        }\n                    },\n                    {\n                        \"type\": \"QUOTE_INFO\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"price\": 19.99,\n                        \"duration\": 2,\n                        \"status\": \"Accepted\"\n                    },\n                    {\n                        \"type\": \"PAYMENT_ACCEPTED\",\n                        \"text\": \"Payment Method Accepted\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Project Launched\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    { \n                        \"type\": \"MEMBER_REGISTRATION\",\n                        \"members\":  [\n                            {\n                                \"userId\": 1234,\n                                \"handle\": \"batman\",\n                                \"avatar\": \"http://pict.ly\",\n                                \"role\": \"Member\"\n                            }\n                        ]\n                    },\n                    {\n                        \"type\": \"THREAD_INFO\",\n                        \"threadId\": \"abc123\",\n                        \"unreadMessageCount\": 5,\n                        \"lastMessageInfo\": {\n                            \"content\": \"Maybe its best if we stick with something something something something.\",\n                            \"publisherInfo\": {\n                                \"userId\": \"id\",\n                                \"handle\": \"Batman\",\n                                \"avatar\": \"http://pict.ly\",\n                                \"role\": \"Project Creator\"\n                            }\n                        }\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Design Concepts\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    { \n                        \"type\": \"WORKSTEP_SUBMITTERS\",\n                        \"avatars\": [\n                            \"http://pict.ly\"\n                        ]\n                    },\n                    {\n                        \"type\": \"SUBMISSION_THREAD_INFO\",\n                        \"threadInfo\": {\n                            \"type\": \"THREAD_INFO\",\n                            \"threadId\": \"abc123\",\n                            \"unreadMessageCount\": 5,\n                            \"lastMessageInfo\": {\n                                \"content\": \"Maybe its best if we stick with something something something something.\",\n                                \"publisherInfo\": {\n                                    \"userId\": \"id\",\n                                    \"handle\": \"Batman\",\n                                    \"avatar\": \"http://pict.ly\",\n                                    \"role\": \"Project Creator\"\n                                }\n                            }\n                        },\n                        \"submissionThreads\": [\n                            {\n                                \"submissionId\": \"123\",\n                                \"threadId\": \"abc123\",\n                                \"unreadMessageCount\": 2,\n                                \"thumbnailUrl\": \"http://thumbnail.url/\"\n                            }\n                        ]\n                    },\n                    { \n                        \"type\": \"WORKSTEP_WINNERS\",\n                        \"avatars\": [\n                            \"http://pict.ly\"\n                        ]\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Final Designs\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    { \n                        \"type\": \"STATUS_REPORT\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"title\": \"April 5th Status Report\",\n                        \"text\": \"We have completed this phase of the project\",\n                        \"images\": [\n                            \"http://pict.ly\"\n                        ]\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Final Fixes\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Project Complete\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                ]\n            }\n        ]\n    },\n    \"version\": \"v3\"\n}\n"
+                                                                                                                "content": "{\n    \"id\": \"-455f1770:14d6dd97f63:-7f9c\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": [\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Project Submitted\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    {\n                        \"type\": \"EMAIL_CONFIRMED\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"text\": \"Thanks!  Your email is verified\"\n                    },\n                    {\n                        \"type\": \"COPILOT_ASSIGNED\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"copilot\": {\n                            \"userId\": \"1234\",\n                            \"handle\": \"batman\",\n                            \"avatar\": \"http://pict.ly\",\n                            \"role\": \"CoPilot\"\n                        }\n                    },\n                    {\n                        \"type\": \"QUOTE_INFO\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"price\": 19.99,\n                        \"duration\": 2,\n                        \"status\": \"Accepted\"\n                    },\n                    {\n                        \"type\": \"PAYMENT_ACCEPTED\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"text\": \"Payment Method Accepted\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Project Launched\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    { \n                        \"type\": \"MEMBER_REGISTRATION\",\n                        \"eventTime\":null,\n                        \"members\":  [\n                            {\n                                \"userId\": 1234,\n                                \"handle\": \"batman\",\n                                \"avatar\": \"http://pict.ly\",\n                                \"role\": \"Member\"\n                            }\n                        ]\n                    },\n                    {\n                        \"type\": \"THREAD_INFO\",\n                        \"eventTime\":null,\n                        \"unreadMessageCount\": 5,\n                        \"lastMessageInfo\": {\n                            \"threadId\": \"abc123\",\n                            \"content\": \"Maybe its best if we stick with something something something something.\",\n                            \"publisherInfo\": {\n                                \"userId\": \"id\",\n                                \"handle\": \"Batman\",\n                                \"avatar\": \"http://pict.ly\",\n                                \"role\": \"Project Creator\"\n                            }\n                        }\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Design Concepts\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    { \n                        \"type\": \"WORKSTEP_SUBMITTERS\",\n                        \"eventTime\": 1442604513843,\n                        \"avatars\": [\n                            \"http://pict.ly\"\n                        ]\n                    },\n                    { \n                        \"type\": \"WORKSTEP_WINNERS\",\n                        \"eventTime\": 1442604513843,\n                        \"avatars\": [\n                            \"http://pict.ly\"\n                        ]\n                    },\n                    {\n                        \"type\": \"SUBMISSION_THREAD_INFO\",\n                        \"eventTime\": null,\n                        \"threadInfo\": {\n                            \"type\": \"THREAD_INFO\",\n                            \"eventTime\": null,\n                            \"unreadMessageCount\": 5,\n                            \"lastMessageInfo\": {\n                                \"threadId\": \"abc123\",\n                                \"content\": \"Maybe its best if we stick with something something something something.\",\n                                \"publisherInfo\": {\n                                    \"userId\": \"id\",\n                                    \"handle\": \"Batman\",\n                                    \"avatar\": \"http://pict.ly\",\n                                    \"role\": \"Project Creator\"\n                                }\n                            }\n                        },\n                        \"submissionThreads\": [\n                            {\n                                \"submissionId\": \"123\",\n                                \"threadId\": \"abc123\",\n                                \"unreadMessageCount\": 2,\n                                \"thumbnailUrl\": \"http://thumbnail.url/\"\n                            }\n                        ]\n                    },\n                    {\n                        \"type\":\"WORKSTEP_ENDS\",\n                        \"eventTime\":1442604513843,\n                        \"stepId\":\"1234\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Final Designs\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    {\n                        \"type\":\"WORKSTEP_SUBMITTERS\",\n                        \"eventTime\":1442604513843,\n                        \"avatars\":[\"http://pict.ly\"]\n                    },\n                    {\n                        \"type\":\"WORKSTEP_WINNERS\",\n                        \"eventTime\":1442604513843,\n                        \"avatars\":[\"http://pict.ly\"]\n                    },\n                    {\n                        \"type\":\"WORKSTEP_ENDS\",\n                        \"eventTime\":1442604513843,\n                        \"stepId\":\"1234\"\n                    },\n                    { \n                        \"type\": \"STATUS_REPORT\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"title\": \"April 5th Status Report\",\n                        \"text\": \"We have completed this phase of the project\",\n                        \"images\": [\n                            \"http://pict.ly\"\n                        ]\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Final Fixes\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    {\n                        \"type\":\"FINALFIXES_SUBMITTER\",\n                        \"eventTime\":1442604513843,\n                        \"avatar\":\"http://pict.ly\"\n                    },\n                    {\n                        \"type\":\"SUBMISSION_THREAD_INFO\",\n                        \"eventTime\":null,\n                        \"threadInfo\": null,\n                        \"submissionThreads\":[\n                        ]\n                    },\n                    {\n                        \"type\":\"WORKSTEP_ENDS\",\n                        \"eventTime\":1442604513843,\n                        \"stepId\":\"1234\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Project Complete\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                ]\n            }\n        ]\n    },\n    \"version\": \"v3\"\n}\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -7805,7 +7805,7 @@ window.FIXTURES = {
                                                                                 "type": "string",
                                                                                 "required": true,
                                                                                 "default": "",
-                                                                                "example": "workId=fieldValue&assetType=fieldValue",
+                                                                                "example": "id=fieldValue&assetType=fieldValue",
                                                                                 "values": []
                                                                         },
                                                                         {
@@ -8231,6 +8231,73 @@ window.FIXTURES = {
                                                                                 ]
                                                                         }
                                                                 ]
+                                                        },
+                                                        {
+                                                                "name": "Add a Message to a Submission Thread",
+                                                                "description": "",
+                                                                "method": "POST",
+                                                                "parameters": [],
+                                                                "attributes": {
+                                                                        "relation": "",
+                                                                        "uriTemplate": "/projects/{id}/submissions/{submissionId}/threads/{threadId}/messages"
+                                                                },
+                                                                "content": [],
+                                                                "examples": [
+                                                                        {
+                                                                                "name": "",
+                                                                                "description": "",
+                                                                                "requests": [
+                                                                                        {
+                                                                                                "name": "",
+                                                                                                "description": "",
+                                                                                                "headers": [
+                                                                                                        {
+                                                                                                                "name": "Content-Type",
+                                                                                                                "value": "application/json"
+                                                                                                        }
+                                                                                                ],
+                                                                                                "body": "    {\n        \"publisherId\": \"guid-or-idenfitier-for-user-id\",\n        \"threadId\": \"guid-or-idenfitier-for-user-id\",\n        \"body\": \"Hello World\",\n        \"attachments\": [\n            {\n                \"attachmentId\": \"guid-or-identifier-for-attachment\",\n                \"name\": \"name-of-attachment\"\n            },\n            {\n                \"attachmentId\": \"guid-or-identifier-for-attachment01\",\n                \"name\": \"name-of-attachment01\"\n            }\n        ]\n    }\n",
+                                                                                                "schema": "",
+                                                                                                "content": [
+                                                                                                        {
+                                                                                                                "element": "asset",
+                                                                                                                "attributes": {
+                                                                                                                        "role": "bodyExample"
+                                                                                                                },
+                                                                                                                "content": "    {\n        \"publisherId\": \"guid-or-idenfitier-for-user-id\",\n        \"threadId\": \"guid-or-idenfitier-for-user-id\",\n        \"body\": \"Hello World\",\n        \"attachments\": [\n            {\n                \"attachmentId\": \"guid-or-identifier-for-attachment\",\n                \"name\": \"name-of-attachment\"\n            },\n            {\n                \"attachmentId\": \"guid-or-identifier-for-attachment01\",\n                \"name\": \"name-of-attachment01\"\n            }\n        ]\n    }\n"
+                                                                                                        }
+                                                                                                ]
+                                                                                        }
+                                                                                ],
+                                                                                "responses": [
+                                                                                        {
+                                                                                                "name": "201",
+                                                                                                "description": "",
+                                                                                                "headers": [
+                                                                                                        {
+                                                                                                                "name": "Content-Type",
+                                                                                                                "value": "application/json"
+                                                                                                        },
+                                                                                                        {
+                                                                                                                "name": "Location",
+                                                                                                                "value": "/messages/1d"
+                                                                                                        }
+                                                                                                ],
+                                                                                                "body": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{ \n                \"id\": \"guid-or-identifier-for-message-object\" \n            }  \n        },\n        \"version\":\"v3\"\n    }\n",
+                                                                                                "schema": "",
+                                                                                                "content": [
+                                                                                                        {
+                                                                                                                "element": "asset",
+                                                                                                                "attributes": {
+                                                                                                                        "role": "bodyExample"
+                                                                                                                },
+                                                                                                                "content": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{ \n                \"id\": \"guid-or-identifier-for-message-object\" \n            }  \n        },\n        \"version\":\"v3\"\n    }\n"
+                                                                                                        }
+                                                                                                ]
+                                                                                        }
+                                                                                ]
+                                                                        }
+                                                                ]
                                                         }
                                                 ],
                                                 "content": []
@@ -8316,6 +8383,73 @@ window.FIXTURES = {
                                                 "content": []
                                         }
                                 ]
+                        },
+                        {
+                                "name": "Messaging",
+                                "description": "",
+                                "resources": [
+                                        {
+                                                "element": "resource",
+                                                "name": "Inbox",
+                                                "description": "Authroization header has to be provided along with this request to identify the user.\n\n",
+                                                "uriTemplate": "/inboxes",
+                                                "model": {},
+                                                "parameters": [],
+                                                "actions": [
+                                                        {
+                                                                "name": "Update an existing message",
+                                                                "description": "Mark the message as read\n\n",
+                                                                "method": "PUT",
+                                                                "parameters": [],
+                                                                "attributes": {
+                                                                        "relation": "",
+                                                                        "uriTemplate": "/inboxes/{id}/messages/{messageId}"
+                                                                },
+                                                                "content": [],
+                                                                "examples": [
+                                                                        {
+                                                                                "name": "",
+                                                                                "description": "",
+                                                                                "requests": [
+                                                                                        {
+                                                                                                "name": "",
+                                                                                                "description": "",
+                                                                                                "headers": [
+                                                                                                        {
+                                                                                                                "name": "Content-Type",
+                                                                                                                "value": "application/json"
+                                                                                                        }
+                                                                                                ],
+                                                                                                "body": "{ \"param\": {\n    \"subscriberId\":\"santthosh\",\n    \"readFlag\":true\n  }\n}\n",
+                                                                                                "schema": "",
+                                                                                                "content": [
+                                                                                                        {
+                                                                                                                "element": "asset",
+                                                                                                                "attributes": {
+                                                                                                                        "role": "bodyExample"
+                                                                                                                },
+                                                                                                                "content": "{ \"param\": {\n    \"subscriberId\":\"santthosh\",\n    \"readFlag\":true\n  }\n}\n"
+                                                                                                        }
+                                                                                                ]
+                                                                                        }
+                                                                                ],
+                                                                                "responses": [
+                                                                                        {
+                                                                                                "name": "200",
+                                                                                                "description": "",
+                                                                                                "headers": [],
+                                                                                                "body": "",
+                                                                                                "schema": "",
+                                                                                                "content": []
+                                                                                        }
+                                                                                ]
+                                                                        }
+                                                                ]
+                                                        }
+                                                ],
+                                                "content": []
+                                        }
+                                ]
                         }
                 ],
                 "content": [
@@ -8377,7 +8511,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": [\n      {\n        \"id\": \"abc\",\n        \"stepType\": \"designConcepts\",\n        \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"completed\": null,\n        \"numberOfRanks\": 3,\n        \"rankedSubmissions\": [\n          {\n            \"rank\": 1,\n            \"submissionId\": \"abc\"\n          }\n        ],\n        \"customerConfirmedRanks\": null\n      },\n      {\n        \"id\": \"def\",\n        \"stepType\": \"completeDesigns\",\n        \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"completed\": null,\n        \"numberOfRanks\": 3,\n        \"rankedSubmissions\": [],\n        \"customerConfirmedRanks\": null\n      },\n      {\n        \"id\": \"ghi\",\n        \"stepType\": \"finalFixes\",\n        \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"completed\": null,\n        \"customerAcceptedFixes\": null\n      }\n    ]\n  },\n  \"version\": \"v3\"\n}\n",
+                                                                                                "body": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": [\n      {\n        \"id\": \"abc\",\n        \"stepType\": \"designConcepts\",\n        \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"details\": {\n          \"numberOfRanks\": 3,\n          \"rankedSubmissions\": [\n            {\n              \"rank\": 1,\n              \"submissionId\": \"abc\"\n            }\n          ],\n          \"customerConfirmedRanks\": null\n        }\n      },\n      {\n        \"id\": \"def\",\n        \"stepType\": \"completeDesigns\",\n        \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"details\": {\n          \"numberOfRanks\": 3,\n          \"rankedSubmissions\": [],\n          \"customerConfirmedRanks\": null\n        }\n      },\n      {\n        \"id\": \"ghi\",\n        \"stepType\": \"finalFixes\",\n        \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"details\": {\n          \"customerAcceptedFixes\": null\n        }\n      }\n    ]\n  },\n  \"version\": \"v3\"\n}\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -8385,7 +8519,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": [\n      {\n        \"id\": \"abc\",\n        \"stepType\": \"designConcepts\",\n        \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"completed\": null,\n        \"numberOfRanks\": 3,\n        \"rankedSubmissions\": [\n          {\n            \"rank\": 1,\n            \"submissionId\": \"abc\"\n          }\n        ],\n        \"customerConfirmedRanks\": null\n      },\n      {\n        \"id\": \"def\",\n        \"stepType\": \"completeDesigns\",\n        \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"completed\": null,\n        \"numberOfRanks\": 3,\n        \"rankedSubmissions\": [],\n        \"customerConfirmedRanks\": null\n      },\n      {\n        \"id\": \"ghi\",\n        \"stepType\": \"finalFixes\",\n        \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"completed\": null,\n        \"customerAcceptedFixes\": null\n      }\n    ]\n  },\n  \"version\": \"v3\"\n}\n"
+                                                                                                                "content": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": [\n      {\n        \"id\": \"abc\",\n        \"stepType\": \"designConcepts\",\n        \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"details\": {\n          \"numberOfRanks\": 3,\n          \"rankedSubmissions\": [\n            {\n              \"rank\": 1,\n              \"submissionId\": \"abc\"\n            }\n          ],\n          \"customerConfirmedRanks\": null\n        }\n      },\n      {\n        \"id\": \"def\",\n        \"stepType\": \"completeDesigns\",\n        \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"details\": {\n          \"numberOfRanks\": 3,\n          \"rankedSubmissions\": [],\n          \"customerConfirmedRanks\": null\n        }\n      },\n      {\n        \"id\": \"ghi\",\n        \"stepType\": \"finalFixes\",\n        \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n        \"details\": {\n          \"customerAcceptedFixes\": null\n        }\n      }\n    ]\n  },\n  \"version\": \"v3\"\n}\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -8448,7 +8582,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"designConcepts\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"completed\": null,\n      \"numberOfRanks\": 3,\n      \"rankedSubmissions\": [\n        {\n          \"rank\": 1,\n          \"submissionId\": \"abc\"\n        }\n      ],\n      \"customerConfirmedRanks\": null\n    }\n  },\n  \"version\": \"v3\"\n}\n",
+                                                                                                "body": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"designConcepts\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"completed\": null,\n      \"details\": {\n        \"numberOfRanks\": 3,\n        \"rankedSubmissions\": [\n          {\n            \"rank\": 1,\n            \"submissionId\": \"abc\"\n          }\n        ],\n        \"customerConfirmedRanks\": null\n      }\n    }\n  },\n  \"version\": \"v3\"\n}\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -8456,7 +8590,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"designConcepts\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"completed\": null,\n      \"numberOfRanks\": 3,\n      \"rankedSubmissions\": [\n        {\n          \"rank\": 1,\n          \"submissionId\": \"abc\"\n        }\n      ],\n      \"customerConfirmedRanks\": null\n    }\n  },\n  \"version\": \"v3\"\n}\n"
+                                                                                                                "content": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"designConcepts\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"completed\": null,\n      \"details\": {\n        \"numberOfRanks\": 3,\n        \"rankedSubmissions\": [\n          {\n            \"rank\": 1,\n            \"submissionId\": \"abc\"\n          }\n        ],\n        \"customerConfirmedRanks\": null\n      }\n    }\n  },\n  \"version\": \"v3\"\n}\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -8511,7 +8645,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"designConcepts\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"completed\": null,\n      \"numberOfRanks\": 3,\n      \"rankedSubmissions\": [\n        {\n          \"rank\": 1,\n          \"submissionId\": \"abc\"\n        },\n        {\n          \"rank\": 2,\n          \"submissionId\": \"def\"\n        },\n        {\n          \"rank\": 3,\n          \"submissionId\": \"ghi\"\n        }\n      ],\n      \"customerConfirmedRanks\": true\n    }\n  },\n  \"version\": \"v3\"\n}\n",
+                                                                                                "body": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"designConcepts\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"details\": {\n        \"numberOfRanks\": 3,\n        \"rankedSubmissions\": [\n          {\n            \"rank\": 1,\n            \"submissionId\": \"abc\"\n          },\n          {\n            \"rank\": 2,\n            \"submissionId\": \"def\"\n          },\n          {\n            \"rank\": 3,\n            \"submissionId\": \"ghi\"\n          }\n        ],\n        \"customerConfirmedRanks\": true\n      }\n    }\n  },\n  \"version\": \"v3\"\n}\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -8519,7 +8653,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"designConcepts\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"completed\": null,\n      \"numberOfRanks\": 3,\n      \"rankedSubmissions\": [\n        {\n          \"rank\": 1,\n          \"submissionId\": \"abc\"\n        },\n        {\n          \"rank\": 2,\n          \"submissionId\": \"def\"\n        },\n        {\n          \"rank\": 3,\n          \"submissionId\": \"ghi\"\n        }\n      ],\n      \"customerConfirmedRanks\": true\n    }\n  },\n  \"version\": \"v3\"\n}\n"
+                                                                                                                "content": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"designConcepts\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"details\": {\n        \"numberOfRanks\": 3,\n        \"rankedSubmissions\": [\n          {\n            \"rank\": 1,\n            \"submissionId\": \"abc\"\n          },\n          {\n            \"rank\": 2,\n            \"submissionId\": \"def\"\n          },\n          {\n            \"rank\": 3,\n            \"submissionId\": \"ghi\"\n          }\n        ],\n        \"customerConfirmedRanks\": true\n      }\n    }\n  },\n  \"version\": \"v3\"\n}\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -8561,7 +8695,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"designConcepts\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"completed\": null,\n      \"numberOfRanks\": 3,\n      \"rankedSubmissions\": [\n        {\n          \"rank\": 1,\n          \"submissionId\": \"abc\"\n        },\n        {\n          \"rank\": 2,\n          \"submissionId\": \"def\"\n        },\n        {\n          \"rank\": 3,\n          \"submissionId\": \"ghi\"\n        }\n      ],\n      \"customerConfirmedRanks\": true\n    }\n  },\n  \"version\": \"v3\"\n}\n",
+                                                                                                "body": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"designConcepts\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"details\": {\n        \"numberOfRanks\": 3,\n        \"rankedSubmissions\": [\n          {\n            \"rank\": 1,\n            \"submissionId\": \"abc\"\n          },\n          {\n            \"rank\": 2,\n            \"submissionId\": \"def\"\n          },\n          {\n            \"rank\": 3,\n            \"submissionId\": \"ghi\"\n          }\n        ],\n        \"customerConfirmedRanks\": true\n      }\n    }\n  },\n  \"version\": \"v3\"\n}\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -8569,7 +8703,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"designConcepts\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"completed\": null,\n      \"numberOfRanks\": 3,\n      \"rankedSubmissions\": [\n        {\n          \"rank\": 1,\n          \"submissionId\": \"abc\"\n        },\n        {\n          \"rank\": 2,\n          \"submissionId\": \"def\"\n        },\n        {\n          \"rank\": 3,\n          \"submissionId\": \"ghi\"\n        }\n      ],\n      \"customerConfirmedRanks\": true\n    }\n  },\n  \"version\": \"v3\"\n}\n"
+                                                                                                                "content": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"designConcepts\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"details\": {\n        \"numberOfRanks\": 3,\n        \"rankedSubmissions\": [\n          {\n            \"rank\": 1,\n            \"submissionId\": \"abc\"\n          },\n          {\n            \"rank\": 2,\n            \"submissionId\": \"def\"\n          },\n          {\n            \"rank\": 3,\n            \"submissionId\": \"ghi\"\n          }\n        ],\n        \"customerConfirmedRanks\": true\n      }\n    }\n  },\n  \"version\": \"v3\"\n}\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -8611,7 +8745,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"finalFixes\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"completed\": null,\n      \"customerAcceptedFixes\": true\n    }\n  },\n  \"version\": \"v3\"\n}\n",
+                                                                                                "body": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"finalFixes\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"details\": {\n        \"customerAcceptedFixes\": true\n      }\n    }\n  },\n  \"version\": \"v3\"\n}\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -8619,7 +8753,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"finalFixes\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"completed\": null,\n      \"customerAcceptedFixes\": true\n    }\n  },\n  \"version\": \"v3\"\n}\n"
+                                                                                                                "content": "{\n  \"id\": \"-2971f28b:14f9015e8d7:-7f53\",\n  \"result\": {\n    \"success\": true,\n    \"status\": 200,\n    \"metadata\": null,\n    \"content\": {\n      \"id\": \"abc\",\n      \"stepType\": \"finalFixes\",\n      \"startsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"endsAt\": \"2015-09-08T23:24:48.374Z\",\n      \"details\": {\n        \"customerAcceptedFixes\": true\n      }\n    }\n  },\n  \"version\": \"v3\"\n}\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -8752,7 +8886,7 @@ window.FIXTURES = {
                                                                                                                 "value": "application/json"
                                                                                                         }
                                                                                                 ],
-                                                                                                "body": "{\n    \"id\": \"-455f1770:14d6dd97f63:-7f9c\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": [\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Project Submitted\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    {\n                        \"type\": \"EMAIL_CONFIRMED\",\n                        \"text\": \"Thanks!  Your email is verified\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\"\n                    },\n                    {\n                        \"type\": \"COPILOT_ASSIGNED\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"copilot\": {\n                            \"userId\": \"1234\",\n                            \"handle\": \"batman\",\n                            \"avatar\": \"http://pict.ly\",\n                            \"role\": \"CoPilot\"\n                        }\n                    },\n                    {\n                        \"type\": \"QUOTE_INFO\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"price\": 19.99,\n                        \"duration\": 2,\n                        \"status\": \"Accepted\"\n                    },\n                    {\n                        \"type\": \"PAYMENT_ACCEPTED\",\n                        \"text\": \"Payment Method Accepted\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Project Launched\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    { \n                        \"type\": \"MEMBER_REGISTRATION\",\n                        \"members\":  [\n                            {\n                                \"userId\": 1234,\n                                \"handle\": \"batman\",\n                                \"avatar\": \"http://pict.ly\",\n                                \"role\": \"Member\"\n                            }\n                        ]\n                    },\n                    {\n                        \"type\": \"THREAD_INFO\",\n                        \"threadId\": \"abc123\",\n                        \"unreadMessageCount\": 5,\n                        \"lastMessageInfo\": {\n                            \"content\": \"Maybe its best if we stick with something something something something.\",\n                            \"publisherInfo\": {\n                                \"userId\": \"id\",\n                                \"handle\": \"Batman\",\n                                \"avatar\": \"http://pict.ly\",\n                                \"role\": \"Project Creator\"\n                            }\n                        }\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Design Concepts\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    { \n                        \"type\": \"WORKSTEP_SUBMITTERS\",\n                        \"avatars\": [\n                            \"http://pict.ly\"\n                        ]\n                    },\n                    {\n                        \"type\": \"SUBMISSION_THREAD_INFO\",\n                        \"threadInfo\": {\n                            \"type\": \"THREAD_INFO\",\n                            \"threadId\": \"abc123\",\n                            \"unreadMessageCount\": 5,\n                            \"lastMessageInfo\": {\n                                \"content\": \"Maybe its best if we stick with something something something something.\",\n                                \"publisherInfo\": {\n                                    \"userId\": \"id\",\n                                    \"handle\": \"Batman\",\n                                    \"avatar\": \"http://pict.ly\",\n                                    \"role\": \"Project Creator\"\n                                }\n                            }\n                        },\n                        \"submissionThreads\": [\n                            {\n                                \"submissionId\": \"123\",\n                                \"threadId\": \"abc123\",\n                                \"unreadMessageCount\": 2,\n                                \"thumbnailUrl\": \"http://thumbnail.url/\"\n                            }\n                        ]\n                    },\n                    { \n                        \"type\": \"WORKSTEP_WINNERS\",\n                        \"avatars\": [\n                            \"http://pict.ly\"\n                        ]\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Final Designs\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    { \n                        \"type\": \"STATUS_REPORT\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"title\": \"April 5th Status Report\",\n                        \"text\": \"We have completed this phase of the project\",\n                        \"images\": [\n                            \"http://pict.ly\"\n                        ]\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Final Fixes\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Project Complete\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                ]\n            }\n        ]\n    },\n    \"version\": \"v3\"\n}\n",
+                                                                                                "body": "{\n    \"id\": \"-455f1770:14d6dd97f63:-7f9c\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": [\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Project Submitted\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    {\n                        \"type\": \"EMAIL_CONFIRMED\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"text\": \"Thanks!  Your email is verified\"\n                    },\n                    {\n                        \"type\": \"COPILOT_ASSIGNED\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"copilot\": {\n                            \"userId\": \"1234\",\n                            \"handle\": \"batman\",\n                            \"avatar\": \"http://pict.ly\",\n                            \"role\": \"CoPilot\"\n                        }\n                    },\n                    {\n                        \"type\": \"QUOTE_INFO\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"price\": 19.99,\n                        \"duration\": 2,\n                        \"status\": \"Accepted\"\n                    },\n                    {\n                        \"type\": \"PAYMENT_ACCEPTED\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"text\": \"Payment Method Accepted\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Project Launched\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    { \n                        \"type\": \"MEMBER_REGISTRATION\",\n                        \"eventTime\":null,\n                        \"members\":  [\n                            {\n                                \"userId\": 1234,\n                                \"handle\": \"batman\",\n                                \"avatar\": \"http://pict.ly\",\n                                \"role\": \"Member\"\n                            }\n                        ]\n                    },\n                    {\n                        \"type\": \"THREAD_INFO\",\n                        \"eventTime\":null,\n                        \"unreadMessageCount\": 5,\n                        \"lastMessageInfo\": {\n                            \"threadId\": \"abc123\",\n                            \"content\": \"Maybe its best if we stick with something something something something.\",\n                            \"publisherInfo\": {\n                                \"userId\": \"id\",\n                                \"handle\": \"Batman\",\n                                \"avatar\": \"http://pict.ly\",\n                                \"role\": \"Project Creator\"\n                            }\n                        }\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Design Concepts\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    { \n                        \"type\": \"WORKSTEP_SUBMITTERS\",\n                        \"eventTime\": 1442604513843,\n                        \"avatars\": [\n                            \"http://pict.ly\"\n                        ]\n                    },\n                    { \n                        \"type\": \"WORKSTEP_WINNERS\",\n                        \"eventTime\": 1442604513843,\n                        \"avatars\": [\n                            \"http://pict.ly\"\n                        ]\n                    },\n                    {\n                        \"type\": \"SUBMISSION_THREAD_INFO\",\n                        \"eventTime\": null,\n                        \"threadInfo\": {\n                            \"type\": \"THREAD_INFO\",\n                            \"eventTime\": null,\n                            \"unreadMessageCount\": 5,\n                            \"lastMessageInfo\": {\n                                \"threadId\": \"abc123\",\n                                \"content\": \"Maybe its best if we stick with something something something something.\",\n                                \"publisherInfo\": {\n                                    \"userId\": \"id\",\n                                    \"handle\": \"Batman\",\n                                    \"avatar\": \"http://pict.ly\",\n                                    \"role\": \"Project Creator\"\n                                }\n                            }\n                        },\n                        \"submissionThreads\": [\n                            {\n                                \"submissionId\": \"123\",\n                                \"threadId\": \"abc123\",\n                                \"unreadMessageCount\": 2,\n                                \"thumbnailUrl\": \"http://thumbnail.url/\"\n                            }\n                        ]\n                    },\n                    {\n                        \"type\":\"WORKSTEP_ENDS\",\n                        \"eventTime\":1442604513843,\n                        \"stepId\":\"1234\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Final Designs\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    {\n                        \"type\":\"WORKSTEP_SUBMITTERS\",\n                        \"eventTime\":1442604513843,\n                        \"avatars\":[\"http://pict.ly\"]\n                    },\n                    {\n                        \"type\":\"WORKSTEP_WINNERS\",\n                        \"eventTime\":1442604513843,\n                        \"avatars\":[\"http://pict.ly\"]\n                    },\n                    {\n                        \"type\":\"WORKSTEP_ENDS\",\n                        \"eventTime\":1442604513843,\n                        \"stepId\":\"1234\"\n                    },\n                    { \n                        \"type\": \"STATUS_REPORT\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"title\": \"April 5th Status Report\",\n                        \"text\": \"We have completed this phase of the project\",\n                        \"images\": [\n                            \"http://pict.ly\"\n                        ]\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Final Fixes\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    {\n                        \"type\":\"FINALFIXES_SUBMITTER\",\n                        \"eventTime\":1442604513843,\n                        \"avatar\":\"http://pict.ly\"\n                    },\n                    {\n                        \"type\":\"SUBMISSION_THREAD_INFO\",\n                        \"eventTime\":null,\n                        \"threadInfo\": null,\n                        \"submissionThreads\":[\n                        ]\n                    },\n                    {\n                        \"type\":\"WORKSTEP_ENDS\",\n                        \"eventTime\":1442604513843,\n                        \"stepId\":\"1234\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Project Complete\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                ]\n            }\n        ]\n    },\n    \"version\": \"v3\"\n}\n",
                                                                                                 "schema": "",
                                                                                                 "content": [
                                                                                                         {
@@ -8760,7 +8894,7 @@ window.FIXTURES = {
                                                                                                                 "attributes": {
                                                                                                                         "role": "bodyExample"
                                                                                                                 },
-                                                                                                                "content": "{\n    \"id\": \"-455f1770:14d6dd97f63:-7f9c\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": [\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Project Submitted\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    {\n                        \"type\": \"EMAIL_CONFIRMED\",\n                        \"text\": \"Thanks!  Your email is verified\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\"\n                    },\n                    {\n                        \"type\": \"COPILOT_ASSIGNED\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"copilot\": {\n                            \"userId\": \"1234\",\n                            \"handle\": \"batman\",\n                            \"avatar\": \"http://pict.ly\",\n                            \"role\": \"CoPilot\"\n                        }\n                    },\n                    {\n                        \"type\": \"QUOTE_INFO\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"price\": 19.99,\n                        \"duration\": 2,\n                        \"status\": \"Accepted\"\n                    },\n                    {\n                        \"type\": \"PAYMENT_ACCEPTED\",\n                        \"text\": \"Payment Method Accepted\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Project Launched\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    { \n                        \"type\": \"MEMBER_REGISTRATION\",\n                        \"members\":  [\n                            {\n                                \"userId\": 1234,\n                                \"handle\": \"batman\",\n                                \"avatar\": \"http://pict.ly\",\n                                \"role\": \"Member\"\n                            }\n                        ]\n                    },\n                    {\n                        \"type\": \"THREAD_INFO\",\n                        \"threadId\": \"abc123\",\n                        \"unreadMessageCount\": 5,\n                        \"lastMessageInfo\": {\n                            \"content\": \"Maybe its best if we stick with something something something something.\",\n                            \"publisherInfo\": {\n                                \"userId\": \"id\",\n                                \"handle\": \"Batman\",\n                                \"avatar\": \"http://pict.ly\",\n                                \"role\": \"Project Creator\"\n                            }\n                        }\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Design Concepts\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    { \n                        \"type\": \"WORKSTEP_SUBMITTERS\",\n                        \"avatars\": [\n                            \"http://pict.ly\"\n                        ]\n                    },\n                    {\n                        \"type\": \"SUBMISSION_THREAD_INFO\",\n                        \"threadInfo\": {\n                            \"type\": \"THREAD_INFO\",\n                            \"threadId\": \"abc123\",\n                            \"unreadMessageCount\": 5,\n                            \"lastMessageInfo\": {\n                                \"content\": \"Maybe its best if we stick with something something something something.\",\n                                \"publisherInfo\": {\n                                    \"userId\": \"id\",\n                                    \"handle\": \"Batman\",\n                                    \"avatar\": \"http://pict.ly\",\n                                    \"role\": \"Project Creator\"\n                                }\n                            }\n                        },\n                        \"submissionThreads\": [\n                            {\n                                \"submissionId\": \"123\",\n                                \"threadId\": \"abc123\",\n                                \"unreadMessageCount\": 2,\n                                \"thumbnailUrl\": \"http://thumbnail.url/\"\n                            }\n                        ]\n                    },\n                    { \n                        \"type\": \"WORKSTEP_WINNERS\",\n                        \"avatars\": [\n                            \"http://pict.ly\"\n                        ]\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Final Designs\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    { \n                        \"type\": \"STATUS_REPORT\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"title\": \"April 5th Status Report\",\n                        \"text\": \"We have completed this phase of the project\",\n                        \"images\": [\n                            \"http://pict.ly\"\n                        ]\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Final Fixes\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Project Complete\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                ]\n            }\n        ]\n    },\n    \"version\": \"v3\"\n}\n"
+                                                                                                                "content": "{\n    \"id\": \"-455f1770:14d6dd97f63:-7f9c\",\n    \"result\": {\n        \"success\": true,\n        \"status\": 200,\n        \"metadata\": null,\n        \"content\": [\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Project Submitted\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    {\n                        \"type\": \"EMAIL_CONFIRMED\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"text\": \"Thanks!  Your email is verified\"\n                    },\n                    {\n                        \"type\": \"COPILOT_ASSIGNED\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"copilot\": {\n                            \"userId\": \"1234\",\n                            \"handle\": \"batman\",\n                            \"avatar\": \"http://pict.ly\",\n                            \"role\": \"CoPilot\"\n                        }\n                    },\n                    {\n                        \"type\": \"QUOTE_INFO\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"price\": 19.99,\n                        \"duration\": 2,\n                        \"status\": \"Accepted\"\n                    },\n                    {\n                        \"type\": \"PAYMENT_ACCEPTED\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"text\": \"Payment Method Accepted\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Project Launched\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    { \n                        \"type\": \"MEMBER_REGISTRATION\",\n                        \"eventTime\":null,\n                        \"members\":  [\n                            {\n                                \"userId\": 1234,\n                                \"handle\": \"batman\",\n                                \"avatar\": \"http://pict.ly\",\n                                \"role\": \"Member\"\n                            }\n                        ]\n                    },\n                    {\n                        \"type\": \"THREAD_INFO\",\n                        \"eventTime\":null,\n                        \"unreadMessageCount\": 5,\n                        \"lastMessageInfo\": {\n                            \"threadId\": \"abc123\",\n                            \"content\": \"Maybe its best if we stick with something something something something.\",\n                            \"publisherInfo\": {\n                                \"userId\": \"id\",\n                                \"handle\": \"Batman\",\n                                \"avatar\": \"http://pict.ly\",\n                                \"role\": \"Project Creator\"\n                            }\n                        }\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Design Concepts\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    { \n                        \"type\": \"WORKSTEP_SUBMITTERS\",\n                        \"eventTime\": 1442604513843,\n                        \"avatars\": [\n                            \"http://pict.ly\"\n                        ]\n                    },\n                    { \n                        \"type\": \"WORKSTEP_WINNERS\",\n                        \"eventTime\": 1442604513843,\n                        \"avatars\": [\n                            \"http://pict.ly\"\n                        ]\n                    },\n                    {\n                        \"type\": \"SUBMISSION_THREAD_INFO\",\n                        \"eventTime\": null,\n                        \"threadInfo\": {\n                            \"type\": \"THREAD_INFO\",\n                            \"eventTime\": null,\n                            \"unreadMessageCount\": 5,\n                            \"lastMessageInfo\": {\n                                \"threadId\": \"abc123\",\n                                \"content\": \"Maybe its best if we stick with something something something something.\",\n                                \"publisherInfo\": {\n                                    \"userId\": \"id\",\n                                    \"handle\": \"Batman\",\n                                    \"avatar\": \"http://pict.ly\",\n                                    \"role\": \"Project Creator\"\n                                }\n                            }\n                        },\n                        \"submissionThreads\": [\n                            {\n                                \"submissionId\": \"123\",\n                                \"threadId\": \"abc123\",\n                                \"unreadMessageCount\": 2,\n                                \"thumbnailUrl\": \"http://thumbnail.url/\"\n                            }\n                        ]\n                    },\n                    {\n                        \"type\":\"WORKSTEP_ENDS\",\n                        \"eventTime\":1442604513843,\n                        \"stepId\":\"1234\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Final Designs\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    {\n                        \"type\":\"WORKSTEP_SUBMITTERS\",\n                        \"eventTime\":1442604513843,\n                        \"avatars\":[\"http://pict.ly\"]\n                    },\n                    {\n                        \"type\":\"WORKSTEP_WINNERS\",\n                        \"eventTime\":1442604513843,\n                        \"avatars\":[\"http://pict.ly\"]\n                    },\n                    {\n                        \"type\":\"WORKSTEP_ENDS\",\n                        \"eventTime\":1442604513843,\n                        \"stepId\":\"1234\"\n                    },\n                    { \n                        \"type\": \"STATUS_REPORT\",\n                        \"eventTime\": \"2015-09-18T12:28:33.843-07:00\",\n                        \"title\": \"April 5th Status Report\",\n                        \"text\": \"We have completed this phase of the project\",\n                        \"images\": [\n                            \"http://pict.ly\"\n                        ]\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Final Fixes\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                    {\n                        \"type\":\"FINALFIXES_SUBMITTER\",\n                        \"eventTime\":1442604513843,\n                        \"avatar\":\"http://pict.ly\"\n                    },\n                    {\n                        \"type\":\"SUBMISSION_THREAD_INFO\",\n                        \"eventTime\":null,\n                        \"threadInfo\": null,\n                        \"submissionThreads\":[\n                        ]\n                    },\n                    {\n                        \"type\":\"WORKSTEP_ENDS\",\n                        \"eventTime\":1442604513843,\n                        \"stepId\":\"1234\"\n                    }\n                ]\n            },\n            {\n                \"type\": \"EVENT_GROUP\",\n                \"text\": \"Project Complete\",\n                \"createdTime\": \"2015-09-18T12:28:33.843-07:00\",\n                \"events\": [\n                ]\n            }\n        ]\n    },\n    \"version\": \"v3\"\n}\n"
                                                                                                         }
                                                                                                 ]
                                                                                         }
@@ -8798,7 +8932,7 @@ window.FIXTURES = {
                                                                                 "type": "string",
                                                                                 "required": true,
                                                                                 "default": "",
-                                                                                "example": "workId=fieldValue&assetType=fieldValue",
+                                                                                "example": "id=fieldValue&assetType=fieldValue",
                                                                                 "values": []
                                                                         },
                                                                         {
@@ -9226,6 +9360,73 @@ window.FIXTURES = {
                                                                                 ]
                                                                         }
                                                                 ]
+                                                        },
+                                                        {
+                                                                "name": "Add a Message to a Submission Thread",
+                                                                "description": "",
+                                                                "method": "POST",
+                                                                "parameters": [],
+                                                                "attributes": {
+                                                                        "relation": "",
+                                                                        "uriTemplate": "/projects/{id}/submissions/{submissionId}/threads/{threadId}/messages"
+                                                                },
+                                                                "content": [],
+                                                                "examples": [
+                                                                        {
+                                                                                "name": "",
+                                                                                "description": "",
+                                                                                "requests": [
+                                                                                        {
+                                                                                                "name": "",
+                                                                                                "description": "",
+                                                                                                "headers": [
+                                                                                                        {
+                                                                                                                "name": "Content-Type",
+                                                                                                                "value": "application/json"
+                                                                                                        }
+                                                                                                ],
+                                                                                                "body": "    {\n        \"publisherId\": \"guid-or-idenfitier-for-user-id\",\n        \"threadId\": \"guid-or-idenfitier-for-user-id\",\n        \"body\": \"Hello World\",\n        \"attachments\": [\n            {\n                \"attachmentId\": \"guid-or-identifier-for-attachment\",\n                \"name\": \"name-of-attachment\"\n            },\n            {\n                \"attachmentId\": \"guid-or-identifier-for-attachment01\",\n                \"name\": \"name-of-attachment01\"\n            }\n        ]\n    }\n",
+                                                                                                "schema": "",
+                                                                                                "content": [
+                                                                                                        {
+                                                                                                                "element": "asset",
+                                                                                                                "attributes": {
+                                                                                                                        "role": "bodyExample"
+                                                                                                                },
+                                                                                                                "content": "    {\n        \"publisherId\": \"guid-or-idenfitier-for-user-id\",\n        \"threadId\": \"guid-or-idenfitier-for-user-id\",\n        \"body\": \"Hello World\",\n        \"attachments\": [\n            {\n                \"attachmentId\": \"guid-or-identifier-for-attachment\",\n                \"name\": \"name-of-attachment\"\n            },\n            {\n                \"attachmentId\": \"guid-or-identifier-for-attachment01\",\n                \"name\": \"name-of-attachment01\"\n            }\n        ]\n    }\n"
+                                                                                                        }
+                                                                                                ]
+                                                                                        }
+                                                                                ],
+                                                                                "responses": [
+                                                                                        {
+                                                                                                "name": "201",
+                                                                                                "description": "",
+                                                                                                "headers": [
+                                                                                                        {
+                                                                                                                "name": "Content-Type",
+                                                                                                                "value": "application/json"
+                                                                                                        },
+                                                                                                        {
+                                                                                                                "name": "Location",
+                                                                                                                "value": "/messages/1d"
+                                                                                                        }
+                                                                                                ],
+                                                                                                "body": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{ \n                \"id\": \"guid-or-identifier-for-message-object\" \n            }  \n        },\n        \"version\":\"v3\"\n    }\n",
+                                                                                                "schema": "",
+                                                                                                "content": [
+                                                                                                        {
+                                                                                                                "element": "asset",
+                                                                                                                "attributes": {
+                                                                                                                        "role": "bodyExample"
+                                                                                                                },
+                                                                                                                "content": "    {\n        \"id\":\"-455f1770:14d6dd97f63:-7f9c\",\n        \"result\": {\n            \"success\":true,\n            \"status\":200,\n            \"metadata\":null,\n            \"content\":{ \n                \"id\": \"guid-or-identifier-for-message-object\" \n            }  \n        },\n        \"version\":\"v3\"\n    }\n"
+                                                                                                        }
+                                                                                                ]
+                                                                                        }
+                                                                                ]
+                                                                        }
+                                                                ]
                                                         }
                                                 ],
                                                 "content": []
@@ -9313,6 +9514,75 @@ window.FIXTURES = {
                                                 "content": []
                                         }
                                 ]
+                        },
+                        {
+                                "element": "category",
+                                "attributes": {
+                                        "name": "Messaging"
+                                },
+                                "content": [
+                                        {
+                                                "element": "resource",
+                                                "name": "Inbox",
+                                                "description": "Authroization header has to be provided along with this request to identify the user.\n\n",
+                                                "uriTemplate": "/inboxes",
+                                                "model": {},
+                                                "parameters": [],
+                                                "actions": [
+                                                        {
+                                                                "name": "Update an existing message",
+                                                                "description": "Mark the message as read\n\n",
+                                                                "method": "PUT",
+                                                                "parameters": [],
+                                                                "attributes": {
+                                                                        "relation": "",
+                                                                        "uriTemplate": "/inboxes/{id}/messages/{messageId}"
+                                                                },
+                                                                "content": [],
+                                                                "examples": [
+                                                                        {
+                                                                                "name": "",
+                                                                                "description": "",
+                                                                                "requests": [
+                                                                                        {
+                                                                                                "name": "",
+                                                                                                "description": "",
+                                                                                                "headers": [
+                                                                                                        {
+                                                                                                                "name": "Content-Type",
+                                                                                                                "value": "application/json"
+                                                                                                        }
+                                                                                                ],
+                                                                                                "body": "{ \"param\": {\n    \"subscriberId\":\"santthosh\",\n    \"readFlag\":true\n  }\n}\n",
+                                                                                                "schema": "",
+                                                                                                "content": [
+                                                                                                        {
+                                                                                                                "element": "asset",
+                                                                                                                "attributes": {
+                                                                                                                        "role": "bodyExample"
+                                                                                                                },
+                                                                                                                "content": "{ \"param\": {\n    \"subscriberId\":\"santthosh\",\n    \"readFlag\":true\n  }\n}\n"
+                                                                                                        }
+                                                                                                ]
+                                                                                        }
+                                                                                ],
+                                                                                "responses": [
+                                                                                        {
+                                                                                                "name": "200",
+                                                                                                "description": "",
+                                                                                                "headers": [],
+                                                                                                "body": "",
+                                                                                                "schema": "",
+                                                                                                "content": []
+                                                                                        }
+                                                                                ]
+                                                                        }
+                                                                ]
+                                                        }
+                                                ],
+                                                "content": []
+                                        }
+                                ]
                         }
                 ]
         },
@@ -9321,7 +9591,7 @@ window.FIXTURES = {
 }
 };
 /**
- * Sinon.JS 1.14.0, 2015/03/14
+ * Sinon.JS 1.12.1, 2014/11/16
  *
  * @author Christian Johansen (christian@cjohansen.no)
  * @author Contributors: https://github.com/cjohansen/Sinon.JS/blob/master/AUTHORS
@@ -9357,7 +9627,7 @@ window.FIXTURES = {
 
 (function (root, factory) {
   if (typeof define === 'function' && define.amd) {
-    define('sinon', [], function () {
+    define([], function () {
       return (root.sinon = factory());
     });
   } else if (typeof exports === 'object') {
@@ -9728,22 +9998,11 @@ window.FIXTURES = {
             return matcher === object;
         }
 
-        if (typeof(matcher) === "undefined") {
-            return typeof(object) === "undefined";
-        }
-
-        if (matcher === null) {
-            return object === null;
-        }
-
         if (getClass(object) === "Array" && getClass(matcher) === "Array") {
             return arrayContains(object, matcher);
         }
 
         if (matcher && typeof matcher === "object") {
-            if (matcher === object) {
-                return true;
-            }
             var prop;
             for (prop in matcher) {
                 var value = object[prop];
@@ -9751,11 +10010,7 @@ window.FIXTURES = {
                         typeof object.getAttribute === "function") {
                     value = object.getAttribute(prop);
                 }
-                if (matcher[prop] === null || typeof matcher[prop] === 'undefined') {
-                    if (value !== matcher[prop]) {
-                        return false;
-                    }
-                } else if (typeof  value === "undefined" || !match(value, matcher[prop])) {
+                if (typeof value === "undefined" || !match(value, matcher[prop])) {
                     return false;
                 }
             }
@@ -10482,14 +10737,6 @@ var sinon = (function () {
     var div = typeof document != "undefined" && document.createElement("div");
     var hasOwn = Object.prototype.hasOwnProperty;
 
-    function getPropertyDescriptor(object, property) {
-        var proto = object, descriptor;
-        while (proto && !(descriptor = Object.getOwnPropertyDescriptor(proto, property))) {
-            proto = Object.getPrototypeOf(proto);
-        }
-        return descriptor;
-    }
-
     function isDOMNode(obj) {
         var success = false;
 
@@ -10539,55 +10786,34 @@ var sinon = (function () {
                 throw new TypeError("Should wrap property of object");
             }
 
-            if (typeof method != "function" && typeof method != "object") {
-                throw new TypeError("Method wrapper should be a function or a property descriptor");
+            if (typeof method != "function") {
+                throw new TypeError("Method wrapper should be function");
             }
-            var methodDesc = (typeof method == "function") ? {value: method} : method,
-                wrappedMethodDesc = getPropertyDescriptor(object, property),
-                error, i, wrappedMethod;
 
-            if (!wrappedMethodDesc) {
+            var wrappedMethod = object[property],
+                error;
+
+            if (!isFunction(wrappedMethod)) {
                 error = new TypeError("Attempted to wrap " + (typeof wrappedMethod) + " property " +
                                     property + " as function");
-            } else if (wrappedMethodDesc.restore && wrappedMethodDesc.restore.sinon) {
+            } else if (wrappedMethod.restore && wrappedMethod.restore.sinon) {
                 error = new TypeError("Attempted to wrap " + property + " which is already wrapped");
-            }
-            if (error) {
-                if (wrappedMethodDesc && wrappedMethodDesc.stackTrace) {
-                    error.stack += "\n--------------\n" + wrappedMethodDesc.stackTrace;
-                }
-                throw error;
+            } else if (wrappedMethod.calledBefore) {
+                var verb = !!wrappedMethod.returns ? "stubbed" : "spied on";
+                error = new TypeError("Attempted to wrap " + property + " which is already " + verb);
             }
 
-            var types = Object.keys(methodDesc);
-            for (i = 0; i < types.length; i++) {
-                wrappedMethod = wrappedMethodDesc[types[i]];
-                if (!isFunction(wrappedMethod)) {
-                    error = new TypeError("Attempted to wrap " + (typeof wrappedMethod) + " property " +
-                                        property + " as function");
-                } else if (wrappedMethod.restore && wrappedMethod.restore.sinon) {
-                    error = new TypeError("Attempted to wrap " + property + " which is already wrapped");
-                } else if (wrappedMethod.calledBefore) {
-                    var verb = !!wrappedMethod.returns ? "stubbed" : "spied on";
-                    error = new TypeError("Attempted to wrap " + property + " which is already " + verb);
+            if (error) {
+                if (wrappedMethod && wrappedMethod.stackTrace) {
+                    error.stack += "\n--------------\n" + wrappedMethod.stackTrace;
                 }
-                if (error) {
-                    if (wrappedMethod && wrappedMethod.stackTrace) {
-                        error.stack += "\n--------------\n" + wrappedMethod.stackTrace;
-                    }
-                    throw error;
-                }
+                throw error;
             }
 
             // IE 8 does not support hasOwnProperty on the window object and Firefox has a problem
             // when using hasOwn.call on objects from other frames.
             var owned = object.hasOwnProperty ? object.hasOwnProperty(property) : hasOwn.call(object, property);
-            mirrorProperties(methodDesc, wrappedMethodDesc);
-            for (i = 0; i < types.length; i++) {
-                mirrorProperties(methodDesc[types[i]], wrappedMethodDesc[types[i]]);
-            }
-            Object.defineProperty(object, property, methodDesc);
-
+            object[property] = method;
             method.displayName = property;
             // Set up a stack trace which can be used later to find what line of
             // code the original method was created on.
@@ -10599,12 +10825,14 @@ var sinon = (function () {
                 // via direct assignment.
                 if (!owned) {
                     delete object[property];
-                } else {
-                    Object.defineProperty(object, property, wrappedMethodDesc);
+                }
+                if (object[property] === method) {
+                    object[property] = wrappedMethod;
                 }
             };
 
             method.restore.sinon = true;
+            mirrorProperties(method, wrappedMethod);
 
             return method;
         };
@@ -10804,7 +11032,7 @@ var sinon = (function () {
 }(typeof sinon == "object" && sinon || null));
 
 /**
- * @depend util/core.js
+ * @depend ../sinon.js
  */
 
 (function (sinon) {
@@ -10907,7 +11135,7 @@ var sinon = (function () {
 }(typeof sinon == "object" && sinon || null));
 
 /**
- * @depend util/core.js
+ * @depend ../sinon.js
  */
 
 (function (sinon) {
@@ -10950,7 +11178,7 @@ var sinon = (function () {
 }(typeof sinon == "object" && sinon || null));
 
 /**
- * @depend util/core.js
+ * @depend ../sinon.js
  */
 /**
  * Format functions
@@ -11238,7 +11466,6 @@ var sinon = (function () {
 
     function loadDependencies(require, exports, module) {
         var sinon = require("./util/core");
-        require("./typeOf");
         module.exports = makeApi(sinon);
     }
 
@@ -11254,7 +11481,7 @@ var sinon = (function () {
 }(typeof sinon == "object" && sinon || null));
 
 /**
- * @depend util/core.js
+ * @depend ../sinon.js
  */
 /**
  * Format functions
@@ -11378,11 +11605,7 @@ var sinon = (function () {
             },
 
             calledWith: function calledWith() {
-                var l = arguments.length;
-                if (l > this.args.length) {
-                    return false;
-                }
-                for (var i = 0; i < l; i += 1) {
+                for (var i = 0, l = arguments.length; i < l; i += 1) {
                     if (!sinon.deepEqual(arguments[i], this.args[i])) {
                         return false;
                     }
@@ -11392,11 +11615,7 @@ var sinon = (function () {
             },
 
             calledWithMatch: function calledWithMatch() {
-                var l = arguments.length;
-                if (l > this.args.length) {
-                    return false;
-                }
-                for (var i = 0; i < l; i += 1) {
+                for (var i = 0, l = arguments.length; i < l; i += 1) {
                     var actual = this.args[i];
                     var expectation = arguments[i];
                     if (!sinon.match || !sinon.match(expectation).test(actual)) {
@@ -11545,7 +11764,6 @@ var sinon = (function () {
     function loadDependencies(require, exports, module) {
         var sinon = require("./util/core");
         require("./match");
-        require("./format");
         module.exports = makeApi(sinon);
     }
 
@@ -11577,20 +11795,12 @@ var sinon = (function () {
   */
 
 (function (sinon) {
-    function getPropertyDescriptor(object, property) {
-        var proto = object, descriptor;
-        while (proto && !(descriptor = Object.getOwnPropertyDescriptor(proto, property))) {
-            proto = Object.getPrototypeOf(proto);
-        }
-        return descriptor;
-    }
-
     function makeApi(sinon) {
         var push = Array.prototype.push;
         var slice = Array.prototype.slice;
         var callId = 0;
 
-        function spy(object, property, types) {
+        function spy(object, property) {
             if (!property && typeof object == "function") {
                 return spy.create(object);
             }
@@ -11599,16 +11809,8 @@ var sinon = (function () {
                 return spy.create(function () { });
             }
 
-            if (types) {
-                var methodDesc = getPropertyDescriptor(object, property);
-                for (var i = 0; i < types.length; i++) {
-                    methodDesc[types[i]] = spy.create(methodDesc[types[i]]);
-                }
-                return sinon.wrapMethod(object, property, methodDesc);
-            } else {
-                var method = object[property];
-                return sinon.wrapMethod(object, property, spy.create(method));
-            }
+            var method = object[property];
+            return sinon.wrapMethod(object, property, spy.create(method));
         }
 
         function matchingFake(fakes, args, strict) {
@@ -11640,11 +11842,11 @@ var sinon = (function () {
         }
 
         var vars = "a,b,c,d,e,f,g,h,i,j,k,l";
-        function createProxy(func, proxyLength) {
+        function createProxy(func) {
             // Retain the function length:
             var p;
-            if (proxyLength) {
-                eval("p = (function proxy(" + vars.substring(0, proxyLength * 2 - 1) +
+            if (func.length) {
+                eval("p = (function proxy(" + vars.substring(0, func.length * 2 - 1) +
                     ") { return p.invoke(func, this, slice.call(arguments)); });");
             } else {
                 p = function proxy() {
@@ -11686,11 +11888,9 @@ var sinon = (function () {
                         this.fakes[i].reset();
                     }
                 }
-
-                return this;
             },
 
-            create: function create(func, spyLength) {
+            create: function create(func) {
                 var name;
 
                 if (typeof func != "function") {
@@ -11699,11 +11899,7 @@ var sinon = (function () {
                     name = sinon.functionName(func);
                 }
 
-                if (!spyLength) {
-                    spyLength = func.length;
-                }
-
-                var proxy = createProxy(func, spyLength);
+                var proxy = createProxy(func);
 
                 sinon.extend(proxy, spy);
                 delete proxy.create;
@@ -12004,9 +12200,6 @@ var sinon = (function () {
     function loadDependencies(require, exports, module) {
         var sinon = require("./util/core");
         require("./call");
-        require("./extend");
-        require("./times_in_words");
-        require("./format");
         module.exports = makeApi(sinon);
     }
 
@@ -12038,8 +12231,6 @@ var sinon = (function () {
 (function (sinon) {
     var slice = Array.prototype.slice;
     var join = Array.prototype.join;
-    var useLeftMostCallback = -1;
-    var useRightMostCallback = -2;
 
     var nextTick = (function () {
         if (typeof process === "object" && typeof process.nextTick === "function") {
@@ -12069,34 +12260,24 @@ var sinon = (function () {
     function getCallback(behavior, args) {
         var callArgAt = behavior.callArgAt;
 
-        if (callArgAt >= 0) {
-            return args[callArgAt];
-        }
+        if (callArgAt < 0) {
+            var callArgProp = behavior.callArgProp;
 
-        var argumentList;
+            for (var i = 0, l = args.length; i < l; ++i) {
+                if (!callArgProp && typeof args[i] == "function") {
+                    return args[i];
+                }
 
-        if (callArgAt === useLeftMostCallback) {
-            argumentList = args;
-        }
-
-        if (callArgAt === useRightMostCallback) {
-            argumentList = slice.call(args).reverse();
-        }
-
-        var callArgProp = behavior.callArgProp;
-
-        for (var i = 0, l = argumentList.length; i < l; ++i) {
-            if (!callArgProp && typeof argumentList[i] == "function") {
-                return argumentList[i];
+                if (callArgProp && args[i] &&
+                    typeof args[i][callArgProp] == "function") {
+                    return args[i][callArgProp];
+                }
             }
 
-            if (callArgProp && argumentList[i] &&
-                typeof argumentList[i][callArgProp] == "function") {
-                return argumentList[i][callArgProp];
-            }
+            return null;
         }
 
-        return null;
+        return args[callArgAt];
     }
 
     function makeApi(sinon) {
@@ -12256,17 +12437,7 @@ var sinon = (function () {
             },
 
             yields: function () {
-                this.callArgAt = useLeftMostCallback;
-                this.callbackArguments = slice.call(arguments, 0);
-                this.callbackContext = undefined;
-                this.callArgProp = undefined;
-                this.callbackAsync = false;
-
-                return this;
-            },
-
-            yieldsRight: function () {
-                this.callArgAt = useRightMostCallback;
+                this.callArgAt = -1;
                 this.callbackArguments = slice.call(arguments, 0);
                 this.callbackContext = undefined;
                 this.callArgProp = undefined;
@@ -12280,7 +12451,7 @@ var sinon = (function () {
                     throw new TypeError("argument context is not an object");
                 }
 
-                this.callArgAt = useLeftMostCallback;
+                this.callArgAt = -1;
                 this.callbackArguments = slice.call(arguments, 1);
                 this.callbackContext = context;
                 this.callArgProp = undefined;
@@ -12290,7 +12461,7 @@ var sinon = (function () {
             },
 
             yieldsTo: function (prop) {
-                this.callArgAt = useLeftMostCallback;
+                this.callArgAt = -1;
                 this.callbackArguments = slice.call(arguments, 1);
                 this.callbackContext = undefined;
                 this.callArgProp = prop;
@@ -12304,7 +12475,7 @@ var sinon = (function () {
                     throw new TypeError("argument context is not an object");
                 }
 
-                this.callArgAt = useLeftMostCallback;
+                this.callArgAt = -1;
                 this.callbackArguments = slice.call(arguments, 2);
                 this.callbackContext = context;
                 this.callArgProp = prop;
@@ -12365,7 +12536,6 @@ var sinon = (function () {
 
     function loadDependencies(require, exports, module) {
         var sinon = require("./util/core");
-        require("./extend");
         module.exports = makeApi(sinon);
     }
 
@@ -12398,30 +12568,16 @@ var sinon = (function () {
 (function (sinon) {
     function makeApi(sinon) {
         function stub(object, property, func) {
-            if (!!func && typeof func != "function" && typeof func != "object") {
-                throw new TypeError("Custom stub should be a function or a property descriptor");
+            if (!!func && typeof func != "function") {
+                throw new TypeError("Custom stub should be function");
             }
 
             var wrapper;
 
             if (func) {
-                if (typeof func == "function") {
-                    wrapper = sinon.spy && sinon.spy.create ? sinon.spy.create(func) : func;
-                } else {
-                    wrapper = func;
-                    if (sinon.spy && sinon.spy.create) {
-                        var types = Object.keys(wrapper);
-                        for (var i = 0; i < types.length; i++) {
-                            wrapper[types[i]] = sinon.spy.create(wrapper[types[i]]);
-                        }
-                    }
-                }
+                wrapper = sinon.spy && sinon.spy.create ? sinon.spy.create(func) : func;
             } else {
-                var stubLength = 0;
-                if (typeof object == "object" && typeof object[property] == "function") {
-                    stubLength = object[property].length;
-                }
-                wrapper = stub.create(stubLength);
+                wrapper = stub.create();
             }
 
             if (!object && typeof property === "undefined") {
@@ -12457,14 +12613,14 @@ var sinon = (function () {
         var uuid = 0;
 
         var proto = {
-            create: function create(stubLength) {
+            create: function create() {
                 var functionStub = function () {
                     return getCurrentBehavior(functionStub).invoke(this, arguments);
                 };
 
                 functionStub.id = "stub#" + uuid++;
                 var orig = functionStub;
-                functionStub = sinon.spy.create(functionStub, stubLength);
+                functionStub = sinon.spy.create(functionStub);
                 functionStub.func = orig;
 
                 sinon.extend(functionStub, stub);
@@ -12545,7 +12701,6 @@ var sinon = (function () {
         var sinon = require("./util/core");
         require("./behavior");
         require("./spy");
-        require("./extend");
         module.exports = makeApi(sinon);
     }
 
@@ -12563,10 +12718,7 @@ var sinon = (function () {
 /**
  * @depend times_in_words.js
  * @depend util/core.js
- * @depend call.js
  * @depend extend.js
- * @depend match.js
- * @depend spy.js
  * @depend stub.js
  * @depend format.js
  */
@@ -12994,14 +13146,9 @@ var sinon = (function () {
 
     function loadDependencies(require, exports, module) {
         var sinon = require("./util/core");
-        require("./times_in_words");
         require("./call");
-        require("./extend");
         require("./match");
         require("./spy");
-        require("./stub");
-        require("./format");
-
         module.exports = makeApi(sinon);
     }
 
@@ -13018,7 +13165,6 @@ var sinon = (function () {
 
 /**
  * @depend util/core.js
- * @depend spy.js
  * @depend stub.js
  * @depend mock.js
  */
@@ -13209,7 +13355,7 @@ if (typeof sinon == "undefined") {
 
 (function (global) {
     function makeApi(sinon, lol) {
-        var llx = typeof lolex !== "undefined" ? lolex : lol;
+        var _lolex = typeof lolex !== "undefined" ? lolex : lol;
 
         sinon.useFakeTimers = function () {
             var now, methods = Array.prototype.slice.call(arguments);
@@ -13220,14 +13366,14 @@ if (typeof sinon == "undefined") {
                 now = methods.shift();
             }
 
-            var clock = llx.install(now || 0, methods);
+            var clock = _lolex.install(now || 0, methods);
             clock.restore = clock.uninstall;
             return clock;
         };
 
         sinon.clock = {
             create: function (now) {
-                return llx.createClock(now);
+                return _lolex.createClock(now);
             }
         };
 
@@ -13245,16 +13391,16 @@ if (typeof sinon == "undefined") {
     var isNode = typeof module !== "undefined" && module.exports && typeof require == "function";
     var isAMD = typeof define === "function" && typeof define.amd === "object" && define.amd;
 
-    function loadDependencies(require, epxorts, module, lolex) {
+    function loadDependencies(require, epxorts, module) {
         var sinon = require("./core");
-        makeApi(sinon, lolex);
+        makeApi(sinon, require("lolex"));
         module.exports = sinon;
     }
 
     if (isAMD) {
         define(loadDependencies);
     } else if (isNode) {
-        loadDependencies(require, module.exports, module, require("lolex"));
+        loadDependencies(require, module.exports, module);
     } else {
         makeApi(sinon);
     }
@@ -13304,7 +13450,6 @@ if (typeof sinon == "undefined") {
             this.initEvent(type, false, false, target);
             this.loaded = progressEventRaw.loaded || null;
             this.total = progressEventRaw.total || null;
-            this.lengthComputable = !!progressEventRaw.total;
         };
 
         sinon.ProgressEvent.prototype = new sinon.Event();
@@ -13372,7 +13517,7 @@ if (typeof sinon == "undefined") {
 }());
 
 /**
- * @depend util/core.js
+ * @depend ../sinon.js
  */
 /**
  * Logs errors
@@ -13438,229 +13583,6 @@ if (typeof sinon == "undefined") {
         makeApi(sinon);
     }
 }(typeof sinon == "object" && sinon || null));
-
-/**
- * @depend core.js
- * @depend ../extend.js
- * @depend event.js
- * @depend ../log_error.js
- */
-/**
- * Fake XDomainRequest object
- */
-
-if (typeof sinon == "undefined") {
-    this.sinon = {};
-}
-
-// wrapper for global
-(function (global) {
-    var xdr = { XDomainRequest: global.XDomainRequest };
-    xdr.GlobalXDomainRequest = global.XDomainRequest;
-    xdr.supportsXDR = typeof xdr.GlobalXDomainRequest != "undefined";
-    xdr.workingXDR = xdr.supportsXDR ? xdr.GlobalXDomainRequest :  false;
-
-    function makeApi(sinon) {
-        sinon.xdr = xdr;
-
-        function FakeXDomainRequest() {
-            this.readyState = FakeXDomainRequest.UNSENT;
-            this.requestBody = null;
-            this.requestHeaders = {};
-            this.status = 0;
-            this.timeout = null;
-
-            if (typeof FakeXDomainRequest.onCreate == "function") {
-                FakeXDomainRequest.onCreate(this);
-            }
-        }
-
-        function verifyState(xdr) {
-            if (xdr.readyState !== FakeXDomainRequest.OPENED) {
-                throw new Error("INVALID_STATE_ERR");
-            }
-
-            if (xdr.sendFlag) {
-                throw new Error("INVALID_STATE_ERR");
-            }
-        }
-
-        function verifyRequestSent(xdr) {
-            if (xdr.readyState == FakeXDomainRequest.UNSENT) {
-                throw new Error("Request not sent");
-            }
-            if (xdr.readyState == FakeXDomainRequest.DONE) {
-                throw new Error("Request done");
-            }
-        }
-
-        function verifyResponseBodyType(body) {
-            if (typeof body != "string") {
-                var error = new Error("Attempted to respond to fake XDomainRequest with " +
-                                    body + ", which is not a string.");
-                error.name = "InvalidBodyException";
-                throw error;
-            }
-        }
-
-        sinon.extend(FakeXDomainRequest.prototype, sinon.EventTarget, {
-            open: function open(method, url) {
-                this.method = method;
-                this.url = url;
-
-                this.responseText = null;
-                this.sendFlag = false;
-
-                this.readyStateChange(FakeXDomainRequest.OPENED);
-            },
-
-            readyStateChange: function readyStateChange(state) {
-                this.readyState = state;
-                var eventName = "";
-                switch (this.readyState) {
-                case FakeXDomainRequest.UNSENT:
-                    break;
-                case FakeXDomainRequest.OPENED:
-                    break;
-                case FakeXDomainRequest.LOADING:
-                    if (this.sendFlag) {
-                        //raise the progress event
-                        eventName = "onprogress";
-                    }
-                    break;
-                case FakeXDomainRequest.DONE:
-                    if (this.isTimeout) {
-                        eventName = "ontimeout"
-                    } else if (this.errorFlag || (this.status < 200 || this.status > 299)) {
-                        eventName = "onerror";
-                    } else {
-                        eventName = "onload"
-                    }
-                    break;
-                }
-
-                // raising event (if defined)
-                if (eventName) {
-                    if (typeof this[eventName] == "function") {
-                        try {
-                            this[eventName]();
-                        } catch (e) {
-                            sinon.logError("Fake XHR " + eventName + " handler", e);
-                        }
-                    }
-                }
-            },
-
-            send: function send(data) {
-                verifyState(this);
-
-                if (!/^(get|head)$/i.test(this.method)) {
-                    this.requestBody = data;
-                }
-                this.requestHeaders["Content-Type"] = "text/plain;charset=utf-8";
-
-                this.errorFlag = false;
-                this.sendFlag = true;
-                this.readyStateChange(FakeXDomainRequest.OPENED);
-
-                if (typeof this.onSend == "function") {
-                    this.onSend(this);
-                }
-            },
-
-            abort: function abort() {
-                this.aborted = true;
-                this.responseText = null;
-                this.errorFlag = true;
-
-                if (this.readyState > sinon.FakeXDomainRequest.UNSENT && this.sendFlag) {
-                    this.readyStateChange(sinon.FakeXDomainRequest.DONE);
-                    this.sendFlag = false;
-                }
-            },
-
-            setResponseBody: function setResponseBody(body) {
-                verifyRequestSent(this);
-                verifyResponseBodyType(body);
-
-                var chunkSize = this.chunkSize || 10;
-                var index = 0;
-                this.responseText = "";
-
-                do {
-                    this.readyStateChange(FakeXDomainRequest.LOADING);
-                    this.responseText += body.substring(index, index + chunkSize);
-                    index += chunkSize;
-                } while (index < body.length);
-
-                this.readyStateChange(FakeXDomainRequest.DONE);
-            },
-
-            respond: function respond(status, contentType, body) {
-                // content-type ignored, since XDomainRequest does not carry this
-                // we keep the same syntax for respond(...) as for FakeXMLHttpRequest to ease
-                // test integration across browsers
-                this.status = typeof status == "number" ? status : 200;
-                this.setResponseBody(body || "");
-            },
-
-            simulatetimeout: function simulatetimeout() {
-                this.status = 0;
-                this.isTimeout = true;
-                // Access to this should actually throw an error
-                this.responseText = undefined;
-                this.readyStateChange(FakeXDomainRequest.DONE);
-            }
-        });
-
-        sinon.extend(FakeXDomainRequest, {
-            UNSENT: 0,
-            OPENED: 1,
-            LOADING: 3,
-            DONE: 4
-        });
-
-        sinon.useFakeXDomainRequest = function useFakeXDomainRequest() {
-            sinon.FakeXDomainRequest.restore = function restore(keepOnCreate) {
-                if (xdr.supportsXDR) {
-                    global.XDomainRequest = xdr.GlobalXDomainRequest;
-                }
-
-                delete sinon.FakeXDomainRequest.restore;
-
-                if (keepOnCreate !== true) {
-                    delete sinon.FakeXDomainRequest.onCreate;
-                }
-            };
-            if (xdr.supportsXDR) {
-                global.XDomainRequest = sinon.FakeXDomainRequest;
-            }
-            return sinon.FakeXDomainRequest;
-        };
-
-        sinon.FakeXDomainRequest = FakeXDomainRequest;
-    }
-
-    var isNode = typeof module !== "undefined" && module.exports && typeof require == "function";
-    var isAMD = typeof define === "function" && typeof define.amd === "object" && define.amd;
-
-    function loadDependencies(require, exports, module) {
-        var sinon = require("./core");
-        require("../extend");
-        require("./event");
-        require("../log_error");
-        makeApi(sinon);
-        module.exports = sinon;
-    }
-
-    if (isAMD) {
-        define(loadDependencies);
-    } else if (isNode) {
-        loadDependencies(require, module.exports, module);
-    } else {
-        makeApi(sinon);
-    }
-})(this);
 
 /**
  * @depend core.js
@@ -13953,7 +13875,6 @@ if (typeof sinon == "undefined") {
         204: "No Content",
         205: "Reset Content",
         206: "Partial Content",
-        207: "Multi-Status",
         300: "Multiple Choice",
         301: "Moved Permanently",
         302: "Found",
@@ -14037,7 +13958,6 @@ if (typeof sinon == "undefined") {
                         this.upload.dispatchEvent(new sinon.Event("load", false, false, this));
                         if (supportsProgress) {
                             this.upload.dispatchEvent(new sinon.ProgressEvent("progress", {loaded: 100, total: 100}));
-                            this.dispatchEvent(new sinon.ProgressEvent("progress", {loaded: 100, total: 100}));
                         }
                         break;
                 }
@@ -14084,7 +14004,7 @@ if (typeof sinon == "undefined") {
                     if (this.requestHeaders[contentType]) {
                         var value = this.requestHeaders[contentType].split(";");
                         this.requestHeaders[contentType] = value[0] + ";charset=utf-8";
-                    } else if (!(data instanceof FormData)) {
+                    } else {
                         this.requestHeaders["Content-Type"] = "text/plain;charset=utf-8";
                     }
 
@@ -14200,12 +14120,6 @@ if (typeof sinon == "undefined") {
                 }
             },
 
-            downloadProgress: function downloadProgress(progressEventRaw) {
-                if (supportsProgress) {
-                    this.dispatchEvent(new sinon.ProgressEvent("progress", progressEventRaw));
-                }
-            },
-
             uploadError: function uploadError(error) {
                 if (supportsCustomEvent) {
                     this.upload.dispatchEvent(new sinon.CustomEvent("error", {detail: error}));
@@ -14263,9 +14177,7 @@ if (typeof sinon == "undefined") {
 
     function loadDependencies(require, exports, module) {
         var sinon = require("./core");
-        require("../extend");
         require("./event");
-        require("../log_error");
         makeApi(sinon);
         module.exports = sinon;
     }
@@ -14280,10 +14192,9 @@ if (typeof sinon == "undefined") {
         makeApi(sinon);
     }
 
-})(typeof global !== "undefined" ? global : this);
+})(typeof self !== "undefined" ? self : this);
 
 /**
- * @depend fake_xdomain_request.js
  * @depend fake_xml_http_request.js
  * @depend ../format.js
  * @depend ../log_error.js
@@ -14364,11 +14275,7 @@ if (typeof sinon == "undefined") {
         sinon.fakeServer = {
             create: function () {
                 var server = create(this);
-                if (!sinon.xhr.supportsCORS) {
-                    this.xhr = sinon.useFakeXDomainRequest();
-                } else {
-                    this.xhr = sinon.useFakeXMLHttpRequest();
-                }
+                this.xhr = sinon.useFakeXMLHttpRequest();
                 server.requests = [];
 
                 this.xhr.onCreate = function (xhrObj) {
@@ -14385,9 +14292,7 @@ if (typeof sinon == "undefined") {
                 xhrObj.onSend = function () {
                     server.handleRequest(this);
 
-                    if (server.respondImmediately) {
-                        server.respond();
-                    } else if (server.autoRespond && !server.responding) {
+                    if (server.autoRespond && !server.responding) {
                         setTimeout(function () {
                             server.responding = false;
                             server.respond();
@@ -14506,9 +14411,7 @@ if (typeof sinon == "undefined") {
 
     function loadDependencies(require, exports, module) {
         var sinon = require("./core");
-        require("./fake_xdomain_request");
         require("./fake_xml_http_request");
-        require("../format");
         makeApi(sinon);
         module.exports = sinon;
     }
@@ -14767,8 +14670,7 @@ if (typeof sinon == "undefined") {
 
     function loadDependencies(require, exports, module) {
         var sinon = require("./util/core");
-        require("./extend");
-        require("./util/fake_server_with_clock");
+        require("./util/fake_server");
         require("./util/fake_timers");
         require("./collection");
         module.exports = makeApi(sinon);
@@ -14787,6 +14689,8 @@ if (typeof sinon == "undefined") {
 
 /**
  * @depend util/core.js
+ * @depend stub.js
+ * @depend mock.js
  * @depend sandbox.js
  */
 /**
@@ -14800,8 +14704,6 @@ if (typeof sinon == "undefined") {
 
 (function (sinon) {
     function makeApi(sinon) {
-        var slice = Array.prototype.slice;
-
         function test(callback) {
             var type = typeof callback;
 
@@ -14813,12 +14715,12 @@ if (typeof sinon == "undefined") {
                 var config = sinon.getConfig(sinon.config);
                 config.injectInto = config.injectIntoThis && this || config.injectInto;
                 var sandbox = sinon.sandbox.create(config);
-                var args = slice.call(arguments);
-                var oldDone = args.length && args[args.length - 1];
                 var exception, result;
-
-                if (typeof oldDone == "function") {
-                    args[args.length - 1] = function sinonDone(result) {
+                var doneIsWrapped = false;
+                var argumentsCopy = Array.prototype.slice.call(arguments);
+                if (argumentsCopy.length > 0 && typeof argumentsCopy[arguments.length - 1] == "function") {
+                    var oldDone = argumentsCopy[arguments.length - 1];
+                    argumentsCopy[arguments.length - 1] = function done(result) {
                         if (result) {
                             sandbox.restore();
                             throw exception;
@@ -14826,16 +14728,19 @@ if (typeof sinon == "undefined") {
                             sandbox.verifyAndRestore();
                         }
                         oldDone(result);
-                    };
+                    }
+                    doneIsWrapped = true;
                 }
 
+                var args = argumentsCopy.concat(sandbox.args);
+
                 try {
-                    result = callback.apply(this, args.concat(sandbox.args));
+                    result = callback.apply(this, args);
                 } catch (e) {
                     exception = e;
                 }
 
-                if (typeof oldDone != "function") {
+                if (!doneIsWrapped) {
                     if (typeof exception !== "undefined") {
                         sandbox.restore();
                         throw exception;
@@ -14845,7 +14750,7 @@ if (typeof sinon == "undefined") {
                 }
 
                 return result;
-            }
+            };
 
             if (callback.length) {
                 return function sinonAsyncSandboxedTest(callback) {
@@ -14881,7 +14786,9 @@ if (typeof sinon == "undefined") {
         define(loadDependencies);
     } else if (isNode) {
         loadDependencies(require, module.exports, module);
-    } else if (sinon) {
+    } else if (!sinon) {
+        return;
+    } else {
         makeApi(sinon);
     }
 }(typeof sinon == "object" && sinon || null));
@@ -14992,7 +14899,7 @@ if (typeof sinon == "undefined") {
 /**
  * @depend times_in_words.js
  * @depend util/core.js
- * @depend match.js
+ * @depend stub.js
  * @depend format.js
  */
 /**
@@ -15020,18 +14927,13 @@ if (typeof sinon == "undefined") {
                     assert.fail("fake is not a spy");
                 }
 
-                if (method.proxy) {
-                    verifyIsStub(method.proxy);
-                } else {
-                    if (typeof method != "function") {
-                        assert.fail(method + " is not a function");
-                    }
-
-                    if (typeof method.getCall != "function") {
-                        assert.fail(method + " is not stubbed");
-                    }
+                if (typeof method != "function") {
+                    assert.fail(method + " is not a function");
                 }
 
+                if (typeof method.getCall != "function") {
+                    assert.fail(method + " is not stubbed");
+                }
             }
         }
 
@@ -15061,7 +14963,7 @@ if (typeof sinon == "undefined") {
                 }
 
                 if (failed) {
-                    failAssertion(this, (fake.printf || fake.proxy.printf).apply(fake, [message].concat(args)));
+                    failAssertion(this, fake.printf.apply(fake, [message].concat(args)));
                 } else {
                     assert.pass(name);
                 }
@@ -15187,7 +15089,6 @@ if (typeof sinon == "undefined") {
     function loadDependencies(require, exports, module) {
         var sinon = require("./util/core");
         require("./match");
-        require("./format");
         module.exports = makeApi(sinon);
     }
 
@@ -15202,6 +15103,227 @@ if (typeof sinon == "undefined") {
     }
 
 }(typeof sinon == "object" && sinon || null, typeof window != "undefined" ? window : (typeof self != "undefined") ? self : global));
+
+/**
+ * @depend core.js
+ * @depend ../extend.js
+ * @depend event.js
+ * @depend ../log_error.js
+ */
+/**
+ * Fake XDomainRequest object
+ */
+
+if (typeof sinon == "undefined") {
+    this.sinon = {};
+}
+
+// wrapper for global
+(function (global) {
+    var xdr = { XDomainRequest: global.XDomainRequest };
+    xdr.GlobalXDomainRequest = global.XDomainRequest;
+    xdr.supportsXDR = typeof xdr.GlobalXDomainRequest != "undefined";
+    xdr.workingXDR = xdr.supportsXDR ? xdr.GlobalXDomainRequest :  false;
+
+    function makeApi(sinon) {
+        sinon.xdr = xdr;
+
+        function FakeXDomainRequest() {
+            this.readyState = FakeXDomainRequest.UNSENT;
+            this.requestBody = null;
+            this.requestHeaders = {};
+            this.status = 0;
+            this.timeout = null;
+
+            if (typeof FakeXDomainRequest.onCreate == "function") {
+                FakeXDomainRequest.onCreate(this);
+            }
+        }
+
+        function verifyState(xdr) {
+            if (xdr.readyState !== FakeXDomainRequest.OPENED) {
+                throw new Error("INVALID_STATE_ERR");
+            }
+
+            if (xdr.sendFlag) {
+                throw new Error("INVALID_STATE_ERR");
+            }
+        }
+
+        function verifyRequestSent(xdr) {
+            if (xdr.readyState == FakeXDomainRequest.UNSENT) {
+                throw new Error("Request not sent");
+            }
+            if (xdr.readyState == FakeXDomainRequest.DONE) {
+                throw new Error("Request done");
+            }
+        }
+
+        function verifyResponseBodyType(body) {
+            if (typeof body != "string") {
+                var error = new Error("Attempted to respond to fake XDomainRequest with " +
+                                    body + ", which is not a string.");
+                error.name = "InvalidBodyException";
+                throw error;
+            }
+        }
+
+        sinon.extend(FakeXDomainRequest.prototype, sinon.EventTarget, {
+            open: function open(method, url) {
+                this.method = method;
+                this.url = url;
+
+                this.responseText = null;
+                this.sendFlag = false;
+
+                this.readyStateChange(FakeXDomainRequest.OPENED);
+            },
+
+            readyStateChange: function readyStateChange(state) {
+                this.readyState = state;
+                var eventName = "";
+                switch (this.readyState) {
+                case FakeXDomainRequest.UNSENT:
+                    break;
+                case FakeXDomainRequest.OPENED:
+                    break;
+                case FakeXDomainRequest.LOADING:
+                    if (this.sendFlag) {
+                        //raise the progress event
+                        eventName = "onprogress";
+                    }
+                    break;
+                case FakeXDomainRequest.DONE:
+                    if (this.isTimeout) {
+                        eventName = "ontimeout"
+                    } else if (this.errorFlag || (this.status < 200 || this.status > 299)) {
+                        eventName = "onerror";
+                    } else {
+                        eventName = "onload"
+                    }
+                    break;
+                }
+
+                // raising event (if defined)
+                if (eventName) {
+                    if (typeof this[eventName] == "function") {
+                        try {
+                            this[eventName]();
+                        } catch (e) {
+                            sinon.logError("Fake XHR " + eventName + " handler", e);
+                        }
+                    }
+                }
+            },
+
+            send: function send(data) {
+                verifyState(this);
+
+                if (!/^(get|head)$/i.test(this.method)) {
+                    this.requestBody = data;
+                }
+                this.requestHeaders["Content-Type"] = "text/plain;charset=utf-8";
+
+                this.errorFlag = false;
+                this.sendFlag = true;
+                this.readyStateChange(FakeXDomainRequest.OPENED);
+
+                if (typeof this.onSend == "function") {
+                    this.onSend(this);
+                }
+            },
+
+            abort: function abort() {
+                this.aborted = true;
+                this.responseText = null;
+                this.errorFlag = true;
+
+                if (this.readyState > sinon.FakeXDomainRequest.UNSENT && this.sendFlag) {
+                    this.readyStateChange(sinon.FakeXDomainRequest.DONE);
+                    this.sendFlag = false;
+                }
+            },
+
+            setResponseBody: function setResponseBody(body) {
+                verifyRequestSent(this);
+                verifyResponseBodyType(body);
+
+                var chunkSize = this.chunkSize || 10;
+                var index = 0;
+                this.responseText = "";
+
+                do {
+                    this.readyStateChange(FakeXDomainRequest.LOADING);
+                    this.responseText += body.substring(index, index + chunkSize);
+                    index += chunkSize;
+                } while (index < body.length);
+
+                this.readyStateChange(FakeXDomainRequest.DONE);
+            },
+
+            respond: function respond(status, contentType, body) {
+                // content-type ignored, since XDomainRequest does not carry this
+                // we keep the same syntax for respond(...) as for FakeXMLHttpRequest to ease
+                // test integration across browsers
+                this.status = typeof status == "number" ? status : 200;
+                this.setResponseBody(body || "");
+            },
+
+            simulatetimeout: function simulatetimeout() {
+                this.status = 0;
+                this.isTimeout = true;
+                // Access to this should actually throw an error
+                this.responseText = undefined;
+                this.readyStateChange(FakeXDomainRequest.DONE);
+            }
+        });
+
+        sinon.extend(FakeXDomainRequest, {
+            UNSENT: 0,
+            OPENED: 1,
+            LOADING: 3,
+            DONE: 4
+        });
+
+        sinon.useFakeXDomainRequest = function useFakeXDomainRequest() {
+            sinon.FakeXDomainRequest.restore = function restore(keepOnCreate) {
+                if (xdr.supportsXDR) {
+                    global.XDomainRequest = xdr.GlobalXDomainRequest;
+                }
+
+                delete sinon.FakeXDomainRequest.restore;
+
+                if (keepOnCreate !== true) {
+                    delete sinon.FakeXDomainRequest.onCreate;
+                }
+            };
+            if (xdr.supportsXDR) {
+                global.XDomainRequest = sinon.FakeXDomainRequest;
+            }
+            return sinon.FakeXDomainRequest;
+        };
+
+        sinon.FakeXDomainRequest = FakeXDomainRequest;
+    }
+
+    var isNode = typeof module !== "undefined" && module.exports && typeof require == "function";
+    var isAMD = typeof define === "function" && typeof define.amd === "object" && define.amd;
+
+    function loadDependencies(require, exports, module) {
+        var sinon = require("./core");
+        require("./event");
+        makeApi(sinon);
+        module.exports = sinon;
+    }
+
+    if (isAMD) {
+        define(loadDependencies);
+    } else if (isNode) {
+        loadDependencies(require, module.exports, module);
+    } else {
+        makeApi(sinon);
+    }
+})(this);
 
   return sinon;
 }));

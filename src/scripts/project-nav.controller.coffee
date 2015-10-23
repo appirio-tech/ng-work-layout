@@ -8,12 +8,18 @@ ProjectNavController = ($scope, $state) ->
 
   activateLink = ->
     stateName         = $state.current.name
-    submissionsStates = [ 'submissions', 'design-concepts', 'complete-designs', 'final-fixes', 'submission-detail', 'file-detail' ]
+    submissionsStates = [
+      'submissions'
+      'design-concepts'
+      'complete-designs'
+      'final-fixes'
+      'submission-detail'
+      'file-detail'
+    ]
 
-    if submissionsStates.indexOf(stateName) > -1
-      vm.activeLink = 'submissions'
-    else
-      vm.activeLink = stateName
+    isSubmissionState = submissionsStates.indexOf(stateName) > -1
+    vm.activeLink     = stateName
+    vm.activeLink     = 'submissions' if isSubmissionState
 
   activate = ->
     activateLink()

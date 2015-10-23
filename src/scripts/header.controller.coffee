@@ -8,6 +8,7 @@ LayoutHeaderController = (
   ThreadsAPIService
   AuthService
   SubmitWorkAPIService
+  InboxesProjectAPIService
   $rootScope
 ) ->
   vm              = this
@@ -16,10 +17,7 @@ LayoutHeaderController = (
   vm.isSubmitWork = false
 
   getNotificationCount = (id) ->
-    queryParams =
-      subscriberId: id
-
-    resource = ThreadsAPIService.query queryParams
+    resource = InboxesProjectAPIService.get()
 
     resource.$promise.then (response) ->
       vm.unreadCount = response.totalUnreadCount
@@ -85,6 +83,7 @@ LayoutHeaderController.$inject = [
   'ThreadsAPIService'
   'AuthService'
   'SubmitWorkAPIService'
+  'InboxesProjectAPIService'
   '$rootScope'
 ]
 

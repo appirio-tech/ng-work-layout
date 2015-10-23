@@ -95,29 +95,13 @@
   'use strict';
   var directive;
 
-  directive = function($location, $rootScope) {
-    var link;
-    link = function($scope, element, attrs) {
-      var setPageClass;
-      setPageClass = function(e, data) {
-        var classes;
-        if ($location.$$url === '/') {
-          return $(element[0]).addClass('home');
-        } else {
-          classes = $location.$$path.replace(/\//g, ' ');
-          return $(element[0]).addClass(classes);
-        }
-      };
-      $rootScope.$on('$locationChangeStart', setPageClass);
-      return setPageClass();
-    };
+  directive = function() {
     return {
-      restrict: 'A',
-      link: link
+      restrict: 'A'
     };
   };
 
-  directive.$inject = ['$location', '$rootScope'];
+  directive.$inject = [];
 
   angular.module('appirio-tech-ng-work-layout').directive('layoutMain', directive);
 

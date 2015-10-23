@@ -156,7 +156,6 @@ layout-header {
 
       .popup {
         @include transition (all 0.2s ease-in-out);
-        @include font-line(12px);
 
         border-radius: $border-radius;
         z-index      : 10;

@@ -1,7 +1,5 @@
 'use strict'
 
-#TODO: get rid of this directive
-
 dir = ->
   restrict: 'E'
   templateUrl: 'views/layout-project-nav.directive.html'

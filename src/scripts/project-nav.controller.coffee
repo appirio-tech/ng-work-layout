@@ -5,12 +5,13 @@ ProjectNavController = (
   $state
 ) ->
   vm          = this
-  vm.workId = $scope.workId
+  vm.workId   = $scope.workId
   vm.threadId = "threadfor-#{vm.workId}"
 
   activateLink = ->
     stateName = $state.current.name
     isSubmission = stateName == 'submissions' || stateName == 'final-designs' || stateName == 'final-designs' || stateName == 'final-fixes'
+
     if isSubmission
       vm.activeLink = 'submissions'
     else
@@ -18,6 +19,7 @@ ProjectNavController = (
 
   activate = ->
     activateLink()
+
     vm
 
   activate()

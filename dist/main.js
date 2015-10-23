@@ -175,10 +175,10 @@
     vm.threadId = "threadfor-" + vm.workId;
     vm.userType = $scope.userType || 'customer';
     activateLink = function() {
-      var isSubmission, stateName;
+      var stateName, submissionsStates;
       stateName = $state.current.name;
-      isSubmission = stateName === 'submissions' || stateName === 'final-designs' || stateName === 'final-designs' || stateName === 'final-fixes';
-      if (isSubmission) {
+      submissionsStates = ['submissions', 'design-concepts', 'complete-designs', 'final-fixes', 'submission-detail', 'file-detail'];
+      if (submissionsStates.indexOf(stateName) > -1) {
         return vm.activeLink = 'submissions';
       } else {
         return vm.activeLink = stateName;

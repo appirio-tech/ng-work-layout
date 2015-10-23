@@ -1,12 +1,10 @@
 'use strict'
 
-ProjectNavController = (
-  $scope
-  $state
-  StepsAPIService
-) ->
+ProjectNavController = ($scope, $state) ->
   vm          = this
-  vm.workId = $scope.workId
+  vm.workId   = $scope.workId
+  vm.threadId = "threadfor-#{vm.workId}"
+  vm.userType = $scope.userType || 'customer'
 
   activateLink = ->
     stateName         = $state.current.name
@@ -27,7 +25,6 @@ ProjectNavController = (
 ProjectNavController.$inject = [
   '$scope'
   '$state'
-  'StepsAPIService'
 ]
 
 angular.module('appirio-tech-ng-work-layout').controller 'ProjectNavController', ProjectNavController

@@ -1,23 +1,9 @@
 'use strict'
 
-directive =  ($location, $rootScope) ->
-  link = ($scope, element, attrs) ->
-    setPageClass = (e, data) ->
-      if $location.$$url == '/'
-        $(element[0]).addClass 'getting-started'
-      else
-        classes = $location.$$path.replace /\//g, ' '
-
-        $(element[0]).addClass classes
-
-    $rootScope.$on '$locationChangeStart', setPageClass
-
-    setPageClass()
-
+directive = ->
   restrict : 'A'
-  link: link
 
-directive.$inject = ['$location', '$rootScope']
+directive.$inject = []
 
 angular.module('appirio-tech-ng-work-layout').directive 'layoutMain', directive
 

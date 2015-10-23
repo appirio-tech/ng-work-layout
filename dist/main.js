@@ -12,18 +12,15 @@
   'use strict';
   var LayoutHeaderController;
 
-  LayoutHeaderController = function($scope, $state, UserV3Service, WorkAPIService, ThreadsAPIService, AuthService, SubmitWorkAPIService, $rootScope) {
+  LayoutHeaderController = function($scope, $state, UserV3Service, WorkAPIService, ThreadsAPIService, AuthService, SubmitWorkAPIService, InboxesProjectAPIService, $rootScope) {
     var activate, getNotificationCount, onProjectChange, onUserChange, setAppName, vm;
     vm = this;
     vm.homeHref = $state.href('home');
     vm.workId = $scope.workId;
     vm.isSubmitWork = false;
     getNotificationCount = function(id) {
-      var queryParams, resource;
-      queryParams = {
-        subscriberId: id
-      };
-      resource = ThreadsAPIService.query(queryParams);
+      var resource;
+      resource = InboxesProjectAPIService.get();
       return resource.$promise.then(function(response) {
         return vm.unreadCount = response.totalUnreadCount;
       });
@@ -85,7 +82,7 @@
     return vm;
   };
 
-  LayoutHeaderController.$inject = ['$scope', '$state', 'UserV3Service', 'WorkAPIService', 'ThreadsAPIService', 'AuthService', 'SubmitWorkAPIService', '$rootScope'];
+  LayoutHeaderController.$inject = ['$scope', '$state', 'UserV3Service', 'WorkAPIService', 'ThreadsAPIService', 'AuthService', 'SubmitWorkAPIService', 'InboxesProjectAPIService', '$rootScope'];
 
   angular.module('appirio-tech-ng-work-layout').controller('LayoutHeaderController', LayoutHeaderController);
 
@@ -175,13 +172,13 @@
     vm.threadId = "threadfor-" + vm.workId;
     vm.userType = $scope.userType || 'customer';
     activateLink = function() {
-      var stateName, submissionsStates;
+      var isSubmissionState, stateName, submissionsStates;
       stateName = $state.current.name;
       submissionsStates = ['submissions', 'design-concepts', 'complete-designs', 'final-fixes', 'submission-detail', 'file-detail'];
-      if (submissionsStates.indexOf(stateName) > -1) {
+      isSubmissionState = submissionsStates.indexOf(stateName) > -1;
+      vm.activeLink = stateName;
+      if (isSubmissionState) {
         return vm.activeLink = 'submissions';
-      } else {
-        return vm.activeLink = stateName;
       }
     };
     activate = function() {

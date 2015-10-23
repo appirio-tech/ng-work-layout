@@ -5,7 +5,8 @@ dir = ->
   templateUrl: 'views/layout-project-nav.directive.html'
   controller: 'ProjectNavController as vm'
   scope:
-    workId : '@workId'
+    workId  : '@workId'
+    userType: '@userType'
 
 dir.$inject = []
 

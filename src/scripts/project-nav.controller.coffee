@@ -1,12 +1,10 @@
 'use strict'
 
-ProjectNavController = (
-  $scope
-  $state
-) ->
+ProjectNavController = ($scope, $state) ->
   vm          = this
   vm.workId   = $scope.workId
   vm.threadId = "threadfor-#{vm.workId}"
+  vm.userType = $scope.userType || 'customer'
 
   activateLink = ->
     stateName = $state.current.name

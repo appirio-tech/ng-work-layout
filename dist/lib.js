@@ -39922,7 +39922,7 @@ angular.module('ui.router.state')
   transformResponse = function(response) {
     var parsed, ref;
     parsed = JSON.parse(response);
-    return parsed != null ? (ref = parsed.result) != null ? ref.content : void 0 : void 0;
+    return (parsed != null ? (ref = parsed.result) != null ? ref.content : void 0 : void 0) || [];
   };
 
   transformIdOnlyResponse = function(response) {
@@ -39952,6 +39952,7 @@ angular.module('ui.router.state')
         transformResponse: transformResponse
       },
       query: {
+        isArray: true,
         transformResponse: transformResponse
       }
     };
@@ -39961,6 +39962,82 @@ angular.module('ui.router.state')
   srv.$inject = ['$resource', 'API_URL'];
 
   angular.module('appirio-tech-ng-api-services').factory('ProjectsAPIService', srv);
+
+}).call(this);
+
+(function() {
+  'use strict';
+  var srv, transformResponse;
+
+  transformResponse = function(response) {
+    var parsed, ref;
+    parsed = JSON.parse(response);
+    return (parsed != null ? (ref = parsed.result) != null ? ref.content : void 0 : void 0) || {};
+  };
+
+  srv = function($resource, API_URL) {
+    var methods, params, url;
+    url = API_URL + '/v3/inboxes/:threadId';
+    params = {
+      threadId: '@threadId'
+    };
+    methods = {
+      get: {
+        method: 'GET',
+        transformResponse: transformResponse
+      },
+      post: {
+        method: 'POST',
+        transformResponse: transformResponse
+      },
+      patch: {
+        method: 'PATCH',
+        transformResponse: transformResponse
+      },
+      put: {
+        method: 'PUT',
+        transformResponse: transformResponse
+      }
+    };
+    return $resource(url, {}, methods);
+  };
+
+  srv.$inject = ['$resource', 'API_URL'];
+
+  angular.module('appirio-tech-ng-api-services').factory('InboxesAPIService', srv);
+
+}).call(this);
+
+(function() {
+  'use strict';
+  var srv, transformIdOnlyResponse;
+
+  transformIdOnlyResponse = function(response) {
+    var parsed, ref;
+    parsed = JSON.parse(response);
+    return {
+      id: parsed != null ? (ref = parsed.result) != null ? ref.content : void 0 : void 0
+    };
+  };
+
+  srv = function($resource, API_URL) {
+    var methods, params, url;
+    url = API_URL + '/v3/projects/:id/estimates';
+    params = {
+      id: '@id'
+    };
+    methods = {
+      post: {
+        method: 'POST',
+        transformResponse: transformIdOnlyResponse
+      }
+    };
+    return $resource(url, params, methods);
+  };
+
+  srv.$inject = ['$resource', 'API_URL'];
+
+  angular.module('appirio-tech-ng-api-services').factory('ProjectEstimatesAPIService', srv);
 
 }).call(this);
 
@@ -39978,7 +40055,7 @@ angular.module('ui.router.state')
   'use strict';
   var MessagingController;
 
-  MessagingController = function($scope, MessagesAPIService, ThreadsAPIService, MessageUpdateAPIService) {
+  MessagingController = function($scope, MessagesAPIService, ThreadsAPIService, InboxesAPIService, MessageUpdateAPIService) {
     var activate, getThread, markMessageRead, onMessageChange, orderMessagesByCreationDate, sendMessage, vm;
     vm = this;
     vm.currentUser = null;
@@ -39988,6 +40065,7 @@ angular.module('ui.router.state')
     vm.loadingMessages = false;
     vm.workId = $scope.workId;
     vm.threadId = $scope.threadId;
+    vm.subscriberId = $scope.subscriberId;
     orderMessagesByCreationDate = function(messages) {
       var orderedMessages;
       orderedMessages = messages != null ? messages.sort(function(previous, next) {
@@ -40031,11 +40109,10 @@ angular.module('ui.router.state')
       var params, resource;
       if ($scope.subscriberId) {
         params = {
-          subscriberId: $scope.subscriberId,
-          id: vm.threadId
+          threadId: vm.threadId
         };
         vm.loadingThreads = true;
-        resource = ThreadsAPIService.get(params);
+        resource = InboxesAPIService.get(params);
         resource.$promise.then(function(response) {
           var lastMessage;
           vm.thread = response;
@@ -40076,7 +40153,7 @@ angular.module('ui.router.state')
     return activate();
   };
 
-  MessagingController.$inject = ['$scope', 'MessagesAPIService', 'ThreadsAPIService', 'MessageUpdateAPIService'];
+  MessagingController.$inject = ['$scope', 'MessagesAPIService', 'ThreadsAPIService', 'InboxesAPIService', 'MessageUpdateAPIService'];
 
   angular.module('appirio-tech-ng-messaging').controller('MessagingController', MessagingController);
 
@@ -40237,7 +40314,7 @@ angular.module('ui.router.state')
 
 }).call(this);
 
-angular.module("appirio-tech-ng-messaging").run(["$templateCache", function($templateCache) {$templateCache.put("views/messaging.directive.html","<div flush-height=\"flush-height\" class=\"flex column middle\"><p>You have {{vm.thread.messages.length}} messages with {{vm.thread.publishers[0]}}</p><ul class=\"messages flex-grow\"><li ng-repeat=\"message in vm.thread.messages track by $index\"><avatar avatar-url=\"{{ vm.thread[publisherId] }}\"></avatar><div class=\"message elevated-bottom\"><a href=\"#\" class=\"name\">{{message.publisherId}}</a><time>{{ message.createdAt | timeLapse }}</time><p class=\"title\">Co-Pilot</p><p>{{ message.body }}</p><ul class=\"attachments\"><li ng-repeat=\"attachment in message.attachments track by $index\"><a href=\"#\">{{ message.attachments.originalUrl }}</a></li></ul><a ng-if=\"message.attachments.length &gt; 0\" class=\"download\"><div class=\"icon download smallest\"></div><p>Download all images</p></a></div></li><a id=\"messaging-bottom-{{ vm.threadId }}\"></a></ul><div class=\"respond\"><div class=\"icon warning\"></div><form ng-submit=\"vm.sendMessage()\"><textarea placeholder=\"Send a message&hellip;\" ng-model=\"vm.newMessage\"></textarea><button type=\"submit\" ng-hide=\"vm.sending\" class=\"wider action\">reply</button><button disabled=\"disabled\" ng-show=\"vm.sending\" class=\"wider action\">sending...</button></form></div></div>");
+angular.module("appirio-tech-ng-messaging").run(["$templateCache", function($templateCache) {$templateCache.put("views/messaging.directive.html","<p>You have {{vm.thread.messages.length}} messages with {{vm.thread.messages[0].publisher.handle}}</p><ul class=\"messages flex-grow\"><li ng-repeat=\"message in vm.thread.messages track by $index\"><avatar avatar-url=\"{{ message.publisher.avatar }}\"></avatar><div class=\"message elevated-bottom\"><a href=\"#\" class=\"name\">{{message.publisher.handle}}</a><time>{{ message.createdAt | timeLapse }}</time><p ng-if=\"message.publisher.role != null\" class=\"title\">{{message.publisher.role}}</p><p>{{ message.body }}</p><ul class=\"attachments\"><li ng-repeat=\"attachment in message.attachments track by $index\"><a href=\"#\">{{ message.attachments.originalUrl }}</a></li></ul><a ng-if=\"message.attachments.length &gt; 0\" class=\"download\"><div class=\"icon download smallest\"></div><p>Download all images</p></a></div></li><a id=\"messaging-bottom-{{ vm.threadId }}\"></a></ul><div class=\"respond\"><form ng-submit=\"vm.sendMessage()\"><textarea placeholder=\"Send a message&hellip;\" ng-model=\"vm.newMessage\"></textarea><button type=\"submit\" ng-hide=\"vm.sending\" class=\"wider action\">reply</button><button disabled=\"disabled\" ng-show=\"vm.sending\" class=\"wider action\">sending...</button></form></div>");
 $templateCache.put("views/threads.directive.html","<ul><li ng-repeat=\"thread in vm.threads track by $index\"><a ui-sref=\"messaging({ id: thread.id.substr(10), threadId: thread.id })\" ng-class=\"{unread: thread.unreadCount &gt; 0}\"><div class=\"app-name\">{{thread.subject}}</div><div class=\"sender\"><avatar avatar-url=\"{{ thread.publishers[0].avatar }}\"></avatar><div class=\"name\">{{thread.publishers[0]}}</div><time>{{ thread.messages[thread.messages.length -1].createdAt | timeLapse }}</time></div><p class=\"message\">{{ thread.messages[thread.messages.length -1].body }}</p></a></li></ul><div ng-show=\"vm.threads.length == 0\" class=\"none\">None</div>");}]);
 (function() {
   'use strict';
@@ -40254,8 +40331,8 @@ $templateCache.put("views/checkbox.directive.html","<div class=\"flex middle\"><
 $templateCache.put("views/countdown.directive.html","<ul class=\"countdown\"><li ng-if=\"vm.days &gt; 0\"><span class=\"value\">{{ vm.days }}</span><span class=\"unit\">day<span ng-if=\"vm.days &gt; 1\">s</span></span></li><li ng-if=\"vm.hours &gt; 0 || vm.days &gt; 0\"><span class=\"value\">{{ vm.hours }}</span><span class=\"unit\">hr<span ng-if=\"vm.hours &gt; 1\">s</span></span></li><li ng-if=\"vm.minutes &gt; 0 || vm.hours &gt; 0 || vm.days &gt; 0\"><span class=\"value\">{{ vm.minutes }}</span><span class=\"unit\">min<span ng-if=\"vm.minutes &gt; 1\">s</span></span></li><li><span class=\"value\">{{ vm.seconds }}</span><span class=\"unit\">sec<span ng-if=\"vm.seconds &gt; 1\">s</span></span></li></ul>");
 $templateCache.put("views/loader.directive.html","<div class=\"container\"><div class=\"loader\"></div></div>");
 $templateCache.put("views/modal.directive.html","");
-$templateCache.put("views/selectable.directive.html","<div ng-show=\"!label &amp;&amp; !vm.isSelected()\">Select</div><div ng-show=\"!label &amp;&amp; vm.isSelected()\">Selected</div><div ng-show=\"label\">{{ label }}</div><div class=\"icon-container\"><div class=\"icon checkmark smallest\"></div></div>");
-$templateCache.put("views/selected-button.directive.html","<button ng-class=\"{\'checked\': vm.isSelected(), \'action\': vm.isSelected()}\" ng-click=\"vm.toggle()\" type=\"button\"><p ng-show=\"!label &amp;&amp; !vm.isSelected()\">Select</p><p ng-show=\"!label &amp;&amp; vm.isSelected()\">Selected</p><p ng-show=\"label\">{{ label }}</p><div class=\"icon-container\"><div class=\"icon checkmark smallest\"></div></div></button>");}]);
+$templateCache.put("views/selectable.directive.html","<div ng-show=\"!label &amp;&amp; !vm.isSelected()\">Select</div><div ng-show=\"!label &amp;&amp; vm.isSelected()\">Selected</div><div ng-show=\"label\">{{ label }}</div><div class=\"icon-container\"><div class=\"icon checkmark-white smallest\"></div></div>");
+$templateCache.put("views/selected-button.directive.html","<button ng-class=\"{\'checked\': vm.isSelected(), \'action\': vm.isSelected()}\" ng-click=\"vm.toggle()\" type=\"button\"><p ng-show=\"!label &amp;&amp; !vm.isSelected()\">Select</p><p ng-show=\"!label &amp;&amp; vm.isSelected()\">Selected</p><p ng-show=\"label\">{{ label }}</p><div class=\"icon-container\"><div class=\"icon checkmark-white smallest\"></div></div></button>");}]);
 (function() {
   'use strict';
   var directive;
@@ -40347,7 +40424,10 @@ $templateCache.put("views/selected-button.directive.html","<button ng-class=\"{\
           }
         });
       }
-      return scope.$watch('show', toggleShow);
+      scope.$watch('show', toggleShow);
+      return scope.$watch('destroy', function() {
+        return overlay.remove();
+      });
     };
     return {
       restrict: 'E',
@@ -41022,7 +41102,7 @@ $templateCache.put("views/selected-button.directive.html","<button ng-class=\"{\
       token = getAppirioJWT();
       isString = typeof token === 'string';
       if (isString) {
-        return jwtHelper.isTokenExpired(token);
+        return jwtHelper.isTokenExpired(token, 300);
       } else {
         return true;
       }

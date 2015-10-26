@@ -13,7 +13,7 @@ ul
 
 
   li(ng-class="{active: vm.activeLink == 'copilot-submissions'}" ng-if="vm.userType != 'customer'")
-    a(ui-sref="copilot-submissions({ projectId: vm.workId })") Submissions
+    a(ui-sref="step({ projectId: vm.workId, stepId: vm.currentStepId })") Submissions
 
   li(ng-class="{active: vm.activeLink == 'copilot-messaging'}" ng-if="vm.userType != 'customer'")
     a(ui-sref="copilot-messaging({ id: vm.workId, threadId: vm.threadId })") Messaging

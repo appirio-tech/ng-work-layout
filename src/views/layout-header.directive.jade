@@ -9,17 +9,23 @@ ul.flex.center.middle
   li
     ul.links
       li(ng-show="vm.loggedIn")
-        a(ui-sref="view-work-multiple") Dashboard
+        a(ng-if="vm.userType == 'customer' " ui-sref="view-work-multiple") Dashboard
+
+        a(ng-if="vm.userType != 'customer' " ui-sref="copilot-projects") Dashboard
 
       li.projects(ng-show="vm.loggedIn")
         button.clean(focus-on-click=true) Projects <span class="caret">&dtrif;</span>
 
         ul.sublinks.elevated
           li
-            a(ui-sref="submit-work") Create New Project
+            a(ng-if="vm.userType == 'customer' " ui-sref="submit-work") Create New Project
 
-          li(ng-repeat="project in vm.projects")
+          li(ng-if="vm.userType == 'customer' " ng-repeat="project in vm.projects")
             a(ui-sref="timeline({ workId: project.id })")
+              .name {{ project.name }}
+
+          li(ng-if="vm.userType != 'customer' " ng-repeat="project in vm.copilotProjects")
+            a(ui-sref="copilot-project-details({ id: project.id })")
               .name {{ project.name }}
 
       li.login(ng-hide="vm.loggedIn")

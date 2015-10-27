@@ -6,5 +6,6 @@ directive = ->
   controller : 'LayoutHeaderController as vm'
   scope      :
     workId: '@workId'
+    userType: '@userType'
 
 angular.module('appirio-tech-ng-work-layout').directive 'layoutHeader', directive

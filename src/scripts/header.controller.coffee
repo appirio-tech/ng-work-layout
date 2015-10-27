@@ -9,11 +9,13 @@ LayoutHeaderController = (
   AuthService
   SubmitWorkAPIService
   InboxesProjectAPIService
+  ProjectsAPIService
   $rootScope
 ) ->
   vm              = this
   vm.homeHref     = $state.href 'home'
   vm.workId       = $scope.workId
+  vm.userType     = $scope.userType || 'customer'
   vm.isSubmitWork = false
 
   getNotificationCount = (id) ->
@@ -32,18 +34,33 @@ LayoutHeaderController = (
     if user?.id
       vm.loggedIn     = true
       vm.subscriberId = user.id
-      vm.homeHref     = $state.href 'manage'
       vm.handle       = user.handle
+
+      if vm.userType == 'customer'
+        vm.homeHref = $state.href 'view-work-multiple'
+      else
+        vm.homeHref = $state.href 'copilot-projects'
+
 
       getNotificationCount user.id
 
-      resource = WorkAPIService.get()
+      if vm.userType == 'customer'
+        resource = WorkAPIService.get()
 
-      resource.$promise.then (response) ->
-        vm.projects = response
+        resource.$promise.then (response) ->
+          vm.projects = response
+      else
+        params =
+          filter: "copilotId=#{user.id}"
+
+        resource = ProjectsAPIService.query params
+
+        resource.$promise.then (response) ->
+          vm.copilotProjects = response
     else
       vm.projects  = []
       vm.homeHref = $state.href 'home'
+
       vm.loggedIn  = false
 
   onProjectChange = (response) ->
@@ -55,8 +72,8 @@ LayoutHeaderController = (
   setAppName = (stateName) ->
     hiddenAppNameStates =
       'view-work-multiple': true
-      'view-projects.open': true
-      'view-projects.assigned': true
+      'copilot-projects': true
+      'copilot-open-projects': true
 
     vm.showAppName = true unless hiddenAppNameStates[stateName]
 
@@ -84,6 +101,7 @@ LayoutHeaderController.$inject = [
   'AuthService'
   'SubmitWorkAPIService'
   'InboxesProjectAPIService'
+  'ProjectsAPIService'
   '$rootScope'
 ]
 

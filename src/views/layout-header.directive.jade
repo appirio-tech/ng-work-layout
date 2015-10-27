@@ -1,6 +1,7 @@
 ul.flex.center.middle
   li
-    a.clean.logo("ng-home-link"=true, "href"="{{ vm.homeHref }}") ASP
+    a.clean.logo("ng-home-link"=true, "href"="{{ vm.homeHref }}")
+      img(src="/images/asp-logo.svg")
 
   li.app-name
     h4(ng-if="vm.showAppName") {{ vm.appName }}

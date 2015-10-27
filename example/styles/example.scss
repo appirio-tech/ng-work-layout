@@ -1,13 +1,17 @@
 @import "work-styles";
 
-body #example-nav {
-  position: fixed;
+body {
   background-color: $white;
-  opacity: 0.6;
-  bottom: 0;
 
-  a {
-    margin: 10px;
-    display: inline-block;
+  #example-nav {
+    position: fixed;
+    background-color: $white;
+    opacity: 0.6;
+    bottom: 0;
+
+    a {
+      margin: 10px;
+      display: inline-block;
+    }
   }
 }

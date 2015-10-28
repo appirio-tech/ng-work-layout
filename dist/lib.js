@@ -40097,7 +40097,7 @@ angular.module('ui.router.state')
         transformResponse: transformResponse
       }
     };
-    return $resource(url, params, actions);
+    return $resource(url, params);
   };
 
   srv.$inject = ['$resource', 'API_URL'];

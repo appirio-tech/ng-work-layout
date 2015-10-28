@@ -35,6 +35,7 @@ LayoutHeaderController = (
       vm.loggedIn     = true
       vm.subscriberId = user.id
       vm.handle       = user.handle
+      vm.userAvatar   = user.avatar
 
       if vm.userType == 'customer'
         vm.homeHref = $state.href 'view-work-multiple'

@@ -33,7 +33,7 @@ ul.flex.center.middle
 
       li.profile(ng-show="vm.loggedIn")
         button.clean(focus-on-click=true)
-          avatar
+          avatar(avatar-url="{{vm.userAvatar}}")
 
         ul.sublinks.elevated
           li

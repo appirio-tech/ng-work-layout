@@ -40076,6 +40076,38 @@ angular.module('ui.router.state')
 
 (function() {
   'use strict';
+  var srv, transformResponse;
+
+  transformResponse = function(response) {
+    var parsed, ref;
+    parsed = JSON.parse(response);
+    return (parsed != null ? (ref = parsed.result) != null ? ref.content : void 0 : void 0) || {};
+  };
+
+  srv = function($resource, API_URL) {
+    var actions, params, url;
+    url = API_URL + '/v3/profiles/:id';
+    params = {
+      id: '@id'
+    };
+    actions = {
+      get: {
+        method: 'GET',
+        isArray: false,
+        transformResponse: transformResponse
+      }
+    };
+    return $resource(url, params, actions);
+  };
+
+  srv.$inject = ['$resource', 'API_URL'];
+
+  angular.module('appirio-tech-ng-api-services').factory('profilesAPIService', srv);
+
+}).call(this);
+
+(function() {
+  'use strict';
   var dependencies;
 
   dependencies = ['ui.router', 'ngResource', 'app.constants', 'duScroll', 'appirio-tech-ng-ui-components', 'appirio-tech-ng-api-services'];
@@ -41164,7 +41196,7 @@ $templateCache.put("views/selected-button.directive.html","<button ng-class=\"{\
   'use strict';
   var srv;
 
-  srv = function(UserV3APIService, TokenService, AuthService, $rootScope) {
+  srv = function(UserV3APIService, profilesAPIService, TokenService, AuthService, $rootScope) {
     var createUser, currentUser, getCurrentUser, loadUser;
     currentUser = null;
     loadUser = function(callback) {
@@ -41177,7 +41209,7 @@ $templateCache.put("views/selected-button.directive.html","<button ng-class=\"{\
         params = {
           id: decodedToken.userId
         };
-        resource = UserV3APIService.get(params);
+        resource = profilesAPIService.get(params);
         resource.$promise.then(function(response) {
           return currentUser = response;
         });
@@ -41232,7 +41264,7 @@ $templateCache.put("views/selected-button.directive.html","<button ng-class=\"{\
     };
   };
 
-  srv.$inject = ['UserV3APIService', 'TokenService', 'AuthService', '$rootScope'];
+  srv.$inject = ['UserV3APIService', 'profilesAPIService', 'TokenService', 'AuthService', '$rootScope'];
 
   angular.module('appirio-tech-ng-auth').factory('UserV3Service', srv);
 

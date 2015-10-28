@@ -28,7 +28,7 @@
     };
     vm.logout = function() {
       return AuthService.logout().then(function() {
-        return $state.go('home');
+        return $state.go('login');
       });
     };
     onUserChange = function() {

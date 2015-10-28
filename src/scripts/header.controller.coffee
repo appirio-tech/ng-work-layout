@@ -26,7 +26,7 @@ LayoutHeaderController = (
 
   vm.logout = ->
     AuthService.logout().then ->
-      $state.go 'home'
+      $state.go 'login'
 
   onUserChange = ->
     user = UserV3Service.getCurrentUser()

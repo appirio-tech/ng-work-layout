@@ -29,7 +29,7 @@ ul.flex.center.middle
               .name {{ project.name }}
 
       li.login(ng-hide="vm.loggedIn")
-        a(ui-sref="login") Log in
+        a.button.hollow(ui-sref="login") Log in
 
       li.profile(ng-show="vm.loggedIn")
         button.clean(focus-on-click=true)
@@ -47,7 +47,9 @@ ul.flex.center.middle
 
       li.notifications(ng-show="vm.loggedIn")
         button.clean(type="button" focus-on-click=true)
-          .notification {{ vm.unreadCount || 0 }}
+          .icon.envelope
+
+          .notification.absolute(ng-show="vm.unreadCount > 0") {{ vm.unreadCount || 0 }}
 
         .popup.elevated
           threads(ng-if="vm.userType == 'customer'" subscriber-id="{{ vm.subscriberId }}")

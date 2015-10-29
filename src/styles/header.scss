@@ -64,6 +64,10 @@ layout-header {
         color: $white;
         text-transform: uppercase;
       }
+
+      &.login {
+        line-height: $line-height;
+      }
     }
 
     .projects, .profile {
@@ -143,9 +147,10 @@ layout-header {
         }
 
         .notification {
-          top: -6px;
-          right: -6px;
-          padding: 0;
+          background-color: $primary-color;
+          color           : white;
+          padding         : $padding-smallest $padding-small;
+          border-radius   : $border-radius-biggest;
         }
       }
 

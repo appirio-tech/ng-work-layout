@@ -40,10 +40,11 @@ ul.flex.center.middle
             a(href="#") View Profile
 
           li
-            a(ng-click="vm.logout()") Logout
+            a(ui-sref="submit-work") Settings
 
           li
-            a(ui-sref="submit-work") Settings
+            a(ng-click="vm.logout()") LOGOUT
+
 
       li.notifications(ng-show="vm.loggedIn")
         button.clean(type="button" focus-on-click=true)

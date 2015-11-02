@@ -12,14 +12,19 @@ ul
     a(ui-sref="project-details({ id: vm.workId })") Project details
 
 
-  li(ng-class="{active: vm.activeLink == 'copilot-submissions'}" ng-if="vm.userType != 'customer'")
-    a(ui-sref="step({ projectId: vm.workId, stepId: vm.currentStepId })") Submissions
+  li(ng-class="{active: vm.activeLink == 'copilot-project-details'}" ng-if="vm.userType != 'customer'")
+    a(ui-sref="copilot-project-details({ id: vm.workId })") Project details
 
   li(ng-class="{active: vm.activeLink == 'copilot-messaging'}" ng-if="vm.userType != 'customer'")
     a(ui-sref="copilot-messaging({ id: vm.workId, threadId: vm.threadId })") Messaging
 
-  li(ng-class="{active: vm.activeLink == 'copilot-project-details'}" ng-if="vm.userType != 'customer'")
-    a(ui-sref="copilot-project-details({ id: vm.workId })") Project details
+  li(ng-class="{active: vm.activeLink == 'copilot-submissions'}" ng-if="vm.userType != 'customer'")
+    a(ui-sref="step({ projectId: vm.workId, stepId: vm.currentStepId })") Submissions
+
+  li(ng-class="{active: vm.activeLink == 'copilot-status-reports'}" ng-if="vm.userType != 'customer'")
+    a(ui-sref="copilot-status-reports({ id: vm.workId)") Status Reports
+
+
 
   //- li(ng-class="{active: vm.activeLink == 'project-settings'}")
   //-   a(ui-sref="project-settings({ id: workId })") Project settings

@@ -59,6 +59,10 @@ layout-header {
     > li {
       margin-left: $margin;
 
+      > button, > a {
+        font-family: "sofia-pro";
+      }
+
       &:first-child {
         margin-left: 0px;
       }

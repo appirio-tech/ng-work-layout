@@ -56,12 +56,12 @@ layout-header {
       margin-left: 2px;
     }
 
+    .dashboard, .projects > button {
+      font-family: "sofia-pro";
+    }
+
     > li {
       margin-left: $margin;
-
-      > button, > a {
-        font-family: "sofia-pro";
-      }
 
       &:first-child {
         margin-left: 0px;

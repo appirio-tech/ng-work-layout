@@ -1,13 +1,15 @@
 ul.flex.center.middle
   li
-    a.clean.logo("ng-home-link"=true, "href"="{{ vm.homeHref }}")
+    a.clean.logo("ng-home-link"=true, "href"="{{ vm.homeHref }}" ng-if="vm.userType != 'member'")
       img(src="/images/asp-logo.svg")
+
+    img(src="/images/asp-logo.svg" ng-if="vm.userType == 'member'")
 
   li.app-name
     h4(ng-if="vm.showAppName") {{ vm.appName }}
 
   li
-    ul.links
+    ul.links(ng-if="vm.userType != 'member'")
       li.dashboard(ng-show="vm.loggedIn")
         a(ng-if="vm.userType == 'customer' " ui-sref="view-work-multiple") Dashboard
 

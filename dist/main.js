@@ -182,12 +182,12 @@
   'use strict';
   var ProjectNavController;
 
-  ProjectNavController = function($scope, $state, StepsService, $rootScope) {
+  ProjectNavController = function($scope, $state, StepsService, ProjectsAPIService, $rootScope) {
     var activate, onChange, vm;
     vm = this;
     vm.workId = $scope.workId;
     vm.currentStepId = null;
-    vm.threadId = "threadfor-" + vm.workId;
+    vm.threadId = null;
     vm.userType = $scope.userType || 'customer';
     vm.currentStep = null;
     onChange = function() {
@@ -205,7 +205,16 @@
       }
     };
     activate = function() {
-      var destroyStepsListener;
+      var destroyStepsListener, params, resource;
+      if (vm.workId) {
+        params = {
+          id: vm.workId
+        };
+        resource = ProjectsAPIService.get(params);
+        resource.$promise.then(function(response) {
+          return vm.threadId = response.threadId;
+        });
+      }
       destroyStepsListener = $rootScope.$on('StepsService:changed', function() {
         return onChange();
       });
@@ -218,7 +227,7 @@
     return vm;
   };
 
-  ProjectNavController.$inject = ['$scope', '$state', 'StepsService', '$rootScope'];
+  ProjectNavController.$inject = ['$scope', '$state', 'StepsService', 'ProjectsAPIService', '$rootScope'];
 
   angular.module('appirio-tech-ng-work-layout').controller('ProjectNavController', ProjectNavController);
 

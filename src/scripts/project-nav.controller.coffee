@@ -1,12 +1,12 @@
 'use strict'
 
-ProjectNavController = ($scope, $state, StepsService, $rootScope) ->
-  vm             = this
-  vm.workId      = $scope.workId
+ProjectNavController = ($scope, $state, StepsService, ProjectsAPIService, $rootScope) ->
+  vm               = this
+  vm.workId        = $scope.workId
   vm.currentStepId = null
-  vm.threadId    = "threadfor-#{vm.workId}"
-  vm.userType    = $scope.userType || 'customer'
-  vm.currentStep = null
+  vm.threadId      = null
+  vm.userType      = $scope.userType || 'customer'
+  vm.currentStep   = null
 
   onChange = ->
     currentStep = if vm.stepId
@@ -29,6 +29,15 @@ ProjectNavController = ($scope, $state, StepsService, $rootScope) ->
     vm.activeLink     = 'submissions' if isSubmissionState
 
   activate = ->
+    if vm.workId
+      params =
+        id: vm.workId
+
+      resource = ProjectsAPIService.get params
+
+      resource.$promise.then (response) ->
+        vm.threadId = response.threadId
+
     destroyStepsListener = $rootScope.$on 'StepsService:changed', ->
       onChange()
 
@@ -45,6 +54,7 @@ ProjectNavController.$inject = [
   '$scope'
   '$state'
   'StepsService'
+  'ProjectsAPIService'
   '$rootScope'
 ]
 

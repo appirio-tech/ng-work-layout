@@ -4,6 +4,7 @@ layout-project-nav {
   display         : block;
   background-color: $neutral-color-light;
   text-align      : center;
+  font-family     : "sofia-pro";
 
   ul {
     @include vertical-align-middle();

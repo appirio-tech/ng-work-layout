@@ -13,7 +13,7 @@ layout-header {
   top             : 0;
   width           : 100%;
   padding         : $padding $padding;
-  background-color: $neutral-color-darkest;
+  background-color: $black;
   z-index         : 100;
   min-height      : $static-height;
   max-height      : $static-height;
@@ -34,6 +34,7 @@ layout-header {
     h4 {
       @include ellipsis;
 
+      color: $white;
       padding: $padding-smallest; /* help centers due to line height from style guide */
     }
   }
@@ -53,6 +54,10 @@ layout-header {
 
     .caret {
       margin-left: 2px;
+    }
+
+    .dashboard, .projects > button {
+      font-family: "sofia-pro";
     }
 
     > li {

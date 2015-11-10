@@ -16,7 +16,7 @@ configs.templateCache.push
 configs.templateCache.push
   fileName: 'example-templates.js'
   files : [
-    '.tmp/views/home.html'
+    '.tmp/views/*.example.html'
   ]
   root  : 'views/'
   module: 'example'

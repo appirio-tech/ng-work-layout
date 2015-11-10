@@ -3,7 +3,6 @@
 dependencies = [
   'appirio-tech-ng-auth'
   'appirio-tech-ng-api-services'
-  'appirio-tech-ng-messaging'
   'appirio-tech-ng-ui-components'
   'appirio-tech-submissions'
   'duScroll'

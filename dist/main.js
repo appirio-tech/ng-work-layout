@@ -2,7 +2,7 @@
   'use strict';
   var dependencies;
 
-  dependencies = ['appirio-tech-ng-auth', 'appirio-tech-ng-api-services', 'appirio-tech-ng-messaging', 'appirio-tech-ng-ui-components', 'appirio-tech-submissions', 'duScroll'];
+  dependencies = ['appirio-tech-ng-auth', 'appirio-tech-ng-api-services', 'appirio-tech-ng-ui-components', 'appirio-tech-submissions', 'duScroll'];
 
   angular.module('appirio-tech-ng-work-layout', dependencies);
 
@@ -317,7 +317,7 @@
 
   directive.$inject = [];
 
-  angular.module('appirio-tech-ng-messaging').directive('messageDropDown', directive);
+  angular.module('appirio-tech-ng-work-layout').directive('messageDropDown', directive);
 
 }).call(this);
 
@@ -376,7 +376,7 @@
 
   MessageDropDownController.$inject = ['$scope', '$state', 'InboxesProjectAPIService'];
 
-  angular.module('appirio-tech-ng-messaging').controller('MessageDropDownController', MessageDropDownController);
+  angular.module('appirio-tech-ng-work-layout').controller('MessageDropDownController', MessageDropDownController);
 
 }).call(this);
 

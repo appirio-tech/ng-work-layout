@@ -3,32 +3,15 @@
 config = ($stateProvider) ->
   states = {}
 
-  states['home'] =
-    url        : '/'
-    title      : 'home'
-    templateUrl: 'views/home.html'
-    controller : 'HomeController as vm'
+  states['customer'] =
+    url        : '/customer'
+    title      : 'customer'
+    templateUrl: 'views/customer.html'
 
-  states['manage'] =
-    url        : '/manage'
-    title      : 'manage'
-    templateUrl: 'views/manage.html'
-
-  states['submissions'] =
-    url        : '/submissions'
-    title      : 'submissions'
-    templateUrl: 'views/submissions.html'
-
-# Other states for testing purposes
-  states['timeline'] =
-    url        : '/timeline/:workId'
-    title      : 'submissions'
-    templateUrl: 'views/submissions.html'
-
-  states['messaging'] =
-    url        : '/messaging/:id'
-    title      : 'submissions'
-    templateUrl: 'views/submissions.html'
+  states['copilot'] =
+    url        : '/copilot'
+    title      : 'copilot'
+    templateUrl: 'views/copilot.html'
 
   for key, state of states
     $stateProvider.state key, state

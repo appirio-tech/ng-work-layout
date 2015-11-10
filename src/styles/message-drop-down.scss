@@ -1,0 +1,68 @@
+@import "work-includes";
+@import "variables";
+
+message-drop-down {
+  display: block;
+  top    : 51px;
+  width  : 325px;
+
+  &:hover {
+    max-height: 522px;
+  }
+
+  .app-name {
+    @include ellipsis;
+
+    color: $primary-color;
+  }
+
+  avatar {
+    width: 32px;
+    height: 32px;
+  }
+
+  .sender {
+    @include vertical-align-middle;
+
+    margin-top: 5px;
+
+    .name, time {
+      margin-left: $horizontal-smallest;
+    }
+
+    .name {
+      @include ellipsis(160px);
+
+      color      : $black;
+      font-weight: $font-weight;
+      font-size  : $font-size-big;
+      line-height: $line-height-big;
+    }
+  }
+
+  time {
+    font-size: $font-size-small;
+    color: $neutral-color;
+  }
+
+  ul.dropdown > li a {
+    border-left: 5px solid $white;
+
+    padding-left: 10px;
+
+    &:hover {
+      border-left-color: $primary-color-light;
+    }
+
+    &.unread {
+      border-left-color: $primary-color;
+    }
+  }
+
+  .message {
+    color      : $neutral-color-dark;
+    white-space: normal;
+    margin-left: 42px;
+    margin-top : 0;
+  }
+}

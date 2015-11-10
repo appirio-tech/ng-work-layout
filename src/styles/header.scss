@@ -1,4 +1,5 @@
 @import "work-includes";
+@import "variables";
 
 $static-height: 70px;
 $line-height  : 37px;
@@ -34,8 +35,9 @@ layout-header {
     h4 {
       @include ellipsis;
 
-      color: $white;
+      color: $neutral-color;
       padding: $padding-smallest; /* help centers due to line height from style guide */
+      font-size: 22px;
     }
   }
 
@@ -53,15 +55,16 @@ layout-header {
     }
 
     .caret {
-      margin-left: 2px;
+      margin-left: 4px;
     }
 
-    .dashboard, .projects > button {
+    .dashboard a, .projects > button {
       font-family: "sofia-pro";
+      font-weight: $font-weight-bold;
     }
 
     > li {
-      margin-left: $margin;
+      margin-left: 25px;
 
       &:first-child {
         margin-left: 0px;
@@ -77,76 +80,26 @@ layout-header {
       position: relative;
 
       >  button {
-        &:focus + ul {
-          max-height: 200px;
-        }
-      }
-    }
-
-    .sublinks {
-      @include transition (all 0.15s ease-in-out);
-
-      position        : absolute;
-      max-height      : 0;
-      overflow        : auto;
-      background-color: $white;
-      right           : 0;
-      margin-top      : $margin-smallest;
-      border-radius   : $border-radius-smallest;
-
-      &:hover {
-        max-height: 200px;
-      }
-
-      li {
-        border-top: 1px solid $neutral-color-light;
-
-        .name {
-          @include ellipsis;
-
-          width: 280px;
-          line-height: 18px; /* due to overflow hidden from ellipsis */
+        &:focus + user-drop-down {
+          max-height: 250px;
         }
 
-        .notification {
-          margin-left: $margin-small;
-        }
-
-        > a {
-          @include vertical-align-middle;
-
-          display: block;
-          white-space: nowrap;
-          color  : $black;
-          padding: $padding;
-        }
-
-        &:first-child {
-          border-top: none;
-        }
-
-        &:hover {
-          background: $neutral-color-lightest;
-
-          a {
-            color: $primary-color;
-          }
+        &:focus + project-drop-down {
+          max-height: 504px;
         }
       }
     }
 
     .notifications {
-      $popup-max-height: 300px;
-
       position: relative;
       margin-left: 0;
 
       > button {
-        margin-left: $margin-small;
+        margin-left: $horizontal-smallest;
         line-height: initial;
 
-        &:focus + .popup {
-          max-height: $popup-max-height;
+        &:focus + message-drop-down {
+          max-height: 522px;
         }
 
         .notification {
@@ -155,6 +108,7 @@ layout-header {
           background-color: $primary-color;
           color           : white;
           padding         : 4px;
+          font-size       : $font-size-big;
           min-width       : $diameter;
           height          : $diameter;
           border-radius   : $diameter/2;
@@ -164,31 +118,11 @@ layout-header {
           }
         }
       }
-
-      .popup {
-        @include transition (all 0.2s ease-in-out);
-
-        font-size    : $font-size-smallest;
-        border-radius: $border-radius-smallest;
-        z-index      : 10;
-        right        : 0;
-        margin-top   : $margin-smallest;
-        position     : absolute;
-        width        : 280px;
-        max-height   : 0px;
-        overflow     : hidden;
-        background-color: $white;
-
-        &:hover {
-          max-height: $popup-max-height;
-        }
-
-        threads {
-          max-height: $popup-max-height;
-          overflow  : auto;
-          position  : relative;
-        }
-      }
     }
   }
 }
+
+
+
+
+

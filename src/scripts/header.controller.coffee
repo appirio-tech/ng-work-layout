@@ -4,13 +4,10 @@ LayoutHeaderController = (
   $scope
   $state
   UserV3Service
-  WorkAPIService
   ThreadsAPIService
   AuthService
   SubmitWorkAPIService
   InboxesProjectAPIService
-  ProjectsAPIService
-  $rootScope
 ) ->
   vm              = this
   vm.homeHref     = $state.href 'home'
@@ -45,21 +42,7 @@ LayoutHeaderController = (
 
       getNotificationCount user.id
 
-      if vm.userType == 'customer'
-        resource = WorkAPIService.get()
-
-        resource.$promise.then (response) ->
-          vm.projects = response
-      else
-        params =
-          filter: "copilotId=#{user.id}"
-
-        resource = ProjectsAPIService.query params
-
-        resource.$promise.then (response) ->
-          vm.copilotProjects = response
     else
-      vm.projects  = []
       vm.homeHref = $state.href 'home'
 
       vm.loggedIn  = false
@@ -97,13 +80,10 @@ LayoutHeaderController.$inject = [
   '$scope'
   '$state'
   'UserV3Service'
-  'WorkAPIService'
   'ThreadsAPIService'
   'AuthService'
   'SubmitWorkAPIService'
   'InboxesProjectAPIService'
-  'ProjectsAPIService'
-  '$rootScope'
 ]
 
 angular.module('appirio-tech-ng-work-layout').controller 'LayoutHeaderController', LayoutHeaderController

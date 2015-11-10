@@ -1,0 +1,41 @@
+@import "work-includes";
+@import "variables";
+
+layout-header .drop-down {
+  position        : absolute;
+  max-height      : 0;
+  overflow        : auto;
+  background-color: $white;
+  right           : 0;
+  border-radius   : $border-radius-smallest;
+
+  header {
+    background-color: $neutral-color-lightest;
+    padding         : 15px $horizontal-small 8px $horizontal-small;
+    text-transform  : uppercase;
+    font-weight     : $font-weight;
+    color           : $neutral-color-dark;
+  }
+
+  li {
+    border-top: 1px solid $neutral-color-light;
+
+    > a {
+      @include ellipsis;
+
+      display    : block;
+      color      : $black;
+      padding    : $vertical-small;
+      font-size  : $font-size-big;
+      line-height: $line-height-big;
+    }
+
+    &:hover {
+      background: $primary-color-light;
+
+      a {
+        color: $primary-color;
+      }
+    }
+  }
+}

@@ -12,7 +12,7 @@
   'use strict';
   var LayoutHeaderController;
 
-  LayoutHeaderController = function($scope, $state, UserV3Service, WorkAPIService, ThreadsAPIService, AuthService, SubmitWorkAPIService, InboxesProjectAPIService, ProjectsAPIService, $rootScope) {
+  LayoutHeaderController = function($scope, $state, UserV3Service, ThreadsAPIService, AuthService, SubmitWorkAPIService, InboxesProjectAPIService) {
     var activate, getNotificationCount, onProjectChange, onUserChange, setAppName, vm;
     vm = this;
     vm.homeHref = $state.href('home');
@@ -32,7 +32,7 @@
       });
     };
     onUserChange = function() {
-      var params, resource, user;
+      var user;
       user = UserV3Service.getCurrentUser();
       if (user != null ? user.id : void 0) {
         vm.loggedIn = true;
@@ -44,23 +44,8 @@
         } else {
           vm.homeHref = $state.href('copilot-projects');
         }
-        getNotificationCount(user.id);
-        if (vm.userType === 'customer') {
-          resource = WorkAPIService.get();
-          return resource.$promise.then(function(response) {
-            return vm.projects = response;
-          });
-        } else {
-          params = {
-            filter: "copilotId=" + user.id
-          };
-          resource = ProjectsAPIService.query(params);
-          return resource.$promise.then(function(response) {
-            return vm.copilotProjects = response;
-          });
-        }
+        return getNotificationCount(user.id);
       } else {
-        vm.projects = [];
         vm.homeHref = $state.href('home');
         return vm.loggedIn = false;
       }
@@ -98,7 +83,7 @@
     return vm;
   };
 
-  LayoutHeaderController.$inject = ['$scope', '$state', 'UserV3Service', 'WorkAPIService', 'ThreadsAPIService', 'AuthService', 'SubmitWorkAPIService', 'InboxesProjectAPIService', 'ProjectsAPIService', '$rootScope'];
+  LayoutHeaderController.$inject = ['$scope', '$state', 'UserV3Service', 'ThreadsAPIService', 'AuthService', 'SubmitWorkAPIService', 'InboxesProjectAPIService'];
 
   angular.module('appirio-tech-ng-work-layout').controller('LayoutHeaderController', LayoutHeaderController);
 
@@ -233,6 +218,168 @@
 
 }).call(this);
 
-angular.module("appirio-tech-ng-work-layout").run(["$templateCache", function($templateCache) {$templateCache.put("views/layout-header.directive.html","<ul class=\"flex center middle\"><li><a ng-home-link=\"ng-home-link\" href=\"{{ vm.homeHref }}\" ng-if=\"vm.userType != \'member\'\" class=\"clean logo\"><img src=\"/images/asp-logo.svg\"/></a><img src=\"/images/asp-logo.svg\" ng-if=\"vm.userType == \'member\'\"/></li><li class=\"app-name\"><h4 ng-if=\"vm.showAppName\">{{ vm.appName }}</h4></li><li><ul ng-if=\"vm.userType != \'member\'\" class=\"links\"><li ng-show=\"vm.loggedIn\" class=\"dashboard\"><a ng-if=\"vm.userType == \'customer\' \" ui-sref=\"view-work-multiple\">Dashboard</a><a ng-if=\"vm.userType != \'customer\' \" ui-sref=\"copilot-projects\">Dashboard</a></li><li ng-show=\"vm.loggedIn\" class=\"projects\"><button focus-on-click=\"focus-on-click\" class=\"clean\">Projects <span class=\"caret\">&dtrif;</span></button><ul class=\"sublinks elevated\"><li><a ng-if=\"vm.userType == \'customer\' \" ui-sref=\"submit-work\">Create New Project</a></li><li ng-if=\"vm.userType == \'customer\' \" ng-repeat=\"project in vm.projects\"><a ui-sref=\"timeline({ workId: project.id })\"><div class=\"name\">{{ project.name }}</div></a></li><li ng-if=\"vm.userType != \'customer\' \" ng-repeat=\"project in vm.copilotProjects\"><a ui-sref=\"copilot-project-details({ id: project.id })\"><div class=\"name\">{{ project.name }}</div></a></li></ul></li><li ng-hide=\"vm.loggedIn\" class=\"login\"><a ui-sref=\"login\" class=\"button hollow\">Log in</a></li><li ng-show=\"vm.loggedIn\" class=\"profile\"><button focus-on-click=\"focus-on-click\" class=\"clean\"><avatar avatar-url=\"{{vm.userAvatar}}\"></avatar></button><ul class=\"sublinks elevated\"><li><a href=\"#\">View Profile</a></li><li><a ui-sref=\"submit-work\">Settings</a></li><li><a ng-click=\"vm.logout()\">LOGOUT</a></li></ul></li><li ng-show=\"vm.loggedIn\" class=\"notifications\"><button type=\"button\" focus-on-click=\"focus-on-click\" class=\"clean\"><div ng-class=\"{ danger: vm.unreadCount &gt; 0 }\" class=\"notification\">{{ vm.unreadCount || 0 }}</div></button><div class=\"popup elevated\"><threads ng-if=\"vm.userType == \'customer\'\" subscriber-id=\"{{ vm.subscriberId }}\"></threads><threads ng-if=\"vm.userType != \'customer\'\" subscriber-id=\"{{ vm.subscriberId }}\" user-type=\"copilot\"></threads></div></li></ul></li></ul>");
+(function() {
+  'use strict';
+  var dir;
+
+  dir = function() {
+    return {
+      restrict: 'E',
+      templateUrl: 'views/project-drop-down.directive.html',
+      controller: 'ProjectDropDownController as vm',
+      scope: {
+        userType: '@userType'
+      }
+    };
+  };
+
+  dir.$inject = [];
+
+  angular.module('appirio-tech-ng-work-layout').directive('projectDropDown', dir);
+
+}).call(this);
+
+(function() {
+  'use strict';
+  var dir;
+
+  dir = function() {
+    return {
+      restrict: 'E',
+      templateUrl: 'views/user-drop-down.directive.html',
+      scope: true
+    };
+  };
+
+  dir.$inject = [];
+
+  angular.module('appirio-tech-ng-work-layout').directive('userDropDown', dir);
+
+}).call(this);
+
+(function() {
+  'use strict';
+  var ProjectDropDownController;
+
+  ProjectDropDownController = function($scope, UserV3Service, WorkAPIService, ProjectsAPIService) {
+    var activate, onUserChange, vm;
+    vm = this;
+    vm.userType = $scope.userType || 'customer';
+    vm.projects = [];
+    onUserChange = function() {
+      var params, resource, user;
+      user = UserV3Service.getCurrentUser();
+      if (user != null ? user.id : void 0) {
+        if (vm.userType === 'customer') {
+          resource = WorkAPIService.get();
+          return resource.$promise.then(function(response) {
+            return vm.projects = response;
+          });
+        } else {
+          params = {
+            filter: "copilotId=" + user.id
+          };
+          resource = ProjectsAPIService.query(params);
+          return resource.$promise.then(function(response) {
+            return vm.copilotProjects = response;
+          });
+        }
+      }
+    };
+    activate = function() {
+      $scope.$watch(UserV3Service.getCurrentUser, onUserChange);
+      return vm;
+    };
+    return activate();
+  };
+
+  ProjectDropDownController.$inject = ['$scope', 'UserV3Service', 'WorkAPIService', 'ProjectsAPIService'];
+
+  angular.module('appirio-tech-ng-work-layout').controller('ProjectDropDownController', ProjectDropDownController);
+
+}).call(this);
+
+(function() {
+  'use strict';
+  var directive;
+
+  directive = function() {
+    return {
+      restrict: 'E',
+      templateUrl: 'views/message-drop-down.directive.html',
+      controller: 'MessageDropDownController as vm',
+      scope: {
+        subscriberId: '@subscriberId',
+        userType: '@userType'
+      }
+    };
+  };
+
+  directive.$inject = [];
+
+  angular.module('appirio-tech-ng-messaging').directive('messageDropDown', directive);
+
+}).call(this);
+
+(function() {
+  'use strict';
+  var MessageDropDownController;
+
+  MessageDropDownController = function($scope, $state, InboxesProjectAPIService) {
+    var activate, getUserThreads, removeBlanksAndOrder, vm;
+    vm = this;
+    vm.loadingThreads = false;
+    vm.userType = $scope.userType || 'customer';
+    if (vm.userType === 'customer') {
+      vm.threadHref = 'messaging';
+    } else {
+      vm.threadHref = 'copilot-messaging';
+    }
+    removeBlanksAndOrder = function(threads) {
+      var i, len, noBlanks, orderedThreads, ref, thread;
+      noBlanks = [];
+      if (threads) {
+        for (i = 0, len = threads.length; i < len; i++) {
+          thread = threads[i];
+          if (thread != null ? (ref = thread.messages) != null ? ref.length : void 0 : void 0) {
+            noBlanks.push(thread);
+          }
+        }
+        noBlanks;
+        orderedThreads = noBlanks != null ? noBlanks.sort(function(previous, next) {
+          return new Date(next.messages[next.messages.length - 1].createdAt) - new Date(previous.messages[previous.messages.length - 1].createdAt);
+        }) : void 0;
+        return orderedThreads;
+      }
+    };
+    getUserThreads = function() {
+      var resource;
+      vm.loadingThreads = true;
+      resource = InboxesProjectAPIService.get();
+      resource.$promise.then(function(response) {
+        vm.threads = removeBlanksAndOrder(response != null ? response.threads : void 0);
+        return vm.totalUnreadCount = response != null ? response.totalUnreadCount : void 0;
+      });
+      resource.$promise["catch"](function() {});
+      return resource.$promise["finally"](function() {
+        return vm.loadingThreads = false;
+      });
+    };
+    activate = function() {
+      $scope.$watch('subscriberId', function() {
+        return getUserThreads();
+      });
+      return vm;
+    };
+    return activate();
+  };
+
+  MessageDropDownController.$inject = ['$scope', '$state', 'InboxesProjectAPIService'];
+
+  angular.module('appirio-tech-ng-messaging').controller('MessageDropDownController', MessageDropDownController);
+
+}).call(this);
+
+angular.module("appirio-tech-ng-work-layout").run(["$templateCache", function($templateCache) {$templateCache.put("views/layout-header.directive.html","<ul class=\"flex center middle\"><li><a ng-home-link=\"ng-home-link\" href=\"{{ vm.homeHref }}\" ng-if=\"vm.userType != \'member\'\" class=\"clean logo\"><img src=\"/images/asp-logo.svg\"/></a><img src=\"/images/asp-logo.svg\" ng-if=\"vm.userType == \'member\'\"/></li><li class=\"app-name\"><h4 ng-if=\"vm.showAppName\">{{ vm.appName }}</h4></li><li><ul ng-if=\"vm.userType != \'member\'\" class=\"links\"><li ng-show=\"vm.loggedIn\" class=\"dashboard\"><a ng-if=\"vm.userType == \'customer\' \" ui-sref=\"view-work-multiple\">Dashboard</a><a ng-if=\"vm.userType != \'customer\' \" ui-sref=\"copilot-projects\">Dashboard</a></li><li ng-show=\"vm.loggedIn\" class=\"projects\"><button focus-on-click=\"focus-on-click\" class=\"clean\">Projects <span class=\"caret\">&dtrif;</span></button><project-drop-down user-type=\"{{ vm.userType }}\" class=\"drop-down transition elevated\"></project-drop-down></li><li ng-hide=\"vm.loggedIn\" class=\"login\"><a ui-sref=\"login\" class=\"button hollow\">Log in</a></li><li ng-show=\"vm.loggedIn\" class=\"profile\"><button focus-on-click=\"focus-on-click\" class=\"clean\"><avatar avatar-url=\"{{vm.userAvatar}}\"></avatar></button><user-drop-down class=\"drop-down transition elevated\"></user-drop-down></li><li ng-show=\"vm.loggedIn\" class=\"notifications\"><button type=\"button\" focus-on-click=\"focus-on-click\" class=\"clean\"><div ng-class=\"{ danger: vm.unreadCount &gt; 0 }\" class=\"notification\">{{ vm.unreadCount || 0 }}</div></button><message-drop-down ng-if=\"vm.userType == \'customer\'\" subscriber-id=\"{{ vm.subscriberId }}\" class=\"drop-down transition elevated\"></message-drop-down><message-drop-down ng-if=\"vm.userType != \'customer\'\" subscriber-id=\"{{ vm.subscriberId }}\" user-type=\"copilot\" class=\"drop-down transition elevated\"></message-drop-down></li></ul></li></ul>");
 $templateCache.put("views/layout-footer.directive.html","<footer class=\"layout-footer\"><ul><li><a ui-sref=\"register\">Sign up</a></li><li><a ui-sref=\"#\">Help</a></li><li><a ui-sref=\"#\">About</a></li><li><a ui-sref=\"copilot-projects\">Copilot Dashboard</a></li></ul></footer>");
 $templateCache.put("views/layout-project-nav.directive.html","<ul><li ng-class=\"{active: vm.activeLink == \'timeline\'}\" ng-if=\"vm.userType == \'customer\'\"><a ui-sref=\"timeline({ workId: vm.workId })\">Timeline</a></li><li ng-class=\"{active: vm.activeLink == \'submissions\'}\" ng-if=\"vm.userType == \'customer\'\"><a ui-sref=\"step({ projectId: vm.workId, stepId: vm.currentStepId })\">Submissions</a></li><li ng-class=\"{active: vm.activeLink == \'messaging\'}\" ng-if=\"vm.userType == \'customer\'\"><a ui-sref=\"messaging({ id: vm.workId, threadId: vm.threadId })\">Messaging</a></li><li ng-class=\"{active: vm.activeLink == \'project-details\'}\" ng-if=\"vm.userType == \'customer\'\"><a ui-sref=\"project-details({ id: vm.workId })\">Project details</a></li><li ng-class=\"{active: vm.activeLink == \'copilot-project-details\'}\" ng-if=\"vm.userType != \'customer\'\"><a ui-sref=\"copilot-project-details({ id: vm.workId })\">Project details</a></li><li ng-class=\"{active: vm.activeLink == \'copilot-messaging\'}\" ng-if=\"vm.userType != \'customer\'\"><a ui-sref=\"copilot-messaging({ id: vm.workId, threadId: vm.threadId })\">Messaging</a></li><li ng-class=\"{active: vm.activeLink == \'copilot-submissions\'}\" ng-if=\"vm.userType != \'customer\'\"><a ui-sref=\"step({ projectId: vm.workId, stepId: vm.currentStepId })\">Submissions</a></li><li ng-class=\"{active: vm.activeLink == \'copilot-status-reports\'}\" ng-if=\"vm.userType != \'customer\'\"><a ui-sref=\"copilot-status-reports({ id: vm.workId})\">Status Reports</a></li></ul>");}]);

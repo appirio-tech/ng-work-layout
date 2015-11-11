@@ -6,7 +6,10 @@ layout-project-nav {
   background-color: $neutral-color-light;
   text-align      : center;
   font-family     : "sofia-pro";
-  margin-top      : $header-height;
+
+  /* due to header fixed position */
+  /* has to be padding due to flush height */
+  padding-top     : $header-height;
 
   ul {
     @include vertical-align-middle();

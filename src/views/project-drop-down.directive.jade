@@ -1,8 +1,8 @@
 header projects
 
 ul
-  li
-    a(ng-if="vm.userType == 'customer' " ui-sref="submit-work") Create New Project
+  li(ng-if="vm.userType == 'customer'")
+    a(ui-sref="submit-work") Create New Project
 
   li(ng-if="vm.userType == 'customer' " ng-repeat="project in vm.projects")
     a(ui-sref="timeline({ workId: project.id })") {{ project.name }}

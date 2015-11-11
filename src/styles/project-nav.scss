@@ -1,10 +1,12 @@
 @import "work-includes";
+@import "variables";
 
 layout-project-nav {
   display         : block;
   background-color: $neutral-color-light;
   text-align      : center;
   font-family     : "sofia-pro";
+  margin-top      : $header-height;
 
   ul {
     @include vertical-align-middle();

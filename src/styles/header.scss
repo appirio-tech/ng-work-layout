@@ -1,13 +1,6 @@
 @import "work-includes";
 @import "variables";
 
-$static-height: 70px;
-$line-height  : 37px;
-
-body {
-  padding-top: $static-height; // needs to be padding since margin on body is wonkey
-}
-
 layout-header {
   display         : block;
   position        : fixed;
@@ -16,8 +9,8 @@ layout-header {
   padding         : $padding $padding;
   background-color: $black;
   z-index         : 100;
-  min-height      : $static-height;
-  max-height      : $static-height;
+  min-height      : $header-height;
+  max-height      : $header-height;
 
   > ul {
     > li {

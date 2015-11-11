@@ -6,7 +6,7 @@ ul
       .app-name {{thread.subject}}
 
       .sender
-        avatar(avatar-url="{{ thread.publishers[0].avatar }}")
+        avatar(avatar-url="{{ thread.messages[thread.messages.length -1].publisher.avatar }}")
 
         .name {{thread.messages[thread.messages.length -1].publisher.handle}}
 

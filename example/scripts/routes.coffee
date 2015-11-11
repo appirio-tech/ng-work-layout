@@ -3,6 +3,11 @@
 config = ($stateProvider) ->
   states = {}
 
+  states['home'] =
+    url        : '/'
+    title      : 'customer'
+    templateUrl: 'views/customer.example.html'
+
   states['customer'] =
     url        : '/customer'
     title      : 'customer'

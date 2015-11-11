@@ -40211,7 +40211,8 @@ $templateCache.put("views/countdown.directive.html","<ul class=\"countdown\"><li
 $templateCache.put("views/loader.directive.html","<div class=\"container\"><div class=\"loader\"></div></div>");
 $templateCache.put("views/modal.directive.html","");
 $templateCache.put("views/selectable.directive.html","<div ng-show=\"!label &amp;&amp; !vm.isSelected()\">Select</div><div ng-show=\"!label &amp;&amp; vm.isSelected()\">Selected</div><div ng-show=\"label\">{{ label }}</div><div class=\"icon-container\"><div class=\"icon checkmark-white smallest\"></div></div>");
-$templateCache.put("views/selected-button.directive.html","<button ng-class=\"{\'checked\': vm.isSelected(), \'action\': vm.isSelected()}\" ng-click=\"vm.toggle()\" type=\"button\"><p ng-show=\"!label &amp;&amp; !vm.isSelected()\">Select</p><p ng-show=\"!label &amp;&amp; vm.isSelected()\">Selected</p><p ng-show=\"label\">{{ label }}</p><div class=\"icon-container\"><div class=\"icon checkmark-white smallest\"></div></div></button>");}]);
+$templateCache.put("views/selected-button.directive.html","<button ng-class=\"{\'checked\': vm.isSelected(), \'action\': vm.isSelected()}\" ng-click=\"vm.toggle()\" type=\"button\"><p ng-show=\"!label &amp;&amp; !vm.isSelected()\">Select</p><p ng-show=\"!label &amp;&amp; vm.isSelected()\">Selected</p><p ng-show=\"label\">{{ label }}</p><div class=\"icon-container\"><div class=\"icon checkmark-white smallest\"></div></div></button>");
+$templateCache.put("views/simple-countdown.directive.html","<p>{{vm.timeRemaining}} left</p>");}]);
 (function() {
   'use strict';
   var directive;
@@ -40249,6 +40250,26 @@ $templateCache.put("views/selected-button.directive.html","<button ng-class=\"{\
   };
 
   angular.module('appirio-tech-ng-ui-components').directive('countdown', directive);
+
+}).call(this);
+
+(function() {
+  'use strict';
+  var directive;
+
+  directive = function() {
+    return {
+      restrict: 'E',
+      templateUrl: 'views/simple-countdown.directive.html',
+      controller: 'SimpleCountdownController',
+      controllerAs: 'vm',
+      scope: {
+        end: '@end'
+      }
+    };
+  };
+
+  angular.module('appirio-tech-ng-ui-components').directive('simpleCountdown', directive);
 
 }).call(this);
 
@@ -40757,6 +40778,29 @@ $templateCache.put("views/selected-button.directive.html","<button ng-class=\"{\
 
 (function() {
   'use strict';
+  var SimpleCountdownController;
+
+  SimpleCountdownController = function($scope) {
+    var activate, timeRemaining, vm;
+    vm = this;
+    timeRemaining = 0;
+    activate = function() {
+      $scope.$watch('end', function(newValue) {
+        return vm.timeRemaining = moment(newValue).fromNow(true);
+      });
+      return vm;
+    };
+    return activate();
+  };
+
+  SimpleCountdownController.$inject = ['$scope'];
+
+  angular.module('appirio-tech-ng-ui-components').controller('SimpleCountdownController', SimpleCountdownController);
+
+}).call(this);
+
+(function() {
+  'use strict';
   var CheckboxController;
 
   CheckboxController = function($scope) {
@@ -40850,8 +40894,11 @@ $templateCache.put("views/selected-button.directive.html","<button ng-class=\"{\
   var filter;
 
   filter = function() {
-    return function(createdAt) {
-      return moment(createdAt).fromNow();
+    return function(createdAt, hideSuffix) {
+      if (hideSuffix == null) {
+        hideSuffix = false;
+      }
+      return moment(createdAt).fromNow(hideSuffix);
     };
   };
 
@@ -41211,7 +41258,7 @@ $templateCache.put("views/file-detail.directive.html","<main><loader ng-hide=\"v
     vm.timeline = config.timeline;
     vm.stepName = config.stepName;
     vm.stepType = config.stepType;
-    vm.status = defaultStatus;
+    vm.status = config.defaultStatus;
     vm.statusValue = 0;
     vm.allFilled = false;
     vm.submissions = [];
@@ -41514,12 +41561,12 @@ $templateCache.put("views/file-detail.directive.html","<main><loader ng-hide=\"v
   statuses = ['PLACEHOLDER', 'SCHEDULED', 'OPEN', 'OPEN_LATE', 'REVIEWING', 'REVIEWING_LATE', 'CLOSED'];
 
   statusOf = function(step) {
-    var closed, endsAt, hasSubmissions, now, startsAt, submissionsDueBy;
+    var closed, endsAt, hasSubmissions, now, ref, startsAt, submissionsDueBy;
     now = Date.now();
     startsAt = new Date(step.startsAt);
     submissionsDueBy = new Date(step.details.submissionsDueBy);
     endsAt = new Date(step.endsAt);
-    hasSubmissions = step.details.rankedSubmissions.length > 0;
+    hasSubmissions = ((ref = step.details.rankedSubmissions) != null ? ref.length : void 0) > 0;
     closed = step.details.customerConfirmedRanks || step.details.customerAcceptedFixes;
     if (closed) {
       return 'CLOSED';

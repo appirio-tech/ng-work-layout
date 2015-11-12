@@ -14,4 +14,5 @@ ul
 
       p.message {{ thread.messages[thread.messages.length -1].body }}
 
-.none(ng-show="vm.threads.length == 0") None
+  li.no-messages(ng-if="vm.threads.length == 0")
+    p You have no messages.

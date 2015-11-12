@@ -247,6 +247,7 @@
     return {
       restrict: 'E',
       templateUrl: 'views/user-drop-down.directive.html',
+      controller: 'UserDropDownController as vm',
       scope: true
     };
   };
@@ -254,6 +255,32 @@
   dir.$inject = [];
 
   angular.module('appirio-tech-ng-work-layout').directive('userDropDown', dir);
+
+}).call(this);
+
+(function() {
+  'use strict';
+  var UserDropDownController;
+
+  UserDropDownController = function($scope, UserV3Service) {
+    var activate, onUserChange, vm;
+    vm = this;
+    vm.handle = '';
+    onUserChange = function() {
+      var user;
+      user = UserV3Service.getCurrentUser();
+      return vm.handle = user != null ? user.handle : void 0;
+    };
+    activate = function() {
+      $scope.$watch(UserV3Service.getCurrentUser, onUserChange);
+      return vm;
+    };
+    return activate();
+  };
+
+  UserDropDownController.$inject = ['$scope', 'UserV3Service'];
+
+  angular.module('appirio-tech-ng-work-layout').controller('UserDropDownController', UserDropDownController);
 
 }).call(this);
 
@@ -385,4 +412,4 @@ $templateCache.put("views/layout-header.directive.html","<ul class=\"flex center
 $templateCache.put("views/layout-project-nav.directive.html","<ul><li ng-class=\"{active: vm.activeLink == \'timeline\'}\" ng-if=\"vm.userType == \'customer\'\"><a ui-sref=\"timeline({ workId: vm.workId })\">Timeline</a></li><li ng-class=\"{active: vm.activeLink == \'submissions\'}\" ng-if=\"vm.userType == \'customer\'\"><a ui-sref=\"step({ projectId: vm.workId, stepId: vm.currentStepId })\">Submissions</a></li><li ng-class=\"{active: vm.activeLink == \'messaging\'}\" ng-if=\"vm.userType == \'customer\'\"><a ui-sref=\"messaging({ id: vm.workId, threadId: vm.threadId })\">Messaging</a></li><li ng-class=\"{active: vm.activeLink == \'project-details\'}\" ng-if=\"vm.userType == \'customer\'\"><a ui-sref=\"project-details({ id: vm.workId })\">Project details</a></li><li ng-class=\"{active: vm.activeLink == \'copilot-project-details\'}\" ng-if=\"vm.userType != \'customer\'\"><a ui-sref=\"copilot-project-details({ id: vm.workId })\">Project details</a></li><li ng-class=\"{active: vm.activeLink == \'copilot-messaging\'}\" ng-if=\"vm.userType != \'customer\'\"><a ui-sref=\"copilot-messaging({ id: vm.workId, threadId: vm.threadId })\">Messaging</a></li><li ng-class=\"{active: vm.activeLink == \'copilot-submissions\'}\" ng-if=\"vm.userType != \'customer\'\"><a ui-sref=\"step({ projectId: vm.workId, stepId: vm.currentStepId })\">Submissions</a></li><li ng-class=\"{active: vm.activeLink == \'copilot-status-reports\'}\" ng-if=\"vm.userType != \'customer\'\"><a ui-sref=\"copilot-status-reports({ id: vm.workId})\">Status Reports</a></li></ul>");
 $templateCache.put("views/message-drop-down.directive.html","<header>messages</header><ul><li ng-repeat=\"thread in vm.threads track by $index\"><a ui-sref=\"{{vm.threadHref}}({ id: thread.projectId, threadId: thread.id })\" ng-class=\"{unread: thread.unreadCount &gt; 0}\"><div class=\"app-name\">{{thread.subject}}</div><div class=\"sender\"><avatar avatar-url=\"{{ thread.messages[thread.messages.length -1].publisher.avatar }}\"></avatar><div class=\"name\">{{thread.messages[thread.messages.length -1].publisher.handle}}</div><time>{{ thread.messages[thread.messages.length -1].createdAt | timeLapse }}</time></div><p class=\"message\">{{ thread.messages[thread.messages.length -1].body }}</p></a></li><li ng-if=\"vm.threads.length == 0\" class=\"no-messages\"><p>You have no messages.</p></li></ul>");
 $templateCache.put("views/project-drop-down.directive.html","<header>projects</header><ul><li ng-if=\"vm.userType == \'customer\'\"><a ui-sref=\"submit-work\">Create New Project</a></li><li ng-if=\"vm.userType == \'customer\' \" ng-repeat=\"project in vm.projects\"><a ui-sref=\"timeline({ workId: project.id })\">{{ project.name }}</a></li><li ng-if=\"vm.userType != \'customer\' \" ng-repeat=\"project in vm.copilotProjects\"><a ui-sref=\"copilot-project-details({ id: project.id })\">{{ project.name }}</a></li></ul>");
-$templateCache.put("views/user-drop-down.directive.html","<header>Batman66 (wip)</header><ul><li><a href=\"#\">View Profile</a></li><li><a ui-sref=\"submit-work\">Settings</a></li><li><a ng-click=\"vm.logout()\">LOGOUT</a></li></ul>");}]);
+$templateCache.put("views/user-drop-down.directive.html","<header>{{ vm.handle }}</header><ul><li><a href=\"#\">View Profile</a></li><li><a ui-sref=\"submit-work\">Settings</a></li><li><a ng-click=\"vm.logout()\">LOGOUT</a></li></ul>");}]);

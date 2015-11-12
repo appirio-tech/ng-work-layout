@@ -40662,12 +40662,12 @@ $templateCache.put("views/simple-countdown.directive.html","<p>{{vm.timeRemainin
     var elements, link, lockHeight;
     elements = [];
     lockHeight = function($element) {
-      var attr, childrenWithClass, classToToggle, ignoreContent;
+      var attr, childrenWithClass, classToToggle, ignoreContent, ref;
       attr = $element.attr('lock-height');
       if (attr !== 'lock-height') {
         classToToggle = attr;
       }
-      ignoreContent = $element.attr('ignore-content').length;
+      ignoreContent = (ref = $element.attr('ignore-content')) != null ? ref.length : void 0;
       $element.css('height', 'auto');
       $element.css('max-height', 'none');
       $element.addClass('lock-height');
@@ -41335,7 +41335,7 @@ $templateCache.put("views/file-detail.directive.html","<main><loader ng-hide=\"v
       });
     };
     onChange = function() {
-      var currentStep, nextStep, prevStep, steps, submissions;
+      var currentStep, nextStep, numberOfRanks, prevStep, steps, submissions;
       steps = StepsService.get(vm.projectId);
       submissions = SubmissionsService.get(vm.projectId, vm.stepId);
       if (steps._pending || submissions._pending) {
@@ -41357,14 +41357,15 @@ $templateCache.put("views/file-detail.directive.html","<main><loader ng-hide=\"v
       vm.submissions = helpers.submissionsWithFileTypes(vm.submissions);
       vm.submissions = helpers.submissionsFilteredByType(vm.submissions);
       vm.submissions = helpers.submissionsWithFileLimit(vm.submissions, 6);
-      vm.rankNames = config.rankNames.slice(0, currentStep.details.numberOfRanks);
+      numberOfRanks = Math.min(currentStep.details.numberOfRanks, vm.submissions.length);
+      vm.rankNames = config.rankNames.slice(0, numberOfRanks);
       vm.ranks = helpers.makeEmptyRankList(vm.rankNames);
       vm.ranks = helpers.populatedRankList(vm.ranks, vm.submissions);
       vm.userRank = helpers.highestRank(vm.ranks, userId);
       if (currentStep.rankedSubmissions_error) {
         vm.rankUpdateError = currentStep.rankedSubmissions_error;
       }
-      vm.allFilled = currentStep.details.rankedSubmissions.length === currentStep.details.numberOfRanks;
+      vm.allFilled = currentStep.details.rankedSubmissions.length === numberOfRanks;
       vm.status = helpers.statusOf(currentStep);
       return vm.statusValue = helpers.statusValueOf(vm.status);
     };
@@ -42126,7 +42127,7 @@ $templateCache.put("views/file-detail.directive.html","<main><loader ng-hide=\"v
       return StepsService.updateRank(vm.projectId, vm.stepId, submission.id, submission.rank);
     };
     onChange = function() {
-      var currentStep, steps, submissions;
+      var currentStep, numberOfRanks, steps, submissions;
       steps = StepsService.get(vm.projectId);
       submissions = SubmissionsService.get(vm.projectId, vm.stepId);
       if (steps._pending || submissions._pending) {
@@ -42140,12 +42141,12 @@ $templateCache.put("views/file-detail.directive.html","<main><loader ng-hide=\"v
       vm.submission = helpers.submissionWithMessageCounts(vm.submission);
       vm.submission = helpers.submissionWithFileTypes(vm.submission);
       vm.submission = helpers.submissionFilteredByType(vm.submission);
-      vm.rankNames = config.rankNames.slice(0, currentStep.details.numberOfRanks);
+      numberOfRanks = Math.min(currentStep.details.numberOfRanks, currentStep.details.submissionIds.length);
+      vm.rankNames = config.rankNames.slice(0, numberOfRanks);
       vm.ranks = helpers.makeEmptyRankList(vm.rankNames);
       vm.ranks = helpers.populatedRankList(vm.ranks, vm.submissions);
       vm.rank = vm.submission.rank ? config.rankNames[vm.submission.rank - 1] : null;
-      vm.allFilled = currentStep.details.rankedSubmissions.length === currentStep.details.numberOfRanks;
-      vm.allFilled = currentStep.details.rankedSubmissions.length === currentStep.details.numberOfRanks;
+      vm.allFilled = currentStep.details.rankedSubmissions.length === numberOfRanks;
       return vm.status = helpers.statusOf(currentStep);
     };
     activate();
@@ -42366,7 +42367,7 @@ $templateCache.put("views/file-detail.directive.html","<main><loader ng-hide=\"v
     hasProp = {}.hasOwnProperty;
 
   OptimistHelpers = function(options) {
-    var filter, isObject, mask, timestamp, walk;
+    var filter, flatWalkTandem, isObject, mask, merge, timestamp, walk;
     if (options == null) {
       options = {};
     }
@@ -42424,12 +42425,50 @@ $templateCache.put("views/file-detail.directive.html","<main><loader ng-hide=\"v
       }
       return results;
     };
+    flatWalkTandem = function(target, source, action) {
+      var combinedKeys, name, results, sourceValue, targetValue, value;
+      combinedKeys = {};
+      for (name in target) {
+        if (!hasProp.call(target, name)) continue;
+        value = target[name];
+        combinedKeys[name] = true;
+      }
+      for (name in source) {
+        if (!hasProp.call(source, name)) continue;
+        value = source[name];
+        combinedKeys[name] = true;
+      }
+      results = [];
+      for (name in combinedKeys) {
+        if (!hasProp.call(combinedKeys, name)) continue;
+        value = combinedKeys[name];
+        targetValue = target[name];
+        sourceValue = source[name];
+        results.push(action(targetValue, sourceValue, name, target, source));
+      }
+      return results;
+    };
+    merge = function(target, source) {
+      var action, result;
+      result = {};
+      action = function(targetValue, sourceValue, name) {
+        if (isObject(targetValue) || isObject(sourceValue)) {
+          return result[name] = merge(targetValue || {}, sourceValue || {});
+        } else {
+          return result[name] = sourceValue === void 0 ? targetValue : sourceValue;
+        }
+      };
+      flatWalkTandem(target, source, action);
+      return result;
+    };
     return {
       timestamp: timestamp,
       isObject: isObject,
       mask: mask,
       filter: filter,
-      walk: walk
+      walk: walk,
+      flatWalkTandem: flatWalkTandem,
+      merge: merge
     };
   };
 
@@ -42519,12 +42558,12 @@ $templateCache.put("views/file-detail.directive.html","<main><loader ng-hide=\"v
       })(this));
     };
     Collection.prototype.findWhere = function(filters) {
-      return this._collection.filter(function(ref) {
-        var item, name, value;
-        item = ref.get();
+      return this._collection.filter(function(item) {
+        var itemData, name, value;
+        itemData = item.get();
         for (name in filters) {
           value = filters[name];
-          if (item[name] !== value) {
+          if (itemData[name] !== value) {
             return false;
           }
         }
@@ -42632,7 +42671,7 @@ $templateCache.put("views/file-detail.directive.html","<main><loader ng-hide=\"v
           }
         }
       });
-      angular.merge(this._data, updates);
+      this._data = OptimistHelpers.merge(this._data, updates);
       return updateCallback(this._data);
     };
     Model.prototype.fetch = function(options) {

@@ -257,7 +257,7 @@
   'use strict';
   var UserDropDownController;
 
-  UserDropDownController = function($scope, UserV3Service, AuthService) {
+  UserDropDownController = function($scope, $state, UserV3Service, AuthService) {
     var activate, onUserChange, vm;
     vm = this;
     vm.handle = '';
@@ -278,7 +278,7 @@
     return activate();
   };
 
-  UserDropDownController.$inject = ['$scope', 'UserV3Service', 'AuthService'];
+  UserDropDownController.$inject = ['$scope', '$state', 'UserV3Service', 'AuthService'];
 
   angular.module('appirio-tech-ng-work-layout').controller('UserDropDownController', UserDropDownController);
 

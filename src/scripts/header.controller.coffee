@@ -5,7 +5,6 @@ LayoutHeaderController = (
   $state
   UserV3Service
   ThreadsAPIService
-  AuthService
   SubmitWorkAPIService
   InboxesProjectAPIService
 ) ->
@@ -20,10 +19,6 @@ LayoutHeaderController = (
 
     resource.$promise.then (response) ->
       vm.unreadCount = response.totalUnreadCount
-
-  vm.logout = ->
-    AuthService.logout().then ->
-      $state.go 'login'
 
   onUserChange = ->
     user = UserV3Service.getCurrentUser()
@@ -81,7 +76,6 @@ LayoutHeaderController.$inject = [
   '$state'
   'UserV3Service'
   'ThreadsAPIService'
-  'AuthService'
   'SubmitWorkAPIService'
   'InboxesProjectAPIService'
 ]

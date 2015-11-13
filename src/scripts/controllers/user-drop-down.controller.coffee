@@ -1,6 +1,6 @@
 'use strict'
 
-UserDropDownController = ($scope, UserV3Service) ->
+UserDropDownController = ($scope, UserV3Service, AuthService) ->
   vm = this
   vm.handle = ''
 
@@ -8,6 +8,10 @@ UserDropDownController = ($scope, UserV3Service) ->
     user = UserV3Service.getCurrentUser()
 
     vm.handle = user?.handle
+
+  vm.logout = ->
+    AuthService.logout().then ->
+      $state.go 'login'
 
   activate = ->
     $scope.$watch UserV3Service.getCurrentUser, onUserChange
@@ -19,6 +23,7 @@ UserDropDownController = ($scope, UserV3Service) ->
 UserDropDownController.$inject = [
   '$scope'
   'UserV3Service'
+  'AuthService'
 ]
 
 angular.module('appirio-tech-ng-work-layout').controller 'UserDropDownController', UserDropDownController

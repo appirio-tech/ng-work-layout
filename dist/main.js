@@ -12,7 +12,7 @@
   'use strict';
   var LayoutHeaderController;
 
-  LayoutHeaderController = function($scope, $state, UserV3Service, ThreadsAPIService, AuthService, SubmitWorkAPIService, InboxesProjectAPIService) {
+  LayoutHeaderController = function($scope, $state, UserV3Service, ThreadsAPIService, SubmitWorkAPIService, InboxesProjectAPIService) {
     var activate, getNotificationCount, onProjectChange, onUserChange, setAppName, vm;
     vm = this;
     vm.homeHref = $state.href('home');
@@ -24,11 +24,6 @@
       resource = InboxesProjectAPIService.get();
       return resource.$promise.then(function(response) {
         return vm.unreadCount = response.totalUnreadCount;
-      });
-    };
-    vm.logout = function() {
-      return AuthService.logout().then(function() {
-        return $state.go('login');
       });
     };
     onUserChange = function() {
@@ -83,7 +78,7 @@
     return vm;
   };
 
-  LayoutHeaderController.$inject = ['$scope', '$state', 'UserV3Service', 'ThreadsAPIService', 'AuthService', 'SubmitWorkAPIService', 'InboxesProjectAPIService'];
+  LayoutHeaderController.$inject = ['$scope', '$state', 'UserV3Service', 'ThreadsAPIService', 'SubmitWorkAPIService', 'InboxesProjectAPIService'];
 
   angular.module('appirio-tech-ng-work-layout').controller('LayoutHeaderController', LayoutHeaderController);
 
@@ -262,7 +257,7 @@
   'use strict';
   var UserDropDownController;
 
-  UserDropDownController = function($scope, UserV3Service) {
+  UserDropDownController = function($scope, UserV3Service, AuthService) {
     var activate, onUserChange, vm;
     vm = this;
     vm.handle = '';
@@ -271,6 +266,11 @@
       user = UserV3Service.getCurrentUser();
       return vm.handle = user != null ? user.handle : void 0;
     };
+    vm.logout = function() {
+      return AuthService.logout().then(function() {
+        return $state.go('login');
+      });
+    };
     activate = function() {
       $scope.$watch(UserV3Service.getCurrentUser, onUserChange);
       return vm;
@@ -278,7 +278,7 @@
     return activate();
   };
 
-  UserDropDownController.$inject = ['$scope', 'UserV3Service'];
+  UserDropDownController.$inject = ['$scope', 'UserV3Service', 'AuthService'];
 
   angular.module('appirio-tech-ng-work-layout').controller('UserDropDownController', UserDropDownController);
 

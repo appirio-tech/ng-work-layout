@@ -1,6 +1,6 @@
 'use strict'
 
-UserDropDownController = ($scope, UserV3Service, AuthService) ->
+UserDropDownController = ($scope, $state, UserV3Service, AuthService) ->
   vm = this
   vm.handle = ''
 
@@ -22,6 +22,7 @@ UserDropDownController = ($scope, UserV3Service, AuthService) ->
 
 UserDropDownController.$inject = [
   '$scope'
+  '$state'
   'UserV3Service'
   'AuthService'
 ]

@@ -6,7 +6,7 @@ ul.flex.center.middle
     img(src="/images/asp-logo.svg" ng-if="vm.userType == 'member'")
 
   li.app-name
-    h4(ng-if="vm.showAppName") {{ vm.appName }}
+    a(ng-if="vm.showAppName" ui-sref="timeline({workId: vm.workId})")
 
   li
     ul.links(ng-if="vm.userType != 'member'")

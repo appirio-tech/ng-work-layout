@@ -11,6 +11,7 @@ layout-header {
   z-index         : 100;
   min-height      : $header-height;
   max-height      : $header-height;
+  border-bottom   : 1px solid $neutral-color-darkest;
 
   > ul {
     > li {

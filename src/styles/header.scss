@@ -36,7 +36,9 @@ layout-header {
   }
 
   .logo {
-    color: $white;
+    img {
+      width: 180px;
+    }
   }
 
   .links {

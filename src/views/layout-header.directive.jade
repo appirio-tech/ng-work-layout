@@ -6,7 +6,10 @@ ul.flex.center.middle
     img(src="/images/asp-logo.svg" ng-if="vm.userType == 'member'")
 
   li.app-name
-    a(ng-if="vm.showAppName" ui-sref="timeline({workId: vm.workId})")
+    a(ng-if="vm.showAppName && vm.userType == 'customer' " ui-sref="timeline({workId: vm.workId})")
+      h4 {{vm.appName}}
+
+    a(ng-if="vm.showAppName && vm.userType != 'customer' " ui-sref="copilot-project-details({ id: vm.workId })")
       h4 {{vm.appName}}
 
   li

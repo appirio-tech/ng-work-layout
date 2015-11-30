@@ -1,6 +1,6 @@
 'use strict'
 
-ProjectNavController = ($scope, $state, StepsService, ProjectsAPIService, $rootScope) ->
+ProjectNavController = ($scope, $state, DataService, StepsService, ProjectsAPIService, $rootScope) ->
   vm               = this
   vm.workId        = $scope.workId
   vm.currentStepId = null
@@ -8,14 +8,8 @@ ProjectNavController = ($scope, $state, StepsService, ProjectsAPIService, $rootS
   vm.userType      = $scope.userType || 'customer'
   vm.currentStep   = null
 
-  onChange = ->
-    currentStep = if vm.stepId
-      StepsService.getStepById vm.workId, vm.stepId
-    else
-      StepsService.getCurrentStep vm.workId
-
-    if currentStep
-      vm.currentStepId = currentStep.id
+  onChange = (step) ->
+    vm.currentStepId = step.id
 
     stateName         = $state.current.name
     submissionsStates = [
@@ -38,13 +32,10 @@ ProjectNavController = ($scope, $state, StepsService, ProjectsAPIService, $rootS
       resource.$promise.then (response) ->
         vm.threadId = response.threadId
 
-    destroyStepsListener = $rootScope.$on 'StepsService:changed', ->
-      onChange()
-
-    $scope.$on '$destroy', ->
-      destroyStepsListener()
-
-    onChange()
+    if vm.stepId
+      DataService.subscribe $scope, onChange, [StepsService, 'getStepById', vm.workId, vm.stepId]
+    else
+      DataService.subscribe $scope, onChange, [StepsService, 'getCurrentStep', vm.workId]
 
   activate()
 
@@ -53,6 +44,7 @@ ProjectNavController = ($scope, $state, StepsService, ProjectsAPIService, $rootS
 ProjectNavController.$inject = [
   '$scope'
   '$state'
+  'DataService'
   'StepsService'
   'ProjectsAPIService'
   '$rootScope'

@@ -162,7 +162,7 @@
   'use strict';
   var ProjectNavController;
 
-  ProjectNavController = function($scope, $state, StepsService, ProjectsAPIService, $rootScope) {
+  ProjectNavController = function($scope, $state, DataService, StepsService, ProjectsAPIService, $rootScope) {
     var activate, onChange, vm;
     vm = this;
     vm.workId = $scope.workId;
@@ -170,12 +170,9 @@
     vm.threadId = null;
     vm.userType = $scope.userType || 'customer';
     vm.currentStep = null;
-    onChange = function() {
-      var currentStep, isSubmissionState, stateName, submissionsStates;
-      currentStep = vm.stepId ? StepsService.getStepById(vm.workId, vm.stepId) : StepsService.getCurrentStep(vm.workId);
-      if (currentStep) {
-        vm.currentStepId = currentStep.id;
-      }
+    onChange = function(step) {
+      var isSubmissionState, stateName, submissionsStates;
+      vm.currentStepId = step.id;
       stateName = $state.current.name;
       submissionsStates = ['step', 'submission-detail', 'file-detail'];
       isSubmissionState = submissionsStates.indexOf(stateName) > -1;
@@ -185,7 +182,7 @@
       }
     };
     activate = function() {
-      var destroyStepsListener, params, resource;
+      var params, resource;
       if (vm.workId) {
         params = {
           id: vm.workId
@@ -195,19 +192,17 @@
           return vm.threadId = response.threadId;
         });
       }
-      destroyStepsListener = $rootScope.$on('StepsService:changed', function() {
-        return onChange();
-      });
-      $scope.$on('$destroy', function() {
-        return destroyStepsListener();
-      });
-      return onChange();
+      if (vm.stepId) {
+        return DataService.subscribe($scope, onChange, [StepsService, 'getStepById', vm.workId, vm.stepId]);
+      } else {
+        return DataService.subscribe($scope, onChange, [StepsService, 'getCurrentStep', vm.workId]);
+      }
     };
     activate();
     return vm;
   };
 
-  ProjectNavController.$inject = ['$scope', '$state', 'StepsService', 'ProjectsAPIService', '$rootScope'];
+  ProjectNavController.$inject = ['$scope', '$state', 'DataService', 'StepsService', 'ProjectsAPIService', '$rootScope'];
 
   angular.module('appirio-tech-ng-work-layout').controller('ProjectNavController', ProjectNavController);
 

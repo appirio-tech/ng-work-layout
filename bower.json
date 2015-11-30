@@ -19,7 +19,7 @@
     "angular": "^1.4.x",
     "appirio-tech-ng-api-services": "0.x.x",
     "appirio-tech-ng-auth": "3.x.x",
-    "appirio-tech-ng-submissions": "2.x.x"
+    "appirio-tech-ng-submissions": "3.x.x"
   },
   "ignore": [
     "**/*",

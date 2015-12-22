@@ -1,28 +1,32 @@
-ul
-  li(ng-class="{active: vm.activeLink == 'timeline'}" ng-if="vm.userType == 'customer'")
+ul(ng-if="vm.userType == 'customer'")
+  li(ng-class="{active: vm.activeLink == 'timeline'}")
     a(ui-sref="timeline({ workId: vm.workId })") Timeline
 
-  li(ng-class="{active: vm.activeLink == 'submissions'}" ng-if="vm.userType == 'customer'")
+  li(ng-class="{active: vm.activeLink == 'submissions'}")
     a(ui-sref="step({ projectId: vm.workId, stepId: vm.currentStepId })") Submissions
 
-  li(ng-class="{active: vm.activeLink == 'messaging'}" ng-if="vm.userType == 'customer'")
+  li(ng-class="{active: vm.activeLink == 'messaging'}")
     a(ui-sref="messaging({ id: vm.workId, threadId: vm.threadId })") Messaging
 
-  li(ng-class="{active: vm.activeLink == 'project-details'}" ng-if="vm.userType == 'customer'")
+  li(ng-class="{active: vm.activeLink == 'project-details'}")
     a(ui-sref="project-details({ id: vm.workId })") Project details
 
-  li(ng-class="{active: vm.activeLink == 'copilot-project-details'}" ng-if="vm.userType != 'customer'")
+ul(ng-if="vm.userType == 'copilot'")
+  li(ng-class="{active: vm.activeLink == 'copilot-project-details'}")
     a(ui-sref="copilot-project-details({ id: vm.workId })") Project details
 
-  li(ng-class="{active: vm.activeLink == 'copilot-messaging'}" ng-if="vm.userType != 'customer'")
+  li(ng-class="{active: vm.activeLink == 'copilot-messaging'}")
     a(ui-sref="copilot-messaging({ id: vm.workId, threadId: vm.threadId })") Messaging
 
-  li(ng-class="{active: vm.activeLink == 'copilot-submissions'}" ng-if="vm.userType != 'customer'")
+  li(ng-class="{active: vm.activeLink == 'copilot-submissions'}")
     a(ui-sref="step({ projectId: vm.workId, stepId: vm.currentStepId })") Submissions
 
-  li(ng-class="{active: vm.activeLink == 'copilot-status-reports'}" ng-if="vm.userType != 'customer'")
+  li(ng-class="{active: vm.activeLink == 'copilot-status-reports'}")
     a(ui-sref="copilot-status-reports({ id: vm.workId})") Status Reports
 
+ul(ng-if="vm.userType == 'member'")
+  li(ng-class="{active: vm.activeLink == 'submissions'}")
+    a(ui-sref="step({ projectId: vm.workId, stepId: vm.currentStepId })") Submissions
 
 
   //- li(ng-class="{active: vm.activeLink == 'project-settings'}")

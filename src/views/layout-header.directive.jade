@@ -9,8 +9,11 @@ ul.flex.center.middle
     a(ng-if="vm.showAppName && vm.userType == 'customer' " ui-sref="timeline({workId: vm.workId})")
       h4 {{vm.appName}}
 
-    a(ng-if="vm.showAppName && vm.userType != 'customer' " ui-sref="copilot-project-details({ id: vm.workId })")
+    a(ng-if="vm.showAppName && vm.userType == 'copilot' " ui-sref="copilot-project-details({ id: vm.workId })")
       h4 {{vm.appName}}
+
+    a(ng-if="vm.showAppName && vm.userType == 'member'" )
+      h4 Design Collaboration
 
   li
     ul.links(ng-if="vm.userType != 'member'")
@@ -47,5 +50,9 @@ ul.flex.center.middle
           subscriber-id="{{ vm.subscriberId }}"
           user-type="copilot"
         )
+
+    ul.links(ng-if="vm.userType == 'member'")
+      li.profile(ng-show="vm.loggedIn")
+        avatar(avatar-url="{{vm.userAvatar}}")
 
 

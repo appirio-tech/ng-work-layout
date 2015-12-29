@@ -1,9 +1,9 @@
-@import "work-includes";
+@import "work/work-includes";
 @import "variables";
 
 layout-project-nav {
   display         : block;
-  background-color: $neutral-color-light;
+  background-color: $grey-light;
   text-align      : center;
   font-family     : "sofia-pro";
 
@@ -15,7 +15,7 @@ layout-project-nav {
     @include vertical-align-middle();
 
     li {
-      padding: $padding $padding-big;
+      padding: 15px 30px;
 
       &.active {
         border-bottom: 3px solid $primary-color;

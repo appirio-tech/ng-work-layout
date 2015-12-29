@@ -1,4 +1,4 @@
-@import "work-includes";
+@import "work/work-includes";
 @import "variables";
 
 layout-header {
@@ -6,12 +6,12 @@ layout-header {
   position        : fixed;
   top             : 0;
   width           : 100%;
-  padding         : $padding $padding;
+  padding         : 15px;
   background-color: $black;
   z-index         : 100;
   min-height      : $header-height;
   max-height      : $header-height;
-  border-bottom   : 1px solid $neutral-color-darkest;
+  border-bottom   : 1px solid $grey-darker;
 
   > ul {
     > li {
@@ -29,8 +29,8 @@ layout-header {
     h4 {
       @include ellipsis;
 
-      color: $neutral-color;
-      padding: $padding-smallest; /* help centers due to line height from style guide */
+      color: $grey;
+      padding: 5px; /* help centers due to line height from style guide */
       font-size: 22px;
     }
   }
@@ -56,7 +56,7 @@ layout-header {
 
     .dashboard a, .projects > button {
       font-family: "sofia-pro";
-      font-weight: $font-weight-bold;
+      font-weight: 500;
     }
 
     > li {
@@ -104,7 +104,7 @@ layout-header {
           background-color: $primary-color;
           color           : white;
           padding         : 4px;
-          font-size       : $font-size-big;
+          font-size       : 16px;
           min-width       : $diameter;
           height          : $diameter;
           border-radius   : $diameter/2;

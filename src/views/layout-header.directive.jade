@@ -1,9 +1,9 @@
 ul.flex.center.middle
   li.logo
     a.clean("ng-home-link"=true, "href"="{{ vm.homeHref }}" ng-if="vm.userType != 'member'")
-      img(src="/images/asp-logo.svg")
+      img(ng-src=require("./../images/asp-logo.svg"))
 
-    img(src="/images/asp-logo.svg" ng-if="vm.userType == 'member'")
+    img(ng-src=require("./../images/asp-logo.svg") ng-if="vm.userType == 'member'")
 
   li.app-name
     a(ng-if="vm.showAppName && vm.userType == 'customer' " ui-sref="timeline({workId: vm.workId})")

@@ -1,0 +1,1 @@
+module.exports = require('appirio-tech-webpack-config')(__dirname);

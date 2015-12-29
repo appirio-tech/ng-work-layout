@@ -1,11 +1,16 @@
 {
-  "private": true,
-  "engines": {
-    "node": ">=0.10.0"
+  "name": "appirio-tech-ng-work-layout",
+  "version": "3.0.0",
+  "main": "./src/src.coffee",
+  "scripts": {
+    "dev": "webpack-dev-server -d --colors",
+    "clean": "rm -r dist",
+    "build": "webpack --config webpack.config.js; cp example/index.html dist/"
   },
   "devDependencies": {
-    "appirio-work-styles": "2.x.x",
-    "appirio-gulp-tasks": "3.x.x",
-    "gulp": "^3.8.11"
+    "appirio-tech-webpack-config": "0.x.x"
+  },
+  "dependencies": {
+    "appirio-tech-ng-submissions": "4.x.x"
   }
 }

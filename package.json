@@ -1,6 +1,6 @@
 {
   "name": "appirio-tech-ng-work-layout",
-  "version": "3.0.1",
+  "version": "0.0.0",
   "main": "./src/src.coffee",
   "scripts": {
     "dev": "webpack-dev-server -d --colors",
@@ -8,7 +8,8 @@
     "build": "webpack --config webpack.config.js; cp example/index.html dist/"
   },
   "devDependencies": {
-    "appirio-tech-webpack-config": "0.x.x"
+    "appirio-tech-webpack-config": "0.x.x",
+    "npm-prepublish": "^1.2.1"
   },
   "dependencies": {
     "appirio-tech-ng-submissions": "4.x.x"

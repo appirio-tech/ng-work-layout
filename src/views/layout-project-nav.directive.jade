@@ -22,7 +22,7 @@ ul(ng-if="vm.userType == 'copilot'")
     a(ui-sref="step({ projectId: vm.workId, stepId: vm.currentStepId })") Submissions
 
   li(ng-class="{active: vm.activeLink == 'copilot-status-reports'}")
-    a(ui-sref="copilot-status-reports({ id: vm.workId})") Status Reports
+    a(ui-sref="copilot-status-reports({ id: vm.workId, stepId: vm.currentStepId})") Status Reports
 
 ul(ng-if="vm.userType == 'member'")
   li(ng-class="{active: vm.activeLink == 'submissions'}")

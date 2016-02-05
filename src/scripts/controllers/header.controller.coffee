@@ -9,7 +9,6 @@ LayoutHeaderController = (
   InboxesProjectAPIService
 ) ->
   vm              = this
-  vm.homeRef      = $state.href 'home'
   vm.workId       = $scope.workId
   vm.userType     = $scope.userType || 'customer'
   vm.customer     = vm.userType == 'customer'

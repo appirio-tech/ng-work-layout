@@ -9,10 +9,14 @@ LayoutHeaderController = (
   InboxesProjectAPIService
 ) ->
   vm              = this
-  vm.homeHref     = $state.href 'home'
+  vm.homeRef      = $state.href 'home'
   vm.workId       = $scope.workId
   vm.userType     = $scope.userType || 'customer'
-  vm.isSubmitWork = false
+  vm.customer     = vm.userType == 'customer'
+  vm.copilot      = vm.userType == 'copilot'
+  vm.admin        = vm.userType == 'admin'
+  vm.member       = vm.userType == 'member'
+  vm.loggedIn     = false
 
   getNotificationCount = (id) ->
     resource = InboxesProjectAPIService.get()
@@ -29,18 +33,7 @@ LayoutHeaderController = (
       vm.handle       = user.handle
       vm.userAvatar   = user.avatar
 
-      if vm.userType == 'customer'
-        vm.homeHref = $state.href 'view-work-multiple'
-      else
-        vm.homeHref = $state.href 'copilot-projects'
-
-
       getNotificationCount user.id
-
-    else
-      vm.homeHref = $state.href 'home'
-
-      vm.loggedIn  = false
 
   onProjectChange = (response) ->
     if response.name

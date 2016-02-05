@@ -6,6 +6,10 @@ ProjectNavController = ($scope, $state, DataService, StepsService, ProjectsAPISe
   vm.currentStepId = null
   vm.threadId      = null
   vm.userType      = $scope.userType || 'customer'
+  vm.customer     = vm.userType == 'customer'
+  vm.copilot      = vm.userType == 'copilot'
+  vm.admin        = vm.userType == 'admin'
+  vm.member       = vm.userType == 'member'
   vm.currentStep   = null
 
   onChange = (step) ->

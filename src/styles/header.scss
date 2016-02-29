@@ -37,7 +37,14 @@ layout-header {
 
   .logo {
     img {
-      width: 180px;
+      max-width: 180px;
+      max-height: 37px;
+
+      &.org {
+        padding-left: 20px;
+        border-left: 2px solid #ddd;
+        margin-left: 20px;
+      }
     }
   }
 

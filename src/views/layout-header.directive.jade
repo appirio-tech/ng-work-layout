@@ -5,6 +5,8 @@ ul.flex.center.middle
 
     img(ng-if="vm.member" ng-src=require("./../images/asp-logo.svg"))
 
+    img.org(ng-if="vm.org == 'sfdc-prodtest'" ng-src=require("./../images/booz-allen-logo.jpg"))
+
   li.app-name
     a(ng-if="vm.showAppName && (vm.customer || vm.admin)" ui-sref="timeline({workId: vm.workId})")
       h4 {{vm.appName}}

@@ -1,7 +1,6 @@
 'use strict'
 
 LayoutHeaderController = (
-  $scope
   $state
   UserV3Service
   ThreadsAPIService
@@ -9,8 +8,7 @@ LayoutHeaderController = (
   InboxesProjectAPIService
 ) ->
   vm              = this
-  vm.workId       = $scope.workId
-  vm.userType     = $scope.userType || 'customer'
+  vm.userType     = vm.userType || 'customer'
   vm.customer     = vm.userType == 'customer'
   vm.copilot      = vm.userType == 'copilot'
   vm.admin        = vm.userType == 'admin'
@@ -52,7 +50,7 @@ LayoutHeaderController = (
     params =
       id: vm.workId
 
-    $scope.$watch UserV3Service.getCurrentUser, onUserChange
+    onUserChange()
 
     setAppName $state.current.name
 
@@ -64,7 +62,6 @@ LayoutHeaderController = (
   vm
 
 LayoutHeaderController.$inject = [
-  '$scope'
   '$state'
   'UserV3Service'
   'ThreadsAPIService'

@@ -10,7 +10,6 @@ ProjectNavController = ($scope, $state, DataService, StepsService, ProjectsAPISe
   vm.copilot      = vm.userType == 'copilot'
   vm.admin        = vm.userType == 'admin'
   vm.member       = vm.userType == 'member'
-  vm.currentStep   = null
 
   onChange = (step) ->
     vm.currentStepId = step.id
@@ -36,8 +35,8 @@ ProjectNavController = ($scope, $state, DataService, StepsService, ProjectsAPISe
       resource.$promise.then (response) ->
         vm.threadId = response.threadId
 
-    if vm.stepId
-      DataService.subscribe $scope, onChange, [StepsService, 'getStepById', vm.workId, vm.stepId]
+    if vm.currentStepId
+      DataService.subscribe $scope, onChange, [StepsService, 'getStepById', vm.workId, vm.currentStepId]
     else
       DataService.subscribe $scope, onChange, [StepsService, 'getCurrentStep', vm.workId]
 

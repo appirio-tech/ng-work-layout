@@ -1,4 +1,5 @@
-require 'appirio-tech-ng-submissions'
+require 'appirio-tech-ng-api-services'
+require 'appirio-tech-ng-auth'
 require './scripts/layout.module'
 
 requireContextFiles = (files) ->

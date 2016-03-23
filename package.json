@@ -12,6 +12,7 @@
     "npm-prepublish": "^1.2.1"
   },
   "dependencies": {
-    "appirio-tech-ng-submissions": "4.x.x"
+    "appirio-tech-ng-api-services": "1.x.x",
+    "appirio-tech-ng-auth": "4.x.x"
   }
 }

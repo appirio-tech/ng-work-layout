@@ -1,10 +1,9 @@
 'use strict'
 
 dependencies = [
-  'appirio-tech-ng-auth'
   'appirio-tech-ng-api-services'
+  'appirio-tech-ng-auth'
   'appirio-tech-ng-ui-components'
-  'appirio-tech-submissions'
   'duScroll'
 ]
 
